@@ -1,0 +1,2886 @@
+[
+	{
+		"Company": "AAPL",
+		"Sector": "Technology",
+		"Market Cap": 2304,
+		"Percent": 0
+	},
+	{
+		"Company": "MSFT",
+		"Sector": "Technology",
+		"Market Cap": 1982,
+		"Percent": 0
+	},
+	{
+		"Company": "AMZN",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 1162,
+		"Percent": 0
+	},
+	{
+		"Company": "GOOG",
+		"Sector": "Communication Services",
+		"Market Cap": 1505,
+		"Percent": 0
+	},
+	{
+		"Company": "TSLA",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 714.104,
+		"Percent": 0
+	},
+	{
+		"Company": "BRK-B",
+		"Sector": "Financial Services",
+		"Market Cap": 603.57,
+		"Percent": 0
+	},
+	{
+		"Company": "UNH",
+		"Sector": "Healthcare",
+		"Market Cap": 479.603,
+		"Percent": 0
+	},
+	{
+		"Company": "JNJ",
+		"Sector": "Healthcare",
+		"Market Cap": 467.731,
+		"Percent": 0
+	},
+	{
+		"Company": "NVDA",
+		"Sector": "Technology",
+		"Market Cap": 376.242,
+		"Percent": 0
+	},
+	{
+		"Company": "META",
+		"Sector": "Communication Services",
+		"Market Cap": 457.111,
+		"Percent": 0
+	},
+	{ "Company": "XOM", "Sector": "Energy", "Market Cap": 347.715, "Percent": 0 },
+	{
+		"Company": "PG",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 349.29,
+		"Percent": 0
+	},
+	{
+		"Company": "JPM",
+		"Sector": "Financial Services",
+		"Market Cap": 327.716,
+		"Percent": 0
+	},
+	{
+		"Company": "V",
+		"Sector": "Financial Services",
+		"Market Cap": 424.266,
+		"Percent": 0
+	},
+	{
+		"Company": "PFE",
+		"Sector": "Healthcare",
+		"Market Cap": 292.721,
+		"Percent": 0
+	},
+	{ "Company": "CVX", "Sector": "Energy", "Market Cap": 275.624, "Percent": 0 },
+	{
+		"Company": "HD",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 289.394,
+		"Percent": 0
+	},
+	{
+		"Company": "MA",
+		"Sector": "Financial Services",
+		"Market Cap": 309.933,
+		"Percent": 0
+	},
+	{
+		"Company": "ABBV",
+		"Sector": "Healthcare",
+		"Market Cap": 269.29,
+		"Percent": 0
+	},
+	{
+		"Company": "LLY",
+		"Sector": "Healthcare",
+		"Market Cap": 312.603,
+		"Percent": 0
+	},
+	{
+		"Company": "KO",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 274.494,
+		"Percent": 0
+	},
+	{
+		"Company": "MRK",
+		"Sector": "Healthcare",
+		"Market Cap": 236.178,
+		"Percent": 0
+	},
+	{
+		"Company": "PEP",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 236.01,
+		"Percent": 0
+	},
+	{
+		"Company": "BAC",
+		"Sector": "Financial Services",
+		"Market Cap": 248.434,
+		"Percent": 0
+	},
+	{
+		"Company": "VZ",
+		"Sector": "Communication Services",
+		"Market Cap": 216.134,
+		"Percent": 0
+	},
+	{
+		"Company": "TMO",
+		"Sector": "Healthcare",
+		"Market Cap": 215.801,
+		"Percent": 0
+	},
+	{
+		"Company": "COST",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 217.158,
+		"Percent": 0
+	},
+	{
+		"Company": "AVGO",
+		"Sector": "Technology",
+		"Market Cap": 194.624,
+		"Percent": 0
+	},
+	{
+		"Company": "ABT",
+		"Sector": "Healthcare",
+		"Market Cap": 189.907,
+		"Percent": 0
+	},
+	{
+		"Company": "MCD",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 184.85,
+		"Percent": 0
+	},
+	{
+		"Company": "CSCO",
+		"Sector": "Technology",
+		"Market Cap": 176.074,
+		"Percent": 0
+	},
+	{
+		"Company": "ACN",
+		"Sector": "Technology",
+		"Market Cap": 174.647,
+		"Percent": 0
+	},
+	{
+		"Company": "CMCSA",
+		"Sector": "Communication Services",
+		"Market Cap": 178.327,
+		"Percent": 0
+	},
+	{
+		"Company": "ADBE",
+		"Sector": "Technology",
+		"Market Cap": 178.121,
+		"Percent": 0
+	},
+	{
+		"Company": "DIS",
+		"Sector": "Communication Services",
+		"Market Cap": 174.388,
+		"Percent": 0
+	},
+	{
+		"Company": "WMT",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 341.328,
+		"Percent": 0
+	},
+	{
+		"Company": "DHR",
+		"Sector": "Healthcare",
+		"Market Cap": 188.153,
+		"Percent": 0
+	},
+	{
+		"Company": "CRM",
+		"Sector": "Technology",
+		"Market Cap": 171.049,
+		"Percent": 0
+	},
+	{
+		"Company": "BMY",
+		"Sector": "Healthcare",
+		"Market Cap": 168.937,
+		"Percent": 0
+	},
+	{
+		"Company": "PM",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 148.724,
+		"Percent": 0
+	},
+	{
+		"Company": "INTC",
+		"Sector": "Technology",
+		"Market Cap": 149.91,
+		"Percent": 0
+	},
+	{
+		"Company": "NEE",
+		"Sector": "Utilities",
+		"Market Cap": 155.833,
+		"Percent": 0
+	},
+	{
+		"Company": "T",
+		"Sector": "Communication Services",
+		"Market Cap": 150.389,
+		"Percent": 0
+	},
+	{
+		"Company": "WFC",
+		"Sector": "Financial Services",
+		"Market Cap": 156.299,
+		"Percent": 0
+	},
+	{
+		"Company": "LIN",
+		"Sector": "Basic Materials",
+		"Market Cap": 140.13,
+		"Percent": 0
+	},
+	{
+		"Company": "RTX",
+		"Sector": "Industrials",
+		"Market Cap": 139.665,
+		"Percent": 0
+	},
+	{
+		"Company": "QCOM",
+		"Sector": "Technology",
+		"Market Cap": 141.221,
+		"Percent": 0
+	},
+	{
+		"Company": "TXN",
+		"Sector": "Technology",
+		"Market Cap": 138.584,
+		"Percent": 0
+	},
+	{
+		"Company": "UPS",
+		"Sector": "Industrials",
+		"Market Cap": 159.036,
+		"Percent": 0
+	},
+	{
+		"Company": "UNP",
+		"Sector": "Industrials",
+		"Market Cap": 133.236,
+		"Percent": 0
+	},
+	{
+		"Company": "NKE",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 164.518,
+		"Percent": 0
+	},
+	{
+		"Company": "AMGN",
+		"Sector": "Healthcare",
+		"Market Cap": 138.059,
+		"Percent": 0
+	},
+	{
+		"Company": "IBM",
+		"Sector": "Technology",
+		"Market Cap": 123.101,
+		"Percent": 0
+	},
+	{
+		"Company": "AMD",
+		"Sector": "Technology",
+		"Market Cap": 90.516,
+		"Percent": 0
+	},
+	{
+		"Company": "CVS",
+		"Sector": "Healthcare",
+		"Market Cap": 122.409,
+		"Percent": 0
+	},
+	{
+		"Company": "MDT",
+		"Sector": "Healthcare",
+		"Market Cap": 120.015,
+		"Percent": 0
+	},
+	{
+		"Company": "AMT",
+		"Sector": "Real Estate",
+		"Market Cap": 117.72,
+		"Percent": 0
+	},
+	{
+		"Company": "HON",
+		"Sector": "Industrials",
+		"Market Cap": 118.478,
+		"Percent": 0
+	},
+	{
+		"Company": "SPGI",
+		"Sector": "Financial Services",
+		"Market Cap": 83.995,
+		"Percent": 0
+	},
+	{
+		"Company": "ELV",
+		"Sector": "Healthcare",
+		"Market Cap": 116.895,
+		"Percent": 0
+	},
+	{ "Company": "COP", "Sector": "Energy", "Market Cap": 109.183, "Percent": 0 },
+	{
+		"Company": "LOW",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 119.854,
+		"Percent": 0
+	},
+	{
+		"Company": "ORCL",
+		"Sector": "Technology",
+		"Market Cap": 191.151,
+		"Percent": 0
+	},
+	{
+		"Company": "INTU",
+		"Sector": "Technology",
+		"Market Cap": 113.752,
+		"Percent": 0
+	},
+	{
+		"Company": "MS",
+		"Sector": "Financial Services",
+		"Market Cap": 134.967,
+		"Percent": 0
+	},
+	{
+		"Company": "GS",
+		"Sector": "Financial Services",
+		"Market Cap": 97.705,
+		"Percent": 0
+	},
+	{
+		"Company": "LMT",
+		"Sector": "Industrials",
+		"Market Cap": 116.354,
+		"Percent": 0
+	},
+	{
+		"Company": "CAT",
+		"Sector": "Industrials",
+		"Market Cap": 92.488,
+		"Percent": 0
+	},
+	{
+		"Company": "NOW",
+		"Sector": "Technology",
+		"Market Cap": 97.789,
+		"Percent": 0
+	},
+	{
+		"Company": "SCHW",
+		"Sector": "Financial Services",
+		"Market Cap": 119.751,
+		"Percent": 0
+	},
+	{
+		"Company": "C",
+		"Sector": "Financial Services",
+		"Market Cap": 91.356,
+		"Percent": 0
+	},
+	{
+		"Company": "ADP",
+		"Sector": "Industrials",
+		"Market Cap": 91.041,
+		"Percent": 0
+	},
+	{
+		"Company": "SBUX",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 90.766,
+		"Percent": 0
+	},
+	{
+		"Company": "PLD",
+		"Sector": "Real Estate",
+		"Market Cap": 90.02,
+		"Percent": 0
+	},
+	{
+		"Company": "BLK",
+		"Sector": "Financial Services",
+		"Market Cap": 92.991,
+		"Percent": 0
+	},
+	{
+		"Company": "MDLZ",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 86.907,
+		"Percent": 0
+	},
+	{
+		"Company": "AXP",
+		"Sector": "Financial Services",
+		"Market Cap": 107.772,
+		"Percent": 0
+	},
+	{
+		"Company": "DE",
+		"Sector": "Industrials",
+		"Market Cap": 88.598,
+		"Percent": 0
+	},
+	{
+		"Company": "CI",
+		"Sector": "Healthcare",
+		"Market Cap": 88.932,
+		"Percent": 0
+	},
+	{
+		"Company": "CB",
+		"Sector": "Financial Services",
+		"Market Cap": 83.292,
+		"Percent": 0
+	},
+	{
+		"Company": "DUK",
+		"Sector": "Utilities",
+		"Market Cap": 82.558,
+		"Percent": 0
+	},
+	{
+		"Company": "PYPL",
+		"Sector": "Financial Services",
+		"Market Cap": 86.228,
+		"Percent": 0
+	},
+	{
+		"Company": "ZTS",
+		"Sector": "Healthcare",
+		"Market Cap": 84.022,
+		"Percent": 0
+	},
+	{
+		"Company": "AMAT",
+		"Sector": "Technology",
+		"Market Cap": 76.732,
+		"Percent": 0
+	},
+	{
+		"Company": "TMUS",
+		"Sector": "Communication Services",
+		"Market Cap": 171.545,
+		"Percent": 0
+	},
+	{
+		"Company": "MMC",
+		"Sector": "Financial Services",
+		"Market Cap": 79.455,
+		"Percent": 0
+	},
+	{
+		"Company": "NFLX",
+		"Sector": "Communication Services",
+		"Market Cap": 81.596,
+		"Percent": 0
+	},
+	{
+		"Company": "GILD",
+		"Sector": "Healthcare",
+		"Market Cap": 78.211,
+		"Percent": 0
+	},
+	{
+		"Company": "ADI",
+		"Sector": "Technology",
+		"Market Cap": 76.057,
+		"Percent": 0
+	},
+	{
+		"Company": "BA",
+		"Sector": "Industrials",
+		"Market Cap": 79.901,
+		"Percent": 0
+	},
+	{
+		"Company": "MO",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 75.757,
+		"Percent": 0
+	},
+	{
+		"Company": "SO",
+		"Sector": "Utilities",
+		"Market Cap": 75.786,
+		"Percent": 0
+	},
+	{
+		"Company": "MMM",
+		"Sector": "Industrials",
+		"Market Cap": 74.665,
+		"Percent": 0
+	},
+	{
+		"Company": "CME",
+		"Sector": "Financial Services",
+		"Market Cap": 73.098,
+		"Percent": 0
+	},
+	{
+		"Company": "CCI",
+		"Sector": "Real Estate",
+		"Market Cap": 74.883,
+		"Percent": 0
+	},
+	{
+		"Company": "VRTX",
+		"Sector": "Healthcare",
+		"Market Cap": 73.987,
+		"Percent": 0
+	},
+	{
+		"Company": "ISRG",
+		"Sector": "Healthcare",
+		"Market Cap": 73.591,
+		"Percent": 0
+	},
+	{
+		"Company": "BKNG",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 72.323,
+		"Percent": 0
+	},
+	{
+		"Company": "NOC",
+		"Sector": "Industrials",
+		"Market Cap": 75.099,
+		"Percent": 0
+	},
+	{
+		"Company": "BDX",
+		"Sector": "Healthcare",
+		"Market Cap": 70.443,
+		"Percent": 0
+	},
+	{
+		"Company": "GE",
+		"Sector": "Industrials",
+		"Market Cap": 67.623,
+		"Percent": 0
+	},
+	{
+		"Company": "PGR",
+		"Sector": "Financial Services",
+		"Market Cap": 69.631,
+		"Percent": 0
+	},
+	{
+		"Company": "CL",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 68.448,
+		"Percent": 0
+	},
+	{
+		"Company": "SYK",
+		"Sector": "Healthcare",
+		"Market Cap": 75.467,
+		"Percent": 0
+	},
+	{
+		"Company": "TJX",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 68.841,
+		"Percent": 0
+	},
+	{
+		"Company": "TGT",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 68.936,
+		"Percent": 0
+	},
+	{
+		"Company": "PNC",
+		"Sector": "Financial Services",
+		"Market Cap": 67.661,
+		"Percent": 0
+	},
+	{ "Company": "D", "Sector": "Utilities", "Market Cap": 64.995, "Percent": 0 },
+	{ "Company": "EOG", "Sector": "Energy", "Market Cap": 59.071, "Percent": 0 },
+	{
+		"Company": "REGN",
+		"Sector": "Healthcare",
+		"Market Cap": 63.728,
+		"Percent": 0
+	},
+	{
+		"Company": "CSX",
+		"Sector": "Industrials",
+		"Market Cap": 63.789,
+		"Percent": 0
+	},
+	{
+		"Company": "TFC",
+		"Sector": "Financial Services",
+		"Market Cap": 63.781,
+		"Percent": 0
+	},
+	{
+		"Company": "USB",
+		"Sector": "Financial Services",
+		"Market Cap": 68.646,
+		"Percent": 0
+	},
+	{
+		"Company": "MU",
+		"Sector": "Technology",
+		"Market Cap": 64.578,
+		"Percent": 0
+	},
+	{
+		"Company": "ATVI",
+		"Sector": "Communication Services",
+		"Market Cap": 61.345,
+		"Percent": 0
+	},
+	{
+		"Company": "EQIX",
+		"Sector": "Real Estate",
+		"Market Cap": 60.212,
+		"Percent": 0
+	},
+	{
+		"Company": "LRCX",
+		"Sector": "Technology",
+		"Market Cap": 55.131,
+		"Percent": 0
+	},
+	{
+		"Company": "EW",
+		"Sector": "Healthcare",
+		"Market Cap": 61.16,
+		"Percent": 0
+	},
+	{
+		"Company": "HUM",
+		"Sector": "Healthcare",
+		"Market Cap": 60.843,
+		"Percent": 0
+	},
+	{
+		"Company": "EL",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 93.093,
+		"Percent": 0
+	},
+	{
+		"Company": "WM",
+		"Sector": "Industrials",
+		"Market Cap": 64.548,
+		"Percent": 0
+	},
+	{
+		"Company": "AON",
+		"Sector": "Financial Services",
+		"Market Cap": 61.399,
+		"Percent": 0
+	},
+	{
+		"Company": "DG",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 58.383,
+		"Percent": 0
+	},
+	{
+		"Company": "FIS",
+		"Sector": "Technology",
+		"Market Cap": 57.77,
+		"Percent": 0
+	},
+	{
+		"Company": "NSC",
+		"Sector": "Industrials",
+		"Market Cap": 54.745,
+		"Percent": 0
+	},
+	{
+		"Company": "CHTR",
+		"Sector": "Communication Services",
+		"Market Cap": 84.78,
+		"Percent": 0
+	},
+	{
+		"Company": "FDX",
+		"Sector": "Industrials",
+		"Market Cap": 60.008,
+		"Percent": 0
+	},
+	{
+		"Company": "SHW",
+		"Sector": "Basic Materials",
+		"Market Cap": 63.362,
+		"Percent": 0
+	},
+	{
+		"Company": "APD",
+		"Sector": "Basic Materials",
+		"Market Cap": 52.181,
+		"Percent": 0
+	},
+	{
+		"Company": "BSX",
+		"Sector": "Healthcare",
+		"Market Cap": 53.494,
+		"Percent": 0
+	},
+	{
+		"Company": "ICE",
+		"Sector": "Financial Services",
+		"Market Cap": 53.828,
+		"Percent": 0
+	},
+	{ "Company": "OXY", "Sector": "Energy", "Market Cap": 55.833, "Percent": 0 },
+	{
+		"Company": "ITW",
+		"Sector": "Industrials",
+		"Market Cap": 57.129,
+		"Percent": 0
+	},
+	{
+		"Company": "FISV",
+		"Sector": "Technology",
+		"Market Cap": 62.167,
+		"Percent": 0
+	},
+	{
+		"Company": "GD",
+		"Sector": "Industrials",
+		"Market Cap": 60.896,
+		"Percent": 0
+	},
+	{ "Company": "SLB", "Sector": "Energy", "Market Cap": 45.95, "Percent": 0 },
+	{ "Company": "PXD", "Sector": "Energy", "Market Cap": 51.279, "Percent": 0 },
+	{
+		"Company": "ETN",
+		"Sector": "Industrials",
+		"Market Cap": 50.515,
+		"Percent": 0
+	},
+	{
+		"Company": "CNC",
+		"Sector": "Healthcare",
+		"Market Cap": 49.919,
+		"Percent": 0
+	},
+	{
+		"Company": "MRNA",
+		"Sector": "Healthcare",
+		"Market Cap": 64.6,
+		"Percent": 0
+	},
+	{
+		"Company": "AEP",
+		"Sector": "Utilities",
+		"Market Cap": 47.013,
+		"Percent": 0
+	},
+	{
+		"Company": "KLAC",
+		"Sector": "Technology",
+		"Market Cap": 44.741,
+		"Percent": 0
+	},
+	{
+		"Company": "PSA",
+		"Sector": "Real Estate",
+		"Market Cap": 55.787,
+		"Percent": 0
+	},
+	{
+		"Company": "MCK",
+		"Sector": "Healthcare",
+		"Market Cap": 48.845,
+		"Percent": 0
+	},
+	{
+		"Company": "NEM",
+		"Sector": "Basic Materials",
+		"Market Cap": 46.841,
+		"Percent": 0
+	},
+	{
+		"Company": "EMR",
+		"Sector": "Industrials",
+		"Market Cap": 47.334,
+		"Percent": 0
+	},
+	{
+		"Company": "SRE",
+		"Sector": "Utilities",
+		"Market Cap": 47.019,
+		"Percent": 0
+	},
+	{
+		"Company": "LHX",
+		"Sector": "Industrials",
+		"Market Cap": 46.411,
+		"Percent": 0
+	},
+	{
+		"Company": "SNPS",
+		"Sector": "Technology",
+		"Market Cap": 47.305,
+		"Percent": 0
+	},
+	{
+		"Company": "GM",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 45.443,
+		"Percent": 0
+	},
+	{
+		"Company": "GIS",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 45.94,
+		"Percent": 0
+	},
+	{
+		"Company": "KMB",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 46.154,
+		"Percent": 0
+	},
+	{ "Company": "MPC", "Sector": "Energy", "Market Cap": 48.773, "Percent": 0 },
+	{
+		"Company": "EXC",
+		"Sector": "Utilities",
+		"Market Cap": 43.339,
+		"Percent": 0
+	},
+	{
+		"Company": "MCO",
+		"Sector": "Financial Services",
+		"Market Cap": 52.574,
+		"Percent": 0
+	},
+	{
+		"Company": "ADM",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 40.38,
+		"Percent": 0
+	},
+	{
+		"Company": "F",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 44.278,
+		"Percent": 0
+	},
+	{
+		"Company": "MET",
+		"Sector": "Financial Services",
+		"Market Cap": 51.757,
+		"Percent": 0
+	},
+	{ "Company": "VLO", "Sector": "Energy", "Market Cap": 41.382, "Percent": 0 },
+	{
+		"Company": "SYY",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 43.478,
+		"Percent": 0
+	},
+	{
+		"Company": "FCX",
+		"Sector": "Basic Materials",
+		"Market Cap": 39.186,
+		"Percent": 0
+	},
+	{
+		"Company": "AZO",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 44.562,
+		"Percent": 0
+	},
+	{
+		"Company": "ROP",
+		"Sector": "Industrials",
+		"Market Cap": 42.833,
+		"Percent": 0
+	},
+	{
+		"Company": "ORLY",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 43.902,
+		"Percent": 0
+	},
+	{
+		"Company": "IQV",
+		"Sector": "Healthcare",
+		"Market Cap": 41.181,
+		"Percent": 0
+	},
+	{
+		"Company": "CDNS",
+		"Sector": "Technology",
+		"Market Cap": 42.857,
+		"Percent": 0
+	},
+	{
+		"Company": "O",
+		"Sector": "Real Estate",
+		"Market Cap": 39.414,
+		"Percent": 0
+	},
+	{
+		"Company": "COF",
+		"Sector": "Financial Services",
+		"Market Cap": 45.15,
+		"Percent": 0
+	},
+	{
+		"Company": "TRV",
+		"Sector": "Financial Services",
+		"Market Cap": 41.544,
+		"Percent": 0
+	},
+	{
+		"Company": "AIG",
+		"Sector": "Financial Services",
+		"Market Cap": 42.146,
+		"Percent": 0
+	},
+	{ "Company": "PSX", "Sector": "Energy", "Market Cap": 34.614, "Percent": 0 },
+	{
+		"Company": "NXPI",
+		"Sector": "Technology",
+		"Market Cap": 38.983,
+		"Percent": 0
+	},
+	{
+		"Company": "CTVA",
+		"Sector": "Basic Materials",
+		"Market Cap": 37.335,
+		"Percent": 0
+	},
+	{
+		"Company": "XEL",
+		"Sector": "Utilities",
+		"Market Cap": 38.171,
+		"Percent": 0
+	},
+	{
+		"Company": "APH",
+		"Sector": "Technology",
+		"Market Cap": 38.555,
+		"Percent": 0
+	},
+	{
+		"Company": "HCA",
+		"Sector": "Healthcare",
+		"Market Cap": 52.345,
+		"Percent": 0
+	},
+	{
+		"Company": "FTNT",
+		"Sector": "Technology",
+		"Market Cap": 9.735,
+		"Percent": 0
+	},
+	{
+		"Company": "STZ",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 44.72,
+		"Percent": 0
+	},
+	{
+		"Company": "ECL",
+		"Sector": "Basic Materials",
+		"Market Cap": 45.237,
+		"Percent": 0
+	},
+	{
+		"Company": "DOW",
+		"Sector": "Basic Materials",
+		"Market Cap": 37.591,
+		"Percent": 0
+	},
+	{ "Company": "WMB", "Sector": "Energy", "Market Cap": 36.105, "Percent": 0 },
+	{
+		"Company": "ADSK",
+		"Sector": "Technology",
+		"Market Cap": 38.845,
+		"Percent": 0
+	},
+	{
+		"Company": "MAR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 43.891,
+		"Percent": 0
+	},
+	{
+		"Company": "WELL",
+		"Sector": "Real Estate",
+		"Market Cap": 35.688,
+		"Percent": 0
+	},
+	{
+		"Company": "TEL",
+		"Sector": "Technology",
+		"Market Cap": 36.404,
+		"Percent": 0
+	},
+	{
+		"Company": "DLR",
+		"Sector": "Real Estate",
+		"Market Cap": 36.765,
+		"Percent": 0
+	},
+	{
+		"Company": "CMG",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 37.623,
+		"Percent": 0
+	},
+	{
+		"Company": "PAYX",
+		"Sector": "Industrials",
+		"Market Cap": 42.187,
+		"Percent": 0
+	},
+	{
+		"Company": "PRU",
+		"Sector": "Financial Services",
+		"Market Cap": 35.638,
+		"Percent": 0
+	},
+	{
+		"Company": "A",
+		"Sector": "Healthcare",
+		"Market Cap": 36.526,
+		"Percent": 0
+	},
+	{
+		"Company": "MSI",
+		"Sector": "Technology",
+		"Market Cap": 36.352,
+		"Percent": 0
+	},
+	{
+		"Company": "CTSH",
+		"Sector": "Technology",
+		"Market Cap": 36.205,
+		"Percent": 0
+	},
+	{
+		"Company": "DLTR",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 37.012,
+		"Percent": 0
+	},
+	{
+		"Company": "ALL",
+		"Sector": "Financial Services",
+		"Market Cap": 37.334,
+		"Percent": 0
+	},
+	{
+		"Company": "SBAC",
+		"Sector": "Real Estate",
+		"Market Cap": 35.744,
+		"Percent": 0
+	},
+	{
+		"Company": "MNST",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 51.71,
+		"Percent": 0
+	},
+	{
+		"Company": "HPQ",
+		"Sector": "Technology",
+		"Market Cap": 33.543,
+		"Percent": 0
+	},
+	{
+		"Company": "EA",
+		"Sector": "Communication Services",
+		"Market Cap": 35.094,
+		"Percent": 0
+	},
+	{
+		"Company": "AJG",
+		"Sector": "Financial Services",
+		"Market Cap": 34.823,
+		"Percent": 0
+	},
+	{ "Company": "DVN", "Sector": "Energy", "Market Cap": 34.442, "Percent": 0 },
+	{
+		"Company": "JCI",
+		"Sector": "Industrials",
+		"Market Cap": 33.611,
+		"Percent": 0
+	},
+	{
+		"Company": "ED",
+		"Sector": "Utilities",
+		"Market Cap": 33.005,
+		"Percent": 0
+	},
+	{
+		"Company": "MSCI",
+		"Sector": "Financial Services",
+		"Market Cap": 34.977,
+		"Percent": 0
+	},
+	{
+		"Company": "AFL",
+		"Sector": "Financial Services",
+		"Market Cap": 36.688,
+		"Percent": 0
+	},
+	{
+		"Company": "CTAS",
+		"Sector": "Industrials",
+		"Market Cap": 39.169,
+		"Percent": 0
+	},
+	{
+		"Company": "YUM",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 34.129,
+		"Percent": 0
+	},
+	{ "Company": "KMI", "Sector": "Energy", "Market Cap": 36.936, "Percent": 0 },
+	{
+		"Company": "BAX",
+		"Sector": "Healthcare",
+		"Market Cap": 32.635,
+		"Percent": 0
+	},
+	{
+		"Company": "MCHP",
+		"Sector": "Technology",
+		"Market Cap": 31.278,
+		"Percent": 0
+	},
+	{
+		"Company": "PEG",
+		"Sector": "Utilities",
+		"Market Cap": 31.796,
+		"Percent": 0
+	},
+	{
+		"Company": "PH",
+		"Sector": "Industrials",
+		"Market Cap": 31.153,
+		"Percent": 0
+	},
+	{
+		"Company": "WEC",
+		"Sector": "Utilities",
+		"Market Cap": 31.767,
+		"Percent": 0
+	},
+	{
+		"Company": "GPN",
+		"Sector": "Industrials",
+		"Market Cap": 32.636,
+		"Percent": 0
+	},
+	{
+		"Company": "HSY",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 45.395,
+		"Percent": 0
+	},
+	{
+		"Company": "KR",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 34.642,
+		"Percent": 0
+	},
+	{
+		"Company": "SPG",
+		"Sector": "Real Estate",
+		"Market Cap": 31.748,
+		"Percent": 0
+	},
+	{
+		"Company": "HLT",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 30.484,
+		"Percent": 0
+	},
+	{
+		"Company": "BK",
+		"Sector": "Financial Services",
+		"Market Cap": 34.139,
+		"Percent": 0
+	},
+	{
+		"Company": "RMD",
+		"Sector": "Healthcare",
+		"Market Cap": 31.768,
+		"Percent": 0
+	},
+	{
+		"Company": "CARR",
+		"Sector": "Industrials",
+		"Market Cap": 31.214,
+		"Percent": 0
+	},
+	{
+		"Company": "TT",
+		"Sector": "Industrials",
+		"Market Cap": 31.156,
+		"Percent": 0
+	},
+	{
+		"Company": "IFF",
+		"Sector": "Basic Materials",
+		"Market Cap": 30.154,
+		"Percent": 0
+	},
+	{
+		"Company": "OTIS",
+		"Sector": "Industrials",
+		"Market Cap": 30.018,
+		"Percent": 0
+	},
+	{
+		"Company": "BIIB",
+		"Sector": "Healthcare",
+		"Market Cap": 31.484,
+		"Percent": 0
+	},
+	{
+		"Company": "IDXX",
+		"Sector": "Healthcare",
+		"Market Cap": 31.732,
+		"Percent": 0
+	},
+	{
+		"Company": "WBD",
+		"Sector": "Communication Services",
+		"Market Cap": 35.031,
+		"Percent": 0
+	},
+	{ "Company": "HES", "Sector": "Energy", "Market Cap": 29.436, "Percent": 0 },
+	{
+		"Company": "DXCM",
+		"Sector": "Healthcare",
+		"Market Cap": 7.573,
+		"Percent": 0
+	},
+	{
+		"Company": "ES",
+		"Sector": "Utilities",
+		"Market Cap": 28.868,
+		"Percent": 0
+	},
+	{
+		"Company": "ILMN",
+		"Sector": "Healthcare",
+		"Market Cap": 30.358,
+		"Percent": 0
+	},
+	{
+		"Company": "VICI",
+		"Sector": "Real Estate",
+		"Market Cap": 19.447,
+		"Percent": 0
+	},
+	{
+		"Company": "DD",
+		"Sector": "Basic Materials",
+		"Market Cap": 28.128,
+		"Percent": 0
+	},
+	{
+		"Company": "TWTR",
+		"Sector": "Communication Services",
+		"Market Cap": 30.305,
+		"Percent": 0
+	},
+	{
+		"Company": "FAST",
+		"Sector": "Industrials",
+		"Market Cap": 28.925,
+		"Percent": 0
+	},
+	{
+		"Company": "PCAR",
+		"Sector": "Industrials",
+		"Market Cap": 28.17,
+		"Percent": 0
+	},
+	{
+		"Company": "MTB",
+		"Sector": "Financial Services",
+		"Market Cap": 19.954,
+		"Percent": 0
+	},
+	{
+		"Company": "TDG",
+		"Sector": "Industrials",
+		"Market Cap": 29.196,
+		"Percent": 0
+	},
+	{ "Company": "HAL", "Sector": "Energy", "Market Cap": 25.278, "Percent": 0 },
+	{
+		"Company": "NUE",
+		"Sector": "Basic Materials",
+		"Market Cap": 29.892,
+		"Percent": 0
+	},
+	{
+		"Company": "VRSK",
+		"Sector": "Industrials",
+		"Market Cap": 28.613,
+		"Percent": 0
+	},
+	{
+		"Company": "CMI",
+		"Sector": "Industrials",
+		"Market Cap": 27.732,
+		"Percent": 0
+	},
+	{
+		"Company": "RSG",
+		"Sector": "Industrials",
+		"Market Cap": 41.666,
+		"Percent": 0
+	},
+	{
+		"Company": "WBA",
+		"Sector": "Healthcare",
+		"Market Cap": 32.752,
+		"Percent": 0
+	},
+	{ "Company": "BKR", "Sector": "Energy", "Market Cap": 23.837, "Percent": 0 },
+	{
+		"Company": "PPG",
+		"Sector": "Basic Materials",
+		"Market Cap": 28.089,
+		"Percent": 0
+	},
+	{
+		"Company": "AVB",
+		"Sector": "Real Estate",
+		"Market Cap": 27.215,
+		"Percent": 0
+	},
+	{
+		"Company": "KHC",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 46.624,
+		"Percent": 0
+	},
+	{
+		"Company": "AWK",
+		"Sector": "Utilities",
+		"Market Cap": 27.612,
+		"Percent": 0
+	},
+	{
+		"Company": "DFS",
+		"Sector": "Financial Services",
+		"Market Cap": 28.469,
+		"Percent": 0
+	},
+	{
+		"Company": "AMP",
+		"Sector": "Financial Services",
+		"Market Cap": 25.852,
+		"Percent": 0
+	},
+	{
+		"Company": "MTD",
+		"Sector": "Healthcare",
+		"Market Cap": 26.794,
+		"Percent": 0
+	},
+	{
+		"Company": "ENPH",
+		"Sector": "Technology",
+		"Market Cap": 26.1,
+		"Percent": 0
+	},
+	{
+		"Company": "KDP",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 51.047,
+		"Percent": 0
+	},
+	{
+		"Company": "TROW",
+		"Sector": "Financial Services",
+		"Market Cap": 26.679,
+		"Percent": 0
+	},
+	{
+		"Company": "FRC",
+		"Sector": "Financial Services",
+		"Market Cap": 26.542,
+		"Percent": 0
+	},
+	{
+		"Company": "AME",
+		"Sector": "Industrials",
+		"Market Cap": 25.83,
+		"Percent": 0
+	},
+	{
+		"Company": "KEYS",
+		"Sector": "Technology",
+		"Market Cap": 25.454,
+		"Percent": 0
+	},
+	{
+		"Company": "TSN",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 31.025,
+		"Percent": 0
+	},
+	{
+		"Company": "ROST",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 26.1,
+		"Percent": 0
+	},
+	{
+		"Company": "WY",
+		"Sector": "Real Estate",
+		"Market Cap": 25.565,
+		"Percent": 0
+	},
+	{ "Company": "OKE", "Sector": "Energy", "Market Cap": 24.201, "Percent": 0 },
+	{
+		"Company": "EQR",
+		"Sector": "Real Estate",
+		"Market Cap": 27.271,
+		"Percent": 0
+	},
+	{
+		"Company": "DTE",
+		"Sector": "Utilities",
+		"Market Cap": 24.34,
+		"Percent": 0
+	},
+	{
+		"Company": "ALB",
+		"Sector": "Basic Materials",
+		"Market Cap": 22.912,
+		"Percent": 0
+	},
+	{
+		"Company": "CBRE",
+		"Sector": "Real Estate",
+		"Market Cap": 25.364,
+		"Percent": 0
+	},
+	{
+		"Company": "GLW",
+		"Sector": "Technology",
+		"Market Cap": 27.164,
+		"Percent": 0
+	},
+	{
+		"Company": "APTV",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 23.681,
+		"Percent": 0
+	},
+	{
+		"Company": "ODFL",
+		"Sector": "Industrials",
+		"Market Cap": 30.271,
+		"Percent": 0
+	},
+	{
+		"Company": "EIX",
+		"Sector": "Utilities",
+		"Market Cap": 23.691,
+		"Percent": 0
+	},
+	{
+		"Company": "EBAY",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 27.469,
+		"Percent": 0
+	},
+	{
+		"Company": "AEE",
+		"Sector": "Utilities",
+		"Market Cap": 22.863,
+		"Percent": 0
+	},
+	{
+		"Company": "CPRT",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 26.527,
+		"Percent": 0
+	},
+	{
+		"Company": "SIVB",
+		"Sector": "Financial Services",
+		"Market Cap": 23.801,
+		"Percent": 0
+	},
+	{
+		"Company": "ROK",
+		"Sector": "Industrials",
+		"Market Cap": 23.2,
+		"Percent": 0
+	},
+	{
+		"Company": "LYB",
+		"Sector": "Basic Materials",
+		"Market Cap": 28.273,
+		"Percent": 0
+	},
+	{
+		"Company": "ETR",
+		"Sector": "Utilities",
+		"Market Cap": 22.362,
+		"Percent": 0
+	},
+	{
+		"Company": "FITB",
+		"Sector": "Financial Services",
+		"Market Cap": 22.598,
+		"Percent": 0
+	},
+	{
+		"Company": "EXR",
+		"Sector": "Real Estate",
+		"Market Cap": 23.384,
+		"Percent": 0
+	},
+	{
+		"Company": "CHD",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 23.761,
+		"Percent": 0
+	},
+	{
+		"Company": "STT",
+		"Sector": "Financial Services",
+		"Market Cap": 22.68,
+		"Percent": 0
+	},
+	{
+		"Company": "BALL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 22.753,
+		"Percent": 0
+	},
+	{
+		"Company": "WST",
+		"Sector": "Healthcare",
+		"Market Cap": 23.232,
+		"Percent": 0
+	},
+	{
+		"Company": "EFX",
+		"Sector": "Industrials",
+		"Market Cap": 22.82,
+		"Percent": 0
+	},
+	{
+		"Company": "TSCO",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 22.34,
+		"Percent": 0
+	},
+	{
+		"Company": "WTW",
+		"Sector": "Financial Services",
+		"Market Cap": 22.65,
+		"Percent": 0
+	},
+	{
+		"Company": "ON",
+		"Sector": "Technology",
+		"Market Cap": 20.116,
+		"Percent": 0
+	},
+	{
+		"Company": "HIG",
+		"Sector": "Financial Services",
+		"Market Cap": 22.167,
+		"Percent": 0
+	},
+	{
+		"Company": "FE",
+		"Sector": "Utilities",
+		"Market Cap": 21.428,
+		"Percent": 0
+	},
+	{
+		"Company": "ZBH",
+		"Sector": "Healthcare",
+		"Market Cap": 21.998,
+		"Percent": 0
+	},
+	{
+		"Company": "LH",
+		"Sector": "Healthcare",
+		"Market Cap": 23.117,
+		"Percent": 0
+	},
+	{
+		"Company": "ARE",
+		"Sector": "Real Estate",
+		"Market Cap": 23.341,
+		"Percent": 0
+	},
+	{
+		"Company": "DHI",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 25.449,
+		"Percent": 0
+	},
+	{
+		"Company": "CDW",
+		"Sector": "Technology",
+		"Market Cap": 21.499,
+		"Percent": 0
+	},
+	{
+		"Company": "ABC",
+		"Sector": "Healthcare",
+		"Market Cap": 29.109,
+		"Percent": 0
+	},
+	{
+		"Company": "LUV",
+		"Sector": "Industrials",
+		"Market Cap": 21.416,
+		"Percent": 0
+	},
+	{
+		"Company": "ANET",
+		"Sector": "Technology",
+		"Market Cap": 29.943,
+		"Percent": 0
+	},
+	{
+		"Company": "DRE",
+		"Sector": "Real Estate",
+		"Market Cap": 21.712,
+		"Percent": 0
+	},
+	{ "Company": "CTRA", "Sector": "Energy", "Market Cap": 20.452, "Percent": 0 },
+	{
+		"Company": "ANSS",
+		"Sector": "Technology",
+		"Market Cap": 21.545,
+		"Percent": 0
+	},
+	{
+		"Company": "MKC",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 22.275,
+		"Percent": 0
+	},
+	{
+		"Company": "STE",
+		"Sector": "Healthcare",
+		"Market Cap": 20.925,
+		"Percent": 0
+	},
+	{ "Company": "FANG", "Sector": "Energy", "Market Cap": 20.004, "Percent": 0 },
+	{
+		"Company": "VTR",
+		"Sector": "Real Estate",
+		"Market Cap": 20.51,
+		"Percent": 0
+	},
+	{
+		"Company": "PPL",
+		"Sector": "Utilities",
+		"Market Cap": 20.243,
+		"Percent": 0
+	},
+	{
+		"Company": "WAT",
+		"Sector": "Healthcare",
+		"Market Cap": 20.805,
+		"Percent": 0
+	},
+	{
+		"Company": "ULTA",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 20.729,
+		"Percent": 0
+	},
+	{
+		"Company": "MAA",
+		"Sector": "Real Estate",
+		"Market Cap": 19.799,
+		"Percent": 0
+	},
+	{
+		"Company": "NTRS",
+		"Sector": "Financial Services",
+		"Market Cap": 19.73,
+		"Percent": 0
+	},
+	{
+		"Company": "IT",
+		"Sector": "Technology",
+		"Market Cap": 19.805,
+		"Percent": 0
+	},
+	{
+		"Company": "GWW",
+		"Sector": "Industrials",
+		"Market Cap": 23.966,
+		"Percent": 0
+	},
+	{
+		"Company": "MTCH",
+		"Sector": "Communication Services",
+		"Market Cap": 20.821,
+		"Percent": 0
+	},
+	{
+		"Company": "CMS",
+		"Sector": "Utilities",
+		"Market Cap": 19.488,
+		"Percent": 0
+	},
+	{
+		"Company": "FTV",
+		"Sector": "Technology",
+		"Market Cap": 19.722,
+		"Percent": 0
+	},
+	{
+		"Company": "TTWO",
+		"Sector": "Communication Services",
+		"Market Cap": 14.468,
+		"Percent": 0
+	},
+	{
+		"Company": "CTLT",
+		"Sector": "Healthcare",
+		"Market Cap": 18.362,
+		"Percent": 0
+	},
+	{
+		"Company": "GPC",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 19.137,
+		"Percent": 0
+	},
+	{
+		"Company": "AMCR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 19.18,
+		"Percent": 0
+	},
+	{
+		"Company": "VMC",
+		"Sector": "Basic Materials",
+		"Market Cap": 19.27,
+		"Percent": 0
+	},
+	{
+		"Company": "MLM",
+		"Sector": "Basic Materials",
+		"Market Cap": 19.03,
+		"Percent": 0
+	},
+	{
+		"Company": "CNP",
+		"Sector": "Utilities",
+		"Market Cap": 18.432,
+		"Percent": 0
+	},
+	{
+		"Company": "DAL",
+		"Sector": "Industrials",
+		"Market Cap": 18.816,
+		"Percent": 0
+	},
+	{
+		"Company": "LEN",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 23.04,
+		"Percent": 0
+	},
+	{
+		"Company": "K",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 24.748,
+		"Percent": 0
+	},
+	{
+		"Company": "CF",
+		"Sector": "Basic Materials",
+		"Market Cap": 17.754,
+		"Percent": 0
+	},
+	{
+		"Company": "PKI",
+		"Sector": "Healthcare",
+		"Market Cap": 18.41,
+		"Percent": 0
+	},
+	{
+		"Company": "PWR",
+		"Sector": "Industrials",
+		"Market Cap": 17.889,
+		"Percent": 0
+	},
+	{
+		"Company": "CINF",
+		"Sector": "Financial Services",
+		"Market Cap": 19.223,
+		"Percent": 0
+	},
+	{
+		"Company": "RF",
+		"Sector": "Financial Services",
+		"Market Cap": 17.617,
+		"Percent": 0
+	},
+	{
+		"Company": "NDAQ",
+		"Sector": "Financial Services",
+		"Market Cap": 26.199,
+		"Percent": 0
+	},
+	{
+		"Company": "CFG",
+		"Sector": "Financial Services",
+		"Market Cap": 15.053,
+		"Percent": 0
+	},
+	{
+		"Company": "URI",
+		"Sector": "Industrials",
+		"Market Cap": 17.349,
+		"Percent": 0
+	},
+	{
+		"Company": "HOLX",
+		"Sector": "Healthcare",
+		"Market Cap": 17.699,
+		"Percent": 0
+	},
+	{
+		"Company": "TDY",
+		"Sector": "Technology",
+		"Market Cap": 17.819,
+		"Percent": 0
+	},
+	{
+		"Company": "MOS",
+		"Sector": "Basic Materials",
+		"Market Cap": 16.191,
+		"Percent": 0
+	},
+	{
+		"Company": "RJF",
+		"Sector": "Financial Services",
+		"Market Cap": 18.322,
+		"Percent": 0
+	},
+	{
+		"Company": "DOV",
+		"Sector": "Industrials",
+		"Market Cap": 17.539,
+		"Percent": 0
+	},
+	{
+		"Company": "HBAN",
+		"Sector": "Financial Services",
+		"Market Cap": 17.731,
+		"Percent": 0
+	},
+	{
+		"Company": "ALGN",
+		"Sector": "Healthcare",
+		"Market Cap": 19.653,
+		"Percent": 0
+	},
+	{
+		"Company": "HPE",
+		"Sector": "Technology",
+		"Market Cap": 16.414,
+		"Percent": 0
+	},
+	{
+		"Company": "CLX",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 18.02,
+		"Percent": 0
+	},
+	{
+		"Company": "IR",
+		"Sector": "Industrials",
+		"Market Cap": 16.811,
+		"Percent": 0
+	},
+	{
+		"Company": "ESS",
+		"Sector": "Real Estate",
+		"Market Cap": 17.259,
+		"Percent": 0
+	},
+	{
+		"Company": "EPAM",
+		"Sector": "Technology",
+		"Market Cap": 17.677,
+		"Percent": 0
+	},
+	{
+		"Company": "MPWR",
+		"Sector": "Technology",
+		"Market Cap": 17.039,
+		"Percent": 0
+	},
+	{
+		"Company": "J",
+		"Sector": "Industrials",
+		"Market Cap": 16.101,
+		"Percent": 0
+	},
+	{
+		"Company": "EXPD",
+		"Sector": "Industrials",
+		"Market Cap": 16.376,
+		"Percent": 0
+	},
+	{
+		"Company": "BR",
+		"Sector": "Technology",
+		"Market Cap": 17.279,
+		"Percent": 0
+	},
+	{
+		"Company": "CAG",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 16.636,
+		"Percent": 0
+	},
+	{
+		"Company": "MOH",
+		"Sector": "Healthcare",
+		"Market Cap": 16.284,
+		"Percent": 0
+	},
+	{
+		"Company": "FLT",
+		"Sector": "Technology",
+		"Market Cap": 17.37,
+		"Percent": 0
+	},
+	{
+		"Company": "VRSN",
+		"Sector": "Technology",
+		"Market Cap": 19.451,
+		"Percent": 0
+	},
+	{
+		"Company": "KEY",
+		"Sector": "Financial Services",
+		"Market Cap": 15.972,
+		"Percent": 0
+	},
+	{ "Company": "MRO", "Sector": "Energy", "Market Cap": 16.046, "Percent": 0 },
+	{
+		"Company": "SWK",
+		"Sector": "Industrials",
+		"Market Cap": 18.013,
+		"Percent": 0
+	},
+	{
+		"Company": "DGX",
+		"Sector": "Healthcare",
+		"Market Cap": 16.557,
+		"Percent": 0
+	},
+	{
+		"Company": "PFG",
+		"Sector": "Financial Services",
+		"Market Cap": 17.503,
+		"Percent": 0
+	},
+	{
+		"Company": "ZBRA",
+		"Sector": "Technology",
+		"Market Cap": 15.547,
+		"Percent": 0
+	},
+	{
+		"Company": "ATO",
+		"Sector": "Utilities",
+		"Market Cap": 14.929,
+		"Percent": 0
+	},
+	{
+		"Company": "IP",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 16.141,
+		"Percent": 0
+	},
+	{
+		"Company": "WAB",
+		"Sector": "Industrials",
+		"Market Cap": 15.254,
+		"Percent": 0
+	},
+	{
+		"Company": "COO",
+		"Sector": "Healthcare",
+		"Market Cap": 15.41,
+		"Percent": 0
+	},
+	{
+		"Company": "SWKS",
+		"Sector": "Technology",
+		"Market Cap": 15.71,
+		"Percent": 0
+	},
+	{
+		"Company": "SEDG",
+		"Sector": "Technology",
+		"Market Cap": 14.046,
+		"Percent": 0
+	},
+	{
+		"Company": "PARA",
+		"Sector": "Communication Services",
+		"Market Cap": 16.408,
+		"Percent": 0
+	},
+	{
+		"Company": "EVRG",
+		"Sector": "Utilities",
+		"Market Cap": 15.034,
+		"Percent": 0
+	},
+	{
+		"Company": "AKAM",
+		"Sector": "Technology",
+		"Market Cap": 14.932,
+		"Percent": 0
+	},
+	{
+		"Company": "GRMN",
+		"Sector": "Technology",
+		"Market Cap": 19.311,
+		"Percent": 0
+	},
+	{
+		"Company": "KMX",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 14.98,
+		"Percent": 0
+	},
+	{
+		"Company": "CAH",
+		"Sector": "Healthcare",
+		"Market Cap": 14.808,
+		"Percent": 0
+	},
+	{
+		"Company": "LNT",
+		"Sector": "Utilities",
+		"Market Cap": 14.601,
+		"Percent": 0
+	},
+	{
+		"Company": "DRI",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 15.126,
+		"Percent": 0
+	},
+	{
+		"Company": "TRMB",
+		"Sector": "Technology",
+		"Market Cap": 14.622,
+		"Percent": 0
+	},
+	{
+		"Company": "NTAP",
+		"Sector": "Technology",
+		"Market Cap": 14.072,
+		"Percent": 0
+	},
+	{
+		"Company": "TER",
+		"Sector": "Technology",
+		"Market Cap": 14.344,
+		"Percent": 0
+	},
+	{
+		"Company": "FDS",
+		"Sector": "Financial Services",
+		"Market Cap": 15.146,
+		"Percent": 0
+	},
+	{
+		"Company": "CPT",
+		"Sector": "Real Estate",
+		"Market Cap": 13.78,
+		"Percent": 0
+	},
+	{
+		"Company": "DPZ",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 14.38,
+		"Percent": 0
+	},
+	{
+		"Company": "WRB",
+		"Sector": "Financial Services",
+		"Market Cap": 11.935,
+		"Percent": 0
+	},
+	{
+		"Company": "STX",
+		"Sector": "Technology",
+		"Market Cap": 15.863,
+		"Percent": 0
+	},
+	{
+		"Company": "INCY",
+		"Sector": "Healthcare",
+		"Market Cap": 17.455,
+		"Percent": 0
+	},
+	{
+		"Company": "EXPE",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 14.171,
+		"Percent": 0
+	},
+	{
+		"Company": "VFC",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 17.463,
+		"Percent": 0
+	},
+	{
+		"Company": "LDOS",
+		"Sector": "Technology",
+		"Market Cap": 14.188,
+		"Percent": 0
+	},
+	{
+		"Company": "IRM",
+		"Sector": "Real Estate",
+		"Market Cap": 14.136,
+		"Percent": 0
+	},
+	{
+		"Company": "POOL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 14.927,
+		"Percent": 0
+	},
+	{
+		"Company": "XYL",
+		"Sector": "Industrials",
+		"Market Cap": 14.228,
+		"Percent": 0
+	},
+	{
+		"Company": "WDC",
+		"Sector": "Technology",
+		"Market Cap": 13.475,
+		"Percent": 0
+	},
+	{
+		"Company": "AES",
+		"Sector": "Utilities",
+		"Market Cap": 13.964,
+		"Percent": 0
+	},
+	{
+		"Company": "PEAK",
+		"Sector": "Real Estate",
+		"Market Cap": 14.38,
+		"Percent": 0
+	},
+	{
+		"Company": "SYF",
+		"Sector": "Financial Services",
+		"Market Cap": 15.534,
+		"Percent": 0
+	},
+	{
+		"Company": "SJM",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 14.3,
+		"Percent": 0
+	},
+	{
+		"Company": "UDR",
+		"Sector": "Real Estate",
+		"Market Cap": 14.247,
+		"Percent": 0
+	},
+	{
+		"Company": "IEX",
+		"Sector": "Industrials",
+		"Market Cap": 14.063,
+		"Percent": 0
+	},
+	{
+		"Company": "BRO",
+		"Sector": "Financial Services",
+		"Market Cap": 17.028,
+		"Percent": 0
+	},
+	{
+		"Company": "FMC",
+		"Sector": "Basic Materials",
+		"Market Cap": 12.987,
+		"Percent": 0
+	},
+	{
+		"Company": "TYL",
+		"Sector": "Technology",
+		"Market Cap": 13.709,
+		"Percent": 0
+	},
+	{
+		"Company": "TECH",
+		"Sector": "Healthcare",
+		"Market Cap": 14.204,
+		"Percent": 0
+	},
+	{
+		"Company": "TXT",
+		"Sector": "Industrials",
+		"Market Cap": 13.146,
+		"Percent": 0
+	},
+	{
+		"Company": "PAYC",
+		"Sector": "Technology",
+		"Market Cap": 18.723,
+		"Percent": 0
+	},
+	{
+		"Company": "AVY",
+		"Sector": "Industrials",
+		"Market Cap": 13.635,
+		"Percent": 0
+	},
+	{
+		"Company": "HRL",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 25.967,
+		"Percent": 0
+	},
+	{
+		"Company": "CHRW",
+		"Sector": "Industrials",
+		"Market Cap": 12.991,
+		"Percent": 0
+	},
+	{
+		"Company": "OMC",
+		"Sector": "Communication Services",
+		"Market Cap": 13.383,
+		"Percent": 0
+	},
+	{
+		"Company": "LKQ",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 14.403,
+		"Percent": 0
+	},
+	{
+		"Company": "GNRC",
+		"Sector": "Industrials",
+		"Market Cap": 13.494,
+		"Percent": 0
+	},
+	{
+		"Company": "JKHY",
+		"Sector": "Technology",
+		"Market Cap": 13.733,
+		"Percent": 0
+	},
+	{
+		"Company": "BBY",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 16.38,
+		"Percent": 0
+	},
+	{
+		"Company": "JBHT",
+		"Sector": "Industrials",
+		"Market Cap": 16.836,
+		"Percent": 0
+	},
+	{
+		"Company": "PKG",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 13.063,
+		"Percent": 0
+	},
+	{
+		"Company": "CE",
+		"Sector": "Basic Materials",
+		"Market Cap": 12.268,
+		"Percent": 0
+	},
+	{
+		"Company": "BF-B",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 33.023,
+		"Percent": 0
+	},
+	{
+		"Company": "NLOK",
+		"Sector": "Technology",
+		"Market Cap": 12.996,
+		"Percent": 0
+	},
+	{
+		"Company": "VTRS",
+		"Sector": "Healthcare",
+		"Market Cap": 12.42,
+		"Percent": 0
+	},
+	{
+		"Company": "BXP",
+		"Sector": "Real Estate",
+		"Market Cap": 14.12,
+		"Percent": 0
+	},
+	{
+		"Company": "NVR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 15.031,
+		"Percent": 0
+	},
+	{
+		"Company": "KIM",
+		"Sector": "Real Estate",
+		"Market Cap": 12.335,
+		"Percent": 0
+	},
+	{
+		"Company": "MAS",
+		"Sector": "Industrials",
+		"Market Cap": 12.776,
+		"Percent": 0
+	},
+	{
+		"Company": "CBOE",
+		"Sector": "Financial Services",
+		"Market Cap": 12.615,
+		"Percent": 0
+	},
+	{
+		"Company": "CTXS",
+		"Sector": "Technology",
+		"Market Cap": 12.217,
+		"Percent": 0
+	},
+	{
+		"Company": "NI",
+		"Sector": "Utilities",
+		"Market Cap": 11.417,
+		"Percent": 0
+	},
+	{
+		"Company": "HWM",
+		"Sector": "Industrials",
+		"Market Cap": 13.492,
+		"Percent": 0
+	},
+	{ "Company": "APA", "Sector": "Energy", "Market Cap": 10.864, "Percent": 0 },
+	{
+		"Company": "L",
+		"Sector": "Financial Services",
+		"Market Cap": 14.787,
+		"Percent": 0
+	},
+	{
+		"Company": "EMN",
+		"Sector": "Basic Materials",
+		"Market Cap": 11.843,
+		"Percent": 0
+	},
+	{
+		"Company": "LVS",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 26.403,
+		"Percent": 0
+	},
+	{
+		"Company": "TFX",
+		"Sector": "Healthcare",
+		"Market Cap": 11.833,
+		"Percent": 0
+	},
+	{
+		"Company": "UAL",
+		"Sector": "Industrials",
+		"Market Cap": 11.757,
+		"Percent": 0
+	},
+	{
+		"Company": "SBNY",
+		"Sector": "Financial Services",
+		"Market Cap": 11.256,
+		"Percent": 0
+	},
+	{
+		"Company": "PTC",
+		"Sector": "Technology",
+		"Market Cap": 12.445,
+		"Percent": 0
+	},
+	{
+		"Company": "ABMD",
+		"Sector": "Healthcare",
+		"Market Cap": 11.459,
+		"Percent": 0
+	},
+	{
+		"Company": "LYV",
+		"Sector": "Communication Services",
+		"Market Cap": 18.734,
+		"Percent": 0
+	},
+	{
+		"Company": "RE",
+		"Sector": "Financial Services",
+		"Market Cap": 11.017,
+		"Percent": 0
+	},
+	{
+		"Company": "HST",
+		"Sector": "Real Estate",
+		"Market Cap": 10.946,
+		"Percent": 0
+	},
+	{
+		"Company": "NDSN",
+		"Sector": "Industrials",
+		"Market Cap": 11.835,
+		"Percent": 0
+	},
+	{
+		"Company": "IPG",
+		"Sector": "Communication Services",
+		"Market Cap": 10.667,
+		"Percent": 0
+	},
+	{
+		"Company": "AAP",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 11.282,
+		"Percent": 0
+	},
+	{
+		"Company": "CRL",
+		"Sector": "Healthcare",
+		"Market Cap": 11.364,
+		"Percent": 0
+	},
+	{
+		"Company": "HSIC",
+		"Sector": "Healthcare",
+		"Market Cap": 10.511,
+		"Percent": 0
+	},
+	{
+		"Company": "BIO",
+		"Sector": "Healthcare",
+		"Market Cap": 15.161,
+		"Percent": 0
+	},
+	{
+		"Company": "SNA",
+		"Sector": "Industrials",
+		"Market Cap": 10.605,
+		"Percent": 0
+	},
+	{
+		"Company": "WRK",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 10.485,
+		"Percent": 0
+	},
+	{
+		"Company": "HAS",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 11.21,
+		"Percent": 0
+	},
+	{
+		"Company": "LW",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 10.712,
+		"Percent": 0
+	},
+	{
+		"Company": "TAP",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 11.988,
+		"Percent": 0
+	},
+	{
+		"Company": "MGM",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 13.792,
+		"Percent": 0
+	},
+	{
+		"Company": "QRVO",
+		"Sector": "Technology",
+		"Market Cap": 10.722,
+		"Percent": 0
+	},
+	{
+		"Company": "LUMN",
+		"Sector": "Communication Services",
+		"Market Cap": 11.155,
+		"Percent": 0
+	},
+	{
+		"Company": "AIZ",
+		"Sector": "Financial Services",
+		"Market Cap": 9.944,
+		"Percent": 0
+	},
+	{
+		"Company": "CPB",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 14.571,
+		"Percent": 0
+	},
+	{
+		"Company": "CMA",
+		"Sector": "Financial Services",
+		"Market Cap": 9.611,
+		"Percent": 0
+	},
+	{
+		"Company": "MKTX",
+		"Sector": "Financial Services",
+		"Market Cap": 9.915,
+		"Percent": 0
+	},
+	{
+		"Company": "PHM",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 10.877,
+		"Percent": 0
+	},
+	{
+		"Company": "NRG",
+		"Sector": "Utilities",
+		"Market Cap": 9.145,
+		"Percent": 0
+	},
+	{
+		"Company": "ETSY",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 10.846,
+		"Percent": 0
+	},
+	{
+		"Company": "JNPR",
+		"Sector": "Technology",
+		"Market Cap": 9.086,
+		"Percent": 0
+	},
+	{
+		"Company": "FFIV",
+		"Sector": "Technology",
+		"Market Cap": 9.408,
+		"Percent": 0
+	},
+	{
+		"Company": "GL",
+		"Sector": "Financial Services",
+		"Market Cap": 9.898,
+		"Percent": 0
+	},
+	{
+		"Company": "REG",
+		"Sector": "Real Estate",
+		"Market Cap": 10.281,
+		"Percent": 0
+	},
+	{
+		"Company": "ALLE",
+		"Sector": "Industrials",
+		"Market Cap": 8.991,
+		"Percent": 0
+	},
+	{
+		"Company": "WHR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 9.689,
+		"Percent": 0
+	},
+	{
+		"Company": "HII",
+		"Sector": "Industrials",
+		"Market Cap": 8.599,
+		"Percent": 0
+	},
+	{
+		"Company": "SEE",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.607,
+		"Percent": 0
+	},
+	{
+		"Company": "OGN",
+		"Sector": "Healthcare",
+		"Market Cap": 8.443,
+		"Percent": 0
+	},
+	{
+		"Company": "NLSN",
+		"Sector": "Industrials",
+		"Market Cap": 8.478,
+		"Percent": 0
+	},
+	{
+		"Company": "RHI",
+		"Sector": "Industrials",
+		"Market Cap": 8.645,
+		"Percent": 0
+	},
+	{
+		"Company": "PNW",
+		"Sector": "Utilities",
+		"Market Cap": 8.094,
+		"Percent": 0
+	},
+	{
+		"Company": "FBHS",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.384,
+		"Percent": 0
+	},
+	{
+		"Company": "CZR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.662,
+		"Percent": 0
+	},
+	{
+		"Company": "AAL",
+		"Sector": "Industrials",
+		"Market Cap": 8.95,
+		"Percent": 0
+	},
+	{
+		"Company": "TPR",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.362,
+		"Percent": 0
+	},
+	{
+		"Company": "BWA",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 7.83,
+		"Percent": 0
+	},
+	{
+		"Company": "LNC",
+		"Sector": "Financial Services",
+		"Market Cap": 8.405,
+		"Percent": 0
+	},
+	{
+		"Company": "RCL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.64,
+		"Percent": 0
+	},
+	{
+		"Company": "XRAY",
+		"Sector": "Healthcare",
+		"Market Cap": 7.798,
+		"Percent": 0
+	},
+	{
+		"Company": "ROL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 17.561,
+		"Percent": 0
+	},
+	{
+		"Company": "ZION",
+		"Sector": "Financial Services",
+		"Market Cap": 7.867,
+		"Percent": 0
+	},
+	{
+		"Company": "PNR",
+		"Sector": "Industrials",
+		"Market Cap": 7.725,
+		"Percent": 0
+	},
+	{
+		"Company": "DXC",
+		"Sector": "Technology",
+		"Market Cap": 7.37,
+		"Percent": 0
+	},
+	{
+		"Company": "AOS",
+		"Sector": "Industrials",
+		"Market Cap": 9.192,
+		"Percent": 0
+	},
+	{
+		"Company": "NWL",
+		"Sector": "Consumer Defensive",
+		"Market Cap": 8.283,
+		"Percent": 0
+	},
+	{
+		"Company": "CCL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 10.253,
+		"Percent": 0
+	},
+	{
+		"Company": "UHS",
+		"Sector": "Healthcare",
+		"Market Cap": 8.223,
+		"Percent": 0
+	},
+	{
+		"Company": "FRT",
+		"Sector": "Real Estate",
+		"Market Cap": 7.567,
+		"Percent": 0
+	},
+	{
+		"Company": "BBWI",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 6.862,
+		"Percent": 0
+	},
+	{
+		"Company": "MHK",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 8.225,
+		"Percent": 0
+	},
+	{
+		"Company": "BEN",
+		"Sector": "Financial Services",
+		"Market Cap": 11.817,
+		"Percent": 0
+	},
+	{
+		"Company": "CDAY",
+		"Sector": "Technology",
+		"Market Cap": 7.553,
+		"Percent": 0
+	},
+	{
+		"Company": "WYNN",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 6.436,
+		"Percent": 0
+	},
+	{
+		"Company": "IVZ",
+		"Sector": "Financial Services",
+		"Market Cap": 7.331,
+		"Percent": 0
+	},
+	{
+		"Company": "PENN",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 5.257,
+		"Percent": 0
+	},
+	{
+		"Company": "ALK",
+		"Sector": "Industrials",
+		"Market Cap": 5.149,
+		"Percent": 0
+	},
+	{
+		"Company": "DVA",
+		"Sector": "Healthcare",
+		"Market Cap": 8.158,
+		"Percent": 0
+	},
+	{
+		"Company": "NCLH",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 4.705,
+		"Percent": 0
+	},
+	{
+		"Company": "VNO",
+		"Sector": "Real Estate",
+		"Market Cap": 5.743,
+		"Percent": 0
+	},
+	{
+		"Company": "DISH",
+		"Sector": "Communication Services",
+		"Market Cap": 9.566,
+		"Percent": 0
+	},
+	{
+		"Company": "FOX",
+		"Sector": "Communication Services",
+		"Market Cap": 18.067,
+		"Percent": 0
+	},
+	{
+		"Company": "RL",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 6.593,
+		"Percent": 0
+	},
+	{
+		"Company": "PVH",
+		"Sector": "Consumer Cyclical",
+		"Market Cap": 3.898,
+		"Percent": 0
+	},
+	{
+		"Company": "NWS",
+		"Sector": "Communication Services",
+		"Market Cap": 9.337,
+		"Percent": 0
+	}
+]

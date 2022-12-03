@@ -1,0 +1,1766 @@
+[
+	{
+		"Index": 1,
+		"Date": "2021-07-07",
+		"Adj Close": 4358.13,
+		"Abs Change": 0,
+		"Percent": 0
+	},
+	{
+		"Index": 2,
+		"Date": "2021-07-08",
+		"Adj Close": 4320.82,
+		"Abs Change": -37.3100000000004,
+		"Percent": -0.0086
+	},
+	{
+		"Index": 3,
+		"Date": "2021-07-09",
+		"Adj Close": 4369.55,
+		"Abs Change": 11.420000000000073,
+		"Percent": 0.0026
+	},
+	{
+		"Index": 4,
+		"Date": "2021-07-12",
+		"Adj Close": 4384.63,
+		"Abs Change": 26.5,
+		"Percent": 0.0061
+	},
+	{
+		"Index": 5,
+		"Date": "2021-07-13",
+		"Adj Close": 4369.21,
+		"Abs Change": 11.079999999999927,
+		"Percent": 0.0025
+	},
+	{
+		"Index": 6,
+		"Date": "2021-07-14",
+		"Adj Close": 4374.3,
+		"Abs Change": 16.170000000000073,
+		"Percent": 0.0037
+	},
+	{
+		"Index": 7,
+		"Date": "2021-07-15",
+		"Adj Close": 4360.03,
+		"Abs Change": 1.8999999999996362,
+		"Percent": 0.0004
+	},
+	{
+		"Index": 8,
+		"Date": "2021-07-16",
+		"Adj Close": 4327.16,
+		"Abs Change": -30.970000000000255,
+		"Percent": -0.0071
+	},
+	{
+		"Index": 9,
+		"Date": "2021-07-19",
+		"Adj Close": 4258.49,
+		"Abs Change": -99.640000000000327,
+		"Percent": -0.0229
+	},
+	{
+		"Index": 10,
+		"Date": "2021-07-20",
+		"Adj Close": 4323.06,
+		"Abs Change": -35.069999999999709,
+		"Percent": -0.008
+	},
+	{
+		"Index": 11,
+		"Date": "2021-07-21",
+		"Adj Close": 4358.69,
+		"Abs Change": 0.55999999999949068,
+		"Percent": 0.0001
+	},
+	{
+		"Index": 12,
+		"Date": "2021-07-22",
+		"Adj Close": 4367.48,
+		"Abs Change": 9.3499999999994543,
+		"Percent": 0.0021
+	},
+	{
+		"Index": 13,
+		"Date": "2021-07-23",
+		"Adj Close": 4411.79,
+		"Abs Change": 53.659999999999854,
+		"Percent": 0.0123
+	},
+	{
+		"Index": 14,
+		"Date": "2021-07-26",
+		"Adj Close": 4422.3,
+		"Abs Change": 64.170000000000073,
+		"Percent": 0.0147
+	},
+	{
+		"Index": 15,
+		"Date": "2021-07-27",
+		"Adj Close": 4401.46,
+		"Abs Change": 43.329999999999927,
+		"Percent": 0.0099
+	},
+	{
+		"Index": 16,
+		"Date": "2021-07-28",
+		"Adj Close": 4400.64,
+		"Abs Change": 42.510000000000218,
+		"Percent": 0.0098
+	},
+	{
+		"Index": 17,
+		"Date": "2021-07-29",
+		"Adj Close": 4419.15,
+		"Abs Change": 61.019999999999527,
+		"Percent": 0.014
+	},
+	{
+		"Index": 18,
+		"Date": "2021-07-30",
+		"Adj Close": 4395.26,
+		"Abs Change": 37.130000000000109,
+		"Percent": 0.0085
+	},
+	{
+		"Index": 19,
+		"Date": "2021-08-02",
+		"Adj Close": 4387.16,
+		"Abs Change": 29.029999999999745,
+		"Percent": 0.0067
+	},
+	{
+		"Index": 20,
+		"Date": "2021-08-03",
+		"Adj Close": 4423.15,
+		"Abs Change": 65.019999999999527,
+		"Percent": 0.0149
+	},
+	{
+		"Index": 21,
+		"Date": "2021-08-04",
+		"Adj Close": 4402.66,
+		"Abs Change": 44.529999999999745,
+		"Percent": 0.0102
+	},
+	{
+		"Index": 22,
+		"Date": "2021-08-05",
+		"Adj Close": 4429.1,
+		"Abs Change": 70.970000000000255,
+		"Percent": 0.0163
+	},
+	{
+		"Index": 23,
+		"Date": "2021-08-06",
+		"Adj Close": 4436.52,
+		"Abs Change": 78.390000000000327,
+		"Percent": 0.018
+	},
+	{
+		"Index": 24,
+		"Date": "2021-08-09",
+		"Adj Close": 4432.35,
+		"Abs Change": 74.220000000000255,
+		"Percent": 0.017
+	},
+	{
+		"Index": 25,
+		"Date": "2021-08-10",
+		"Adj Close": 4436.75,
+		"Abs Change": 78.619999999999891,
+		"Percent": 0.018
+	},
+	{
+		"Index": 26,
+		"Date": "2021-08-11",
+		"Adj Close": 4442.41,
+		"Abs Change": 84.279999999999745,
+		"Percent": 0.0193
+	},
+	{
+		"Index": 27,
+		"Date": "2021-08-12",
+		"Adj Close": 4460.83,
+		"Abs Change": 102.69999999999982,
+		"Percent": 0.0236
+	},
+	{
+		"Index": 28,
+		"Date": "2021-08-13",
+		"Adj Close": 4468,
+		"Abs Change": 109.86999999999989,
+		"Percent": 0.0252
+	},
+	{
+		"Index": 29,
+		"Date": "2021-08-16",
+		"Adj Close": 4479.71,
+		"Abs Change": 121.57999999999993,
+		"Percent": 0.0279
+	},
+	{
+		"Index": 30,
+		"Date": "2021-08-17",
+		"Adj Close": 4448.08,
+		"Abs Change": 89.949999999999818,
+		"Percent": 0.0206
+	},
+	{
+		"Index": 31,
+		"Date": "2021-08-18",
+		"Adj Close": 4400.27,
+		"Abs Change": 42.140000000000327,
+		"Percent": 0.0097
+	},
+	{
+		"Index": 32,
+		"Date": "2021-08-19",
+		"Adj Close": 4405.8,
+		"Abs Change": 47.670000000000073,
+		"Percent": 0.0109
+	},
+	{
+		"Index": 33,
+		"Date": "2021-08-20",
+		"Adj Close": 4441.67,
+		"Abs Change": 83.539999999999964,
+		"Percent": 0.0192
+	},
+	{
+		"Index": 34,
+		"Date": "2021-08-23",
+		"Adj Close": 4479.53,
+		"Abs Change": 121.39999999999964,
+		"Percent": 0.0279
+	},
+	{
+		"Index": 35,
+		"Date": "2021-08-24",
+		"Adj Close": 4486.23,
+		"Abs Change": 128.09999999999945,
+		"Percent": 0.0294
+	},
+	{
+		"Index": 36,
+		"Date": "2021-08-25",
+		"Adj Close": 4496.19,
+		"Abs Change": 138.05999999999949,
+		"Percent": 0.0317
+	},
+	{
+		"Index": 37,
+		"Date": "2021-08-26",
+		"Adj Close": 4470,
+		"Abs Change": 111.86999999999989,
+		"Percent": 0.0257
+	},
+	{
+		"Index": 38,
+		"Date": "2021-08-27",
+		"Adj Close": 4509.37,
+		"Abs Change": 151.23999999999978,
+		"Percent": 0.0347
+	},
+	{
+		"Index": 39,
+		"Date": "2021-08-30",
+		"Adj Close": 4528.79,
+		"Abs Change": 170.65999999999985,
+		"Percent": 0.0392
+	},
+	{
+		"Index": 40,
+		"Date": "2021-08-31",
+		"Adj Close": 4522.68,
+		"Abs Change": 164.55000000000018,
+		"Percent": 0.0378
+	},
+	{
+		"Index": 41,
+		"Date": "2021-09-01",
+		"Adj Close": 4524.09,
+		"Abs Change": 165.96000000000004,
+		"Percent": 0.0381
+	},
+	{
+		"Index": 42,
+		"Date": "2021-09-02",
+		"Adj Close": 4536.95,
+		"Abs Change": 178.81999999999971,
+		"Percent": 0.041
+	},
+	{
+		"Index": 43,
+		"Date": "2021-09-03",
+		"Adj Close": 4535.43,
+		"Abs Change": 177.30000000000018,
+		"Percent": 0.0407
+	},
+	{
+		"Index": 44,
+		"Date": "2021-09-07",
+		"Adj Close": 4520.03,
+		"Abs Change": 161.89999999999964,
+		"Percent": 0.0371
+	},
+	{
+		"Index": 45,
+		"Date": "2021-09-08",
+		"Adj Close": 4514.07,
+		"Abs Change": 155.9399999999996,
+		"Percent": 0.0358
+	},
+	{
+		"Index": 46,
+		"Date": "2021-09-09",
+		"Adj Close": 4493.28,
+		"Abs Change": 135.14999999999964,
+		"Percent": 0.031
+	},
+	{
+		"Index": 47,
+		"Date": "2021-09-10",
+		"Adj Close": 4458.58,
+		"Abs Change": 100.44999999999982,
+		"Percent": 0.023
+	},
+	{
+		"Index": 48,
+		"Date": "2021-09-13",
+		"Adj Close": 4468.73,
+		"Abs Change": 110.59999999999945,
+		"Percent": 0.0254
+	},
+	{
+		"Index": 49,
+		"Date": "2021-09-14",
+		"Adj Close": 4443.05,
+		"Abs Change": 84.920000000000073,
+		"Percent": 0.0195
+	},
+	{
+		"Index": 50,
+		"Date": "2021-09-15",
+		"Adj Close": 4480.7,
+		"Abs Change": 122.56999999999971,
+		"Percent": 0.0281
+	},
+	{
+		"Index": 51,
+		"Date": "2021-09-16",
+		"Adj Close": 4473.75,
+		"Abs Change": 115.61999999999989,
+		"Percent": 0.0265
+	},
+	{
+		"Index": 52,
+		"Date": "2021-09-17",
+		"Adj Close": 4432.99,
+		"Abs Change": 74.859999999999673,
+		"Percent": 0.0172
+	},
+	{
+		"Index": 53,
+		"Date": "2021-09-20",
+		"Adj Close": 4357.73,
+		"Abs Change": -0.4000000000005457,
+		"Percent": -0.0001
+	},
+	{
+		"Index": 54,
+		"Date": "2021-09-21",
+		"Adj Close": 4354.19,
+		"Abs Change": -3.9400000000005093,
+		"Percent": -0.0009
+	},
+	{
+		"Index": 55,
+		"Date": "2021-09-22",
+		"Adj Close": 4395.64,
+		"Abs Change": 37.510000000000218,
+		"Percent": 0.0086
+	},
+	{
+		"Index": 56,
+		"Date": "2021-09-23",
+		"Adj Close": 4448.98,
+		"Abs Change": 90.849999999999454,
+		"Percent": 0.0208
+	},
+	{
+		"Index": 57,
+		"Date": "2021-09-24",
+		"Adj Close": 4455.48,
+		"Abs Change": 97.349999999999454,
+		"Percent": 0.0223
+	},
+	{
+		"Index": 58,
+		"Date": "2021-09-27",
+		"Adj Close": 4443.11,
+		"Abs Change": 84.979999999999563,
+		"Percent": 0.0195
+	},
+	{
+		"Index": 59,
+		"Date": "2021-09-28",
+		"Adj Close": 4352.63,
+		"Abs Change": -5.5,
+		"Percent": -0.0013
+	},
+	{
+		"Index": 60,
+		"Date": "2021-09-29",
+		"Adj Close": 4359.46,
+		"Abs Change": 1.3299999999999272,
+		"Percent": 0.0003
+	},
+	{
+		"Index": 61,
+		"Date": "2021-09-30",
+		"Adj Close": 4307.54,
+		"Abs Change": -50.590000000000146,
+		"Percent": -0.0116
+	},
+	{
+		"Index": 62,
+		"Date": "2021-10-01",
+		"Adj Close": 4357.04,
+		"Abs Change": -1.0900000000001455,
+		"Percent": -0.0003
+	},
+	{
+		"Index": 63,
+		"Date": "2021-10-04",
+		"Adj Close": 4300.46,
+		"Abs Change": -57.670000000000073,
+		"Percent": -0.0132
+	},
+	{
+		"Index": 64,
+		"Date": "2021-10-05",
+		"Adj Close": 4345.72,
+		"Abs Change": -12.409999999999854,
+		"Percent": -0.0028
+	},
+	{
+		"Index": 65,
+		"Date": "2021-10-06",
+		"Adj Close": 4363.55,
+		"Abs Change": 5.4200000000000728,
+		"Percent": 0.0012
+	},
+	{
+		"Index": 66,
+		"Date": "2021-10-07",
+		"Adj Close": 4399.76,
+		"Abs Change": 41.630000000000109,
+		"Percent": 0.0096
+	},
+	{
+		"Index": 67,
+		"Date": "2021-10-08",
+		"Adj Close": 4391.34,
+		"Abs Change": 33.210000000000036,
+		"Percent": 0.0076
+	},
+	{
+		"Index": 68,
+		"Date": "2021-10-11",
+		"Adj Close": 4361.19,
+		"Abs Change": 3.0599999999994907,
+		"Percent": 0.0007
+	},
+	{
+		"Index": 69,
+		"Date": "2021-10-12",
+		"Adj Close": 4350.65,
+		"Abs Change": -7.4800000000004729,
+		"Percent": -0.0017
+	},
+	{
+		"Index": 70,
+		"Date": "2021-10-13",
+		"Adj Close": 4363.8,
+		"Abs Change": 5.6700000000000728,
+		"Percent": 0.0013
+	},
+	{
+		"Index": 71,
+		"Date": "2021-10-14",
+		"Adj Close": 4438.26,
+		"Abs Change": 80.130000000000109,
+		"Percent": 0.0184
+	},
+	{
+		"Index": 72,
+		"Date": "2021-10-15",
+		"Adj Close": 4471.37,
+		"Abs Change": 113.23999999999978,
+		"Percent": 0.026
+	},
+	{
+		"Index": 73,
+		"Date": "2021-10-18",
+		"Adj Close": 4486.46,
+		"Abs Change": 128.32999999999993,
+		"Percent": 0.0294
+	},
+	{
+		"Index": 74,
+		"Date": "2021-10-19",
+		"Adj Close": 4519.63,
+		"Abs Change": 161.5,
+		"Percent": 0.0371
+	},
+	{
+		"Index": 75,
+		"Date": "2021-10-20",
+		"Adj Close": 4536.19,
+		"Abs Change": 178.05999999999949,
+		"Percent": 0.0409
+	},
+	{
+		"Index": 76,
+		"Date": "2021-10-21",
+		"Adj Close": 4549.78,
+		"Abs Change": 191.64999999999964,
+		"Percent": 0.044
+	},
+	{
+		"Index": 77,
+		"Date": "2021-10-22",
+		"Adj Close": 4544.9,
+		"Abs Change": 186.76999999999953,
+		"Percent": 0.0429
+	},
+	{
+		"Index": 78,
+		"Date": "2021-10-25",
+		"Adj Close": 4566.48,
+		"Abs Change": 208.34999999999945,
+		"Percent": 0.0478
+	},
+	{
+		"Index": 79,
+		"Date": "2021-10-26",
+		"Adj Close": 4574.79,
+		"Abs Change": 216.65999999999985,
+		"Percent": 0.0497
+	},
+	{
+		"Index": 80,
+		"Date": "2021-10-27",
+		"Adj Close": 4551.68,
+		"Abs Change": 193.55000000000018,
+		"Percent": 0.0444
+	},
+	{
+		"Index": 81,
+		"Date": "2021-10-28",
+		"Adj Close": 4596.42,
+		"Abs Change": 238.28999999999996,
+		"Percent": 0.0547
+	},
+	{
+		"Index": 82,
+		"Date": "2021-10-29",
+		"Adj Close": 4605.38,
+		"Abs Change": 247.25,
+		"Percent": 0.0567
+	},
+	{
+		"Index": 83,
+		"Date": "2021-11-01",
+		"Adj Close": 4613.67,
+		"Abs Change": 255.53999999999996,
+		"Percent": 0.0586
+	},
+	{
+		"Index": 84,
+		"Date": "2021-11-02",
+		"Adj Close": 4630.65,
+		"Abs Change": 272.51999999999953,
+		"Percent": 0.0625
+	},
+	{
+		"Index": 85,
+		"Date": "2021-11-03",
+		"Adj Close": 4660.57,
+		"Abs Change": 302.4399999999996,
+		"Percent": 0.0694
+	},
+	{
+		"Index": 86,
+		"Date": "2021-11-04",
+		"Adj Close": 4680.06,
+		"Abs Change": 321.93000000000029,
+		"Percent": 0.0739
+	},
+	{
+		"Index": 87,
+		"Date": "2021-11-05",
+		"Adj Close": 4697.53,
+		"Abs Change": 339.39999999999964,
+		"Percent": 0.0779
+	},
+	{
+		"Index": 88,
+		"Date": "2021-11-08",
+		"Adj Close": 4701.7,
+		"Abs Change": 343.56999999999971,
+		"Percent": 0.0788
+	},
+	{
+		"Index": 89,
+		"Date": "2021-11-09",
+		"Adj Close": 4685.25,
+		"Abs Change": 327.11999999999989,
+		"Percent": 0.0751
+	},
+	{
+		"Index": 90,
+		"Date": "2021-11-10",
+		"Adj Close": 4646.71,
+		"Abs Change": 288.57999999999993,
+		"Percent": 0.0662
+	},
+	{
+		"Index": 91,
+		"Date": "2021-11-11",
+		"Adj Close": 4649.27,
+		"Abs Change": 291.14000000000033,
+		"Percent": 0.0668
+	},
+	{
+		"Index": 92,
+		"Date": "2021-11-12",
+		"Adj Close": 4682.85,
+		"Abs Change": 324.72000000000025,
+		"Percent": 0.0745
+	},
+	{
+		"Index": 93,
+		"Date": "2021-11-15",
+		"Adj Close": 4682.8,
+		"Abs Change": 324.67000000000007,
+		"Percent": 0.0745
+	},
+	{
+		"Index": 94,
+		"Date": "2021-11-16",
+		"Adj Close": 4700.9,
+		"Abs Change": 342.76999999999953,
+		"Percent": 0.0787
+	},
+	{
+		"Index": 95,
+		"Date": "2021-11-17",
+		"Adj Close": 4688.67,
+		"Abs Change": 330.53999999999996,
+		"Percent": 0.0758
+	},
+	{
+		"Index": 96,
+		"Date": "2021-11-18",
+		"Adj Close": 4704.54,
+		"Abs Change": 346.40999999999985,
+		"Percent": 0.0795
+	},
+	{
+		"Index": 97,
+		"Date": "2021-11-19",
+		"Adj Close": 4697.96,
+		"Abs Change": 339.82999999999993,
+		"Percent": 0.078
+	},
+	{
+		"Index": 98,
+		"Date": "2021-11-22",
+		"Adj Close": 4682.94,
+		"Abs Change": 324.80999999999949,
+		"Percent": 0.0745
+	},
+	{
+		"Index": 99,
+		"Date": "2021-11-23",
+		"Adj Close": 4690.7,
+		"Abs Change": 332.56999999999971,
+		"Percent": 0.0763
+	},
+	{
+		"Index": 100,
+		"Date": "2021-11-24",
+		"Adj Close": 4701.46,
+		"Abs Change": 343.32999999999993,
+		"Percent": 0.0788
+	},
+	{
+		"Index": 101,
+		"Date": "2021-11-26",
+		"Adj Close": 4594.62,
+		"Abs Change": 236.48999999999978,
+		"Percent": 0.0543
+	},
+	{
+		"Index": 102,
+		"Date": "2021-11-29",
+		"Adj Close": 4655.27,
+		"Abs Change": 297.14000000000033,
+		"Percent": 0.0682
+	},
+	{
+		"Index": 103,
+		"Date": "2021-11-30",
+		"Adj Close": 4567,
+		"Abs Change": 208.86999999999989,
+		"Percent": 0.0479
+	},
+	{
+		"Index": 104,
+		"Date": "2021-12-01",
+		"Adj Close": 4513.04,
+		"Abs Change": 154.90999999999985,
+		"Percent": 0.0355
+	},
+	{
+		"Index": 105,
+		"Date": "2021-12-02",
+		"Adj Close": 4577.1,
+		"Abs Change": 218.97000000000025,
+		"Percent": 0.0502
+	},
+	{
+		"Index": 106,
+		"Date": "2021-12-03",
+		"Adj Close": 4538.43,
+		"Abs Change": 180.30000000000018,
+		"Percent": 0.0414
+	},
+	{
+		"Index": 107,
+		"Date": "2021-12-06",
+		"Adj Close": 4591.67,
+		"Abs Change": 233.53999999999996,
+		"Percent": 0.0536
+	},
+	{
+		"Index": 108,
+		"Date": "2021-12-07",
+		"Adj Close": 4686.75,
+		"Abs Change": 328.61999999999989,
+		"Percent": 0.0754
+	},
+	{
+		"Index": 109,
+		"Date": "2021-12-08",
+		"Adj Close": 4701.21,
+		"Abs Change": 343.07999999999993,
+		"Percent": 0.0787
+	},
+	{
+		"Index": 110,
+		"Date": "2021-12-09",
+		"Adj Close": 4667.45,
+		"Abs Change": 309.31999999999971,
+		"Percent": 0.071
+	},
+	{
+		"Index": 111,
+		"Date": "2021-12-10",
+		"Adj Close": 4712.02,
+		"Abs Change": 353.89000000000033,
+		"Percent": 0.0812
+	},
+	{
+		"Index": 112,
+		"Date": "2021-12-13",
+		"Adj Close": 4668.97,
+		"Abs Change": 310.84000000000015,
+		"Percent": 0.0713
+	},
+	{
+		"Index": 113,
+		"Date": "2021-12-14",
+		"Adj Close": 4634.09,
+		"Abs Change": 275.96000000000004,
+		"Percent": 0.0633
+	},
+	{
+		"Index": 114,
+		"Date": "2021-12-15",
+		"Adj Close": 4709.85,
+		"Abs Change": 351.72000000000025,
+		"Percent": 0.0807
+	},
+	{
+		"Index": 115,
+		"Date": "2021-12-16",
+		"Adj Close": 4668.67,
+		"Abs Change": 310.53999999999996,
+		"Percent": 0.0713
+	},
+	{
+		"Index": 116,
+		"Date": "2021-12-17",
+		"Adj Close": 4620.64,
+		"Abs Change": 262.51000000000022,
+		"Percent": 0.0602
+	},
+	{
+		"Index": 117,
+		"Date": "2021-12-20",
+		"Adj Close": 4568.02,
+		"Abs Change": 209.89000000000033,
+		"Percent": 0.0482
+	},
+	{
+		"Index": 118,
+		"Date": "2021-12-21",
+		"Adj Close": 4649.23,
+		"Abs Change": 291.09999999999945,
+		"Percent": 0.0668
+	},
+	{
+		"Index": 119,
+		"Date": "2021-12-22",
+		"Adj Close": 4696.56,
+		"Abs Change": 338.43000000000029,
+		"Percent": 0.0777
+	},
+	{
+		"Index": 120,
+		"Date": "2021-12-23",
+		"Adj Close": 4725.79,
+		"Abs Change": 367.65999999999985,
+		"Percent": 0.0844
+	},
+	{
+		"Index": 121,
+		"Date": "2021-12-27",
+		"Adj Close": 4791.19,
+		"Abs Change": 433.05999999999949,
+		"Percent": 0.0994
+	},
+	{
+		"Index": 122,
+		"Date": "2021-12-28",
+		"Adj Close": 4786.35,
+		"Abs Change": 428.22000000000025,
+		"Percent": 0.0983
+	},
+	{
+		"Index": 123,
+		"Date": "2021-12-29",
+		"Adj Close": 4793.06,
+		"Abs Change": 434.93000000000029,
+		"Percent": 0.0998
+	},
+	{
+		"Index": 124,
+		"Date": "2021-12-30",
+		"Adj Close": 4778.73,
+		"Abs Change": 420.59999999999945,
+		"Percent": 0.0965
+	},
+	{
+		"Index": 125,
+		"Date": "2021-12-31",
+		"Adj Close": 4766.18,
+		"Abs Change": 408.05000000000018,
+		"Percent": 0.0936
+	},
+	{
+		"Index": 126,
+		"Date": "2022-01-03",
+		"Adj Close": 4796.56,
+		"Abs Change": 438.43000000000029,
+		"Percent": 0.1006
+	},
+	{
+		"Index": 127,
+		"Date": "2022-01-04",
+		"Adj Close": 4793.54,
+		"Abs Change": 435.40999999999985,
+		"Percent": 0.0999
+	},
+	{
+		"Index": 128,
+		"Date": "2022-01-05",
+		"Adj Close": 4700.58,
+		"Abs Change": 342.44999999999982,
+		"Percent": 0.0786
+	},
+	{
+		"Index": 129,
+		"Date": "2022-01-06",
+		"Adj Close": 4696.05,
+		"Abs Change": 337.92000000000007,
+		"Percent": 0.0775
+	},
+	{
+		"Index": 130,
+		"Date": "2022-01-07",
+		"Adj Close": 4677.03,
+		"Abs Change": 318.89999999999964,
+		"Percent": 0.0732
+	},
+	{
+		"Index": 131,
+		"Date": "2022-01-10",
+		"Adj Close": 4670.29,
+		"Abs Change": 312.15999999999985,
+		"Percent": 0.0716
+	},
+	{
+		"Index": 132,
+		"Date": "2022-01-11",
+		"Adj Close": 4713.07,
+		"Abs Change": 354.9399999999996,
+		"Percent": 0.0814
+	},
+	{
+		"Index": 133,
+		"Date": "2022-01-12",
+		"Adj Close": 4726.35,
+		"Abs Change": 368.22000000000025,
+		"Percent": 0.0845
+	},
+	{
+		"Index": 134,
+		"Date": "2022-01-13",
+		"Adj Close": 4659.03,
+		"Abs Change": 300.89999999999964,
+		"Percent": 0.069
+	},
+	{
+		"Index": 135,
+		"Date": "2022-01-14",
+		"Adj Close": 4662.85,
+		"Abs Change": 304.72000000000025,
+		"Percent": 0.0699
+	},
+	{
+		"Index": 136,
+		"Date": "2022-01-18",
+		"Adj Close": 4577.11,
+		"Abs Change": 218.97999999999956,
+		"Percent": 0.0502
+	},
+	{
+		"Index": 137,
+		"Date": "2022-01-19",
+		"Adj Close": 4532.76,
+		"Abs Change": 174.63000000000011,
+		"Percent": 0.0401
+	},
+	{
+		"Index": 138,
+		"Date": "2022-01-20",
+		"Adj Close": 4482.73,
+		"Abs Change": 124.59999999999945,
+		"Percent": 0.0286
+	},
+	{
+		"Index": 139,
+		"Date": "2022-01-21",
+		"Adj Close": 4397.94,
+		"Abs Change": 39.809999999999491,
+		"Percent": 0.0091
+	},
+	{
+		"Index": 140,
+		"Date": "2022-01-24",
+		"Adj Close": 4410.13,
+		"Abs Change": 52,
+		"Percent": 0.0119
+	},
+	{
+		"Index": 141,
+		"Date": "2022-01-25",
+		"Adj Close": 4356.45,
+		"Abs Change": -1.680000000000291,
+		"Percent": -0.0004
+	},
+	{
+		"Index": 142,
+		"Date": "2022-01-26",
+		"Adj Close": 4349.93,
+		"Abs Change": -8.1999999999998181,
+		"Percent": -0.0019
+	},
+	{
+		"Index": 143,
+		"Date": "2022-01-27",
+		"Adj Close": 4326.51,
+		"Abs Change": -31.619999999999891,
+		"Percent": -0.0073
+	},
+	{
+		"Index": 144,
+		"Date": "2022-01-28",
+		"Adj Close": 4431.85,
+		"Abs Change": 73.720000000000255,
+		"Percent": 0.0169
+	},
+	{
+		"Index": 145,
+		"Date": "2022-01-31",
+		"Adj Close": 4515.55,
+		"Abs Change": 157.42000000000007,
+		"Percent": 0.0361
+	},
+	{
+		"Index": 146,
+		"Date": "2022-02-01",
+		"Adj Close": 4546.54,
+		"Abs Change": 188.40999999999985,
+		"Percent": 0.0432
+	},
+	{
+		"Index": 147,
+		"Date": "2022-02-02",
+		"Adj Close": 4589.38,
+		"Abs Change": 231.25,
+		"Percent": 0.0531
+	},
+	{
+		"Index": 148,
+		"Date": "2022-02-03",
+		"Adj Close": 4477.44,
+		"Abs Change": 119.30999999999949,
+		"Percent": 0.0274
+	},
+	{
+		"Index": 149,
+		"Date": "2022-02-04",
+		"Adj Close": 4500.53,
+		"Abs Change": 142.39999999999964,
+		"Percent": 0.0327
+	},
+	{
+		"Index": 150,
+		"Date": "2022-02-07",
+		"Adj Close": 4483.87,
+		"Abs Change": 125.73999999999978,
+		"Percent": 0.0289
+	},
+	{
+		"Index": 151,
+		"Date": "2022-02-08",
+		"Adj Close": 4521.54,
+		"Abs Change": 163.40999999999985,
+		"Percent": 0.0375
+	},
+	{
+		"Index": 152,
+		"Date": "2022-02-09",
+		"Adj Close": 4587.18,
+		"Abs Change": 229.05000000000018,
+		"Percent": 0.0526
+	},
+	{
+		"Index": 153,
+		"Date": "2022-02-10",
+		"Adj Close": 4504.08,
+		"Abs Change": 145.94999999999982,
+		"Percent": 0.0335
+	},
+	{
+		"Index": 154,
+		"Date": "2022-02-11",
+		"Adj Close": 4418.64,
+		"Abs Change": 60.510000000000218,
+		"Percent": 0.0139
+	},
+	{
+		"Index": 155,
+		"Date": "2022-02-14",
+		"Adj Close": 4401.67,
+		"Abs Change": 43.539999999999964,
+		"Percent": 0.01
+	},
+	{
+		"Index": 156,
+		"Date": "2022-02-15",
+		"Adj Close": 4471.07,
+		"Abs Change": 112.9399999999996,
+		"Percent": 0.0259
+	},
+	{
+		"Index": 157,
+		"Date": "2022-02-16",
+		"Adj Close": 4475.01,
+		"Abs Change": 116.88000000000011,
+		"Percent": 0.0268
+	},
+	{
+		"Index": 158,
+		"Date": "2022-02-17",
+		"Adj Close": 4380.26,
+		"Abs Change": 22.130000000000109,
+		"Percent": 0.0051
+	},
+	{
+		"Index": 159,
+		"Date": "2022-02-18",
+		"Adj Close": 4348.87,
+		"Abs Change": -9.2600000000002183,
+		"Percent": -0.0021
+	},
+	{
+		"Index": 160,
+		"Date": "2022-02-22",
+		"Adj Close": 4304.76,
+		"Abs Change": -53.369999999999891,
+		"Percent": -0.0122
+	},
+	{
+		"Index": 161,
+		"Date": "2022-02-23",
+		"Adj Close": 4225.5,
+		"Abs Change": -132.63000000000011,
+		"Percent": -0.0304
+	},
+	{
+		"Index": 162,
+		"Date": "2022-02-24",
+		"Adj Close": 4288.7,
+		"Abs Change": -69.430000000000291,
+		"Percent": -0.0159
+	},
+	{
+		"Index": 163,
+		"Date": "2022-02-25",
+		"Adj Close": 4384.65,
+		"Abs Change": 26.519999999999527,
+		"Percent": 0.0061
+	},
+	{
+		"Index": 164,
+		"Date": "2022-02-28",
+		"Adj Close": 4373.94,
+		"Abs Change": 15.809999999999491,
+		"Percent": 0.0036
+	},
+	{
+		"Index": 165,
+		"Date": "2022-03-01",
+		"Adj Close": 4306.26,
+		"Abs Change": -51.869999999999891,
+		"Percent": -0.0119
+	},
+	{
+		"Index": 166,
+		"Date": "2022-03-02",
+		"Adj Close": 4386.54,
+		"Abs Change": 28.409999999999854,
+		"Percent": 0.0065
+	},
+	{
+		"Index": 167,
+		"Date": "2022-03-03",
+		"Adj Close": 4363.49,
+		"Abs Change": 5.3599999999996726,
+		"Percent": 0.0012
+	},
+	{
+		"Index": 168,
+		"Date": "2022-03-04",
+		"Adj Close": 4328.87,
+		"Abs Change": -29.260000000000218,
+		"Percent": -0.0067
+	},
+	{
+		"Index": 169,
+		"Date": "2022-03-07",
+		"Adj Close": 4201.09,
+		"Abs Change": -157.03999999999996,
+		"Percent": -0.036
+	},
+	{
+		"Index": 170,
+		"Date": "2022-03-08",
+		"Adj Close": 4170.7,
+		"Abs Change": -187.43000000000029,
+		"Percent": -0.043
+	},
+	{
+		"Index": 171,
+		"Date": "2022-03-09",
+		"Adj Close": 4277.88,
+		"Abs Change": -80.25,
+		"Percent": -0.0184
+	},
+	{
+		"Index": 172,
+		"Date": "2022-03-10",
+		"Adj Close": 4259.52,
+		"Abs Change": -98.609999999999673,
+		"Percent": -0.0226
+	},
+	{
+		"Index": 173,
+		"Date": "2022-03-11",
+		"Adj Close": 4204.31,
+		"Abs Change": -153.81999999999971,
+		"Percent": -0.0353
+	},
+	{
+		"Index": 174,
+		"Date": "2022-03-14",
+		"Adj Close": 4173.11,
+		"Abs Change": -185.02000000000044,
+		"Percent": -0.0425
+	},
+	{
+		"Index": 175,
+		"Date": "2022-03-15",
+		"Adj Close": 4262.45,
+		"Abs Change": -95.680000000000291,
+		"Percent": -0.022
+	},
+	{
+		"Index": 176,
+		"Date": "2022-03-16",
+		"Adj Close": 4357.86,
+		"Abs Change": -0.27000000000043656,
+		"Percent": -0.0001
+	},
+	{
+		"Index": 177,
+		"Date": "2022-03-17",
+		"Adj Close": 4411.67,
+		"Abs Change": 53.539999999999964,
+		"Percent": 0.0123
+	},
+	{
+		"Index": 178,
+		"Date": "2022-03-18",
+		"Adj Close": 4463.12,
+		"Abs Change": 104.98999999999978,
+		"Percent": 0.0241
+	},
+	{
+		"Index": 179,
+		"Date": "2022-03-21",
+		"Adj Close": 4461.18,
+		"Abs Change": 103.05000000000018,
+		"Percent": 0.0236
+	},
+	{
+		"Index": 180,
+		"Date": "2022-03-22",
+		"Adj Close": 4511.61,
+		"Abs Change": 153.47999999999956,
+		"Percent": 0.0352
+	},
+	{
+		"Index": 181,
+		"Date": "2022-03-23",
+		"Adj Close": 4456.24,
+		"Abs Change": 98.109999999999673,
+		"Percent": 0.0225
+	},
+	{
+		"Index": 182,
+		"Date": "2022-03-24",
+		"Adj Close": 4520.16,
+		"Abs Change": 162.02999999999975,
+		"Percent": 0.0372
+	},
+	{
+		"Index": 183,
+		"Date": "2022-03-25",
+		"Adj Close": 4543.06,
+		"Abs Change": 184.93000000000029,
+		"Percent": 0.0424
+	},
+	{
+		"Index": 184,
+		"Date": "2022-03-28",
+		"Adj Close": 4575.52,
+		"Abs Change": 217.39000000000033,
+		"Percent": 0.0499
+	},
+	{
+		"Index": 185,
+		"Date": "2022-03-29",
+		"Adj Close": 4631.6,
+		"Abs Change": 273.47000000000025,
+		"Percent": 0.0627
+	},
+	{
+		"Index": 186,
+		"Date": "2022-03-30",
+		"Adj Close": 4602.45,
+		"Abs Change": 244.31999999999971,
+		"Percent": 0.0561
+	},
+	{
+		"Index": 187,
+		"Date": "2022-03-31",
+		"Adj Close": 4530.41,
+		"Abs Change": 172.27999999999975,
+		"Percent": 0.0395
+	},
+	{
+		"Index": 188,
+		"Date": "2022-04-01",
+		"Adj Close": 4545.86,
+		"Abs Change": 187.72999999999956,
+		"Percent": 0.0431
+	},
+	{
+		"Index": 189,
+		"Date": "2022-04-04",
+		"Adj Close": 4582.64,
+		"Abs Change": 224.51000000000022,
+		"Percent": 0.0515
+	},
+	{
+		"Index": 190,
+		"Date": "2022-04-05",
+		"Adj Close": 4525.12,
+		"Abs Change": 166.98999999999978,
+		"Percent": 0.0383
+	},
+	{
+		"Index": 191,
+		"Date": "2022-04-06",
+		"Adj Close": 4481.15,
+		"Abs Change": 123.01999999999953,
+		"Percent": 0.0282
+	},
+	{
+		"Index": 192,
+		"Date": "2022-04-07",
+		"Adj Close": 4500.21,
+		"Abs Change": 142.07999999999993,
+		"Percent": 0.0326
+	},
+	{
+		"Index": 193,
+		"Date": "2022-04-08",
+		"Adj Close": 4488.28,
+		"Abs Change": 130.14999999999964,
+		"Percent": 0.0299
+	},
+	{
+		"Index": 194,
+		"Date": "2022-04-11",
+		"Adj Close": 4412.53,
+		"Abs Change": 54.399999999999636,
+		"Percent": 0.0125
+	},
+	{
+		"Index": 195,
+		"Date": "2022-04-12",
+		"Adj Close": 4397.45,
+		"Abs Change": 39.319999999999709,
+		"Percent": 0.009
+	},
+	{
+		"Index": 196,
+		"Date": "2022-04-13",
+		"Adj Close": 4446.59,
+		"Abs Change": 88.460000000000036,
+		"Percent": 0.0203
+	},
+	{
+		"Index": 197,
+		"Date": "2022-04-14",
+		"Adj Close": 4392.59,
+		"Abs Change": 34.460000000000036,
+		"Percent": 0.0079
+	},
+	{
+		"Index": 198,
+		"Date": "2022-04-18",
+		"Adj Close": 4391.69,
+		"Abs Change": 33.559999999999491,
+		"Percent": 0.0077
+	},
+	{
+		"Index": 199,
+		"Date": "2022-04-19",
+		"Adj Close": 4462.21,
+		"Abs Change": 104.07999999999993,
+		"Percent": 0.0239
+	},
+	{
+		"Index": 200,
+		"Date": "2022-04-20",
+		"Adj Close": 4459.45,
+		"Abs Change": 101.31999999999971,
+		"Percent": 0.0232
+	},
+	{
+		"Index": 201,
+		"Date": "2022-04-21",
+		"Adj Close": 4393.66,
+		"Abs Change": 35.529999999999745,
+		"Percent": 0.0082
+	},
+	{
+		"Index": 202,
+		"Date": "2022-04-22",
+		"Adj Close": 4271.78,
+		"Abs Change": -86.350000000000364,
+		"Percent": -0.0198
+	},
+	{
+		"Index": 203,
+		"Date": "2022-04-25",
+		"Adj Close": 4296.12,
+		"Abs Change": -62.010000000000218,
+		"Percent": -0.0142
+	},
+	{
+		"Index": 204,
+		"Date": "2022-04-26",
+		"Adj Close": 4175.2,
+		"Abs Change": -182.93000000000029,
+		"Percent": -0.042
+	},
+	{
+		"Index": 205,
+		"Date": "2022-04-27",
+		"Adj Close": 4183.96,
+		"Abs Change": -174.17000000000007,
+		"Percent": -0.04
+	},
+	{
+		"Index": 206,
+		"Date": "2022-04-28",
+		"Adj Close": 4287.5,
+		"Abs Change": -70.630000000000109,
+		"Percent": -0.0162
+	},
+	{
+		"Index": 207,
+		"Date": "2022-04-29",
+		"Adj Close": 4131.93,
+		"Abs Change": -226.19999999999982,
+		"Percent": -0.0519
+	},
+	{
+		"Index": 208,
+		"Date": "2022-05-02",
+		"Adj Close": 4155.38,
+		"Abs Change": -202.75,
+		"Percent": -0.0465
+	},
+	{
+		"Index": 209,
+		"Date": "2022-05-03",
+		"Adj Close": 4175.48,
+		"Abs Change": -182.65000000000055,
+		"Percent": -0.0419
+	},
+	{
+		"Index": 210,
+		"Date": "2022-05-04",
+		"Adj Close": 4300.17,
+		"Abs Change": -57.960000000000036,
+		"Percent": -0.0133
+	},
+	{
+		"Index": 211,
+		"Date": "2022-05-05",
+		"Adj Close": 4146.87,
+		"Abs Change": -211.26000000000022,
+		"Percent": -0.0485
+	},
+	{
+		"Index": 212,
+		"Date": "2022-05-06",
+		"Adj Close": 4123.34,
+		"Abs Change": -234.78999999999996,
+		"Percent": -0.0539
+	},
+	{
+		"Index": 213,
+		"Date": "2022-05-09",
+		"Adj Close": 3991.24,
+		"Abs Change": -366.89000000000033,
+		"Percent": -0.0842
+	},
+	{
+		"Index": 214,
+		"Date": "2022-05-10",
+		"Adj Close": 4001.05,
+		"Abs Change": -357.07999999999993,
+		"Percent": -0.0819
+	},
+	{
+		"Index": 215,
+		"Date": "2022-05-11",
+		"Adj Close": 3935.18,
+		"Abs Change": -422.95000000000027,
+		"Percent": -0.097
+	},
+	{
+		"Index": 216,
+		"Date": "2022-05-12",
+		"Adj Close": 3930.08,
+		"Abs Change": -428.05000000000018,
+		"Percent": -0.0982
+	},
+	{
+		"Index": 217,
+		"Date": "2022-05-13",
+		"Adj Close": 4023.89,
+		"Abs Change": -334.24000000000024,
+		"Percent": -0.0767
+	},
+	{
+		"Index": 218,
+		"Date": "2022-05-16",
+		"Adj Close": 4008.01,
+		"Abs Change": -350.11999999999989,
+		"Percent": -0.0803
+	},
+	{
+		"Index": 219,
+		"Date": "2022-05-17",
+		"Adj Close": 4088.85,
+		"Abs Change": -269.2800000000002,
+		"Percent": -0.0618
+	},
+	{
+		"Index": 220,
+		"Date": "2022-05-18",
+		"Adj Close": 3923.68,
+		"Abs Change": -434.45000000000027,
+		"Percent": -0.0997
+	},
+	{
+		"Index": 221,
+		"Date": "2022-05-19",
+		"Adj Close": 3900.79,
+		"Abs Change": -457.34000000000015,
+		"Percent": -0.1049
+	},
+	{
+		"Index": 222,
+		"Date": "2022-05-20",
+		"Adj Close": 3901.36,
+		"Abs Change": -456.77,
+		"Percent": -0.1048
+	},
+	{
+		"Index": 223,
+		"Date": "2022-05-23",
+		"Adj Close": 3973.75,
+		"Abs Change": -384.38000000000011,
+		"Percent": -0.0882
+	},
+	{
+		"Index": 224,
+		"Date": "2022-05-24",
+		"Adj Close": 3941.48,
+		"Abs Change": -416.65000000000009,
+		"Percent": -0.0956
+	},
+	{
+		"Index": 225,
+		"Date": "2022-05-25",
+		"Adj Close": 3978.73,
+		"Abs Change": -379.40000000000009,
+		"Percent": -0.0871
+	},
+	{
+		"Index": 226,
+		"Date": "2022-05-26",
+		"Adj Close": 4057.84,
+		"Abs Change": -300.28999999999996,
+		"Percent": -0.0689
+	},
+	{
+		"Index": 227,
+		"Date": "2022-05-27",
+		"Adj Close": 4158.24,
+		"Abs Change": -199.89000000000033,
+		"Percent": -0.0459
+	},
+	{
+		"Index": 228,
+		"Date": "2022-05-31",
+		"Adj Close": 4132.15,
+		"Abs Change": -225.98000000000047,
+		"Percent": -0.0519
+	},
+	{
+		"Index": 229,
+		"Date": "2022-06-01",
+		"Adj Close": 4101.23,
+		"Abs Change": -256.90000000000055,
+		"Percent": -0.0589
+	},
+	{
+		"Index": 230,
+		"Date": "2022-06-02",
+		"Adj Close": 4176.82,
+		"Abs Change": -181.3100000000004,
+		"Percent": -0.0416
+	},
+	{
+		"Index": 231,
+		"Date": "2022-06-03",
+		"Adj Close": 4108.54,
+		"Abs Change": -249.59000000000015,
+		"Percent": -0.0573
+	},
+	{
+		"Index": 232,
+		"Date": "2022-06-06",
+		"Adj Close": 4121.43,
+		"Abs Change": -236.69999999999982,
+		"Percent": -0.0543
+	},
+	{
+		"Index": 233,
+		"Date": "2022-06-07",
+		"Adj Close": 4160.68,
+		"Abs Change": -197.44999999999982,
+		"Percent": -0.0453
+	},
+	{
+		"Index": 234,
+		"Date": "2022-06-08",
+		"Adj Close": 4115.77,
+		"Abs Change": -242.35999999999967,
+		"Percent": -0.0556
+	},
+	{
+		"Index": 235,
+		"Date": "2022-06-09",
+		"Adj Close": 4017.82,
+		"Abs Change": -340.30999999999995,
+		"Percent": -0.0781
+	},
+	{
+		"Index": 236,
+		"Date": "2022-06-10",
+		"Adj Close": 3900.86,
+		"Abs Change": -457.27,
+		"Percent": -0.1049
+	},
+	{
+		"Index": 237,
+		"Date": "2022-06-13",
+		"Adj Close": 3749.63,
+		"Abs Change": -608.5,
+		"Percent": -0.1396
+	},
+	{
+		"Index": 238,
+		"Date": "2022-06-14",
+		"Adj Close": 3735.48,
+		"Abs Change": -622.65000000000009,
+		"Percent": -0.1429
+	},
+	{
+		"Index": 239,
+		"Date": "2022-06-15",
+		"Adj Close": 3789.99,
+		"Abs Change": -568.14000000000033,
+		"Percent": -0.1304
+	},
+	{
+		"Index": 240,
+		"Date": "2022-06-16",
+		"Adj Close": 3666.77,
+		"Abs Change": -691.36000000000013,
+		"Percent": -0.1586
+	},
+	{
+		"Index": 241,
+		"Date": "2022-06-17",
+		"Adj Close": 3674.84,
+		"Abs Change": -683.29,
+		"Percent": -0.1568
+	},
+	{
+		"Index": 242,
+		"Date": "2022-06-21",
+		"Adj Close": 3764.79,
+		"Abs Change": -593.34000000000015,
+		"Percent": -0.1361
+	},
+	{
+		"Index": 243,
+		"Date": "2022-06-22",
+		"Adj Close": 3759.89,
+		"Abs Change": -598.24000000000024,
+		"Percent": -0.1373
+	},
+	{
+		"Index": 244,
+		"Date": "2022-06-23",
+		"Adj Close": 3795.73,
+		"Abs Change": -562.40000000000009,
+		"Percent": -0.129
+	},
+	{
+		"Index": 245,
+		"Date": "2022-06-24",
+		"Adj Close": 3911.74,
+		"Abs Change": -446.39000000000033,
+		"Percent": -0.1024
+	},
+	{
+		"Index": 246,
+		"Date": "2022-06-27",
+		"Adj Close": 3900.11,
+		"Abs Change": -458.02,
+		"Percent": -0.1051
+	},
+	{
+		"Index": 247,
+		"Date": "2022-06-28",
+		"Adj Close": 3821.55,
+		"Abs Change": -536.57999999999993,
+		"Percent": -0.1231
+	},
+	{
+		"Index": 248,
+		"Date": "2022-06-29",
+		"Adj Close": 3818.83,
+		"Abs Change": -539.30000000000018,
+		"Percent": -0.1237
+	},
+	{
+		"Index": 249,
+		"Date": "2022-06-30",
+		"Adj Close": 3785.38,
+		"Abs Change": -572.75,
+		"Percent": -0.1314
+	},
+	{
+		"Index": 250,
+		"Date": "2022-07-01",
+		"Adj Close": 3825.33,
+		"Abs Change": -532.80000000000018,
+		"Percent": -0.1223
+	},
+	{
+		"Index": 251,
+		"Date": "2022-07-05",
+		"Adj Close": 3831.39,
+		"Abs Change": -526.74000000000024,
+		"Percent": -0.1209
+	},
+	{
+		"Index": 252,
+		"Date": "2022-07-06",
+		"Adj Close": 3845.08,
+		"Abs Change": -513.05000000000018,
+		"Percent": -0.1177
+	}
+]
