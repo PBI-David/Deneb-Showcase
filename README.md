@@ -6,6 +6,8 @@ This is a collection of advanced dataviz examples using [Vega](https://vega.gith
 
 A template for a multi-year calendar using Vega-Lite.
 
+Inspired by the dataviz by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
 
@@ -25,6 +27,8 @@ Topojson can be a bit tricky to get working in the certified Deneb visual (no lo
 A fun animation showing transition between different words using Vega. Text co-ordinates were genenerated using P5. 
 
 [Online Editor](https://lnkd.in/e_Nk6sAB) (click to start)
+
+Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Deneb%20Bubble%20Text/Thumbnail.jpg)
 
@@ -95,6 +99,9 @@ https://www.sankeyart.com/sankeys/public/142/
 A fun experiment using Vega to create a starfield simulation.  
 
 [Online Editor](https://vega.github.io/editor/#/url/vega/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykSArJQBWENgDsQAGhAB3GgBN6aAQAZVM+DTJYV6mTiQKFNcWTQaQTJFADWZAE5sG4hWisAbG7ekgFSTBRUAG1QcSQEOHcxBgcoKJliJA8GOAg0YIBdGUwHJHEIADM2BwQM0EwATxwo9Ag4AEdU8XjfCECHTDQARhl2thw0AGZ9EHa4QdRekCR09EUQAF8pCurakGLShi9fWfcAD184fZwHdzzXNgQACgBKACoAJgBabqWVkCqa902EbZQZHt0JUjiczugLgorncnq93qtvuhfv9dnMQAAvUGndz+TAMBCUCD7AAEAD5no9iQAyKm4-GEkkAHkpNOJdIJEEqZIp1NpAXpnOJzN5xKgznEmDgDjJxNUAH52ZR0a9UI91PDPmsfiU-jtAWiiVjwX5+QT9gRFeinurlgj1si9TMDSCZMdsehFZULaaldbVBqvvadSj9e4cIdXWCcT70QBeWNq+WKomoRXhgNapHBx1AkA4F0gN3Gy3xxMKn2c1M+-NLTKLbJjbThDxzUIgcKRc4uXxJFK1QrJeoyCTlQukCVoqAeGh2XwMHC49YAQgc3frtvbEXWYpckrOiWSqTQieHkhCoDg48wczt7kwNEi+8+MCc2A8tVUyxA88XXfENJ3CUpVJbo5UAvdiVeYlVRtD5LzgCc0FvD0mA8KcZx8L8fwCdZE1res+igZI0lHDt1n2aBiN8QN3GncQ4CQJ8oWQUwkMbMhm3cYJXikbpMneEALjIdZ5CUGANTI9xKko99qMzEA6IYpiriQVjUFACAm2SLieL4gShPWLQdC6DdJLqGh0QSTVEQU0wlN8JwXDcVBclSGRxBnftBzgGRLKcNBXJ8vwVLU4INETBsDIybp9FUOsG2QBxbFbMIt2iDp0hyeTOQQJg2A8XxCicMp1JNQJomcOIoi-BCxQUWpQGwyU2MOUrChoOAPGcsYIzGIjZPQCj+uqmQQTajquuiAsZPWaThoEzTLLYmbogsqz2s67rMS-CAYCQRFQF7I90CgGg4lkr92o8ArSqOkSYDoEbPjYfL70mDStJusr8SWRY-o+MyxlyBjkrkmzV1kmQiquNjcSCMZKtaGqWjYeq2KahqQFa0ANsm9B00IqjBpWr8xpxibuprQmBpAOaqK-fZHjY3HusNanyJJ0amfGzapraebgU5oGnFsTG7vcWQHuanbcjYUWAHVFGUW7Dw-SgBC-AYbDoMmQHF1BVEoAAOP6-rrIA/view) (click to start)
+
+Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
+
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Starfield/Thumbnail.jpg)
 
