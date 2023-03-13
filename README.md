@@ -14,4 +14,4 @@ An animated map using Vega https://coronavirus.data.gov.uk/.
 
 Online Editor (click to start)
 
-![]([https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/thumbnail.jpg](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Topojson/Thumbnail.jpg))
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Topojson/Thumbnail.jpg)
