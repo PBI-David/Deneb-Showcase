@@ -84,11 +84,6 @@ It is very configurable and I’ve tried to account for as many edge cases I can
 
 [Online Editor](https://lnkd.in/eTpuaNa6)
 
-Data from: 
-
-https://www.microsoft.com/en-us/investor/earnings/FY-2023-Q2/press-release-webcast 
-
-https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/income-statements
 
 Inspired by:
 
