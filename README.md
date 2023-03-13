@@ -6,7 +6,7 @@ This is a collection of advanced dataviz examples using [Vega](https://vega.gith
 
 A template for a multi-year calendar using Vega-Lite.
 
-Inspired by the dataviz by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
+Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
