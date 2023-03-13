@@ -61,6 +61,8 @@ A parliament chart created using Vega.
 
 [Online Editor](https://lnkd.in/e4FttpTB)
 
+Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
 
 
