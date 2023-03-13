@@ -40,6 +40,8 @@ An experiment using Vega to create a firework simulation.
 
 [Online Editor](https://lnkd.in/e3TVGm-z) (click to start)
 
+Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Fireworks/Thumbnail.jpg)
 
 
