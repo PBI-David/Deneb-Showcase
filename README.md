@@ -47,3 +47,51 @@ I won 😊.
 
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Pancake%20Spider%20Chart/Thumbnail.jpg)
+
+
+## Parliament Chart
+
+A parliament chart created using Vega.  
+
+[Online Editor](https://lnkd.in/e4FttpTB)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
+
+
+## S&P Beeswarm Chart
+
+An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop. 
+
+[Online Editor](https://lnkd.in/euc8TSrd)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/S%26P%20Beeswarm%20Chart/Thumbnail.jpg)
+
+
+
+## Sankey Chart
+
+Sankey charts (allvuial charts) are great for visualising a business process or simplifying a complex data flow like Microsoft’s FY23 Q2 income statement.
+
+It is very configurable and I’ve tried to account for as many edge cases I can think of.
+
+[Online Editor](https://lnkd.in/eTpuaNa6)
+
+Data from: 
+
+https://www.microsoft.com/en-us/investor/earnings/FY-2023-Q2/press-release-webcast 
+
+https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/income-statements
+
+Inspired by:
+
+https://www.sankeyart.com/sankeys/public/142/
+
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Sankey%20Chart/Thumbnail.jpg)
+
+
+
+
+
+
+
