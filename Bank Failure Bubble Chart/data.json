@@ -1,3378 +1,3380 @@
-        {
-          "Bank": "Signature Bank",
-          "Date": "12/03/2023",
-          "Assets": 110400000000,
-          "InflationAdjustedAssets": 110400000000
-        },
-        {
-          "Bank": "Silicon Valley Bank",
-          "Date": "10/03/2023",
-          "Assets": 209000000000,
-          "InflationAdjustedAssets": 209000000000
-        },
-        {
-          "Bank": "Almena State Bank",
-          "Date": "23/10/2020",
-          "Assets": 70000000,
-          "InflationAdjustedAssets": 80915803.42
-        },
-        {
-          "Bank": "First City Bank of Florida",
-          "Date": "16/10/2020",
-          "Assets": 134700000,
-          "InflationAdjustedAssets": 155705124.6
-        },
-        {
-          "Bank": "First State Bank",
-          "Date": "03/04/2020",
-          "Assets": 152400000,
-          "InflationAdjustedAssets": 176165263.5
-        },
-        {
-          "Bank": "Ericson State Bank",
-          "Date": "14/02/2020",
-          "Assets": 100900000,
-          "InflationAdjustedAssets": 116634350.9
-        },
-        {
-          "Bank": "City National Bank of New Jersey",
-          "Date": "01/11/2019",
-          "Assets": 120600000,
-          "InflationAdjustedAssets": 141126204.3
-        },
-        {
-          "Bank": "Resolute Bank",
-          "Date": "25/10/2019",
-          "Assets": 27100000,
-          "InflationAdjustedAssets": 31712438.93
-        },
-        {
-          "Bank": "Louisa Community Bank",
-          "Date": "25/10/2019",
-          "Assets": 29700000,
-          "InflationAdjustedAssets": 34754960.75
-        },
-        {
-          "Bank": "The Enloe State Bank",
-          "Date": "31/05/2019",
-          "Assets": 36700000,
-          "InflationAdjustedAssets": 42946365.64
-        },
-        {
-          "Bank": "Washington Federal Bank for Savings",
-          "Date": "15/12/2017",
-          "Assets": 166300000,
-          "InflationAdjustedAssets": 202969855.6
-        },
-        {
-          "Bank": "The Farmers and Merchants State Bank of Argonia",
-          "Date": "13/10/2017",
-          "Assets": 34200000,
-          "InflationAdjustedAssets": 41741245.1
-        },
-        {
-          "Bank": "Fayette County Bank",
-          "Date": "26/05/2017",
-          "Assets": 34400000,
-          "InflationAdjustedAssets": 41985345.95
-        },
-        {
-          "Bank": "Guaranty Bank",
-          "Date": "05/05/2017",
-          "Assets": 1000000000,
-          "InflationAdjustedAssets": 1220504243
-        },
-        {
-          "Bank": "First NBC Bank",
-          "Date": "28/04/2017",
-          "Assets": 4740000000,
-          "InflationAdjustedAssets": 5785190111
-        },
-        {
-          "Bank": "Proficio Bank",
-          "Date": "03/03/2017",
-          "Assets": 68200000,
-          "InflationAdjustedAssets": 83238389.36
-        },
-        {
-          "Bank": "Seaway Bank and Trust Company",
-          "Date": "27/01/2017",
-          "Assets": 361200000,
-          "InflationAdjustedAssets": 440846132.5
-        },
-        {
-          "Bank": "Harvest Community Bank",
-          "Date": "13/01/2017",
-          "Assets": 126400000,
-          "InflationAdjustedAssets": 154271736.3
-        },
-        {
-          "Bank": "Allied Bank",
-          "Date": "23/09/2016",
-          "Assets": 66300000,
-          "InflationAdjustedAssets": 82641924.75
-        },
-        {
-          "Bank": "The Woodbury Banking Company",
-          "Date": "19/08/2016",
-          "Assets": 21400000,
-          "InflationAdjustedAssets": 26674769.07
-        },
-        {
-          "Bank": "First CornerStone Bank",
-          "Date": "06/05/2016",
-          "Assets": 103300000,
-          "InflationAdjustedAssets": 128761852.6
-        },
-        {
-          "Bank": "Trust Company Bank",
-          "Date": "29/04/2016",
-          "Assets": 20700000,
-          "InflationAdjustedAssets": 25802229.9
-        },
-        {
-          "Bank": "North Milwaukee State Bank",
-          "Date": "11/03/2016",
-          "Assets": 67100000,
-          "InflationAdjustedAssets": 83639112.37
-        },
-        {
-          "Bank": "Hometown National Bank",
-          "Date": "02/10/2015",
-          "Assets": 4900000,
-          "InflationAdjustedAssets": 6184927.663
-        },
-        {
-          "Bank": "The Bank of Georgia",
-          "Date": "02/10/2015",
-          "Assets": 294200000,
-          "InflationAdjustedAssets": 371348105.8
-        },
-        {
-          "Bank": "Premier Bank",
-          "Date": "10/07/2015",
-          "Assets": 31700000,
-          "InflationAdjustedAssets": 40012695.29
-        },
-        {
-          "Bank": "Edgebrook Bank",
-          "Date": "08/05/2015",
-          "Assets": 90000000,
-          "InflationAdjustedAssets": 113600712.2
-        },
-        {
-          "Bank": "Doral Bank",
-          "Date": "27/02/2015",
-          "Assets": 5900000000,
-          "InflationAdjustedAssets": 7447157799
-        },
-        {
-          "Bank": "Capitol City Bank & Trust Company",
-          "Date": "13/02/2015",
-          "Assets": 272300000,
-          "InflationAdjustedAssets": 343705265.9
-        },
-        {
-          "Bank": "Highland Community Bank",
-          "Date": "23/01/2015",
-          "Assets": 54700000,
-          "InflationAdjustedAssets": 69043988.41
-        },
-        {
-          "Bank": "First National Bank of Crestview",
-          "Date": "16/01/2015",
-          "Assets": 79700000,
-          "InflationAdjustedAssets": 100599741.8
-        },
-        {
-          "Bank": "Northern Star Bank",
-          "Date": "19/12/2014",
-          "Assets": 18800000,
-          "InflationAdjustedAssets": 23758093.4
-        },
-        {
-          "Bank": "Frontier Bank",
-          "Date": "07/11/2014",
-          "Assets": 86400000,
-          "InflationAdjustedAssets": 109186131.4
-        },
-        {
-          "Bank": "The National Republic Bank of Chicago",
-          "Date": "24/10/2014",
-          "Assets": 954400000,
-          "InflationAdjustedAssets": 1206102359
-        },
-        {
-          "Bank": "NBRS Financial",
-          "Date": "17/10/2014",
-          "Assets": 188200000,
-          "InflationAdjustedAssets": 237833679.7
-        },
-        {
-          "Bank": "GreenChoice Bank",
-          "Date": "25/07/2014",
-          "Assets": 72900000,
-          "InflationAdjustedAssets": 92125798.36
-        },
-        {
-          "Bank": "Eastside Commercial Bank",
-          "Date": "18/07/2014",
-          "Assets": 169000000,
-          "InflationAdjustedAssets": 213570095
-        },
-        {
-          "Bank": "The Freedom State Bank",
-          "Date": "27/06/2014",
-          "Assets": 22800000,
-          "InflationAdjustedAssets": 28813006.89
-        },
-        {
-          "Bank": "Valley Bank",
-          "Date": "20/06/2014",
-          "Assets": 81800000,
-          "InflationAdjustedAssets": 103372980.9
-        },
-        {
-          "Bank": "Valley Bank",
-          "Date": "20/06/2014",
-          "Assets": 456400000,
-          "InflationAdjustedAssets": 576765629.2
-        },
-        {
-          "Bank": "Slavie Federal Savings Bank",
-          "Date": "30/05/2014",
-          "Assets": 140100000,
-          "InflationAdjustedAssets": 177048345
-        },
-        {
-          "Bank": "Columbia Savings Bank",
-          "Date": "23/05/2014",
-          "Assets": 36500000,
-          "InflationAdjustedAssets": 46126085.6
-        },
-        {
-          "Bank": "AztecAmerica Bank",
-          "Date": "16/05/2014",
-          "Assets": 66300000,
-          "InflationAdjustedAssets": 83785191.1
-        },
-        {
-          "Bank": "Allendale County Bank",
-          "Date": "25/04/2014",
-          "Assets": 54500000,
-          "InflationAdjustedAssets": 68873196.3
-        },
-        {
-          "Bank": "Vantage Point Bank",
-          "Date": "28/02/2014",
-          "Assets": 63500000,
-          "InflationAdjustedAssets": 80246751.66
-        },
-        {
-          "Bank": "Millennium Bank",
-          "Date": "28/02/2014",
-          "Assets": 130300000,
-          "InflationAdjustedAssets": 164663806.9
-        },
-        {
-          "Bank": "Syringa Bank",
-          "Date": "31/01/2014",
-          "Assets": 153400000,
-          "InflationAdjustedAssets": 193855932.3
-        },
-        {
-          "Bank": "The Bank of Union",
-          "Date": "24/01/2014",
-          "Assets": 331400000,
-          "InflationAdjustedAssets": 418799582.7
-        },
-        {
-          "Bank": "DuPage National Bank",
-          "Date": "17/01/2014",
-          "Assets": 61700000,
-          "InflationAdjustedAssets": 77972040.59
-        },
-        {
-          "Bank": "Texas Community Bank",
-          "Date": "13/12/2013",
-          "Assets": 160100000,
-          "InflationAdjustedAssets": 205604970
-        },
-        {
-          "Bank": "Bank of Jackson County",
-          "Date": "30/10/2013",
-          "Assets": 25500000,
-          "InflationAdjustedAssets": 32747824.71
-        },
-        {
-          "Bank": "First National Bank",
-          "Date": "13/09/2013",
-          "Assets": 3100000000,
-          "InflationAdjustedAssets": 3981108101
-        },
-        {
-          "Bank": "The Community's Bank",
-          "Date": "13/09/2013",
-          "Assets": 26300000,
-          "InflationAdjustedAssets": 33775207.44
-        },
-        {
-          "Bank": "Sunrise Bank of Arizona",
-          "Date": "23/08/2013",
-          "Assets": 202200000,
-          "InflationAdjustedAssets": 259670986.5
-        },
-        {
-          "Bank": "Community South Bank",
-          "Date": "23/08/2013",
-          "Assets": 386900000,
-          "InflationAdjustedAssets": 496867975.6
-        },
-        {
-          "Bank": "Bank of Wausau",
-          "Date": "09/08/2013",
-          "Assets": 43600000,
-          "InflationAdjustedAssets": 55992359.1
-        },
-        {
-          "Bank": "First Community Bank of Southwest Florida",
-          "Date": "02/08/2013",
-          "Assets": 265700000,
-          "InflationAdjustedAssets": 341219491.2
-        },
-        {
-          "Bank": "Mountain National Bank",
-          "Date": "07/06/2013",
-          "Assets": 437300000,
-          "InflationAdjustedAssets": 561593088
-        },
-        {
-          "Bank": "1st Commerce Bank",
-          "Date": "06/06/2013",
-          "Assets": 20200000,
-          "InflationAdjustedAssets": 25941414.08
-        },
-        {
-          "Bank": "Banks of Wisconsin",
-          "Date": "31/05/2013",
-          "Assets": 134000000,
-          "InflationAdjustedAssets": 172086608.3
-        },
-        {
-          "Bank": "Central Arizona Bank",
-          "Date": "14/05/2013",
-          "Assets": 31600000,
-          "InflationAdjustedAssets": 40581618.07
-        },
-        {
-          "Bank": "Sunrise Bank",
-          "Date": "10/05/2013",
-          "Assets": 60800000,
-          "InflationAdjustedAssets": 78081087.93
-        },
-        {
-          "Bank": "Pisgah Community Bank",
-          "Date": "10/05/2013",
-          "Assets": 21900000,
-          "InflationAdjustedAssets": 28124602.39
-        },
-        {
-          "Bank": "Douglas County Bank",
-          "Date": "26/04/2013",
-          "Assets": 316500000,
-          "InflationAdjustedAssets": 406458294.9
-        },
-        {
-          "Bank": "Parkway Bank",
-          "Date": "26/04/2013",
-          "Assets": 108600000,
-          "InflationAdjustedAssets": 139467206.4
-        },
-        {
-          "Bank": "Chipola Community Bank",
-          "Date": "19/04/2013",
-          "Assets": 39200000,
-          "InflationAdjustedAssets": 50341754.06
-        },
-        {
-          "Bank": "Heritage Bank of North Florida",
-          "Date": "19/04/2013",
-          "Assets": 110900000,
-          "InflationAdjustedAssets": 142420931.8
-        },
-        {
-          "Bank": "First Federal Bank",
-          "Date": "19/04/2013",
-          "Assets": 100100000,
-          "InflationAdjustedAssets": 128551264.8
-        },
-        {
-          "Bank": "Gold Canyon Bank",
-          "Date": "05/04/2013",
-          "Assets": 45200000,
-          "InflationAdjustedAssets": 58047124.58
-        },
-        {
-          "Bank": "Frontier Bank",
-          "Date": "08/03/2013",
-          "Assets": 258800000,
-          "InflationAdjustedAssets": 332358315.1
-        },
-        {
-          "Bank": "Covenant Bank",
-          "Date": "15/02/2013",
-          "Assets": 58400000,
-          "InflationAdjustedAssets": 74998939.72
-        },
-        {
-          "Bank": "1st Regents Bank",
-          "Date": "18/01/2013",
-          "Assets": 50200000,
-          "InflationAdjustedAssets": 64468266.68
-        },
-        {
-          "Bank": "Westside Community Bank",
-          "Date": "11/01/2013",
-          "Assets": 97700000,
-          "InflationAdjustedAssets": 125469116.6
-        },
-        {
-          "Bank": "Community Bank of the Ozarks",
-          "Date": "14/12/2012",
-          "Assets": 42800000,
-          "InflationAdjustedAssets": 55770081.1
-        },
-        {
-          "Bank": "Hometown Community Bank",
-          "Date": "16/11/2012",
-          "Assets": 124600000,
-          "InflationAdjustedAssets": 162358694
-        },
-        {
-          "Bank": "Citizens First National Bank",
-          "Date": "02/11/2012",
-          "Assets": 924000000,
-          "InflationAdjustedAssets": 1204008293
-        },
-        {
-          "Bank": "Heritage Bank of Florida",
-          "Date": "02/11/2012",
-          "Assets": 225500000,
-          "InflationAdjustedAssets": 293835357.2
-        },
-        {
-          "Bank": "NOVA Bank",
-          "Date": "26/10/2012",
-          "Assets": 483000000,
-          "InflationAdjustedAssets": 629367971.3
-        },
-        {
-          "Bank": "Excel Bank",
-          "Date": "19/10/2012",
-          "Assets": 200600000,
-          "InflationAdjustedAssets": 261389679.2
-        },
-        {
-          "Bank": "First East Side Savings Bank",
-          "Date": "19/10/2012",
-          "Assets": 67200000,
-          "InflationAdjustedAssets": 87564239.48
-        },
-        {
-          "Bank": "GulfSouth Private Bank",
-          "Date": "19/10/2012",
-          "Assets": 159100000,
-          "InflationAdjustedAssets": 207313549.1
-        },
-        {
-          "Bank": "First United Bank",
-          "Date": "28/09/2012",
-          "Assets": 328400000,
-          "InflationAdjustedAssets": 427918098.9
-        },
-        {
-          "Bank": "Truman Bank",
-          "Date": "14/09/2012",
-          "Assets": 282300000,
-          "InflationAdjustedAssets": 367847988.2
-        },
-        {
-          "Bank": "First Commercial Bank",
-          "Date": "07/09/2012",
-          "Assets": 215900000,
-          "InflationAdjustedAssets": 281326180.1
-        },
-        {
-          "Bank": "Waukegan Savings Bank",
-          "Date": "03/08/2012",
-          "Assets": 88900000,
-          "InflationAdjustedAssets": 115840191.8
-        },
-        {
-          "Bank": "Jasper Banking Company",
-          "Date": "27/07/2012",
-          "Assets": 216700000,
-          "InflationAdjustedAssets": 282368611.5
-        },
-        {
-          "Bank": "Second Federal Savings and Loan Association of Chicago",
-          "Date": "20/07/2012",
-          "Assets": 199100000,
-          "InflationAdjustedAssets": 259435120.3
-        },
-        {
-          "Bank": "Heartland Bank",
-          "Date": "20/07/2012",
-          "Assets": 110000000,
-          "InflationAdjustedAssets": 143334320.6
-        },
-        {
-          "Bank": "First Cherokee State Bank",
-          "Date": "20/07/2012",
-          "Assets": 222700000,
-          "InflationAdjustedAssets": 290186847.2
-        },
-        {
-          "Bank": "Georgia Trust Bank",
-          "Date": "20/07/2012",
-          "Assets": 119800000,
-          "InflationAdjustedAssets": 156104105.5
-        },
-        {
-          "Bank": "The Royal Palm Bank of Florida",
-          "Date": "20/07/2012",
-          "Assets": 87000000,
-          "InflationAdjustedAssets": 113364417.2
-        },
-        {
-          "Bank": "Glasgow Savings Bank",
-          "Date": "13/07/2012",
-          "Assets": 24800000,
-          "InflationAdjustedAssets": 32315374.1
-        },
-        {
-          "Bank": "Montgomery Bank & Trust",
-          "Date": "06/07/2012",
-          "Assets": 173600000,
-          "InflationAdjustedAssets": 226207618.7
-        },
-        {
-          "Bank": "The Farmers Bank of Lynchburg",
-          "Date": "15/06/2012",
-          "Assets": 163900000,
-          "InflationAdjustedAssets": 213568137.7
-        },
-        {
-          "Bank": "Security Exchange Bank",
-          "Date": "15/06/2012",
-          "Assets": 151000000,
-          "InflationAdjustedAssets": 196758931
-        },
-        {
-          "Bank": "Putnam State Bank",
-          "Date": "15/06/2012",
-          "Assets": 169500000,
-          "InflationAdjustedAssets": 220865157.6
-        },
-        {
-          "Bank": "Waccamaw Bank",
-          "Date": "08/06/2012",
-          "Assets": 533100000,
-          "InflationAdjustedAssets": 694650239.1
-        },
-        {
-          "Bank": "Farmers and Traders State Bank",
-          "Date": "08/06/2012",
-          "Assets": 43100000,
-          "InflationAdjustedAssets": 56160992.88
-        },
-        {
-          "Bank": "Carolina Federal Savings Bank",
-          "Date": "08/06/2012",
-          "Assets": 54400000,
-          "InflationAdjustedAssets": 70885336.72
-        },
-        {
-          "Bank": "First Capital Bank",
-          "Date": "08/06/2012",
-          "Assets": 46100000,
-          "InflationAdjustedAssets": 60070110.72
-        },
-        {
-          "Bank": "Alabama Trust Bank",
-          "Date": "18/05/2012",
-          "Assets": 51600000,
-          "InflationAdjustedAssets": 67236826.75
-        },
-        {
-          "Bank": "Security Bank",
-          "Date": "04/05/2012",
-          "Assets": 101000000,
-          "InflationAdjustedAssets": 131606967.1
-        },
-        {
-          "Bank": "Palm Desert National Bank",
-          "Date": "27/04/2012",
-          "Assets": 125800000,
-          "InflationAdjustedAssets": 163922341.2
-        },
-        {
-          "Bank": "Plantation Federal Bank",
-          "Date": "27/04/2012",
-          "Assets": 486400000,
-          "InflationAdjustedAssets": 633798304.8
-        },
-        {
-          "Bank": "Inter Savings Bank",
-          "Date": "27/04/2012",
-          "Assets": 481600000,
-          "InflationAdjustedAssets": 627543716.3
-        },
-        {
-          "Bank": "HarVest Bank of Maryland",
-          "Date": "27/04/2012",
-          "Assets": 164300000,
-          "InflationAdjustedAssets": 214089353.4
-        },
-        {
-          "Bank": "Bank of the Eastern Shore",
-          "Date": "27/04/2012",
-          "Assets": 166700000,
-          "InflationAdjustedAssets": 217216647.6
-        },
-        {
-          "Bank": "Fort Lee Federal Savings Bank",
-          "Date": "20/04/2012",
-          "Assets": 51900000,
-          "InflationAdjustedAssets": 67627738.53
-        },
-        {
-          "Bank": "Fidelity Bank",
-          "Date": "30/03/2012",
-          "Assets": 818200000,
-          "InflationAdjustedAssets": 1066146737
-        },
-        {
-          "Bank": "Premier Bank",
-          "Date": "23/03/2012",
-          "Assets": 268700000,
-          "InflationAdjustedAssets": 350126654
-        },
-        {
-          "Bank": "Covenant Bank & Trust",
-          "Date": "23/03/2012",
-          "Assets": 95700000,
-          "InflationAdjustedAssets": 124700858.9
-        },
-        {
-          "Bank": "New City Bank",
-          "Date": "09/03/2012",
-          "Assets": 71200000,
-          "InflationAdjustedAssets": 92776396.6
-        },
-        {
-          "Bank": "Global Commerce Bank",
-          "Date": "02/03/2012",
-          "Assets": 143700000,
-          "InflationAdjustedAssets": 187246744.3
-        },
-        {
-          "Bank": "Home Savings of America",
-          "Date": "24/02/2012",
-          "Assets": 434100000,
-          "InflationAdjustedAssets": 565649350.6
-        },
-        {
-          "Bank": "Central Bank of Georgia",
-          "Date": "24/02/2012",
-          "Assets": 278900000,
-          "InflationAdjustedAssets": 363417654.6
-        },
-        {
-          "Bank": "SCB Bank",
-          "Date": "10/02/2012",
-          "Assets": 182600000,
-          "InflationAdjustedAssets": 237934972.2
-        },
-        {
-          "Bank": "Charter National Bank and Trust",
-          "Date": "10/02/2012",
-          "Assets": 93900000,
-          "InflationAdjustedAssets": 122355388.2
-        },
-        {
-          "Bank": "BankEast",
-          "Date": "27/01/2012",
-          "Assets": 272600000,
-          "InflationAdjustedAssets": 355208507.2
-        },
-        {
-          "Bank": "Patriot Bank Minnesota",
-          "Date": "27/01/2012",
-          "Assets": 111300000,
-          "InflationAdjustedAssets": 145028271.6
-        },
-        {
-          "Bank": "Tennessee Commerce Bank",
-          "Date": "27/01/2012",
-          "Assets": 1185000000,
-          "InflationAdjustedAssets": 1544101544
-        },
-        {
-          "Bank": "First Guaranty Bank and Trust Company of Jacksonville",
-          "Date": "27/01/2012",
-          "Assets": 377900000,
-          "InflationAdjustedAssets": 492418543.2
-        },
-        {
-          "Bank": "American Eagle Savings Bank",
-          "Date": "20/01/2012",
-          "Assets": 19600000,
-          "InflationAdjustedAssets": 25539569.85
-        },
-        {
-          "Bank": "The First State Bank",
-          "Date": "20/01/2012",
-          "Assets": 536900000,
-          "InflationAdjustedAssets": 699601788.4
-        },
-        {
-          "Bank": "Central Florida State Bank",
-          "Date": "20/01/2012",
-          "Assets": 79100000,
-          "InflationAdjustedAssets": 103070406.9
-        },
-        {
-          "Bank": "Western National Bank",
-          "Date": "16/12/2011",
-          "Assets": 162900000,
-          "InflationAdjustedAssets": 216657818.3
-        },
-        {
-          "Bank": "Premier Community Bank of the Emerald Coast",
-          "Date": "16/12/2011",
-          "Assets": 126000000,
-          "InflationAdjustedAssets": 167580633
-        },
-        {
-          "Bank": "Central Progressive Bank",
-          "Date": "18/11/2011",
-          "Assets": 383100000,
-          "InflationAdjustedAssets": 509524924.5
-        },
-        {
-          "Bank": "Polk County Bank",
-          "Date": "18/11/2011",
-          "Assets": 91600000,
-          "InflationAdjustedAssets": 121828460.2
-        },
-        {
-          "Bank": "Community Bank of Rockmart",
-          "Date": "10/11/2011",
-          "Assets": 62400000,
-          "InflationAdjustedAssets": 82992313.47
-        },
-        {
-          "Bank": "SunFirst Bank",
-          "Date": "04/11/2011",
-          "Assets": 198100000,
-          "InflationAdjustedAssets": 263473995.2
-        },
-        {
-          "Bank": "Mid City Bank",
-          "Date": "04/11/2011",
-          "Assets": 106100000,
-          "InflationAdjustedAssets": 141113533
-        },
-        {
-          "Bank": "All American Bank",
-          "Date": "28/10/2011",
-          "Assets": 37800000,
-          "InflationAdjustedAssets": 50274189.89
-        },
-        {
-          "Bank": "Community Banks of Colorado",
-          "Date": "21/10/2011",
-          "Assets": 1380000000,
-          "InflationAdjustedAssets": 1835406933
-        },
-        {
-          "Bank": "Community Capital Bank",
-          "Date": "21/10/2011",
-          "Assets": 181200000,
-          "InflationAdjustedAssets": 240996910.3
-        },
-        {
-          "Bank": "Decatur First Bank",
-          "Date": "21/10/2011",
-          "Assets": 191500000,
-          "InflationAdjustedAssets": 254695962
-        },
-        {
-          "Bank": "Old Harbor Bank",
-          "Date": "21/10/2011",
-          "Assets": 215900000,
-          "InflationAdjustedAssets": 287148084.6
-        },
-        {
-          "Bank": "Country Bank",
-          "Date": "14/10/2011",
-          "Assets": 190600000,
-          "InflationAdjustedAssets": 253498957.5
-        },
-        {
-          "Bank": "First State Bank",
-          "Date": "14/10/2011",
-          "Assets": 204400000,
-          "InflationAdjustedAssets": 271853026.8
-        },
-        {
-          "Bank": "Blue Ridge Savings Bank",
-          "Date": "14/10/2011",
-          "Assets": 161000000,
-          "InflationAdjustedAssets": 214130808.8
-        },
-        {
-          "Bank": "Piedmont Community Bank",
-          "Date": "14/10/2011",
-          "Assets": 201700000,
-          "InflationAdjustedAssets": 268262013.3
-        },
-        {
-          "Bank": "Sun Security Bank",
-          "Date": "07/10/2011",
-          "Assets": 355900000,
-          "InflationAdjustedAssets": 473348787.9
-        },
-        {
-          "Bank": "The RiverBank",
-          "Date": "07/10/2011",
-          "Assets": 417400000,
-          "InflationAdjustedAssets": 555144096.8
-        },
-        {
-          "Bank": "First International Bank",
-          "Date": "30/09/2011",
-          "Assets": 239900000,
-          "InflationAdjustedAssets": 319068205.2
-        },
-        {
-          "Bank": "Citizens Bank of Northern California",
-          "Date": "23/09/2011",
-          "Assets": 288800000,
-          "InflationAdjustedAssets": 384105450.8
-        },
-        {
-          "Bank": "Bank of the Commonwealth",
-          "Date": "23/09/2011",
-          "Assets": 985100000,
-          "InflationAdjustedAssets": 1310187949
-        },
-        {
-          "Bank": "The First National Bank Of Florida",
-          "Date": "09/09/2011",
-          "Assets": 296800000,
-          "InflationAdjustedAssets": 394745491
-        },
-        {
-          "Bank": "CreekSide Bank",
-          "Date": "02/09/2011",
-          "Assets": 102300000,
-          "InflationAdjustedAssets": 136059513.9
-        },
-        {
-          "Bank": "Patriot Bank of Georgia",
-          "Date": "02/09/2011",
-          "Assets": 150800000,
-          "InflationAdjustedAssets": 200564757.6
-        },
-        {
-          "Bank": "First Choice Bank",
-          "Date": "19/08/2011",
-          "Assets": 141000000,
-          "InflationAdjustedAssets": 187530708.3
-        },
-        {
-          "Bank": "First Southern National Bank",
-          "Date": "19/08/2011",
-          "Assets": 164600000,
-          "InflationAdjustedAssets": 218918826.9
-        },
-        {
-          "Bank": "Lydian Private Bank",
-          "Date": "19/08/2011",
-          "Assets": 1700000000,
-          "InflationAdjustedAssets": 2261008540
-        },
-        {
-          "Bank": "Public Savings Bank",
-          "Date": "18/08/2011",
-          "Assets": 46800000,
-          "InflationAdjustedAssets": 62244235.1
-        },
-        {
-          "Bank": "The First National Bank of Olathe",
-          "Date": "12/08/2011",
-          "Assets": 538100000,
-          "InflationAdjustedAssets": 715675703.2
-        },
-        {
-          "Bank": "Bank of Whitman",
-          "Date": "05/08/2011",
-          "Assets": 548600000,
-          "InflationAdjustedAssets": 729640755.9
-        },
-        {
-          "Bank": "Bank of Shorewood",
-          "Date": "05/08/2011",
-          "Assets": 110700000,
-          "InflationAdjustedAssets": 147231556.1
-        },
-        {
-          "Bank": "Integra Bank National Association",
-          "Date": "29/07/2011",
-          "Assets": 2200000000,
-          "InflationAdjustedAssets": 2926011052
-        },
-        {
-          "Bank": "BankMeridian",
-          "Date": "29/07/2011",
-          "Assets": 239800000,
-          "InflationAdjustedAssets": 318935204.7
-        },
-        {
-          "Bank": "Virginia Business Bank",
-          "Date": "29/07/2011",
-          "Assets": 95800000,
-          "InflationAdjustedAssets": 127414481.3
-        },
-        {
-          "Bank": "Bank of Choice",
-          "Date": "22/07/2011",
-          "Assets": 1070000000,
-          "InflationAdjustedAssets": 1423105375
-        },
-        {
-          "Bank": "LandMark Bank of Florida",
-          "Date": "22/07/2011",
-          "Assets": 275000000,
-          "InflationAdjustedAssets": 365751381.5
-        },
-        {
-          "Bank": "Southshore Community Bank",
-          "Date": "22/07/2011",
-          "Assets": 46300000,
-          "InflationAdjustedAssets": 61579232.59
-        },
-        {
-          "Bank": "Summit Bank",
-          "Date": "15/07/2011",
-          "Assets": 72000000,
-          "InflationAdjustedAssets": 95760361.7
-        },
-        {
-          "Bank": "First Peoples Bank",
-          "Date": "15/07/2011",
-          "Assets": 228300000,
-          "InflationAdjustedAssets": 303640146.9
-        },
-        {
-          "Bank": "High Trust Bank",
-          "Date": "15/07/2011",
-          "Assets": 192500000,
-          "InflationAdjustedAssets": 256025967
-        },
-        {
-          "Bank": "One Georgia Bank",
-          "Date": "15/07/2011",
-          "Assets": 186300000,
-          "InflationAdjustedAssets": 247779935.9
-        },
-        {
-          "Bank": "Signature Bank",
-          "Date": "08/07/2011",
-          "Assets": 66700000,
-          "InflationAdjustedAssets": 88711335.07
-        },
-        {
-          "Bank": "Colorado Capital Bank",
-          "Date": "08/07/2011",
-          "Assets": 717500000,
-          "InflationAdjustedAssets": 954278604.4
-        },
-        {
-          "Bank": "First Chicago Bank & Trust",
-          "Date": "08/07/2011",
-          "Assets": 959300000,
-          "InflationAdjustedAssets": 1275873819
-        },
-        {
-          "Bank": "Mountain Heritage Bank",
-          "Date": "24/06/2011",
-          "Assets": 103700000,
-          "InflationAdjustedAssets": 137921520.9
-        },
-        {
-          "Bank": "First Commercial Bank of Tampa Bay",
-          "Date": "17/06/2011",
-          "Assets": 98600000,
-          "InflationAdjustedAssets": 131138495.3
-        },
-        {
-          "Bank": "McIntosh State Bank",
-          "Date": "17/06/2011",
-          "Assets": 339900000,
-          "InflationAdjustedAssets": 452068707.5
-        },
-        {
-          "Bank": "Atlantic Bank and Trust",
-          "Date": "03/06/2011",
-          "Assets": 208200000,
-          "InflationAdjustedAssets": 276907045.9
-        },
-        {
-          "Bank": "First Heritage Bank",
-          "Date": "27/05/2011",
-          "Assets": 173500000,
-          "InflationAdjustedAssets": 230755871.6
-        },
-        {
-          "Bank": "Summit Bank",
-          "Date": "20/05/2011",
-          "Assets": 142700000,
-          "InflationAdjustedAssets": 189791716.9
-        },
-        {
-          "Bank": "First Georgia Banking Company",
-          "Date": "20/05/2011",
-          "Assets": 731000000,
-          "InflationAdjustedAssets": 972233672.2
-        },
-        {
-          "Bank": "Atlantic Southern Bank",
-          "Date": "20/05/2011",
-          "Assets": 741900000,
-          "InflationAdjustedAssets": 986730727
-        },
-        {
-          "Bank": "Coastal Bank",
-          "Date": "06/05/2011",
-          "Assets": 129400000,
-          "InflationAdjustedAssets": 172102650.1
-        },
-        {
-          "Bank": "Community Central Bank",
-          "Date": "29/04/2011",
-          "Assets": 476300000,
-          "InflationAdjustedAssets": 633481392.7
-        },
-        {
-          "Bank": "The Park Avenue Bank",
-          "Date": "29/04/2011",
-          "Assets": 953300000,
-          "InflationAdjustedAssets": 1267893789
-        },
-        {
-          "Bank": "First Choice Community Bank",
-          "Date": "29/04/2011",
-          "Assets": 308500000,
-          "InflationAdjustedAssets": 410306549.8
-        },
-        {
-          "Bank": "Cortez Community Bank",
-          "Date": "29/04/2011",
-          "Assets": 70900000,
-          "InflationAdjustedAssets": 94297356.17
-        },
-        {
-          "Bank": "First National Bank of Central Florida",
-          "Date": "29/04/2011",
-          "Assets": 352000000,
-          "InflationAdjustedAssets": 468161768.3
-        },
-        {
-          "Bank": "Heritage Banking Group",
-          "Date": "15/04/2011",
-          "Assets": 224000000,
-          "InflationAdjustedAssets": 297921125.3
-        },
-        {
-          "Bank": "Rosemount National Bank",
-          "Date": "15/04/2011",
-          "Assets": 37600000,
-          "InflationAdjustedAssets": 50008188.89
-        },
-        {
-          "Bank": "Superior Bank",
-          "Date": "15/04/2011",
-          "Assets": 3000000000,
-          "InflationAdjustedAssets": 3990015071
-        },
-        {
-          "Bank": "Nexity Bank",
-          "Date": "15/04/2011",
-          "Assets": 793700000,
-          "InflationAdjustedAssets": 1055624987
-        },
-        {
-          "Bank": "New Horizons Bank",
-          "Date": "15/04/2011",
-          "Assets": 110700000,
-          "InflationAdjustedAssets": 147231556.1
-        },
-        {
-          "Bank": "Bartow County Bank",
-          "Date": "15/04/2011",
-          "Assets": 330200000,
-          "InflationAdjustedAssets": 439167658.8
-        },
-        {
-          "Bank": "Nevada Commerce Bank",
-          "Date": "08/04/2011",
-          "Assets": 144900000,
-          "InflationAdjustedAssets": 192717727.9
-        },
-        {
-          "Bank": "Western Springs National Bank and Trust",
-          "Date": "08/04/2011",
-          "Assets": 186800000,
-          "InflationAdjustedAssets": 248444938.4
-        },
-        {
-          "Bank": "The Bank of Commerce",
-          "Date": "25/03/2011",
-          "Assets": 163100000,
-          "InflationAdjustedAssets": 216923819.3
-        },
-        {
-          "Bank": "Legacy Bank",
-          "Date": "11/03/2011",
-          "Assets": 190400000,
-          "InflationAdjustedAssets": 253232956.5
-        },
-        {
-          "Bank": "The First National Bank of Davis",
-          "Date": "11/03/2011",
-          "Assets": 90200000,
-          "InflationAdjustedAssets": 119966453.1
-        },
-        {
-          "Bank": "Valley Community Bank",
-          "Date": "25/02/2011",
-          "Assets": 123800000,
-          "InflationAdjustedAssets": 164654621.9
-        },
-        {
-          "Bank": "San Luis Trust Bank",
-          "Date": "18/02/2011",
-          "Assets": 332600000,
-          "InflationAdjustedAssets": 442359670.8
-        },
-        {
-          "Bank": "Charter Oak Bank",
-          "Date": "18/02/2011",
-          "Assets": 120800000,
-          "InflationAdjustedAssets": 160664606.8
-        },
-        {
-          "Bank": "Citizens Bank of Effingham",
-          "Date": "18/02/2011",
-          "Assets": 214300000,
-          "InflationAdjustedAssets": 285020076.6
-        },
-        {
-          "Bank": "Habersham Bank",
-          "Date": "18/02/2011",
-          "Assets": 387600000,
-          "InflationAdjustedAssets": 515509947.1
-        },
-        {
-          "Bank": "Canyon National Bank",
-          "Date": "11/02/2011",
-          "Assets": 210900000,
-          "InflationAdjustedAssets": 280498059.5
-        },
-        {
-          "Bank": "Badger State Bank",
-          "Date": "11/02/2011",
-          "Assets": 83800000,
-          "InflationAdjustedAssets": 111454421
-        },
-        {
-          "Bank": "Peoples State Bank",
-          "Date": "11/02/2011",
-          "Assets": 390500000,
-          "InflationAdjustedAssets": 519366961.7
-        },
-        {
-          "Bank": "Sunshine State Community Bank",
-          "Date": "11/02/2011",
-          "Assets": 125500000,
-          "InflationAdjustedAssets": 166915630.5
-        },
-        {
-          "Bank": "Community First Bank - Chicago",
-          "Date": "04/02/2011",
-          "Assets": 51100000,
-          "InflationAdjustedAssets": 67963256.71
-        },
-        {
-          "Bank": "North Georgia Bank",
-          "Date": "04/02/2011",
-          "Assets": 153200000,
-          "InflationAdjustedAssets": 203756769.6
-        },
-        {
-          "Bank": "American Trust Bank",
-          "Date": "04/02/2011",
-          "Assets": 238200000,
-          "InflationAdjustedAssets": 316807196.6
-        },
-        {
-          "Bank": "First Community Bank",
-          "Date": "28/01/2011",
-          "Assets": 2310000000,
-          "InflationAdjustedAssets": 3072311604
-        },
-        {
-          "Bank": "FirsTier Bank",
-          "Date": "28/01/2011",
-          "Assets": 781500000,
-          "InflationAdjustedAssets": 1039398926
-        },
-        {
-          "Bank": "Evergreen State Bank",
-          "Date": "28/01/2011",
-          "Assets": 246500000,
-          "InflationAdjustedAssets": 327846238.3
-        },
-        {
-          "Bank": "The First State Bank",
-          "Date": "28/01/2011",
-          "Assets": 43500000,
-          "InflationAdjustedAssets": 57855218.53
-        },
-        {
-          "Bank": "United Western Bank",
-          "Date": "21/01/2011",
-          "Assets": 2050000000,
-          "InflationAdjustedAssets": 2726510298
-        },
-        {
-          "Bank": "The Bank of Asheville",
-          "Date": "21/01/2011",
-          "Assets": 195100000,
-          "InflationAdjustedAssets": 259483980.1
-        },
-        {
-          "Bank": "CommunitySouth Bank and Trust",
-          "Date": "21/01/2011",
-          "Assets": 440600000,
-          "InflationAdjustedAssets": 586000213.4
-        },
-        {
-          "Bank": "Enterprise Banking Company",
-          "Date": "21/01/2011",
-          "Assets": 100900000,
-          "InflationAdjustedAssets": 134197506.9
-        },
-        {
-          "Bank": "Oglethorpe Bank",
-          "Date": "14/01/2011",
-          "Assets": 230600000,
-          "InflationAdjustedAssets": 306699158.4
-        },
-        {
-          "Bank": "Legacy Bank",
-          "Date": "07/01/2011",
-          "Assets": 150600000,
-          "InflationAdjustedAssets": 200298756.6
-        },
-        {
-          "Bank": "First Commercial Bank of Florida",
-          "Date": "07/01/2011",
-          "Assets": 598500000,
-          "InflationAdjustedAssets": 796008006.6
-        },
-        {
-          "Bank": "Community National Bank",
-          "Date": "17/12/2010",
-          "Assets": 31600000,
-          "InflationAdjustedAssets": 43354789.6
-        },
-        {
-          "Bank": "First Southern Bank",
-          "Date": "17/12/2010",
-          "Assets": 191800000,
-          "InflationAdjustedAssets": 263147109
-        },
-        {
-          "Bank": "United Americas Bank",
-          "Date": "17/12/2010",
-          "Assets": 242300000,
-          "InflationAdjustedAssets": 332432453.1
-        },
-        {
-          "Bank": "Appalachian Community Bank",
-          "Date": "17/12/2010",
-          "Assets": 68200000,
-          "InflationAdjustedAssets": 93569514.25
-        },
-        {
-          "Bank": "Chestatee State Bank",
-          "Date": "17/12/2010",
-          "Assets": 244400000,
-          "InflationAdjustedAssets": 335313625.9
-        },
-        {
-          "Bank": "The Bank of Miami",
-          "Date": "17/12/2010",
-          "Assets": 448200000,
-          "InflationAdjustedAssets": 614924579
-        },
-        {
-          "Bank": "Earthstar Bank",
-          "Date": "10/12/2010",
-          "Assets": 112600000,
-          "InflationAdjustedAssets": 154485737.6
-        },
-        {
-          "Bank": "Paramount Bank",
-          "Date": "10/12/2010",
-          "Assets": 252700000,
-          "InflationAdjustedAssets": 346701118.1
-        },
-        {
-          "Bank": "First Banking Center",
-          "Date": "19/11/2010",
-          "Assets": 750700000,
-          "InflationAdjustedAssets": 1029950650
-        },
-        {
-          "Bank": "Allegiance Bank of North America",
-          "Date": "19/11/2010",
-          "Assets": 106600000,
-          "InflationAdjustedAssets": 146253815.5
-        },
-        {
-          "Bank": "Gulf State Community Bank",
-          "Date": "19/11/2010",
-          "Assets": 112100000,
-          "InflationAdjustedAssets": 153799744.1
-        },
-        {
-          "Bank": "Copper Star Bank",
-          "Date": "12/11/2010",
-          "Assets": 204000000,
-          "InflationAdjustedAssets": 279885350.6
-        },
-        {
-          "Bank": "Darby Bank & Trust Co.",
-          "Date": "12/11/2010",
-          "Assets": 654700000,
-          "InflationAdjustedAssets": 898239897.1
-        },
-        {
-          "Bank": "Tifton Banking Company",
-          "Date": "12/11/2010",
-          "Assets": 143700000,
-          "InflationAdjustedAssets": 197154533.7
-        },
-        {
-          "Bank": "First Vietnamese American Bank",
-          "Date": "05/11/2010",
-          "Assets": 48000000,
-          "InflationAdjustedAssets": 65855376.6
-        },
-        {
-          "Bank": "Pierce Commercial Bank",
-          "Date": "05/11/2010",
-          "Assets": 221100000,
-          "InflationAdjustedAssets": 303346328.5
-        },
-        {
-          "Bank": "Western Commercial Bank",
-          "Date": "05/11/2010",
-          "Assets": 98600000,
-          "InflationAdjustedAssets": 135277919.4
-        },
-        {
-          "Bank": "K Bank",
-          "Date": "05/11/2010",
-          "Assets": 538300000,
-          "InflationAdjustedAssets": 738540608.8
-        },
-        {
-          "Bank": "First Arizona Savings",
-          "Date": "22/10/2010",
-          "Assets": 272200000,
-          "InflationAdjustedAssets": 373454864.8
-        },
-        {
-          "Bank": "Hillcrest Bank",
-          "Date": "22/10/2010",
-          "Assets": 1650000000,
-          "InflationAdjustedAssets": 2263778571
-        },
-        {
-          "Bank": "First Suburban National Bank",
-          "Date": "22/10/2010",
-          "Assets": 148700000,
-          "InflationAdjustedAssets": 204014468.8
-        },
-        {
-          "Bank": "The First National Bank of Barnesville",
-          "Date": "22/10/2010",
-          "Assets": 131400000,
-          "InflationAdjustedAssets": 180279093.4
-        },
-        {
-          "Bank": "The Gordon Bank",
-          "Date": "22/10/2010",
-          "Assets": 29400000,
-          "InflationAdjustedAssets": 40336418.17
-        },
-        {
-          "Bank": "Progress Bank of Florida",
-          "Date": "22/10/2010",
-          "Assets": 110700000,
-          "InflationAdjustedAssets": 151878962.3
-        },
-        {
-          "Bank": "First Bank of Jacksonville",
-          "Date": "22/10/2010",
-          "Assets": 81000000,
-          "InflationAdjustedAssets": 111130948
-        },
-        {
-          "Bank": "Premier Bank",
-          "Date": "15/10/2010",
-          "Assets": 1180000000,
-          "InflationAdjustedAssets": 1618944675
-        },
-        {
-          "Bank": "WestBridge Bank and Trust Company",
-          "Date": "15/10/2010",
-          "Assets": 91500000,
-          "InflationAdjustedAssets": 125536811.6
-        },
-        {
-          "Bank": "Security Savings Bank",
-          "Date": "15/10/2010",
-          "Assets": 508400000,
-          "InflationAdjustedAssets": 697518197.2
-        },
-        {
-          "Bank": "Shoreline Bank",
-          "Date": "01/10/2010",
-          "Assets": 104200000,
-          "InflationAdjustedAssets": 142961046.7
-        },
-        {
-          "Bank": "Wakulla Bank",
-          "Date": "01/10/2010",
-          "Assets": 424100000,
-          "InflationAdjustedAssets": 581859692
-        },
-        {
-          "Bank": "North County Bank",
-          "Date": "24/09/2010",
-          "Assets": 288800000,
-          "InflationAdjustedAssets": 396229849.2
-        },
-        {
-          "Bank": "Haven Trust Bank Florida",
-          "Date": "24/09/2010",
-          "Assets": 148600000,
-          "InflationAdjustedAssets": 203877270.1
-        },
-        {
-          "Bank": "Maritime Savings Bank",
-          "Date": "17/09/2010",
-          "Assets": 350500000,
-          "InflationAdjustedAssets": 480881447.9
-        },
-        {
-          "Bank": "Bramble Savings Bank",
-          "Date": "17/09/2010",
-          "Assets": 47500000,
-          "InflationAdjustedAssets": 65169383.09
-        },
-        {
-          "Bank": "The Peoples Bank",
-          "Date": "17/09/2010",
-          "Assets": 447200000,
-          "InflationAdjustedAssets": 613552592
-        },
-        {
-          "Bank": "First Commerce Community Bank",
-          "Date": "17/09/2010",
-          "Assets": 248200000,
-          "InflationAdjustedAssets": 340527176.5
-        },
-        {
-          "Bank": "Bank of Ellijay",
-          "Date": "17/09/2010",
-          "Assets": 168800000,
-          "InflationAdjustedAssets": 231591407.7
-        },
-        {
-          "Bank": "ISN Bank",
-          "Date": "17/09/2010",
-          "Assets": 81600000,
-          "InflationAdjustedAssets": 111954140.2
-        },
-        {
-          "Bank": "Horizon Bank",
-          "Date": "10/09/2010",
-          "Assets": 187800000,
-          "InflationAdjustedAssets": 257659160.9
-        },
-        {
-          "Bank": "Sonoma Valley Bank",
-          "Date": "20/08/2010",
-          "Assets": 337100000,
-          "InflationAdjustedAssets": 462496821.9
-        },
-        {
-          "Bank": "Los Padres Bank",
-          "Date": "20/08/2010",
-          "Assets": 870400000,
-          "InflationAdjustedAssets": 1194177496
-        },
-        {
-          "Bank": "Butte Community Bank",
-          "Date": "20/08/2010",
-          "Assets": 498800000,
-          "InflationAdjustedAssets": 684347121.8
-        },
-        {
-          "Bank": "Pacific State Bank",
-          "Date": "20/08/2010",
-          "Assets": 312100000,
-          "InflationAdjustedAssets": 428197146.6
-        },
-        {
-          "Bank": "ShoreBank",
-          "Date": "20/08/2010",
-          "Assets": 2160000000,
-          "InflationAdjustedAssets": 2963491947
-        },
-        {
-          "Bank": "Imperial Savings and Loan Association",
-          "Date": "20/08/2010",
-          "Assets": 9400000,
-          "InflationAdjustedAssets": 12896677.92
-        },
-        {
-          "Bank": "Independent National Bank",
-          "Date": "20/08/2010",
-          "Assets": 156200000,
-          "InflationAdjustedAssets": 214304371.4
-        },
-        {
-          "Bank": "Community National Bank at Bartow",
-          "Date": "20/08/2010",
-          "Assets": 67900000,
-          "InflationAdjustedAssets": 93157918.15
-        },
-        {
-          "Bank": "Palos Bank and Trust Company",
-          "Date": "13/08/2010",
-          "Assets": 493400000,
-          "InflationAdjustedAssets": 676938392
-        },
-        {
-          "Bank": "Ravenswood Bank",
-          "Date": "06/08/2010",
-          "Assets": 264600000,
-          "InflationAdjustedAssets": 363027763.5
-        },
-        {
-          "Bank": "LibertyBank",
-          "Date": "30/07/2010",
-          "Assets": 768200000,
-          "InflationAdjustedAssets": 1053960423
-        },
-        {
-          "Bank": "The Cowlitz Bank",
-          "Date": "30/07/2010",
-          "Assets": 529300000,
-          "InflationAdjustedAssets": 726192725.7
-        },
-        {
-          "Bank": "Coastal Community Bank",
-          "Date": "30/07/2010",
-          "Assets": 372900000,
-          "InflationAdjustedAssets": 511613957
-        },
-        {
-          "Bank": "Bayside Savings Bank",
-          "Date": "30/07/2010",
-          "Assets": 66100000,
-          "InflationAdjustedAssets": 90688341.53
-        },
-        {
-          "Bank": "NorthWest Bank and Trust",
-          "Date": "30/07/2010",
-          "Assets": 167700000,
-          "InflationAdjustedAssets": 230082222
-        },
-        {
-          "Bank": "Home Valley Bank",
-          "Date": "23/07/2010",
-          "Assets": 251800000,
-          "InflationAdjustedAssets": 345466329.8
-        },
-        {
-          "Bank": "SouthwestUSA Bank",
-          "Date": "23/07/2010",
-          "Assets": 214000000,
-          "InflationAdjustedAssets": 293605220.7
-        },
-        {
-          "Bank": "Community Security Bank",
-          "Date": "23/07/2010",
-          "Assets": 108000000,
-          "InflationAdjustedAssets": 148174597.4
-        },
-        {
-          "Bank": "Thunder Bank",
-          "Date": "23/07/2010",
-          "Assets": 32600000,
-          "InflationAdjustedAssets": 44726776.61
-        },
-        {
-          "Bank": "Williamsburg First National Bank",
-          "Date": "23/07/2010",
-          "Assets": 139300000,
-          "InflationAdjustedAssets": 191117790.8
-        },
-        {
-          "Bank": "Crescent Bank and Trust Company",
-          "Date": "23/07/2010",
-          "Assets": 1010000000,
-          "InflationAdjustedAssets": 1385706883
-        },
-        {
-          "Bank": "Sterling Bank",
-          "Date": "23/07/2010",
-          "Assets": 407900000,
-          "InflationAdjustedAssets": 559633502.4
-        },
-        {
-          "Bank": "Mainstreet Savings Bank",
-          "Date": "16/07/2010",
-          "Assets": 97400000,
-          "InflationAdjustedAssets": 133631535
-        },
-        {
-          "Bank": "Olde Cypress Community Bank",
-          "Date": "16/07/2010",
-          "Assets": 168700000,
-          "InflationAdjustedAssets": 231454209
-        },
-        {
-          "Bank": "Turnberry Bank",
-          "Date": "16/07/2010",
-          "Assets": 263900000,
-          "InflationAdjustedAssets": 362067372.6
-        },
-        {
-          "Bank": "Metro Bank of Dade County",
-          "Date": "16/07/2010",
-          "Assets": 442300000,
-          "InflationAdjustedAssets": 606829855.6
-        },
-        {
-          "Bank": "First National Bank of the South",
-          "Date": "16/07/2010",
-          "Assets": 682000000,
-          "InflationAdjustedAssets": 935695142.5
-        },
-        {
-          "Bank": "Woodlands Bank",
-          "Date": "16/07/2010",
-          "Assets": 376200000,
-          "InflationAdjustedAssets": 516141514.1
-        },
-        {
-          "Bank": "Home National Bank",
-          "Date": "09/07/2010",
-          "Assets": 644500000,
-          "InflationAdjustedAssets": 884245629.6
-        },
-        {
-          "Bank": "USA Bank",
-          "Date": "09/07/2010",
-          "Assets": 193300000,
-          "InflationAdjustedAssets": 265205089.5
-        },
-        {
-          "Bank": "Ideal Federal Savings Bank",
-          "Date": "09/07/2010",
-          "Assets": 6300000,
-          "InflationAdjustedAssets": 8643518.179
-        },
-        {
-          "Bank": "Bay National Bank",
-          "Date": "09/07/2010",
-          "Assets": 282200000,
-          "InflationAdjustedAssets": 387174734.9
-        },
-        {
-          "Bank": "High Desert State Bank",
-          "Date": "25/06/2010",
-          "Assets": 80300000,
-          "InflationAdjustedAssets": 110170557.1
-        },
-        {
-          "Bank": "First National Bank",
-          "Date": "25/06/2010",
-          "Assets": 252500000,
-          "InflationAdjustedAssets": 346426720.7
-        },
-        {
-          "Bank": "Peninsula Bank",
-          "Date": "25/06/2010",
-          "Assets": 644300000,
-          "InflationAdjustedAssets": 883971232.2
-        },
-        {
-          "Bank": "Nevada Security Bank",
-          "Date": "18/06/2010",
-          "Assets": 480300000,
-          "InflationAdjustedAssets": 658965362.1
-        },
-        {
-          "Bank": "Washington First International Bank",
-          "Date": "11/06/2010",
-          "Assets": 520900000,
-          "InflationAdjustedAssets": 714668034.8
-        },
-        {
-          "Bank": "TierOne Bank",
-          "Date": "04/06/2010",
-          "Assets": 2800000000,
-          "InflationAdjustedAssets": 3841563635
-        },
-        {
-          "Bank": "Arcola Homestead Savings Bank",
-          "Date": "04/06/2010",
-          "Assets": 17000000,
-          "InflationAdjustedAssets": 23323779.21
-        },
-        {
-          "Bank": "First National Bank",
-          "Date": "04/06/2010",
-          "Assets": 60400000,
-          "InflationAdjustedAssets": 82868015.56
-        },
-        {
-          "Bank": "Sun West Bank",
-          "Date": "28/05/2010",
-          "Assets": 360700000,
-          "InflationAdjustedAssets": 494875715.4
-        },
-        {
-          "Bank": "Granite Community Bank",
-          "Date": "28/05/2010",
-          "Assets": 102900000,
-          "InflationAdjustedAssets": 141177463.6
-        },
-        {
-          "Bank": "Bank of Florida - Tampa Bay",
-          "Date": "28/05/2010",
-          "Assets": 245200000,
-          "InflationAdjustedAssets": 336411215.5
-        },
-        {
-          "Bank": "Bank of Florida - Southwest",
-          "Date": "28/05/2010",
-          "Assets": 640900000,
-          "InflationAdjustedAssets": 879306476.3
-        },
-        {
-          "Bank": "Bank of Florida - Southeast",
-          "Date": "28/05/2010",
-          "Assets": 595300000,
-          "InflationAdjustedAssets": 816743868.5
-        },
-        {
-          "Bank": "Pinehurst Bank",
-          "Date": "21/05/2010",
-          "Assets": 61200000,
-          "InflationAdjustedAssets": 83965605.17
-        },
-        {
-          "Bank": "Midwest Bank and Trust Company",
-          "Date": "14/05/2010",
-          "Assets": 3170000000,
-          "InflationAdjustedAssets": 4349198830
-        },
-        {
-          "Bank": "Southwest Community Bank",
-          "Date": "14/05/2010",
-          "Assets": 96600000,
-          "InflationAdjustedAssets": 132533945.4
-        },
-        {
-          "Bank": "New Liberty Bank",
-          "Date": "14/05/2010",
-          "Assets": 109100000,
-          "InflationAdjustedAssets": 149683783.1
-        },
-        {
-          "Bank": "Satilla Community Bank",
-          "Date": "14/05/2010",
-          "Assets": 135700000,
-          "InflationAdjustedAssets": 186178637.6
-        },
-        {
-          "Bank": "1st Pacific Bank of California",
-          "Date": "07/05/2010",
-          "Assets": 335800000,
-          "InflationAdjustedAssets": 460713238.8
-        },
-        {
-          "Bank": "Towne Bank of Arizona",
-          "Date": "07/05/2010",
-          "Assets": 120200000,
-          "InflationAdjustedAssets": 164912838.9
-        },
-        {
-          "Bank": "Access Bank",
-          "Date": "07/05/2010",
-          "Assets": 32000000,
-          "InflationAdjustedAssets": 43903584.4
-        },
-        {
-          "Bank": "The Bank of Bonifay",
-          "Date": "07/05/2010",
-          "Assets": 242900000,
-          "InflationAdjustedAssets": 333255645.3
-        },
-        {
-          "Bank": "Frontier Bank",
-          "Date": "30/04/2010",
-          "Assets": 3500000000,
-          "InflationAdjustedAssets": 4801954544
-        },
-        {
-          "Bank": "BC National Banks",
-          "Date": "30/04/2010",
-          "Assets": 67200000,
-          "InflationAdjustedAssets": 92197527.24
-        },
-        {
-          "Bank": "Champion Bank",
-          "Date": "30/04/2010",
-          "Assets": 187300000,
-          "InflationAdjustedAssets": 256973167.4
-        },
-        {
-          "Bank": "CF Bancorp",
-          "Date": "30/04/2010",
-          "Assets": 1650000000,
-          "InflationAdjustedAssets": 2263778571
-        },
-        {
-          "Bank": "Westernbank Puerto Rico",
-          "Date": "30/04/2010",
-          "Assets": 11940000000,
-          "InflationAdjustedAssets": 16381524929
-        },
-        {
-          "Bank": "R-G Premier Bank of Puerto Rico",
-          "Date": "30/04/2010",
-          "Assets": 5920000000,
-          "InflationAdjustedAssets": 8122163114
-        },
-        {
-          "Bank": "Eurobank",
-          "Date": "30/04/2010",
-          "Assets": 2560000000,
-          "InflationAdjustedAssets": 3512286752
-        },
-        {
-          "Bank": "Wheatland Bank",
-          "Date": "23/04/2010",
-          "Assets": 437200000,
-          "InflationAdjustedAssets": 599832721.9
-        },
-        {
-          "Bank": "Peotone Bank and Trust Company",
-          "Date": "23/04/2010",
-          "Assets": 130200000,
-          "InflationAdjustedAssets": 178632709
-        },
-        {
-          "Bank": "Lincoln Park Savings Bank",
-          "Date": "23/04/2010",
-          "Assets": 199900000,
-          "InflationAdjustedAssets": 274260203.8
-        },
-        {
-          "Bank": "New Century Bank",
-          "Date": "23/04/2010",
-          "Assets": 485600000,
-          "InflationAdjustedAssets": 666236893.3
-        },
-        {
-          "Bank": "Citizens Bank & Trust Company of Chicago",
-          "Date": "23/04/2010",
-          "Assets": 77300000,
-          "InflationAdjustedAssets": 106054596.1
-        },
-        {
-          "Bank": "Broadway Bank",
-          "Date": "23/04/2010",
-          "Assets": 1200000000,
-          "InflationAdjustedAssets": 1646384415
-        },
-        {
-          "Bank": "Amcore Bank",
-          "Date": "23/04/2010",
-          "Assets": 3800000000,
-          "InflationAdjustedAssets": 5213550648
-        },
-        {
-          "Bank": "City Bank",
-          "Date": "16/04/2010",
-          "Assets": 1130000000,
-          "InflationAdjustedAssets": 1550345324
-        },
-        {
-          "Bank": "Tamalpais Bank",
-          "Date": "16/04/2010",
-          "Assets": 628900000,
-          "InflationAdjustedAssets": 862842632.2
-        },
-        {
-          "Bank": "Innovative Bank",
-          "Date": "16/04/2010",
-          "Assets": 268900000,
-          "InflationAdjustedAssets": 368927307.7
-        },
-        {
-          "Bank": "Butler Bank",
-          "Date": "16/04/2010",
-          "Assets": 268000000,
-          "InflationAdjustedAssets": 367692519.4
-        },
-        {
-          "Bank": "Riverside National Bank of Florida",
-          "Date": "16/04/2010",
-          "Assets": 3420000000,
-          "InflationAdjustedAssets": 4692195583
-        },
-        {
-          "Bank": "AmericanFirst Bank",
-          "Date": "16/04/2010",
-          "Assets": 90500000,
-          "InflationAdjustedAssets": 124164824.6
-        },
-        {
-          "Bank": "First Federal Bank of North Florida",
-          "Date": "16/04/2010",
-          "Assets": 393300000,
-          "InflationAdjustedAssets": 539602492
-        },
-        {
-          "Bank": "Lakeside Community Bank",
-          "Date": "16/04/2010",
-          "Assets": 53000000,
-          "InflationAdjustedAssets": 72715311.66
-        },
-        {
-          "Bank": "Beach First National Bank",
-          "Date": "09/04/2010",
-          "Assets": 585100000,
-          "InflationAdjustedAssets": 802749601
-        },
-        {
-          "Bank": "Desert Hills Bank",
-          "Date": "26/03/2010",
-          "Assets": 496600000,
-          "InflationAdjustedAssets": 681328750.4
-        },
-        {
-          "Bank": "Unity National Bank",
-          "Date": "26/03/2010",
-          "Assets": 292200000,
-          "InflationAdjustedAssets": 400894605.1
-        },
-        {
-          "Bank": "Key West Bank",
-          "Date": "26/03/2010",
-          "Assets": 88000000,
-          "InflationAdjustedAssets": 120734857.1
-        },
-        {
-          "Bank": "McIntosh Commercial Bank",
-          "Date": "26/03/2010",
-          "Assets": 362900000,
-          "InflationAdjustedAssets": 497894086.8
-        },
-        {
-          "Bank": "State Bank of Aurora",
-          "Date": "19/03/2010",
-          "Assets": 28200000,
-          "InflationAdjustedAssets": 38690033.75
-        },
-        {
-          "Bank": "First Lowndes Bank",
-          "Date": "19/03/2010",
-          "Assets": 137200000,
-          "InflationAdjustedAssets": 188236618.1
-        },
-        {
-          "Bank": "Bank of Hiawassee",
-          "Date": "19/03/2010",
-          "Assets": 377800000,
-          "InflationAdjustedAssets": 518336693.3
-        },
-        {
-          "Bank": "Appalachian Community Bank",
-          "Date": "19/03/2010",
-          "Assets": 1010000000,
-          "InflationAdjustedAssets": 1385706883
-        },
-        {
-          "Bank": "Advanta Bank Corp.",
-          "Date": "19/03/2010",
-          "Assets": 1600000000,
-          "InflationAdjustedAssets": 2195179220
-        },
-        {
-          "Bank": "Century Security Bank",
-          "Date": "19/03/2010",
-          "Assets": 96500000,
-          "InflationAdjustedAssets": 132396746.7
-        },
-        {
-          "Bank": "American National Bank",
-          "Date": "19/03/2010",
-          "Assets": 70300000,
-          "InflationAdjustedAssets": 96450686.98
-        },
-        {
-          "Bank": "Statewide Bank",
-          "Date": "12/03/2010",
-          "Assets": 243200000,
-          "InflationAdjustedAssets": 333667241.4
-        },
-        {
-          "Bank": "Old Southern Bank",
-          "Date": "12/03/2010",
-          "Assets": 315600000,
-          "InflationAdjustedAssets": 432999101.1
-        },
-        {
-          "Bank": "Park Avenue Bank",
-          "Date": "12/03/2010",
-          "Assets": 520100000,
-          "InflationAdjustedAssets": 713570445.2
-        },
-        {
-          "Bank": "LibertyPointe Bank",
-          "Date": "11/03/2010",
-          "Assets": 209700000,
-          "InflationAdjustedAssets": 287705676.5
-        },
-        {
-          "Bank": "Centennial Bank",
-          "Date": "05/03/2010",
-          "Assets": 215200000,
-          "InflationAdjustedAssets": 295251605.1
-        },
-        {
-          "Bank": "Waterfield Bank",
-          "Date": "05/03/2010",
-          "Assets": 155600000,
-          "InflationAdjustedAssets": 213481179.1
-        },
-        {
-          "Bank": "Bank of Illinois",
-          "Date": "05/03/2010",
-          "Assets": 211700000,
-          "InflationAdjustedAssets": 290449650.5
-        },
-        {
-          "Bank": "Sun American Bank",
-          "Date": "05/03/2010",
-          "Assets": 535700000,
-          "InflationAdjustedAssets": 734973442.6
-        },
-        {
-          "Bank": "Rainier Pacific Bank",
-          "Date": "26/02/2010",
-          "Assets": 717800000,
-          "InflationAdjustedAssets": 984812277.6
-        },
-        {
-          "Bank": "Carson River Community Bank",
-          "Date": "26/02/2010",
-          "Assets": 51100000,
-          "InflationAdjustedAssets": 70108536.34
-        },
-        {
-          "Bank": "La Jolla Bank",
-          "Date": "19/02/2010",
-          "Assets": 3600000000,
-          "InflationAdjustedAssets": 4939153245
-        },
-        {
-          "Bank": "George Washington Savings Bank",
-          "Date": "19/02/2010",
-          "Assets": 412800000,
-          "InflationAdjustedAssets": 566356238.8
-        },
-        {
-          "Bank": "The La Coste National Bank",
-          "Date": "19/02/2010",
-          "Assets": 53900000,
-          "InflationAdjustedAssets": 73950099.97
-        },
-        {
-          "Bank": "Marco Community Bank",
-          "Date": "19/02/2010",
-          "Assets": 119600000,
-          "InflationAdjustedAssets": 164089646.7
-        },
-        {
-          "Bank": "1st American State Bank of Minnesota",
-          "Date": "05/02/2010",
-          "Assets": 18200000,
-          "InflationAdjustedAssets": 24970163.63
-        },
-        {
-          "Bank": "American Marine Bank",
-          "Date": "29/01/2010",
-          "Assets": 373200000,
-          "InflationAdjustedAssets": 512025553.1
-        },
-        {
-          "Bank": "First Regional Bank",
-          "Date": "29/01/2010",
-          "Assets": 2180000000,
-          "InflationAdjustedAssets": 2990931687
-        },
-        {
-          "Bank": "Community Bank and Trust",
-          "Date": "29/01/2010",
-          "Assets": 1210000000,
-          "InflationAdjustedAssets": 1660104285
-        },
-        {
-          "Bank": "Marshall Bank",
-          "Date": "29/01/2010",
-          "Assets": 59900000,
-          "InflationAdjustedAssets": 82182022.05
-        },
-        {
-          "Bank": "Florida Community Bank",
-          "Date": "29/01/2010",
-          "Assets": 875500000,
-          "InflationAdjustedAssets": 1201174629
-        },
-        {
-          "Bank": "First National Bank of Georgia",
-          "Date": "29/01/2010",
-          "Assets": 832600000,
-          "InflationAdjustedAssets": 1142316387
-        },
-        {
-          "Bank": "Columbia River Bank",
-          "Date": "22/01/2010",
-          "Assets": 1100000000,
-          "InflationAdjustedAssets": 1509185714
-        },
-        {
-          "Bank": "Evergreen Bank",
-          "Date": "22/01/2010",
-          "Assets": 488500000,
-          "InflationAdjustedAssets": 670215655.6
-        },
-        {
-          "Bank": "Charter Bank",
-          "Date": "22/01/2010",
-          "Assets": 1200000000,
-          "InflationAdjustedAssets": 1646384415
-        },
-        {
-          "Bank": "Bank of Leeton",
-          "Date": "22/01/2010",
-          "Assets": 20100000,
-          "InflationAdjustedAssets": 27576938.95
-        },
-        {
-          "Bank": "Premier American Bank",
-          "Date": "22/01/2010",
-          "Assets": 350900000,
-          "InflationAdjustedAssets": 481430242.7
-        },
-        {
-          "Bank": "Barnes Banking Company",
-          "Date": "15/01/2010",
-          "Assets": 827800000,
-          "InflationAdjustedAssets": 1135730849
-        },
-        {
-          "Bank": "St. Stephen State Bank",
-          "Date": "15/01/2010",
-          "Assets": 24700000,
-          "InflationAdjustedAssets": 33888079.21
-        },
-        {
-          "Bank": "Town Community Bank and Trust",
-          "Date": "15/01/2010",
-          "Assets": 69600000,
-          "InflationAdjustedAssets": 95490296.07
-        },
-        {
-          "Bank": "Horizon Bank",
-          "Date": "08/01/2010",
-          "Assets": 1300000000,
-          "InflationAdjustedAssets": 1783583116
-        },
-        {
-          "Bank": "First Federal Bank of California",
-          "Date": "18/12/2009",
-          "Assets": 6100000000,
-          "InflationAdjustedAssets": 8506397498
-        },
-        {
-          "Bank": "Imperial Capital Bank",
-          "Date": "18/12/2009",
-          "Assets": 4000000000,
-          "InflationAdjustedAssets": 5577965572
-        },
-        {
-          "Bank": "Independent Bankers' Bank",
-          "Date": "18/12/2009",
-          "Assets": 585500000,
-          "InflationAdjustedAssets": 816474710.7
-        },
-        {
-          "Bank": "New South Federal Savings Bank",
-          "Date": "18/12/2009",
-          "Assets": 1500000000,
-          "InflationAdjustedAssets": 2091737090
-        },
-        {
-          "Bank": "Citizens State Bank",
-          "Date": "18/12/2009",
-          "Assets": 168600000,
-          "InflationAdjustedAssets": 235111248.9
-        },
-        {
-          "Bank": "Peoples First Community Bank",
-          "Date": "18/12/2009",
-          "Assets": 1800000000,
-          "InflationAdjustedAssets": 2510084508
-        },
-        {
-          "Bank": "RockBridge Commercial Bank",
-          "Date": "18/12/2009",
-          "Assets": 294000000,
-          "InflationAdjustedAssets": 409980469.6
-        },
-        {
-          "Bank": "SolutionsBank",
-          "Date": "11/12/2009",
-          "Assets": 511100000,
-          "InflationAdjustedAssets": 712724551
-        },
-        {
-          "Bank": "Valley Capital Bank",
-          "Date": "11/12/2009",
-          "Assets": 40300000,
-          "InflationAdjustedAssets": 56198003.14
-        },
-        {
-          "Bank": "Republic Federal Bank",
-          "Date": "11/12/2009",
-          "Assets": 433000000,
-          "InflationAdjustedAssets": 603814773.2
-        },
-        {
-          "Bank": "Greater Atlantic Bank",
-          "Date": "04/12/2009",
-          "Assets": 203000000,
-          "InflationAdjustedAssets": 283081752.8
-        },
-        {
-          "Bank": "Benchmark Bank",
-          "Date": "04/12/2009",
-          "Assets": 170000000,
-          "InflationAdjustedAssets": 237063536.8
-        },
-        {
-          "Bank": "AmTrust Bank",
-          "Date": "04/12/2009",
-          "Assets": 12000000000,
-          "InflationAdjustedAssets": 16733896717
-        },
-        {
-          "Bank": "The Tattnall Bank",
-          "Date": "04/12/2009",
-          "Assets": 49600000,
-          "InflationAdjustedAssets": 69166773.1
-        },
-        {
-          "Bank": "First Security National Bank",
-          "Date": "04/12/2009",
-          "Assets": 128000000,
-          "InflationAdjustedAssets": 178494898.3
-        },
-        {
-          "Bank": "The Buckhead Community Bank",
-          "Date": "04/12/2009",
-          "Assets": 874000000,
-          "InflationAdjustedAssets": 1218785478
-        },
-        {
-          "Bank": "Commerce Bank of Southwest Florida",
-          "Date": "20/11/2009",
-          "Assets": 79700000,
-          "InflationAdjustedAssets": 111140964
-        },
-        {
-          "Bank": "Pacific Coast National Bank",
-          "Date": "13/11/2009",
-          "Assets": 134400000,
-          "InflationAdjustedAssets": 187419643.2
-        },
-        {
-          "Bank": "Orion Bank",
-          "Date": "13/11/2009",
-          "Assets": 2700000000,
-          "InflationAdjustedAssets": 3765126761
-        },
-        {
-          "Bank": "Century Bank",
-          "Date": "13/11/2009",
-          "Assets": 728000000,
-          "InflationAdjustedAssets": 1015189734
-        },
-        {
-          "Bank": "United Commercial Bank",
-          "Date": "06/11/2009",
-          "Assets": 11200000000,
-          "InflationAdjustedAssets": 15618303603
-        },
-        {
-          "Bank": "Gateway Bank of St. Louis",
-          "Date": "06/11/2009",
-          "Assets": 27700000,
-          "InflationAdjustedAssets": 38627411.59
-        },
-        {
-          "Bank": "Prosperan Bank",
-          "Date": "06/11/2009",
-          "Assets": 199500000,
-          "InflationAdjustedAssets": 278201032.9
-        },
-        {
-          "Bank": "Home Federal Savings Bank",
-          "Date": "06/11/2009",
-          "Assets": 14900000,
-          "InflationAdjustedAssets": 20777921.76
-        },
-        {
-          "Bank": "United Security Bank",
-          "Date": "06/11/2009",
-          "Assets": 157000000,
-          "InflationAdjustedAssets": 218935148.7
-        },
-        {
-          "Bank": "North Houston Bank",
-          "Date": "30/10/2009",
-          "Assets": 326200000,
-          "InflationAdjustedAssets": 454883092.4
-        },
-        {
-          "Bank": "Madisonville State Bank",
-          "Date": "30/10/2009",
-          "Assets": 256700000,
-          "InflationAdjustedAssets": 357965940.6
-        },
-        {
-          "Bank": "Citizens National Bank",
-          "Date": "30/10/2009",
-          "Assets": 118200000,
-          "InflationAdjustedAssets": 164828882.7
-        },
-        {
-          "Bank": "Park National Bank",
-          "Date": "30/10/2009",
-          "Assets": 4706100000,
-          "InflationAdjustedAssets": 6562615945
-        },
-        {
-          "Bank": "Pacific National Bank",
-          "Date": "30/10/2009",
-          "Assets": 2335300000,
-          "InflationAdjustedAssets": 3256555750
-        },
-        {
-          "Bank": "California National Bank",
-          "Date": "30/10/2009",
-          "Assets": 7792200000,
-          "InflationAdjustedAssets": 10866155833
-        },
-        {
-          "Bank": "San Diego National Bank",
-          "Date": "30/10/2009",
-          "Assets": 3608100000,
-          "InflationAdjustedAssets": 5031464395
-        },
-        {
-          "Bank": "Community Bank of Lemont",
-          "Date": "30/10/2009",
-          "Assets": 81800000,
-          "InflationAdjustedAssets": 114069396
-        },
-        {
-          "Bank": "Bank USA",
-          "Date": "30/10/2009",
-          "Assets": 212800000,
-          "InflationAdjustedAssets": 296747768.5
-        },
-        {
-          "Bank": "First DuPage Bank",
-          "Date": "23/10/2009",
-          "Assets": 279000000,
-          "InflationAdjustedAssets": 389063098.7
-        },
-        {
-          "Bank": "Riverview Community Bank",
-          "Date": "23/10/2009",
-          "Assets": 108000000,
-          "InflationAdjustedAssets": 150605070.5
-        },
-        {
-          "Bank": "Bank of Elmwood",
-          "Date": "23/10/2009",
-          "Assets": 327400000,
-          "InflationAdjustedAssets": 456556482.1
-        },
-        {
-          "Bank": "Flagship National Bank",
-          "Date": "23/10/2009",
-          "Assets": 190000000,
-          "InflationAdjustedAssets": 264953364.7
-        },
-        {
-          "Bank": "Hillcrest Bank Florida",
-          "Date": "23/10/2009",
-          "Assets": 83000000,
-          "InflationAdjustedAssets": 115742785.6
-        },
-        {
-          "Bank": "American United Bank",
-          "Date": "23/10/2009",
-          "Assets": 111000000,
-          "InflationAdjustedAssets": 154788544.6
-        },
-        {
-          "Bank": "Partners Bank",
-          "Date": "23/10/2009",
-          "Assets": 65500000,
-          "InflationAdjustedAssets": 91339186.25
-        },
-        {
-          "Bank": "San Joaquin Bank",
-          "Date": "16/10/2009",
-          "Assets": 775000000,
-          "InflationAdjustedAssets": 1080730830
-        },
-        {
-          "Bank": "Southern Colorado National Bank",
-          "Date": "02/10/2009",
-          "Assets": 39500000,
-          "InflationAdjustedAssets": 55082410.03
-        },
-        {
-          "Bank": "Jennings State Bank",
-          "Date": "02/10/2009",
-          "Assets": 56300000,
-          "InflationAdjustedAssets": 78509865.43
-        },
-        {
-          "Bank": "Warren Bank",
-          "Date": "02/10/2009",
-          "Assets": 538000000,
-          "InflationAdjustedAssets": 750236369.5
-        },
-        {
-          "Bank": "Georgian Bank",
-          "Date": "25/09/2009",
-          "Assets": 2000000000,
-          "InflationAdjustedAssets": 2788982786
-        },
-        {
-          "Bank": "Irwin Union Bank",
-          "Date": "18/09/2009",
-          "Assets": 493000000,
-          "InflationAdjustedAssets": 687484256.8
-        },
-        {
-          "Bank": "Irwin Union Bank and Trust Company",
-          "Date": "18/09/2009",
-          "Assets": 2700000000,
-          "InflationAdjustedAssets": 3765126761
-        },
-        {
-          "Bank": "Venture Bank",
-          "Date": "11/09/2009",
-          "Assets": 970000000,
-          "InflationAdjustedAssets": 1352656651
-        },
-        {
-          "Bank": "Brickwell Community Bank",
-          "Date": "11/09/2009",
-          "Assets": 72000000,
-          "InflationAdjustedAssets": 100403380.3
-        },
-        {
-          "Bank": "Corus Bank",
-          "Date": "11/09/2009",
-          "Assets": 7000000000,
-          "InflationAdjustedAssets": 9761439752
-        },
-        {
-          "Bank": "First State Bank",
-          "Date": "04/09/2009",
-          "Assets": 105000000,
-          "InflationAdjustedAssets": 146421596.3
-        },
-        {
-          "Bank": "Platinum Community Bank",
-          "Date": "04/09/2009",
-          "Assets": 345600000,
-          "InflationAdjustedAssets": 481936225.5
-        },
-        {
-          "Bank": "Vantus Bank",
-          "Date": "04/09/2009",
-          "Assets": 458000000,
-          "InflationAdjustedAssets": 638677058
-        },
-        {
-          "Bank": "InBank",
-          "Date": "04/09/2009",
-          "Assets": 212000000,
-          "InflationAdjustedAssets": 295632175.3
-        },
-        {
-          "Bank": "First Bank of Kansas City",
-          "Date": "04/09/2009",
-          "Assets": 16000000,
-          "InflationAdjustedAssets": 22311862.29
-        },
-        {
-          "Bank": "Affinity Bank",
-          "Date": "28/08/2009",
-          "Assets": 1000000000,
-          "InflationAdjustedAssets": 1394491393
-        },
-        {
-          "Bank": "Mainstreet Bank",
-          "Date": "28/08/2009",
-          "Assets": 459000000,
-          "InflationAdjustedAssets": 640071549.4
-        },
-        {
-          "Bank": "Bradford Bank",
-          "Date": "28/08/2009",
-          "Assets": 452000000,
-          "InflationAdjustedAssets": 630310109.7
-        },
-        {
-          "Bank": "Guaranty Bank",
-          "Date": "21/08/2009",
-          "Assets": 13000000000,
-          "InflationAdjustedAssets": 18128388110
-        },
-        {
-          "Bank": "CapitalSouth Bank",
-          "Date": "21/08/2009",
-          "Assets": 617000000,
-          "InflationAdjustedAssets": 860401189.5
-        },
-        {
-          "Bank": "First Coweta Bank",
-          "Date": "21/08/2009",
-          "Assets": 167000000,
-          "InflationAdjustedAssets": 232880062.6
-        },
-        {
-          "Bank": "ebank",
-          "Date": "21/08/2009",
-          "Assets": 143000000,
-          "InflationAdjustedAssets": 199412269.2
-        },
-        {
-          "Bank": "Community Bank of Nevada",
-          "Date": "14/08/2009",
-          "Assets": 1520000000,
-          "InflationAdjustedAssets": 2119626918
-        },
-        {
-          "Bank": "Community Bank of Arizona",
-          "Date": "14/08/2009",
-          "Assets": 158500000,
-          "InflationAdjustedAssets": 221026885.8
-        },
-        {
-          "Bank": "Union Bank",
-          "Date": "14/08/2009",
-          "Assets": 124000000,
-          "InflationAdjustedAssets": 172916932.7
-        },
-        {
-          "Bank": "Colonial Bank",
-          "Date": "14/08/2009",
-          "Assets": 25000000000,
-          "InflationAdjustedAssets": 34862284827
-        },
-        {
-          "Bank": "Dwelling House Savings and Loan Association",
-          "Date": "14/08/2009",
-          "Assets": 13400000,
-          "InflationAdjustedAssets": 18686184.67
-        },
-        {
-          "Bank": "Community First Bank",
-          "Date": "07/08/2009",
-          "Assets": 209000000,
-          "InflationAdjustedAssets": 291448701.2
-        },
-        {
-          "Bank": "Community National Bank of Sarasota County",
-          "Date": "07/08/2009",
-          "Assets": 97000000,
-          "InflationAdjustedAssets": 135265665.1
-        },
-        {
-          "Bank": "First State Bank",
-          "Date": "07/08/2009",
-          "Assets": 463000000,
-          "InflationAdjustedAssets": 645649515
-        },
-        {
-          "Bank": "Mutual Bank",
-          "Date": "31/07/2009",
-          "Assets": 1600000000,
-          "InflationAdjustedAssets": 2231186229
-        },
-        {
-          "Bank": "First BankAmericano",
-          "Date": "31/07/2009",
-          "Assets": 166000000,
-          "InflationAdjustedAssets": 231485571.3
-        },
-        {
-          "Bank": "Peoples Community Bank",
-          "Date": "31/07/2009",
-          "Assets": 705800000,
-          "InflationAdjustedAssets": 984232025.2
-        },
-        {
-          "Bank": "Integrity Bank",
-          "Date": "31/07/2009",
-          "Assets": 119000000,
-          "InflationAdjustedAssets": 165944475.8
-        },
-        {
-          "Bank": "First State Bank of Altus",
-          "Date": "31/07/2009",
-          "Assets": 103400000,
-          "InflationAdjustedAssets": 144190410
-        },
-        {
-          "Bank": "Security Bank of Bibb County",
-          "Date": "24/07/2009",
-          "Assets": 1200000000,
-          "InflationAdjustedAssets": 1673389672
-        },
-        {
-          "Bank": "Security Bank of Houston County",
-          "Date": "24/07/2009",
-          "Assets": 383000000,
-          "InflationAdjustedAssets": 534090203.6
-        },
-        {
-          "Bank": "Security Bank of Jones County",
-          "Date": "24/07/2009",
-          "Assets": 453000000,
-          "InflationAdjustedAssets": 631704601.1
-        },
-        {
-          "Bank": "Security Bank of Gwinnett County",
-          "Date": "24/07/2009",
-          "Assets": 322000000,
-          "InflationAdjustedAssets": 449026228.6
-        },
-        {
-          "Bank": "Security Bank of North Metro",
-          "Date": "24/07/2009",
-          "Assets": 224000000,
-          "InflationAdjustedAssets": 312366072.1
-        },
-        {
-          "Bank": "Security Bank of North Fulton",
-          "Date": "24/07/2009",
-          "Assets": 209000000,
-          "InflationAdjustedAssets": 291448701.2
-        },
-        {
-          "Bank": "Waterford Village Bank",
-          "Date": "24/07/2009",
-          "Assets": 61400000,
-          "InflationAdjustedAssets": 85621771.54
-        },
-        {
-          "Bank": "Temecula Valley Bank",
-          "Date": "17/07/2009",
-          "Assets": 1500000000,
-          "InflationAdjustedAssets": 2091737090
-        },
-        {
-          "Bank": "Vineyard Bank",
-          "Date": "17/07/2009",
-          "Assets": 1900000000,
-          "InflationAdjustedAssets": 2649533647
-        },
-        {
-          "Bank": "BankFirst",
-          "Date": "17/07/2009",
-          "Assets": 275000000,
-          "InflationAdjustedAssets": 383485133.1
-        },
-        {
-          "Bank": "First Piedmont Bank",
-          "Date": "17/07/2009",
-          "Assets": 115000000,
-          "InflationAdjustedAssets": 160366510.2
-        },
-        {
-          "Bank": "Bank of Wyoming",
-          "Date": "10/07/2009",
-          "Assets": 70000000,
-          "InflationAdjustedAssets": 97614397.52
-        },
-        {
-          "Bank": "Founders Bank",
-          "Date": "02/07/2009",
-          "Assets": 962500000,
-          "InflationAdjustedAssets": 1342197966
-        },
-        {
-          "Bank": "Millennium State Bank of Texas",
-          "Date": "02/07/2009",
-          "Assets": 118000000,
-          "InflationAdjustedAssets": 164549984.4
-        },
-        {
-          "Bank": "The First National Bank of Danville",
-          "Date": "02/07/2009",
-          "Assets": 166000000,
-          "InflationAdjustedAssets": 231485571.3
-        },
-        {
-          "Bank": "The Elizabeth State Bank",
-          "Date": "02/07/2009",
-          "Assets": 55500000,
-          "InflationAdjustedAssets": 77394272.32
-        },
-        {
-          "Bank": "Rock River Bank",
-          "Date": "02/07/2009",
-          "Assets": 77000000,
-          "InflationAdjustedAssets": 107375837.3
-        },
-        {
-          "Bank": "The First State Bank of Winchester",
-          "Date": "02/07/2009",
-          "Assets": 36000000,
-          "InflationAdjustedAssets": 50201690.15
-        },
-        {
-          "Bank": "The John Warner Bank",
-          "Date": "02/07/2009",
-          "Assets": 70000000,
-          "InflationAdjustedAssets": 97614397.52
-        },
-        {
-          "Bank": "Mirae Bank",
-          "Date": "26/06/2009",
-          "Assets": 456000000,
-          "InflationAdjustedAssets": 635888075.3
-        },
-        {
-          "Bank": "MetroPacific Bank",
-          "Date": "26/06/2009",
-          "Assets": 80000000,
-          "InflationAdjustedAssets": 111559311.4
-        },
-        {
-          "Bank": "Horizon Bank",
-          "Date": "26/06/2009",
-          "Assets": 87600000,
-          "InflationAdjustedAssets": 122157446
-        },
-        {
-          "Bank": "Neighborhood Community Bank",
-          "Date": "26/06/2009",
-          "Assets": 221600000,
-          "InflationAdjustedAssets": 309019292.7
-        },
-        {
-          "Bank": "Community Bank of West Georgia",
-          "Date": "26/06/2009",
-          "Assets": 199400000,
-          "InflationAdjustedAssets": 278061583.8
-        },
-        {
-          "Bank": "Cooperative Bank",
-          "Date": "19/06/2009",
-          "Assets": 970000000,
-          "InflationAdjustedAssets": 1352656651
-        },
-        {
-          "Bank": "Southern Community Bank",
-          "Date": "19/06/2009",
-          "Assets": 377000000,
-          "InflationAdjustedAssets": 525723255.2
-        },
-        {
-          "Bank": "First National Bank of Anthony",
-          "Date": "19/06/2009",
-          "Assets": 156900000,
-          "InflationAdjustedAssets": 218795699.6
-        },
-        {
-          "Bank": "Bank of Lincolnwood",
-          "Date": "05/06/2009",
-          "Assets": 214000000,
-          "InflationAdjustedAssets": 298421158.1
-        },
-        {
-          "Bank": "Citizens National Bank",
-          "Date": "22/05/2009",
-          "Assets": 437000000,
-          "InflationAdjustedAssets": 609392738.8
-        },
-        {
-          "Bank": "Strategic Capital Bank",
-          "Date": "22/05/2009",
-          "Assets": 537000000,
-          "InflationAdjustedAssets": 748841878.1
-        },
-        {
-          "Bank": "BankUnited",
-          "Date": "21/05/2009",
-          "Assets": 12800000000,
-          "InflationAdjustedAssets": 17849489832
-        },
-        {
-          "Bank": "Westsound Bank",
-          "Date": "08/05/2009",
-          "Assets": 334600000,
-          "InflationAdjustedAssets": 466596820.1
-        },
-        {
-          "Bank": "America West Bank",
-          "Date": "01/05/2009",
-          "Assets": 299400000,
-          "InflationAdjustedAssets": 417510723.1
-        },
-        {
-          "Bank": "Citizens Community Bank",
-          "Date": "01/05/2009",
-          "Assets": 45100000,
-          "InflationAdjustedAssets": 62891561.83
-        },
-        {
-          "Bank": "Silverton Bank",
-          "Date": "01/05/2009",
-          "Assets": 4100000000,
-          "InflationAdjustedAssets": 5717414712
-        },
-        {
-          "Bank": "First Bank of Idaho",
-          "Date": "24/04/2009",
-          "Assets": 488900000,
-          "InflationAdjustedAssets": 681766842.1
-        },
-        {
-          "Bank": "First Bank of Beverly Hills",
-          "Date": "24/04/2009",
-          "Assets": 1500000000,
-          "InflationAdjustedAssets": 2091737090
-        },
-        {
-          "Bank": "Michigan Heritage Bank",
-          "Date": "24/04/2009",
-          "Assets": 184600000,
-          "InflationAdjustedAssets": 257423111.2
-        },
-        {
-          "Bank": "American Southern Bank",
-          "Date": "24/04/2009",
-          "Assets": 112300000,
-          "InflationAdjustedAssets": 156601383.4
-        },
-        {
-          "Bank": "Great Basin Bank of Nevada",
-          "Date": "17/04/2009",
-          "Assets": 270900000,
-          "InflationAdjustedAssets": 377767718.4
-        },
-        {
-          "Bank": "American Sterling Bank",
-          "Date": "17/04/2009",
-          "Assets": 181000000,
-          "InflationAdjustedAssets": 252402942.1
-        },
-        {
-          "Bank": "New Frontier Bank",
-          "Date": "10/04/2009",
-          "Assets": 2000000000,
-          "InflationAdjustedAssets": 2788982786
-        },
-        {
-          "Bank": "Cape Fear Bank",
-          "Date": "10/04/2009",
-          "Assets": 492000000,
-          "InflationAdjustedAssets": 686089765.4
-        },
-        {
-          "Bank": "Omni National Bank",
-          "Date": "27/03/2009",
-          "Assets": 956000000,
-          "InflationAdjustedAssets": 1333133772
-        },
-        {
-          "Bank": "TeamBank",
-          "Date": "20/03/2009",
-          "Assets": 669800000,
-          "InflationAdjustedAssets": 934030335.1
-        },
-        {
-          "Bank": "FirstCity Bank",
-          "Date": "20/03/2009",
-          "Assets": 297000000,
-          "InflationAdjustedAssets": 414163943.7
-        },
-        {
-          "Bank": "Colorado National Bank",
-          "Date": "20/03/2009",
-          "Assets": 123500000,
-          "InflationAdjustedAssets": 172219687
-        },
-        {
-          "Bank": "Freedom Bank of Georgia",
-          "Date": "06/03/2009",
-          "Assets": 173000000,
-          "InflationAdjustedAssets": 241247011
-        },
-        {
-          "Bank": "Security Savings Bank",
-          "Date": "27/02/2009",
-          "Assets": 238300000,
-          "InflationAdjustedAssets": 332307299
-        },
-        {
-          "Bank": "Heritage Community Bank",
-          "Date": "27/02/2009",
-          "Assets": 232900000,
-          "InflationAdjustedAssets": 324777045.5
-        },
-        {
-          "Bank": "Silver Falls Bank",
-          "Date": "20/02/2009",
-          "Assets": 131400000,
-          "InflationAdjustedAssets": 183236169.1
-        },
-        {
-          "Bank": "Pinnacle Bank",
-          "Date": "13/02/2009",
-          "Assets": 73000000,
-          "InflationAdjustedAssets": 101797871.7
-        },
-        {
-          "Bank": "Corn Belt Bank and Trust Company",
-          "Date": "13/02/2009",
-          "Assets": 271800000,
-          "InflationAdjustedAssets": 379022760.6
-        },
-        {
-          "Bank": "Riverside Bank of the Gulf Coast",
-          "Date": "13/02/2009",
-          "Assets": 539000000,
-          "InflationAdjustedAssets": 751630860.9
-        },
-        {
-          "Bank": "Sherman County Bank",
-          "Date": "13/02/2009",
-          "Assets": 129800000,
-          "InflationAdjustedAssets": 181004982.8
-        },
-        {
-          "Bank": "County Bank",
-          "Date": "06/02/2009",
-          "Assets": 1700000000,
-          "InflationAdjustedAssets": 2370635368
-        },
-        {
-          "Bank": "Alliance Bank",
-          "Date": "06/02/2009",
-          "Assets": 1140000000,
-          "InflationAdjustedAssets": 1589720188
-        },
-        {
-          "Bank": "FirstBank Financial Services",
-          "Date": "06/02/2009",
-          "Assets": 337000000,
-          "InflationAdjustedAssets": 469943599.5
-        },
-        {
-          "Bank": "Ocala National Bank",
-          "Date": "30/01/2009",
-          "Assets": 223500000,
-          "InflationAdjustedAssets": 311668826.4
-        },
-        {
-          "Bank": "Suburban Federal Savings Bank",
-          "Date": "30/01/2009",
-          "Assets": 360000000,
-          "InflationAdjustedAssets": 502016901.5
-        },
-        {
-          "Bank": "MagnetBank",
-          "Date": "30/01/2009",
-          "Assets": 292900000,
-          "InflationAdjustedAssets": 408446529
-        },
-        {
-          "Bank": "1st Centennial Bank",
-          "Date": "23/01/2009",
-          "Assets": 803300000,
-          "InflationAdjustedAssets": 1120194936
-        },
-        {
-          "Bank": "Bank of Clark County",
-          "Date": "16/01/2009",
-          "Assets": 446500000,
-          "InflationAdjustedAssets": 622640407
-        },
-        {
-          "Bank": "National Bank of Commerce",
-          "Date": "16/01/2009",
-          "Assets": 430900000,
-          "InflationAdjustedAssets": 600886341.3
-        },
-        {
-          "Bank": "Sanderson State Bank",
-          "Date": "12/12/2008",
-          "Assets": 37000000,
-          "InflationAdjustedAssets": 51412613.85
-        },
-        {
-          "Bank": "Haven Trust Bank",
-          "Date": "12/12/2008",
-          "Assets": 572000000,
-          "InflationAdjustedAssets": 794811219.5
-        },
-        {
-          "Bank": "First Georgia Community Bank",
-          "Date": "05/12/2008",
-          "Assets": 237500000,
-          "InflationAdjustedAssets": 330013399.7
-        },
-        {
-          "Bank": "PFF Bank and Trust",
-          "Date": "21/11/2008",
-          "Assets": 3700000000,
-          "InflationAdjustedAssets": 5141261385
-        },
-        {
-          "Bank": "Downey Savings and Loan Association",
-          "Date": "21/11/2008",
-          "Assets": 12800000000,
-          "InflationAdjustedAssets": 17785985332
-        },
-        {
-          "Bank": "Community Bank",
-          "Date": "21/11/2008",
-          "Assets": 681000000,
-          "InflationAdjustedAssets": 946270000.9
-        },
-        {
-          "Bank": "Security Pacific Bank",
-          "Date": "07/11/2008",
-          "Assets": 561100000,
-          "InflationAdjustedAssets": 779665341.4
-        },
-        {
-          "Bank": "Franklin Bank",
-          "Date": "07/11/2008",
-          "Assets": 5100000000,
-          "InflationAdjustedAssets": 7086603531
-        },
-        {
-          "Bank": "Freedom Bank",
-          "Date": "31/10/2008",
-          "Assets": 287000000,
-          "InflationAdjustedAssets": 398795139.9
-        },
-        {
-          "Bank": "Alpha Bank & Trust",
-          "Date": "24/10/2008",
-          "Assets": 354100000,
-          "InflationAdjustedAssets": 492032609.9
-        },
-        {
-          "Bank": "Meridian Bank",
-          "Date": "10/10/2008",
-          "Assets": 39200000,
-          "InflationAdjustedAssets": 54469580.08
-        },
-        {
-          "Bank": "Main Street Bank",
-          "Date": "10/10/2008",
-          "Assets": 98000000,
-          "InflationAdjustedAssets": 136173950.2
-        },
-        {
-          "Bank": "Washington Mutual Bank",
-          "Date": "25/09/2008",
-          "Assets": 307000000000,
-          "InflationAdjustedAssets": 426586000000
-        },
-        {
-          "Bank": "Ameribank",
-          "Date": "19/09/2008",
-          "Assets": 115000000,
-          "InflationAdjustedAssets": 159795962
-        },
-        {
-          "Bank": "Silver State Bank",
-          "Date": "05/09/2008",
-          "Assets": 2000000000,
-          "InflationAdjustedAssets": 2779060208
-        },
-        {
-          "Bank": "Integrity Bank",
-          "Date": "29/08/2008",
-          "Assets": 1100000000,
-          "InflationAdjustedAssets": 1528483114
-        },
-        {
-          "Bank": "Columbian Bank and Trust",
-          "Date": "22/08/2008",
-          "Assets": 752000000,
-          "InflationAdjustedAssets": 1044926638
-        },
-        {
-          "Bank": "First Priority Bank",
-          "Date": "01/08/2008",
-          "Assets": 259000000,
-          "InflationAdjustedAssets": 359888297
-        },
-        {
-          "Bank": "First National Bank of Nevada",
-          "Date": "25/07/2008",
-          "Assets": 3400000000,
-          "InflationAdjustedAssets": 4724402354
-        },
-        {
-          "Bank": "First Heritage Bank National Association",
-          "Date": "25/07/2008",
-          "Assets": 254000000,
-          "InflationAdjustedAssets": 352940646.4
-        },
-        {
-          "Bank": "IndyMac Bank",
-          "Date": "11/07/2008",
-          "Assets": 32010000000,
-          "InflationAdjustedAssets": 44478858632
-        },
-        {
-          "Bank": "First Integrity Bank",
-          "Date": "30/05/2008",
-          "Assets": 54700000,
-          "InflationAdjustedAssets": 76007296.69
-        },
-        {
-          "Bank": "ANB Financial",
-          "Date": "09/05/2008",
-          "Assets": 2100000000,
-          "InflationAdjustedAssets": 2918013219
-        },
-        {
-          "Bank": "Hume Bank",
-          "Date": "07/03/2008",
-          "Assets": 18700000,
-          "InflationAdjustedAssets": 25984212.95
-        },
-        {
-          "Bank": "Douglass National Bank",
-          "Date": "25/01/2008",
-          "Assets": 58500000,
-          "InflationAdjustedAssets": 81287511.09
-        },
-        {
-          "Bank": "Miami Valley Bank",
-          "Date": "04/10/2007",
-          "Assets": 86700000,
-          "InflationAdjustedAssets": 125097852.8
-        },
-        {
-          "Bank": "NetBank",
-          "Date": "28/09/2007",
-          "Assets": 2500000000,
-          "InflationAdjustedAssets": 3607204522
-        },
-        {
-          "Bank": "Metropolitan Savings",
-          "Date": "02/02/2007",
-          "Assets": 15800000,
-          "InflationAdjustedAssets": 22797532.58
-        },
-        {
-          "Bank": "Bank of Ephraim",
-          "Date": "25/06/2004",
-          "Assets": 46400000,
-          "InflationAdjustedAssets": 73492521.83
-        },
-        {
-          "Bank": "Reliance Bank",
-          "Date": "19/03/2004",
-          "Assets": 30300000,
-          "InflationAdjustedAssets": 47991883.86
-        },
-        {
-          "Bank": "Guaranty National Bank of Tallahassee",
-          "Date": "12/03/2004",
-          "Assets": 74100000,
-          "InflationAdjustedAssets": 117366290.2
-        },
-        {
-          "Bank": "Dollar Savings Bank of Newark",
-          "Date": "14/02/2004",
-          "Assets": 12300000,
-          "InflationAdjustedAssets": 19481853.85
-        },
-        {
-          "Bank": "Pulaski Savings Bank",
-          "Date": "14/11/2003",
-          "Assets": 10200000,
-          "InflationAdjustedAssets": 16588210.35
-        },
-        {
-          "Bank": "First National Bank of Blanchardville",
-          "Date": "09/05/2003",
-          "Assets": 35000000,
-          "InflationAdjustedAssets": 56920329.64
-        },
-        {
-          "Bank": "Southern Pacific Bank",
-          "Date": "07/02/2003",
-          "Assets": 1000000000,
-          "InflationAdjustedAssets": 1626295133
-        },
-        {
-          "Bank": "Farmers Bank & Trust of Cheneyville",
-          "Date": "17/12/2002",
-          "Assets": 37000000,
-          "InflationAdjustedAssets": 61538790.83
-        },
-        {
-          "Bank": "Bank of Alamo",
-          "Date": "08/11/2002",
-          "Assets": 69400000,
-          "InflationAdjustedAssets": 115426813.1
-        },
-        {
-          "Bank": "AmTrade International Bank",
-          "Date": "30/09/2002",
-          "Assets": 12000000,
-          "InflationAdjustedAssets": 19958526.75
-        },
-        {
-          "Bank": "Universal Federal Savings Bank",
-          "Date": "27/06/2002",
-          "Assets": 51600000,
-          "InflationAdjustedAssets": 85821665.05
-        },
-        {
-          "Bank": "Connecticut Bank of Commerce",
-          "Date": "26/06/2002",
-          "Assets": 398600000,
-          "InflationAdjustedAssets": 662955730.4
-        },
-        {
-          "Bank": "New Century Bank",
-          "Date": "28/03/2002",
-          "Assets": 19000000,
-          "InflationAdjustedAssets": 31601000.69
-        },
-        {
-          "Bank": "Net 1st National Bank",
-          "Date": "01/03/2002",
-          "Assets": 34700000,
-          "InflationAdjustedAssets": 57713406.53
-        },
-        {
-          "Bank": "NextBank",
-          "Date": "07/02/2002",
-          "Assets": 700000000,
-          "InflationAdjustedAssets": 1164247394
-        },
-        {
-          "Bank": "Oakwood Deposit Bank Company",
-          "Date": "01/02/2002",
-          "Assets": 72300000,
-          "InflationAdjustedAssets": 120250123.7
-        },
-        {
-          "Bank": "Bank of Sierra Blanca",
-          "Date": "18/01/2002",
-          "Assets": 10800000,
-          "InflationAdjustedAssets": 17962674.08
-        },
-        {
-          "Bank": "Hamilton Bank",
-          "Date": "11/01/2002",
-          "Assets": 1300000000,
-          "InflationAdjustedAssets": 2162173732
-        },
-        {
-          "Bank": "Sinclair National Bank",
-          "Date": "07/09/2001",
-          "Assets": 30700000,
-          "InflationAdjustedAssets": 51870303.33
-        },
-        {
-          "Bank": "Superior Bank",
-          "Date": "27/07/2001",
-          "Assets": 2300000000,
-          "InflationAdjustedAssets": 3886048784
-        },
-        {
-          "Bank": "The Malta National Bank",
-          "Date": "03/05/2001",
-          "Assets": 9500000,
-          "InflationAdjustedAssets": 16051071.06
-        },
-        {
-          "Bank": "First Alliance Bank & Trust Company",
-          "Date": "02/02/2001",
-          "Assets": 18400000,
-          "InflationAdjustedAssets": 31088390.27
-        }
+[
+	{
+		"Bank": "Signature Bank",
+		"Date": "12/03/2023",
+		"Assets": 110400000000,
+		"InflationAdjustedAssets": 110400000000
+	},
+	{
+		"Bank": "Silicon Valley Bank",
+		"Date": "10/03/2023",
+		"Assets": 209000000000,
+		"InflationAdjustedAssets": 209000000000
+	},
+	{
+		"Bank": "Almena State Bank",
+		"Date": "23/10/2020",
+		"Assets": 70000000,
+		"InflationAdjustedAssets": 80915803.42
+	},
+	{
+		"Bank": "First City Bank of Florida",
+		"Date": "16/10/2020",
+		"Assets": 134700000,
+		"InflationAdjustedAssets": 155705124.6
+	},
+	{
+		"Bank": "First State Bank",
+		"Date": "03/04/2020",
+		"Assets": 152400000,
+		"InflationAdjustedAssets": 176165263.5
+	},
+	{
+		"Bank": "Ericson State Bank",
+		"Date": "14/02/2020",
+		"Assets": 100900000,
+		"InflationAdjustedAssets": 116634350.9
+	},
+	{
+		"Bank": "City National Bank of New Jersey",
+		"Date": "01/11/2019",
+		"Assets": 120600000,
+		"InflationAdjustedAssets": 141126204.3
+	},
+	{
+		"Bank": "Resolute Bank",
+		"Date": "25/10/2019",
+		"Assets": 27100000,
+		"InflationAdjustedAssets": 31712438.93
+	},
+	{
+		"Bank": "Louisa Community Bank",
+		"Date": "25/10/2019",
+		"Assets": 29700000,
+		"InflationAdjustedAssets": 34754960.75
+	},
+	{
+		"Bank": "The Enloe State Bank",
+		"Date": "31/05/2019",
+		"Assets": 36700000,
+		"InflationAdjustedAssets": 42946365.64
+	},
+	{
+		"Bank": "Washington Federal Bank for Savings",
+		"Date": "15/12/2017",
+		"Assets": 166300000,
+		"InflationAdjustedAssets": 202969855.6
+	},
+	{
+		"Bank": "The Farmers and Merchants State Bank of Argonia",
+		"Date": "13/10/2017",
+		"Assets": 34200000,
+		"InflationAdjustedAssets": 41741245.1
+	},
+	{
+		"Bank": "Fayette County Bank",
+		"Date": "26/05/2017",
+		"Assets": 34400000,
+		"InflationAdjustedAssets": 41985345.95
+	},
+	{
+		"Bank": "Guaranty Bank",
+		"Date": "05/05/2017",
+		"Assets": 1000000000,
+		"InflationAdjustedAssets": 1220504243
+	},
+	{
+		"Bank": "First NBC Bank",
+		"Date": "28/04/2017",
+		"Assets": 4740000000,
+		"InflationAdjustedAssets": 5785190111
+	},
+	{
+		"Bank": "Proficio Bank",
+		"Date": "03/03/2017",
+		"Assets": 68200000,
+		"InflationAdjustedAssets": 83238389.36
+	},
+	{
+		"Bank": "Seaway Bank and Trust Company",
+		"Date": "27/01/2017",
+		"Assets": 361200000,
+		"InflationAdjustedAssets": 440846132.5
+	},
+	{
+		"Bank": "Harvest Community Bank",
+		"Date": "13/01/2017",
+		"Assets": 126400000,
+		"InflationAdjustedAssets": 154271736.3
+	},
+	{
+		"Bank": "Allied Bank",
+		"Date": "23/09/2016",
+		"Assets": 66300000,
+		"InflationAdjustedAssets": 82641924.75
+	},
+	{
+		"Bank": "The Woodbury Banking Company",
+		"Date": "19/08/2016",
+		"Assets": 21400000,
+		"InflationAdjustedAssets": 26674769.07
+	},
+	{
+		"Bank": "First CornerStone Bank",
+		"Date": "06/05/2016",
+		"Assets": 103300000,
+		"InflationAdjustedAssets": 128761852.6
+	},
+	{
+		"Bank": "Trust Company Bank",
+		"Date": "29/04/2016",
+		"Assets": 20700000,
+		"InflationAdjustedAssets": 25802229.9
+	},
+	{
+		"Bank": "North Milwaukee State Bank",
+		"Date": "11/03/2016",
+		"Assets": 67100000,
+		"InflationAdjustedAssets": 83639112.37
+	},
+	{
+		"Bank": "Hometown National Bank",
+		"Date": "02/10/2015",
+		"Assets": 4900000,
+		"InflationAdjustedAssets": 6184927.663
+	},
+	{
+		"Bank": "The Bank of Georgia",
+		"Date": "02/10/2015",
+		"Assets": 294200000,
+		"InflationAdjustedAssets": 371348105.8
+	},
+	{
+		"Bank": "Premier Bank",
+		"Date": "10/07/2015",
+		"Assets": 31700000,
+		"InflationAdjustedAssets": 40012695.29
+	},
+	{
+		"Bank": "Edgebrook Bank",
+		"Date": "08/05/2015",
+		"Assets": 90000000,
+		"InflationAdjustedAssets": 113600712.2
+	},
+	{
+		"Bank": "Doral Bank",
+		"Date": "27/02/2015",
+		"Assets": 5900000000,
+		"InflationAdjustedAssets": 7447157799
+	},
+	{
+		"Bank": "Capitol City Bank & Trust Company",
+		"Date": "13/02/2015",
+		"Assets": 272300000,
+		"InflationAdjustedAssets": 343705265.9
+	},
+	{
+		"Bank": "Highland Community Bank",
+		"Date": "23/01/2015",
+		"Assets": 54700000,
+		"InflationAdjustedAssets": 69043988.41
+	},
+	{
+		"Bank": "First National Bank of Crestview",
+		"Date": "16/01/2015",
+		"Assets": 79700000,
+		"InflationAdjustedAssets": 100599741.8
+	},
+	{
+		"Bank": "Northern Star Bank",
+		"Date": "19/12/2014",
+		"Assets": 18800000,
+		"InflationAdjustedAssets": 23758093.4
+	},
+	{
+		"Bank": "Frontier Bank",
+		"Date": "07/11/2014",
+		"Assets": 86400000,
+		"InflationAdjustedAssets": 109186131.4
+	},
+	{
+		"Bank": "The National Republic Bank of Chicago",
+		"Date": "24/10/2014",
+		"Assets": 954400000,
+		"InflationAdjustedAssets": 1206102359
+	},
+	{
+		"Bank": "NBRS Financial",
+		"Date": "17/10/2014",
+		"Assets": 188200000,
+		"InflationAdjustedAssets": 237833679.7
+	},
+	{
+		"Bank": "GreenChoice Bank",
+		"Date": "25/07/2014",
+		"Assets": 72900000,
+		"InflationAdjustedAssets": 92125798.36
+	},
+	{
+		"Bank": "Eastside Commercial Bank",
+		"Date": "18/07/2014",
+		"Assets": 169000000,
+		"InflationAdjustedAssets": 213570095
+	},
+	{
+		"Bank": "The Freedom State Bank",
+		"Date": "27/06/2014",
+		"Assets": 22800000,
+		"InflationAdjustedAssets": 28813006.89
+	},
+	{
+		"Bank": "Valley Bank",
+		"Date": "20/06/2014",
+		"Assets": 81800000,
+		"InflationAdjustedAssets": 103372980.9
+	},
+	{
+		"Bank": "Valley Bank",
+		"Date": "20/06/2014",
+		"Assets": 456400000,
+		"InflationAdjustedAssets": 576765629.2
+	},
+	{
+		"Bank": "Slavie Federal Savings Bank",
+		"Date": "30/05/2014",
+		"Assets": 140100000,
+		"InflationAdjustedAssets": 177048345
+	},
+	{
+		"Bank": "Columbia Savings Bank",
+		"Date": "23/05/2014",
+		"Assets": 36500000,
+		"InflationAdjustedAssets": 46126085.6
+	},
+	{
+		"Bank": "AztecAmerica Bank",
+		"Date": "16/05/2014",
+		"Assets": 66300000,
+		"InflationAdjustedAssets": 83785191.1
+	},
+	{
+		"Bank": "Allendale County Bank",
+		"Date": "25/04/2014",
+		"Assets": 54500000,
+		"InflationAdjustedAssets": 68873196.3
+	},
+	{
+		"Bank": "Vantage Point Bank",
+		"Date": "28/02/2014",
+		"Assets": 63500000,
+		"InflationAdjustedAssets": 80246751.66
+	},
+	{
+		"Bank": "Millennium Bank",
+		"Date": "28/02/2014",
+		"Assets": 130300000,
+		"InflationAdjustedAssets": 164663806.9
+	},
+	{
+		"Bank": "Syringa Bank",
+		"Date": "31/01/2014",
+		"Assets": 153400000,
+		"InflationAdjustedAssets": 193855932.3
+	},
+	{
+		"Bank": "The Bank of Union",
+		"Date": "24/01/2014",
+		"Assets": 331400000,
+		"InflationAdjustedAssets": 418799582.7
+	},
+	{
+		"Bank": "DuPage National Bank",
+		"Date": "17/01/2014",
+		"Assets": 61700000,
+		"InflationAdjustedAssets": 77972040.59
+	},
+	{
+		"Bank": "Texas Community Bank",
+		"Date": "13/12/2013",
+		"Assets": 160100000,
+		"InflationAdjustedAssets": 205604970
+	},
+	{
+		"Bank": "Bank of Jackson County",
+		"Date": "30/10/2013",
+		"Assets": 25500000,
+		"InflationAdjustedAssets": 32747824.71
+	},
+	{
+		"Bank": "First National Bank",
+		"Date": "13/09/2013",
+		"Assets": 3100000000,
+		"InflationAdjustedAssets": 3981108101
+	},
+	{
+		"Bank": "The Community's Bank",
+		"Date": "13/09/2013",
+		"Assets": 26300000,
+		"InflationAdjustedAssets": 33775207.44
+	},
+	{
+		"Bank": "Sunrise Bank of Arizona",
+		"Date": "23/08/2013",
+		"Assets": 202200000,
+		"InflationAdjustedAssets": 259670986.5
+	},
+	{
+		"Bank": "Community South Bank",
+		"Date": "23/08/2013",
+		"Assets": 386900000,
+		"InflationAdjustedAssets": 496867975.6
+	},
+	{
+		"Bank": "Bank of Wausau",
+		"Date": "09/08/2013",
+		"Assets": 43600000,
+		"InflationAdjustedAssets": 55992359.1
+	},
+	{
+		"Bank": "First Community Bank of Southwest Florida",
+		"Date": "02/08/2013",
+		"Assets": 265700000,
+		"InflationAdjustedAssets": 341219491.2
+	},
+	{
+		"Bank": "Mountain National Bank",
+		"Date": "07/06/2013",
+		"Assets": 437300000,
+		"InflationAdjustedAssets": 561593088
+	},
+	{
+		"Bank": "1st Commerce Bank",
+		"Date": "06/06/2013",
+		"Assets": 20200000,
+		"InflationAdjustedAssets": 25941414.08
+	},
+	{
+		"Bank": "Banks of Wisconsin",
+		"Date": "31/05/2013",
+		"Assets": 134000000,
+		"InflationAdjustedAssets": 172086608.3
+	},
+	{
+		"Bank": "Central Arizona Bank",
+		"Date": "14/05/2013",
+		"Assets": 31600000,
+		"InflationAdjustedAssets": 40581618.07
+	},
+	{
+		"Bank": "Sunrise Bank",
+		"Date": "10/05/2013",
+		"Assets": 60800000,
+		"InflationAdjustedAssets": 78081087.93
+	},
+	{
+		"Bank": "Pisgah Community Bank",
+		"Date": "10/05/2013",
+		"Assets": 21900000,
+		"InflationAdjustedAssets": 28124602.39
+	},
+	{
+		"Bank": "Douglas County Bank",
+		"Date": "26/04/2013",
+		"Assets": 316500000,
+		"InflationAdjustedAssets": 406458294.9
+	},
+	{
+		"Bank": "Parkway Bank",
+		"Date": "26/04/2013",
+		"Assets": 108600000,
+		"InflationAdjustedAssets": 139467206.4
+	},
+	{
+		"Bank": "Chipola Community Bank",
+		"Date": "19/04/2013",
+		"Assets": 39200000,
+		"InflationAdjustedAssets": 50341754.06
+	},
+	{
+		"Bank": "Heritage Bank of North Florida",
+		"Date": "19/04/2013",
+		"Assets": 110900000,
+		"InflationAdjustedAssets": 142420931.8
+	},
+	{
+		"Bank": "First Federal Bank",
+		"Date": "19/04/2013",
+		"Assets": 100100000,
+		"InflationAdjustedAssets": 128551264.8
+	},
+	{
+		"Bank": "Gold Canyon Bank",
+		"Date": "05/04/2013",
+		"Assets": 45200000,
+		"InflationAdjustedAssets": 58047124.58
+	},
+	{
+		"Bank": "Frontier Bank",
+		"Date": "08/03/2013",
+		"Assets": 258800000,
+		"InflationAdjustedAssets": 332358315.1
+	},
+	{
+		"Bank": "Covenant Bank",
+		"Date": "15/02/2013",
+		"Assets": 58400000,
+		"InflationAdjustedAssets": 74998939.72
+	},
+	{
+		"Bank": "1st Regents Bank",
+		"Date": "18/01/2013",
+		"Assets": 50200000,
+		"InflationAdjustedAssets": 64468266.68
+	},
+	{
+		"Bank": "Westside Community Bank",
+		"Date": "11/01/2013",
+		"Assets": 97700000,
+		"InflationAdjustedAssets": 125469116.6
+	},
+	{
+		"Bank": "Community Bank of the Ozarks",
+		"Date": "14/12/2012",
+		"Assets": 42800000,
+		"InflationAdjustedAssets": 55770081.1
+	},
+	{
+		"Bank": "Hometown Community Bank",
+		"Date": "16/11/2012",
+		"Assets": 124600000,
+		"InflationAdjustedAssets": 162358694
+	},
+	{
+		"Bank": "Citizens First National Bank",
+		"Date": "02/11/2012",
+		"Assets": 924000000,
+		"InflationAdjustedAssets": 1204008293
+	},
+	{
+		"Bank": "Heritage Bank of Florida",
+		"Date": "02/11/2012",
+		"Assets": 225500000,
+		"InflationAdjustedAssets": 293835357.2
+	},
+	{
+		"Bank": "NOVA Bank",
+		"Date": "26/10/2012",
+		"Assets": 483000000,
+		"InflationAdjustedAssets": 629367971.3
+	},
+	{
+		"Bank": "Excel Bank",
+		"Date": "19/10/2012",
+		"Assets": 200600000,
+		"InflationAdjustedAssets": 261389679.2
+	},
+	{
+		"Bank": "First East Side Savings Bank",
+		"Date": "19/10/2012",
+		"Assets": 67200000,
+		"InflationAdjustedAssets": 87564239.48
+	},
+	{
+		"Bank": "GulfSouth Private Bank",
+		"Date": "19/10/2012",
+		"Assets": 159100000,
+		"InflationAdjustedAssets": 207313549.1
+	},
+	{
+		"Bank": "First United Bank",
+		"Date": "28/09/2012",
+		"Assets": 328400000,
+		"InflationAdjustedAssets": 427918098.9
+	},
+	{
+		"Bank": "Truman Bank",
+		"Date": "14/09/2012",
+		"Assets": 282300000,
+		"InflationAdjustedAssets": 367847988.2
+	},
+	{
+		"Bank": "First Commercial Bank",
+		"Date": "07/09/2012",
+		"Assets": 215900000,
+		"InflationAdjustedAssets": 281326180.1
+	},
+	{
+		"Bank": "Waukegan Savings Bank",
+		"Date": "03/08/2012",
+		"Assets": 88900000,
+		"InflationAdjustedAssets": 115840191.8
+	},
+	{
+		"Bank": "Jasper Banking Company",
+		"Date": "27/07/2012",
+		"Assets": 216700000,
+		"InflationAdjustedAssets": 282368611.5
+	},
+	{
+		"Bank": "Second Federal Savings and Loan Association of Chicago",
+		"Date": "20/07/2012",
+		"Assets": 199100000,
+		"InflationAdjustedAssets": 259435120.3
+	},
+	{
+		"Bank": "Heartland Bank",
+		"Date": "20/07/2012",
+		"Assets": 110000000,
+		"InflationAdjustedAssets": 143334320.6
+	},
+	{
+		"Bank": "First Cherokee State Bank",
+		"Date": "20/07/2012",
+		"Assets": 222700000,
+		"InflationAdjustedAssets": 290186847.2
+	},
+	{
+		"Bank": "Georgia Trust Bank",
+		"Date": "20/07/2012",
+		"Assets": 119800000,
+		"InflationAdjustedAssets": 156104105.5
+	},
+	{
+		"Bank": "The Royal Palm Bank of Florida",
+		"Date": "20/07/2012",
+		"Assets": 87000000,
+		"InflationAdjustedAssets": 113364417.2
+	},
+	{
+		"Bank": "Glasgow Savings Bank",
+		"Date": "13/07/2012",
+		"Assets": 24800000,
+		"InflationAdjustedAssets": 32315374.1
+	},
+	{
+		"Bank": "Montgomery Bank & Trust",
+		"Date": "06/07/2012",
+		"Assets": 173600000,
+		"InflationAdjustedAssets": 226207618.7
+	},
+	{
+		"Bank": "The Farmers Bank of Lynchburg",
+		"Date": "15/06/2012",
+		"Assets": 163900000,
+		"InflationAdjustedAssets": 213568137.7
+	},
+	{
+		"Bank": "Security Exchange Bank",
+		"Date": "15/06/2012",
+		"Assets": 151000000,
+		"InflationAdjustedAssets": 196758931
+	},
+	{
+		"Bank": "Putnam State Bank",
+		"Date": "15/06/2012",
+		"Assets": 169500000,
+		"InflationAdjustedAssets": 220865157.6
+	},
+	{
+		"Bank": "Waccamaw Bank",
+		"Date": "08/06/2012",
+		"Assets": 533100000,
+		"InflationAdjustedAssets": 694650239.1
+	},
+	{
+		"Bank": "Farmers and Traders State Bank",
+		"Date": "08/06/2012",
+		"Assets": 43100000,
+		"InflationAdjustedAssets": 56160992.88
+	},
+	{
+		"Bank": "Carolina Federal Savings Bank",
+		"Date": "08/06/2012",
+		"Assets": 54400000,
+		"InflationAdjustedAssets": 70885336.72
+	},
+	{
+		"Bank": "First Capital Bank",
+		"Date": "08/06/2012",
+		"Assets": 46100000,
+		"InflationAdjustedAssets": 60070110.72
+	},
+	{
+		"Bank": "Alabama Trust Bank",
+		"Date": "18/05/2012",
+		"Assets": 51600000,
+		"InflationAdjustedAssets": 67236826.75
+	},
+	{
+		"Bank": "Security Bank",
+		"Date": "04/05/2012",
+		"Assets": 101000000,
+		"InflationAdjustedAssets": 131606967.1
+	},
+	{
+		"Bank": "Palm Desert National Bank",
+		"Date": "27/04/2012",
+		"Assets": 125800000,
+		"InflationAdjustedAssets": 163922341.2
+	},
+	{
+		"Bank": "Plantation Federal Bank",
+		"Date": "27/04/2012",
+		"Assets": 486400000,
+		"InflationAdjustedAssets": 633798304.8
+	},
+	{
+		"Bank": "Inter Savings Bank",
+		"Date": "27/04/2012",
+		"Assets": 481600000,
+		"InflationAdjustedAssets": 627543716.3
+	},
+	{
+		"Bank": "HarVest Bank of Maryland",
+		"Date": "27/04/2012",
+		"Assets": 164300000,
+		"InflationAdjustedAssets": 214089353.4
+	},
+	{
+		"Bank": "Bank of the Eastern Shore",
+		"Date": "27/04/2012",
+		"Assets": 166700000,
+		"InflationAdjustedAssets": 217216647.6
+	},
+	{
+		"Bank": "Fort Lee Federal Savings Bank",
+		"Date": "20/04/2012",
+		"Assets": 51900000,
+		"InflationAdjustedAssets": 67627738.53
+	},
+	{
+		"Bank": "Fidelity Bank",
+		"Date": "30/03/2012",
+		"Assets": 818200000,
+		"InflationAdjustedAssets": 1066146737
+	},
+	{
+		"Bank": "Premier Bank",
+		"Date": "23/03/2012",
+		"Assets": 268700000,
+		"InflationAdjustedAssets": 350126654
+	},
+	{
+		"Bank": "Covenant Bank & Trust",
+		"Date": "23/03/2012",
+		"Assets": 95700000,
+		"InflationAdjustedAssets": 124700858.9
+	},
+	{
+		"Bank": "New City Bank",
+		"Date": "09/03/2012",
+		"Assets": 71200000,
+		"InflationAdjustedAssets": 92776396.6
+	},
+	{
+		"Bank": "Global Commerce Bank",
+		"Date": "02/03/2012",
+		"Assets": 143700000,
+		"InflationAdjustedAssets": 187246744.3
+	},
+	{
+		"Bank": "Home Savings of America",
+		"Date": "24/02/2012",
+		"Assets": 434100000,
+		"InflationAdjustedAssets": 565649350.6
+	},
+	{
+		"Bank": "Central Bank of Georgia",
+		"Date": "24/02/2012",
+		"Assets": 278900000,
+		"InflationAdjustedAssets": 363417654.6
+	},
+	{
+		"Bank": "SCB Bank",
+		"Date": "10/02/2012",
+		"Assets": 182600000,
+		"InflationAdjustedAssets": 237934972.2
+	},
+	{
+		"Bank": "Charter National Bank and Trust",
+		"Date": "10/02/2012",
+		"Assets": 93900000,
+		"InflationAdjustedAssets": 122355388.2
+	},
+	{
+		"Bank": "BankEast",
+		"Date": "27/01/2012",
+		"Assets": 272600000,
+		"InflationAdjustedAssets": 355208507.2
+	},
+	{
+		"Bank": "Patriot Bank Minnesota",
+		"Date": "27/01/2012",
+		"Assets": 111300000,
+		"InflationAdjustedAssets": 145028271.6
+	},
+	{
+		"Bank": "Tennessee Commerce Bank",
+		"Date": "27/01/2012",
+		"Assets": 1185000000,
+		"InflationAdjustedAssets": 1544101544
+	},
+	{
+		"Bank": "First Guaranty Bank and Trust Company of Jacksonville",
+		"Date": "27/01/2012",
+		"Assets": 377900000,
+		"InflationAdjustedAssets": 492418543.2
+	},
+	{
+		"Bank": "American Eagle Savings Bank",
+		"Date": "20/01/2012",
+		"Assets": 19600000,
+		"InflationAdjustedAssets": 25539569.85
+	},
+	{
+		"Bank": "The First State Bank",
+		"Date": "20/01/2012",
+		"Assets": 536900000,
+		"InflationAdjustedAssets": 699601788.4
+	},
+	{
+		"Bank": "Central Florida State Bank",
+		"Date": "20/01/2012",
+		"Assets": 79100000,
+		"InflationAdjustedAssets": 103070406.9
+	},
+	{
+		"Bank": "Western National Bank",
+		"Date": "16/12/2011",
+		"Assets": 162900000,
+		"InflationAdjustedAssets": 216657818.3
+	},
+	{
+		"Bank": "Premier Community Bank of the Emerald Coast",
+		"Date": "16/12/2011",
+		"Assets": 126000000,
+		"InflationAdjustedAssets": 167580633
+	},
+	{
+		"Bank": "Central Progressive Bank",
+		"Date": "18/11/2011",
+		"Assets": 383100000,
+		"InflationAdjustedAssets": 509524924.5
+	},
+	{
+		"Bank": "Polk County Bank",
+		"Date": "18/11/2011",
+		"Assets": 91600000,
+		"InflationAdjustedAssets": 121828460.2
+	},
+	{
+		"Bank": "Community Bank of Rockmart",
+		"Date": "10/11/2011",
+		"Assets": 62400000,
+		"InflationAdjustedAssets": 82992313.47
+	},
+	{
+		"Bank": "SunFirst Bank",
+		"Date": "04/11/2011",
+		"Assets": 198100000,
+		"InflationAdjustedAssets": 263473995.2
+	},
+	{
+		"Bank": "Mid City Bank",
+		"Date": "04/11/2011",
+		"Assets": 106100000,
+		"InflationAdjustedAssets": 141113533
+	},
+	{
+		"Bank": "All American Bank",
+		"Date": "28/10/2011",
+		"Assets": 37800000,
+		"InflationAdjustedAssets": 50274189.89
+	},
+	{
+		"Bank": "Community Banks of Colorado",
+		"Date": "21/10/2011",
+		"Assets": 1380000000,
+		"InflationAdjustedAssets": 1835406933
+	},
+	{
+		"Bank": "Community Capital Bank",
+		"Date": "21/10/2011",
+		"Assets": 181200000,
+		"InflationAdjustedAssets": 240996910.3
+	},
+	{
+		"Bank": "Decatur First Bank",
+		"Date": "21/10/2011",
+		"Assets": 191500000,
+		"InflationAdjustedAssets": 254695962
+	},
+	{
+		"Bank": "Old Harbor Bank",
+		"Date": "21/10/2011",
+		"Assets": 215900000,
+		"InflationAdjustedAssets": 287148084.6
+	},
+	{
+		"Bank": "Country Bank",
+		"Date": "14/10/2011",
+		"Assets": 190600000,
+		"InflationAdjustedAssets": 253498957.5
+	},
+	{
+		"Bank": "First State Bank",
+		"Date": "14/10/2011",
+		"Assets": 204400000,
+		"InflationAdjustedAssets": 271853026.8
+	},
+	{
+		"Bank": "Blue Ridge Savings Bank",
+		"Date": "14/10/2011",
+		"Assets": 161000000,
+		"InflationAdjustedAssets": 214130808.8
+	},
+	{
+		"Bank": "Piedmont Community Bank",
+		"Date": "14/10/2011",
+		"Assets": 201700000,
+		"InflationAdjustedAssets": 268262013.3
+	},
+	{
+		"Bank": "Sun Security Bank",
+		"Date": "07/10/2011",
+		"Assets": 355900000,
+		"InflationAdjustedAssets": 473348787.9
+	},
+	{
+		"Bank": "The RiverBank",
+		"Date": "07/10/2011",
+		"Assets": 417400000,
+		"InflationAdjustedAssets": 555144096.8
+	},
+	{
+		"Bank": "First International Bank",
+		"Date": "30/09/2011",
+		"Assets": 239900000,
+		"InflationAdjustedAssets": 319068205.2
+	},
+	{
+		"Bank": "Citizens Bank of Northern California",
+		"Date": "23/09/2011",
+		"Assets": 288800000,
+		"InflationAdjustedAssets": 384105450.8
+	},
+	{
+		"Bank": "Bank of the Commonwealth",
+		"Date": "23/09/2011",
+		"Assets": 985100000,
+		"InflationAdjustedAssets": 1310187949
+	},
+	{
+		"Bank": "The First National Bank Of Florida",
+		"Date": "09/09/2011",
+		"Assets": 296800000,
+		"InflationAdjustedAssets": 394745491
+	},
+	{
+		"Bank": "CreekSide Bank",
+		"Date": "02/09/2011",
+		"Assets": 102300000,
+		"InflationAdjustedAssets": 136059513.9
+	},
+	{
+		"Bank": "Patriot Bank of Georgia",
+		"Date": "02/09/2011",
+		"Assets": 150800000,
+		"InflationAdjustedAssets": 200564757.6
+	},
+	{
+		"Bank": "First Choice Bank",
+		"Date": "19/08/2011",
+		"Assets": 141000000,
+		"InflationAdjustedAssets": 187530708.3
+	},
+	{
+		"Bank": "First Southern National Bank",
+		"Date": "19/08/2011",
+		"Assets": 164600000,
+		"InflationAdjustedAssets": 218918826.9
+	},
+	{
+		"Bank": "Lydian Private Bank",
+		"Date": "19/08/2011",
+		"Assets": 1700000000,
+		"InflationAdjustedAssets": 2261008540
+	},
+	{
+		"Bank": "Public Savings Bank",
+		"Date": "18/08/2011",
+		"Assets": 46800000,
+		"InflationAdjustedAssets": 62244235.1
+	},
+	{
+		"Bank": "The First National Bank of Olathe",
+		"Date": "12/08/2011",
+		"Assets": 538100000,
+		"InflationAdjustedAssets": 715675703.2
+	},
+	{
+		"Bank": "Bank of Whitman",
+		"Date": "05/08/2011",
+		"Assets": 548600000,
+		"InflationAdjustedAssets": 729640755.9
+	},
+	{
+		"Bank": "Bank of Shorewood",
+		"Date": "05/08/2011",
+		"Assets": 110700000,
+		"InflationAdjustedAssets": 147231556.1
+	},
+	{
+		"Bank": "Integra Bank National Association",
+		"Date": "29/07/2011",
+		"Assets": 2200000000,
+		"InflationAdjustedAssets": 2926011052
+	},
+	{
+		"Bank": "BankMeridian",
+		"Date": "29/07/2011",
+		"Assets": 239800000,
+		"InflationAdjustedAssets": 318935204.7
+	},
+	{
+		"Bank": "Virginia Business Bank",
+		"Date": "29/07/2011",
+		"Assets": 95800000,
+		"InflationAdjustedAssets": 127414481.3
+	},
+	{
+		"Bank": "Bank of Choice",
+		"Date": "22/07/2011",
+		"Assets": 1070000000,
+		"InflationAdjustedAssets": 1423105375
+	},
+	{
+		"Bank": "LandMark Bank of Florida",
+		"Date": "22/07/2011",
+		"Assets": 275000000,
+		"InflationAdjustedAssets": 365751381.5
+	},
+	{
+		"Bank": "Southshore Community Bank",
+		"Date": "22/07/2011",
+		"Assets": 46300000,
+		"InflationAdjustedAssets": 61579232.59
+	},
+	{
+		"Bank": "Summit Bank",
+		"Date": "15/07/2011",
+		"Assets": 72000000,
+		"InflationAdjustedAssets": 95760361.7
+	},
+	{
+		"Bank": "First Peoples Bank",
+		"Date": "15/07/2011",
+		"Assets": 228300000,
+		"InflationAdjustedAssets": 303640146.9
+	},
+	{
+		"Bank": "High Trust Bank",
+		"Date": "15/07/2011",
+		"Assets": 192500000,
+		"InflationAdjustedAssets": 256025967
+	},
+	{
+		"Bank": "One Georgia Bank",
+		"Date": "15/07/2011",
+		"Assets": 186300000,
+		"InflationAdjustedAssets": 247779935.9
+	},
+	{
+		"Bank": "Signature Bank",
+		"Date": "08/07/2011",
+		"Assets": 66700000,
+		"InflationAdjustedAssets": 88711335.07
+	},
+	{
+		"Bank": "Colorado Capital Bank",
+		"Date": "08/07/2011",
+		"Assets": 717500000,
+		"InflationAdjustedAssets": 954278604.4
+	},
+	{
+		"Bank": "First Chicago Bank & Trust",
+		"Date": "08/07/2011",
+		"Assets": 959300000,
+		"InflationAdjustedAssets": 1275873819
+	},
+	{
+		"Bank": "Mountain Heritage Bank",
+		"Date": "24/06/2011",
+		"Assets": 103700000,
+		"InflationAdjustedAssets": 137921520.9
+	},
+	{
+		"Bank": "First Commercial Bank of Tampa Bay",
+		"Date": "17/06/2011",
+		"Assets": 98600000,
+		"InflationAdjustedAssets": 131138495.3
+	},
+	{
+		"Bank": "McIntosh State Bank",
+		"Date": "17/06/2011",
+		"Assets": 339900000,
+		"InflationAdjustedAssets": 452068707.5
+	},
+	{
+		"Bank": "Atlantic Bank and Trust",
+		"Date": "03/06/2011",
+		"Assets": 208200000,
+		"InflationAdjustedAssets": 276907045.9
+	},
+	{
+		"Bank": "First Heritage Bank",
+		"Date": "27/05/2011",
+		"Assets": 173500000,
+		"InflationAdjustedAssets": 230755871.6
+	},
+	{
+		"Bank": "Summit Bank",
+		"Date": "20/05/2011",
+		"Assets": 142700000,
+		"InflationAdjustedAssets": 189791716.9
+	},
+	{
+		"Bank": "First Georgia Banking Company",
+		"Date": "20/05/2011",
+		"Assets": 731000000,
+		"InflationAdjustedAssets": 972233672.2
+	},
+	{
+		"Bank": "Atlantic Southern Bank",
+		"Date": "20/05/2011",
+		"Assets": 741900000,
+		"InflationAdjustedAssets": 986730727
+	},
+	{
+		"Bank": "Coastal Bank",
+		"Date": "06/05/2011",
+		"Assets": 129400000,
+		"InflationAdjustedAssets": 172102650.1
+	},
+	{
+		"Bank": "Community Central Bank",
+		"Date": "29/04/2011",
+		"Assets": 476300000,
+		"InflationAdjustedAssets": 633481392.7
+	},
+	{
+		"Bank": "The Park Avenue Bank",
+		"Date": "29/04/2011",
+		"Assets": 953300000,
+		"InflationAdjustedAssets": 1267893789
+	},
+	{
+		"Bank": "First Choice Community Bank",
+		"Date": "29/04/2011",
+		"Assets": 308500000,
+		"InflationAdjustedAssets": 410306549.8
+	},
+	{
+		"Bank": "Cortez Community Bank",
+		"Date": "29/04/2011",
+		"Assets": 70900000,
+		"InflationAdjustedAssets": 94297356.17
+	},
+	{
+		"Bank": "First National Bank of Central Florida",
+		"Date": "29/04/2011",
+		"Assets": 352000000,
+		"InflationAdjustedAssets": 468161768.3
+	},
+	{
+		"Bank": "Heritage Banking Group",
+		"Date": "15/04/2011",
+		"Assets": 224000000,
+		"InflationAdjustedAssets": 297921125.3
+	},
+	{
+		"Bank": "Rosemount National Bank",
+		"Date": "15/04/2011",
+		"Assets": 37600000,
+		"InflationAdjustedAssets": 50008188.89
+	},
+	{
+		"Bank": "Superior Bank",
+		"Date": "15/04/2011",
+		"Assets": 3000000000,
+		"InflationAdjustedAssets": 3990015071
+	},
+	{
+		"Bank": "Nexity Bank",
+		"Date": "15/04/2011",
+		"Assets": 793700000,
+		"InflationAdjustedAssets": 1055624987
+	},
+	{
+		"Bank": "New Horizons Bank",
+		"Date": "15/04/2011",
+		"Assets": 110700000,
+		"InflationAdjustedAssets": 147231556.1
+	},
+	{
+		"Bank": "Bartow County Bank",
+		"Date": "15/04/2011",
+		"Assets": 330200000,
+		"InflationAdjustedAssets": 439167658.8
+	},
+	{
+		"Bank": "Nevada Commerce Bank",
+		"Date": "08/04/2011",
+		"Assets": 144900000,
+		"InflationAdjustedAssets": 192717727.9
+	},
+	{
+		"Bank": "Western Springs National Bank and Trust",
+		"Date": "08/04/2011",
+		"Assets": 186800000,
+		"InflationAdjustedAssets": 248444938.4
+	},
+	{
+		"Bank": "The Bank of Commerce",
+		"Date": "25/03/2011",
+		"Assets": 163100000,
+		"InflationAdjustedAssets": 216923819.3
+	},
+	{
+		"Bank": "Legacy Bank",
+		"Date": "11/03/2011",
+		"Assets": 190400000,
+		"InflationAdjustedAssets": 253232956.5
+	},
+	{
+		"Bank": "The First National Bank of Davis",
+		"Date": "11/03/2011",
+		"Assets": 90200000,
+		"InflationAdjustedAssets": 119966453.1
+	},
+	{
+		"Bank": "Valley Community Bank",
+		"Date": "25/02/2011",
+		"Assets": 123800000,
+		"InflationAdjustedAssets": 164654621.9
+	},
+	{
+		"Bank": "San Luis Trust Bank",
+		"Date": "18/02/2011",
+		"Assets": 332600000,
+		"InflationAdjustedAssets": 442359670.8
+	},
+	{
+		"Bank": "Charter Oak Bank",
+		"Date": "18/02/2011",
+		"Assets": 120800000,
+		"InflationAdjustedAssets": 160664606.8
+	},
+	{
+		"Bank": "Citizens Bank of Effingham",
+		"Date": "18/02/2011",
+		"Assets": 214300000,
+		"InflationAdjustedAssets": 285020076.6
+	},
+	{
+		"Bank": "Habersham Bank",
+		"Date": "18/02/2011",
+		"Assets": 387600000,
+		"InflationAdjustedAssets": 515509947.1
+	},
+	{
+		"Bank": "Canyon National Bank",
+		"Date": "11/02/2011",
+		"Assets": 210900000,
+		"InflationAdjustedAssets": 280498059.5
+	},
+	{
+		"Bank": "Badger State Bank",
+		"Date": "11/02/2011",
+		"Assets": 83800000,
+		"InflationAdjustedAssets": 111454421
+	},
+	{
+		"Bank": "Peoples State Bank",
+		"Date": "11/02/2011",
+		"Assets": 390500000,
+		"InflationAdjustedAssets": 519366961.7
+	},
+	{
+		"Bank": "Sunshine State Community Bank",
+		"Date": "11/02/2011",
+		"Assets": 125500000,
+		"InflationAdjustedAssets": 166915630.5
+	},
+	{
+		"Bank": "Community First Bank - Chicago",
+		"Date": "04/02/2011",
+		"Assets": 51100000,
+		"InflationAdjustedAssets": 67963256.71
+	},
+	{
+		"Bank": "North Georgia Bank",
+		"Date": "04/02/2011",
+		"Assets": 153200000,
+		"InflationAdjustedAssets": 203756769.6
+	},
+	{
+		"Bank": "American Trust Bank",
+		"Date": "04/02/2011",
+		"Assets": 238200000,
+		"InflationAdjustedAssets": 316807196.6
+	},
+	{
+		"Bank": "First Community Bank",
+		"Date": "28/01/2011",
+		"Assets": 2310000000,
+		"InflationAdjustedAssets": 3072311604
+	},
+	{
+		"Bank": "FirsTier Bank",
+		"Date": "28/01/2011",
+		"Assets": 781500000,
+		"InflationAdjustedAssets": 1039398926
+	},
+	{
+		"Bank": "Evergreen State Bank",
+		"Date": "28/01/2011",
+		"Assets": 246500000,
+		"InflationAdjustedAssets": 327846238.3
+	},
+	{
+		"Bank": "The First State Bank",
+		"Date": "28/01/2011",
+		"Assets": 43500000,
+		"InflationAdjustedAssets": 57855218.53
+	},
+	{
+		"Bank": "United Western Bank",
+		"Date": "21/01/2011",
+		"Assets": 2050000000,
+		"InflationAdjustedAssets": 2726510298
+	},
+	{
+		"Bank": "The Bank of Asheville",
+		"Date": "21/01/2011",
+		"Assets": 195100000,
+		"InflationAdjustedAssets": 259483980.1
+	},
+	{
+		"Bank": "CommunitySouth Bank and Trust",
+		"Date": "21/01/2011",
+		"Assets": 440600000,
+		"InflationAdjustedAssets": 586000213.4
+	},
+	{
+		"Bank": "Enterprise Banking Company",
+		"Date": "21/01/2011",
+		"Assets": 100900000,
+		"InflationAdjustedAssets": 134197506.9
+	},
+	{
+		"Bank": "Oglethorpe Bank",
+		"Date": "14/01/2011",
+		"Assets": 230600000,
+		"InflationAdjustedAssets": 306699158.4
+	},
+	{
+		"Bank": "Legacy Bank",
+		"Date": "07/01/2011",
+		"Assets": 150600000,
+		"InflationAdjustedAssets": 200298756.6
+	},
+	{
+		"Bank": "First Commercial Bank of Florida",
+		"Date": "07/01/2011",
+		"Assets": 598500000,
+		"InflationAdjustedAssets": 796008006.6
+	},
+	{
+		"Bank": "Community National Bank",
+		"Date": "17/12/2010",
+		"Assets": 31600000,
+		"InflationAdjustedAssets": 43354789.6
+	},
+	{
+		"Bank": "First Southern Bank",
+		"Date": "17/12/2010",
+		"Assets": 191800000,
+		"InflationAdjustedAssets": 263147109
+	},
+	{
+		"Bank": "United Americas Bank",
+		"Date": "17/12/2010",
+		"Assets": 242300000,
+		"InflationAdjustedAssets": 332432453.1
+	},
+	{
+		"Bank": "Appalachian Community Bank",
+		"Date": "17/12/2010",
+		"Assets": 68200000,
+		"InflationAdjustedAssets": 93569514.25
+	},
+	{
+		"Bank": "Chestatee State Bank",
+		"Date": "17/12/2010",
+		"Assets": 244400000,
+		"InflationAdjustedAssets": 335313625.9
+	},
+	{
+		"Bank": "The Bank of Miami",
+		"Date": "17/12/2010",
+		"Assets": 448200000,
+		"InflationAdjustedAssets": 614924579
+	},
+	{
+		"Bank": "Earthstar Bank",
+		"Date": "10/12/2010",
+		"Assets": 112600000,
+		"InflationAdjustedAssets": 154485737.6
+	},
+	{
+		"Bank": "Paramount Bank",
+		"Date": "10/12/2010",
+		"Assets": 252700000,
+		"InflationAdjustedAssets": 346701118.1
+	},
+	{
+		"Bank": "First Banking Center",
+		"Date": "19/11/2010",
+		"Assets": 750700000,
+		"InflationAdjustedAssets": 1029950650
+	},
+	{
+		"Bank": "Allegiance Bank of North America",
+		"Date": "19/11/2010",
+		"Assets": 106600000,
+		"InflationAdjustedAssets": 146253815.5
+	},
+	{
+		"Bank": "Gulf State Community Bank",
+		"Date": "19/11/2010",
+		"Assets": 112100000,
+		"InflationAdjustedAssets": 153799744.1
+	},
+	{
+		"Bank": "Copper Star Bank",
+		"Date": "12/11/2010",
+		"Assets": 204000000,
+		"InflationAdjustedAssets": 279885350.6
+	},
+	{
+		"Bank": "Darby Bank & Trust Co.",
+		"Date": "12/11/2010",
+		"Assets": 654700000,
+		"InflationAdjustedAssets": 898239897.1
+	},
+	{
+		"Bank": "Tifton Banking Company",
+		"Date": "12/11/2010",
+		"Assets": 143700000,
+		"InflationAdjustedAssets": 197154533.7
+	},
+	{
+		"Bank": "First Vietnamese American Bank",
+		"Date": "05/11/2010",
+		"Assets": 48000000,
+		"InflationAdjustedAssets": 65855376.6
+	},
+	{
+		"Bank": "Pierce Commercial Bank",
+		"Date": "05/11/2010",
+		"Assets": 221100000,
+		"InflationAdjustedAssets": 303346328.5
+	},
+	{
+		"Bank": "Western Commercial Bank",
+		"Date": "05/11/2010",
+		"Assets": 98600000,
+		"InflationAdjustedAssets": 135277919.4
+	},
+	{
+		"Bank": "K Bank",
+		"Date": "05/11/2010",
+		"Assets": 538300000,
+		"InflationAdjustedAssets": 738540608.8
+	},
+	{
+		"Bank": "First Arizona Savings",
+		"Date": "22/10/2010",
+		"Assets": 272200000,
+		"InflationAdjustedAssets": 373454864.8
+	},
+	{
+		"Bank": "Hillcrest Bank",
+		"Date": "22/10/2010",
+		"Assets": 1650000000,
+		"InflationAdjustedAssets": 2263778571
+	},
+	{
+		"Bank": "First Suburban National Bank",
+		"Date": "22/10/2010",
+		"Assets": 148700000,
+		"InflationAdjustedAssets": 204014468.8
+	},
+	{
+		"Bank": "The First National Bank of Barnesville",
+		"Date": "22/10/2010",
+		"Assets": 131400000,
+		"InflationAdjustedAssets": 180279093.4
+	},
+	{
+		"Bank": "The Gordon Bank",
+		"Date": "22/10/2010",
+		"Assets": 29400000,
+		"InflationAdjustedAssets": 40336418.17
+	},
+	{
+		"Bank": "Progress Bank of Florida",
+		"Date": "22/10/2010",
+		"Assets": 110700000,
+		"InflationAdjustedAssets": 151878962.3
+	},
+	{
+		"Bank": "First Bank of Jacksonville",
+		"Date": "22/10/2010",
+		"Assets": 81000000,
+		"InflationAdjustedAssets": 111130948
+	},
+	{
+		"Bank": "Premier Bank",
+		"Date": "15/10/2010",
+		"Assets": 1180000000,
+		"InflationAdjustedAssets": 1618944675
+	},
+	{
+		"Bank": "WestBridge Bank and Trust Company",
+		"Date": "15/10/2010",
+		"Assets": 91500000,
+		"InflationAdjustedAssets": 125536811.6
+	},
+	{
+		"Bank": "Security Savings Bank",
+		"Date": "15/10/2010",
+		"Assets": 508400000,
+		"InflationAdjustedAssets": 697518197.2
+	},
+	{
+		"Bank": "Shoreline Bank",
+		"Date": "01/10/2010",
+		"Assets": 104200000,
+		"InflationAdjustedAssets": 142961046.7
+	},
+	{
+		"Bank": "Wakulla Bank",
+		"Date": "01/10/2010",
+		"Assets": 424100000,
+		"InflationAdjustedAssets": 581859692
+	},
+	{
+		"Bank": "North County Bank",
+		"Date": "24/09/2010",
+		"Assets": 288800000,
+		"InflationAdjustedAssets": 396229849.2
+	},
+	{
+		"Bank": "Haven Trust Bank Florida",
+		"Date": "24/09/2010",
+		"Assets": 148600000,
+		"InflationAdjustedAssets": 203877270.1
+	},
+	{
+		"Bank": "Maritime Savings Bank",
+		"Date": "17/09/2010",
+		"Assets": 350500000,
+		"InflationAdjustedAssets": 480881447.9
+	},
+	{
+		"Bank": "Bramble Savings Bank",
+		"Date": "17/09/2010",
+		"Assets": 47500000,
+		"InflationAdjustedAssets": 65169383.09
+	},
+	{
+		"Bank": "The Peoples Bank",
+		"Date": "17/09/2010",
+		"Assets": 447200000,
+		"InflationAdjustedAssets": 613552592
+	},
+	{
+		"Bank": "First Commerce Community Bank",
+		"Date": "17/09/2010",
+		"Assets": 248200000,
+		"InflationAdjustedAssets": 340527176.5
+	},
+	{
+		"Bank": "Bank of Ellijay",
+		"Date": "17/09/2010",
+		"Assets": 168800000,
+		"InflationAdjustedAssets": 231591407.7
+	},
+	{
+		"Bank": "ISN Bank",
+		"Date": "17/09/2010",
+		"Assets": 81600000,
+		"InflationAdjustedAssets": 111954140.2
+	},
+	{
+		"Bank": "Horizon Bank",
+		"Date": "10/09/2010",
+		"Assets": 187800000,
+		"InflationAdjustedAssets": 257659160.9
+	},
+	{
+		"Bank": "Sonoma Valley Bank",
+		"Date": "20/08/2010",
+		"Assets": 337100000,
+		"InflationAdjustedAssets": 462496821.9
+	},
+	{
+		"Bank": "Los Padres Bank",
+		"Date": "20/08/2010",
+		"Assets": 870400000,
+		"InflationAdjustedAssets": 1194177496
+	},
+	{
+		"Bank": "Butte Community Bank",
+		"Date": "20/08/2010",
+		"Assets": 498800000,
+		"InflationAdjustedAssets": 684347121.8
+	},
+	{
+		"Bank": "Pacific State Bank",
+		"Date": "20/08/2010",
+		"Assets": 312100000,
+		"InflationAdjustedAssets": 428197146.6
+	},
+	{
+		"Bank": "ShoreBank",
+		"Date": "20/08/2010",
+		"Assets": 2160000000,
+		"InflationAdjustedAssets": 2963491947
+	},
+	{
+		"Bank": "Imperial Savings and Loan Association",
+		"Date": "20/08/2010",
+		"Assets": 9400000,
+		"InflationAdjustedAssets": 12896677.92
+	},
+	{
+		"Bank": "Independent National Bank",
+		"Date": "20/08/2010",
+		"Assets": 156200000,
+		"InflationAdjustedAssets": 214304371.4
+	},
+	{
+		"Bank": "Community National Bank at Bartow",
+		"Date": "20/08/2010",
+		"Assets": 67900000,
+		"InflationAdjustedAssets": 93157918.15
+	},
+	{
+		"Bank": "Palos Bank and Trust Company",
+		"Date": "13/08/2010",
+		"Assets": 493400000,
+		"InflationAdjustedAssets": 676938392
+	},
+	{
+		"Bank": "Ravenswood Bank",
+		"Date": "06/08/2010",
+		"Assets": 264600000,
+		"InflationAdjustedAssets": 363027763.5
+	},
+	{
+		"Bank": "LibertyBank",
+		"Date": "30/07/2010",
+		"Assets": 768200000,
+		"InflationAdjustedAssets": 1053960423
+	},
+	{
+		"Bank": "The Cowlitz Bank",
+		"Date": "30/07/2010",
+		"Assets": 529300000,
+		"InflationAdjustedAssets": 726192725.7
+	},
+	{
+		"Bank": "Coastal Community Bank",
+		"Date": "30/07/2010",
+		"Assets": 372900000,
+		"InflationAdjustedAssets": 511613957
+	},
+	{
+		"Bank": "Bayside Savings Bank",
+		"Date": "30/07/2010",
+		"Assets": 66100000,
+		"InflationAdjustedAssets": 90688341.53
+	},
+	{
+		"Bank": "NorthWest Bank and Trust",
+		"Date": "30/07/2010",
+		"Assets": 167700000,
+		"InflationAdjustedAssets": 230082222
+	},
+	{
+		"Bank": "Home Valley Bank",
+		"Date": "23/07/2010",
+		"Assets": 251800000,
+		"InflationAdjustedAssets": 345466329.8
+	},
+	{
+		"Bank": "SouthwestUSA Bank",
+		"Date": "23/07/2010",
+		"Assets": 214000000,
+		"InflationAdjustedAssets": 293605220.7
+	},
+	{
+		"Bank": "Community Security Bank",
+		"Date": "23/07/2010",
+		"Assets": 108000000,
+		"InflationAdjustedAssets": 148174597.4
+	},
+	{
+		"Bank": "Thunder Bank",
+		"Date": "23/07/2010",
+		"Assets": 32600000,
+		"InflationAdjustedAssets": 44726776.61
+	},
+	{
+		"Bank": "Williamsburg First National Bank",
+		"Date": "23/07/2010",
+		"Assets": 139300000,
+		"InflationAdjustedAssets": 191117790.8
+	},
+	{
+		"Bank": "Crescent Bank and Trust Company",
+		"Date": "23/07/2010",
+		"Assets": 1010000000,
+		"InflationAdjustedAssets": 1385706883
+	},
+	{
+		"Bank": "Sterling Bank",
+		"Date": "23/07/2010",
+		"Assets": 407900000,
+		"InflationAdjustedAssets": 559633502.4
+	},
+	{
+		"Bank": "Mainstreet Savings Bank",
+		"Date": "16/07/2010",
+		"Assets": 97400000,
+		"InflationAdjustedAssets": 133631535
+	},
+	{
+		"Bank": "Olde Cypress Community Bank",
+		"Date": "16/07/2010",
+		"Assets": 168700000,
+		"InflationAdjustedAssets": 231454209
+	},
+	{
+		"Bank": "Turnberry Bank",
+		"Date": "16/07/2010",
+		"Assets": 263900000,
+		"InflationAdjustedAssets": 362067372.6
+	},
+	{
+		"Bank": "Metro Bank of Dade County",
+		"Date": "16/07/2010",
+		"Assets": 442300000,
+		"InflationAdjustedAssets": 606829855.6
+	},
+	{
+		"Bank": "First National Bank of the South",
+		"Date": "16/07/2010",
+		"Assets": 682000000,
+		"InflationAdjustedAssets": 935695142.5
+	},
+	{
+		"Bank": "Woodlands Bank",
+		"Date": "16/07/2010",
+		"Assets": 376200000,
+		"InflationAdjustedAssets": 516141514.1
+	},
+	{
+		"Bank": "Home National Bank",
+		"Date": "09/07/2010",
+		"Assets": 644500000,
+		"InflationAdjustedAssets": 884245629.6
+	},
+	{
+		"Bank": "USA Bank",
+		"Date": "09/07/2010",
+		"Assets": 193300000,
+		"InflationAdjustedAssets": 265205089.5
+	},
+	{
+		"Bank": "Ideal Federal Savings Bank",
+		"Date": "09/07/2010",
+		"Assets": 6300000,
+		"InflationAdjustedAssets": 8643518.179
+	},
+	{
+		"Bank": "Bay National Bank",
+		"Date": "09/07/2010",
+		"Assets": 282200000,
+		"InflationAdjustedAssets": 387174734.9
+	},
+	{
+		"Bank": "High Desert State Bank",
+		"Date": "25/06/2010",
+		"Assets": 80300000,
+		"InflationAdjustedAssets": 110170557.1
+	},
+	{
+		"Bank": "First National Bank",
+		"Date": "25/06/2010",
+		"Assets": 252500000,
+		"InflationAdjustedAssets": 346426720.7
+	},
+	{
+		"Bank": "Peninsula Bank",
+		"Date": "25/06/2010",
+		"Assets": 644300000,
+		"InflationAdjustedAssets": 883971232.2
+	},
+	{
+		"Bank": "Nevada Security Bank",
+		"Date": "18/06/2010",
+		"Assets": 480300000,
+		"InflationAdjustedAssets": 658965362.1
+	},
+	{
+		"Bank": "Washington First International Bank",
+		"Date": "11/06/2010",
+		"Assets": 520900000,
+		"InflationAdjustedAssets": 714668034.8
+	},
+	{
+		"Bank": "TierOne Bank",
+		"Date": "04/06/2010",
+		"Assets": 2800000000,
+		"InflationAdjustedAssets": 3841563635
+	},
+	{
+		"Bank": "Arcola Homestead Savings Bank",
+		"Date": "04/06/2010",
+		"Assets": 17000000,
+		"InflationAdjustedAssets": 23323779.21
+	},
+	{
+		"Bank": "First National Bank",
+		"Date": "04/06/2010",
+		"Assets": 60400000,
+		"InflationAdjustedAssets": 82868015.56
+	},
+	{
+		"Bank": "Sun West Bank",
+		"Date": "28/05/2010",
+		"Assets": 360700000,
+		"InflationAdjustedAssets": 494875715.4
+	},
+	{
+		"Bank": "Granite Community Bank",
+		"Date": "28/05/2010",
+		"Assets": 102900000,
+		"InflationAdjustedAssets": 141177463.6
+	},
+	{
+		"Bank": "Bank of Florida - Tampa Bay",
+		"Date": "28/05/2010",
+		"Assets": 245200000,
+		"InflationAdjustedAssets": 336411215.5
+	},
+	{
+		"Bank": "Bank of Florida - Southwest",
+		"Date": "28/05/2010",
+		"Assets": 640900000,
+		"InflationAdjustedAssets": 879306476.3
+	},
+	{
+		"Bank": "Bank of Florida - Southeast",
+		"Date": "28/05/2010",
+		"Assets": 595300000,
+		"InflationAdjustedAssets": 816743868.5
+	},
+	{
+		"Bank": "Pinehurst Bank",
+		"Date": "21/05/2010",
+		"Assets": 61200000,
+		"InflationAdjustedAssets": 83965605.17
+	},
+	{
+		"Bank": "Midwest Bank and Trust Company",
+		"Date": "14/05/2010",
+		"Assets": 3170000000,
+		"InflationAdjustedAssets": 4349198830
+	},
+	{
+		"Bank": "Southwest Community Bank",
+		"Date": "14/05/2010",
+		"Assets": 96600000,
+		"InflationAdjustedAssets": 132533945.4
+	},
+	{
+		"Bank": "New Liberty Bank",
+		"Date": "14/05/2010",
+		"Assets": 109100000,
+		"InflationAdjustedAssets": 149683783.1
+	},
+	{
+		"Bank": "Satilla Community Bank",
+		"Date": "14/05/2010",
+		"Assets": 135700000,
+		"InflationAdjustedAssets": 186178637.6
+	},
+	{
+		"Bank": "1st Pacific Bank of California",
+		"Date": "07/05/2010",
+		"Assets": 335800000,
+		"InflationAdjustedAssets": 460713238.8
+	},
+	{
+		"Bank": "Towne Bank of Arizona",
+		"Date": "07/05/2010",
+		"Assets": 120200000,
+		"InflationAdjustedAssets": 164912838.9
+	},
+	{
+		"Bank": "Access Bank",
+		"Date": "07/05/2010",
+		"Assets": 32000000,
+		"InflationAdjustedAssets": 43903584.4
+	},
+	{
+		"Bank": "The Bank of Bonifay",
+		"Date": "07/05/2010",
+		"Assets": 242900000,
+		"InflationAdjustedAssets": 333255645.3
+	},
+	{
+		"Bank": "Frontier Bank",
+		"Date": "30/04/2010",
+		"Assets": 3500000000,
+		"InflationAdjustedAssets": 4801954544
+	},
+	{
+		"Bank": "BC National Banks",
+		"Date": "30/04/2010",
+		"Assets": 67200000,
+		"InflationAdjustedAssets": 92197527.24
+	},
+	{
+		"Bank": "Champion Bank",
+		"Date": "30/04/2010",
+		"Assets": 187300000,
+		"InflationAdjustedAssets": 256973167.4
+	},
+	{
+		"Bank": "CF Bancorp",
+		"Date": "30/04/2010",
+		"Assets": 1650000000,
+		"InflationAdjustedAssets": 2263778571
+	},
+	{
+		"Bank": "Westernbank Puerto Rico",
+		"Date": "30/04/2010",
+		"Assets": 11940000000,
+		"InflationAdjustedAssets": 16381524929
+	},
+	{
+		"Bank": "R-G Premier Bank of Puerto Rico",
+		"Date": "30/04/2010",
+		"Assets": 5920000000,
+		"InflationAdjustedAssets": 8122163114
+	},
+	{
+		"Bank": "Eurobank",
+		"Date": "30/04/2010",
+		"Assets": 2560000000,
+		"InflationAdjustedAssets": 3512286752
+	},
+	{
+		"Bank": "Wheatland Bank",
+		"Date": "23/04/2010",
+		"Assets": 437200000,
+		"InflationAdjustedAssets": 599832721.9
+	},
+	{
+		"Bank": "Peotone Bank and Trust Company",
+		"Date": "23/04/2010",
+		"Assets": 130200000,
+		"InflationAdjustedAssets": 178632709
+	},
+	{
+		"Bank": "Lincoln Park Savings Bank",
+		"Date": "23/04/2010",
+		"Assets": 199900000,
+		"InflationAdjustedAssets": 274260203.8
+	},
+	{
+		"Bank": "New Century Bank",
+		"Date": "23/04/2010",
+		"Assets": 485600000,
+		"InflationAdjustedAssets": 666236893.3
+	},
+	{
+		"Bank": "Citizens Bank & Trust Company of Chicago",
+		"Date": "23/04/2010",
+		"Assets": 77300000,
+		"InflationAdjustedAssets": 106054596.1
+	},
+	{
+		"Bank": "Broadway Bank",
+		"Date": "23/04/2010",
+		"Assets": 1200000000,
+		"InflationAdjustedAssets": 1646384415
+	},
+	{
+		"Bank": "Amcore Bank",
+		"Date": "23/04/2010",
+		"Assets": 3800000000,
+		"InflationAdjustedAssets": 5213550648
+	},
+	{
+		"Bank": "City Bank",
+		"Date": "16/04/2010",
+		"Assets": 1130000000,
+		"InflationAdjustedAssets": 1550345324
+	},
+	{
+		"Bank": "Tamalpais Bank",
+		"Date": "16/04/2010",
+		"Assets": 628900000,
+		"InflationAdjustedAssets": 862842632.2
+	},
+	{
+		"Bank": "Innovative Bank",
+		"Date": "16/04/2010",
+		"Assets": 268900000,
+		"InflationAdjustedAssets": 368927307.7
+	},
+	{
+		"Bank": "Butler Bank",
+		"Date": "16/04/2010",
+		"Assets": 268000000,
+		"InflationAdjustedAssets": 367692519.4
+	},
+	{
+		"Bank": "Riverside National Bank of Florida",
+		"Date": "16/04/2010",
+		"Assets": 3420000000,
+		"InflationAdjustedAssets": 4692195583
+	},
+	{
+		"Bank": "AmericanFirst Bank",
+		"Date": "16/04/2010",
+		"Assets": 90500000,
+		"InflationAdjustedAssets": 124164824.6
+	},
+	{
+		"Bank": "First Federal Bank of North Florida",
+		"Date": "16/04/2010",
+		"Assets": 393300000,
+		"InflationAdjustedAssets": 539602492
+	},
+	{
+		"Bank": "Lakeside Community Bank",
+		"Date": "16/04/2010",
+		"Assets": 53000000,
+		"InflationAdjustedAssets": 72715311.66
+	},
+	{
+		"Bank": "Beach First National Bank",
+		"Date": "09/04/2010",
+		"Assets": 585100000,
+		"InflationAdjustedAssets": 802749601
+	},
+	{
+		"Bank": "Desert Hills Bank",
+		"Date": "26/03/2010",
+		"Assets": 496600000,
+		"InflationAdjustedAssets": 681328750.4
+	},
+	{
+		"Bank": "Unity National Bank",
+		"Date": "26/03/2010",
+		"Assets": 292200000,
+		"InflationAdjustedAssets": 400894605.1
+	},
+	{
+		"Bank": "Key West Bank",
+		"Date": "26/03/2010",
+		"Assets": 88000000,
+		"InflationAdjustedAssets": 120734857.1
+	},
+	{
+		"Bank": "McIntosh Commercial Bank",
+		"Date": "26/03/2010",
+		"Assets": 362900000,
+		"InflationAdjustedAssets": 497894086.8
+	},
+	{
+		"Bank": "State Bank of Aurora",
+		"Date": "19/03/2010",
+		"Assets": 28200000,
+		"InflationAdjustedAssets": 38690033.75
+	},
+	{
+		"Bank": "First Lowndes Bank",
+		"Date": "19/03/2010",
+		"Assets": 137200000,
+		"InflationAdjustedAssets": 188236618.1
+	},
+	{
+		"Bank": "Bank of Hiawassee",
+		"Date": "19/03/2010",
+		"Assets": 377800000,
+		"InflationAdjustedAssets": 518336693.3
+	},
+	{
+		"Bank": "Appalachian Community Bank",
+		"Date": "19/03/2010",
+		"Assets": 1010000000,
+		"InflationAdjustedAssets": 1385706883
+	},
+	{
+		"Bank": "Advanta Bank Corp.",
+		"Date": "19/03/2010",
+		"Assets": 1600000000,
+		"InflationAdjustedAssets": 2195179220
+	},
+	{
+		"Bank": "Century Security Bank",
+		"Date": "19/03/2010",
+		"Assets": 96500000,
+		"InflationAdjustedAssets": 132396746.7
+	},
+	{
+		"Bank": "American National Bank",
+		"Date": "19/03/2010",
+		"Assets": 70300000,
+		"InflationAdjustedAssets": 96450686.98
+	},
+	{
+		"Bank": "Statewide Bank",
+		"Date": "12/03/2010",
+		"Assets": 243200000,
+		"InflationAdjustedAssets": 333667241.4
+	},
+	{
+		"Bank": "Old Southern Bank",
+		"Date": "12/03/2010",
+		"Assets": 315600000,
+		"InflationAdjustedAssets": 432999101.1
+	},
+	{
+		"Bank": "Park Avenue Bank",
+		"Date": "12/03/2010",
+		"Assets": 520100000,
+		"InflationAdjustedAssets": 713570445.2
+	},
+	{
+		"Bank": "LibertyPointe Bank",
+		"Date": "11/03/2010",
+		"Assets": 209700000,
+		"InflationAdjustedAssets": 287705676.5
+	},
+	{
+		"Bank": "Centennial Bank",
+		"Date": "05/03/2010",
+		"Assets": 215200000,
+		"InflationAdjustedAssets": 295251605.1
+	},
+	{
+		"Bank": "Waterfield Bank",
+		"Date": "05/03/2010",
+		"Assets": 155600000,
+		"InflationAdjustedAssets": 213481179.1
+	},
+	{
+		"Bank": "Bank of Illinois",
+		"Date": "05/03/2010",
+		"Assets": 211700000,
+		"InflationAdjustedAssets": 290449650.5
+	},
+	{
+		"Bank": "Sun American Bank",
+		"Date": "05/03/2010",
+		"Assets": 535700000,
+		"InflationAdjustedAssets": 734973442.6
+	},
+	{
+		"Bank": "Rainier Pacific Bank",
+		"Date": "26/02/2010",
+		"Assets": 717800000,
+		"InflationAdjustedAssets": 984812277.6
+	},
+	{
+		"Bank": "Carson River Community Bank",
+		"Date": "26/02/2010",
+		"Assets": 51100000,
+		"InflationAdjustedAssets": 70108536.34
+	},
+	{
+		"Bank": "La Jolla Bank",
+		"Date": "19/02/2010",
+		"Assets": 3600000000,
+		"InflationAdjustedAssets": 4939153245
+	},
+	{
+		"Bank": "George Washington Savings Bank",
+		"Date": "19/02/2010",
+		"Assets": 412800000,
+		"InflationAdjustedAssets": 566356238.8
+	},
+	{
+		"Bank": "The La Coste National Bank",
+		"Date": "19/02/2010",
+		"Assets": 53900000,
+		"InflationAdjustedAssets": 73950099.97
+	},
+	{
+		"Bank": "Marco Community Bank",
+		"Date": "19/02/2010",
+		"Assets": 119600000,
+		"InflationAdjustedAssets": 164089646.7
+	},
+	{
+		"Bank": "1st American State Bank of Minnesota",
+		"Date": "05/02/2010",
+		"Assets": 18200000,
+		"InflationAdjustedAssets": 24970163.63
+	},
+	{
+		"Bank": "American Marine Bank",
+		"Date": "29/01/2010",
+		"Assets": 373200000,
+		"InflationAdjustedAssets": 512025553.1
+	},
+	{
+		"Bank": "First Regional Bank",
+		"Date": "29/01/2010",
+		"Assets": 2180000000,
+		"InflationAdjustedAssets": 2990931687
+	},
+	{
+		"Bank": "Community Bank and Trust",
+		"Date": "29/01/2010",
+		"Assets": 1210000000,
+		"InflationAdjustedAssets": 1660104285
+	},
+	{
+		"Bank": "Marshall Bank",
+		"Date": "29/01/2010",
+		"Assets": 59900000,
+		"InflationAdjustedAssets": 82182022.05
+	},
+	{
+		"Bank": "Florida Community Bank",
+		"Date": "29/01/2010",
+		"Assets": 875500000,
+		"InflationAdjustedAssets": 1201174629
+	},
+	{
+		"Bank": "First National Bank of Georgia",
+		"Date": "29/01/2010",
+		"Assets": 832600000,
+		"InflationAdjustedAssets": 1142316387
+	},
+	{
+		"Bank": "Columbia River Bank",
+		"Date": "22/01/2010",
+		"Assets": 1100000000,
+		"InflationAdjustedAssets": 1509185714
+	},
+	{
+		"Bank": "Evergreen Bank",
+		"Date": "22/01/2010",
+		"Assets": 488500000,
+		"InflationAdjustedAssets": 670215655.6
+	},
+	{
+		"Bank": "Charter Bank",
+		"Date": "22/01/2010",
+		"Assets": 1200000000,
+		"InflationAdjustedAssets": 1646384415
+	},
+	{
+		"Bank": "Bank of Leeton",
+		"Date": "22/01/2010",
+		"Assets": 20100000,
+		"InflationAdjustedAssets": 27576938.95
+	},
+	{
+		"Bank": "Premier American Bank",
+		"Date": "22/01/2010",
+		"Assets": 350900000,
+		"InflationAdjustedAssets": 481430242.7
+	},
+	{
+		"Bank": "Barnes Banking Company",
+		"Date": "15/01/2010",
+		"Assets": 827800000,
+		"InflationAdjustedAssets": 1135730849
+	},
+	{
+		"Bank": "St. Stephen State Bank",
+		"Date": "15/01/2010",
+		"Assets": 24700000,
+		"InflationAdjustedAssets": 33888079.21
+	},
+	{
+		"Bank": "Town Community Bank and Trust",
+		"Date": "15/01/2010",
+		"Assets": 69600000,
+		"InflationAdjustedAssets": 95490296.07
+	},
+	{
+		"Bank": "Horizon Bank",
+		"Date": "08/01/2010",
+		"Assets": 1300000000,
+		"InflationAdjustedAssets": 1783583116
+	},
+	{
+		"Bank": "First Federal Bank of California",
+		"Date": "18/12/2009",
+		"Assets": 6100000000,
+		"InflationAdjustedAssets": 8506397498
+	},
+	{
+		"Bank": "Imperial Capital Bank",
+		"Date": "18/12/2009",
+		"Assets": 4000000000,
+		"InflationAdjustedAssets": 5577965572
+	},
+	{
+		"Bank": "Independent Bankers' Bank",
+		"Date": "18/12/2009",
+		"Assets": 585500000,
+		"InflationAdjustedAssets": 816474710.7
+	},
+	{
+		"Bank": "New South Federal Savings Bank",
+		"Date": "18/12/2009",
+		"Assets": 1500000000,
+		"InflationAdjustedAssets": 2091737090
+	},
+	{
+		"Bank": "Citizens State Bank",
+		"Date": "18/12/2009",
+		"Assets": 168600000,
+		"InflationAdjustedAssets": 235111248.9
+	},
+	{
+		"Bank": "Peoples First Community Bank",
+		"Date": "18/12/2009",
+		"Assets": 1800000000,
+		"InflationAdjustedAssets": 2510084508
+	},
+	{
+		"Bank": "RockBridge Commercial Bank",
+		"Date": "18/12/2009",
+		"Assets": 294000000,
+		"InflationAdjustedAssets": 409980469.6
+	},
+	{
+		"Bank": "SolutionsBank",
+		"Date": "11/12/2009",
+		"Assets": 511100000,
+		"InflationAdjustedAssets": 712724551
+	},
+	{
+		"Bank": "Valley Capital Bank",
+		"Date": "11/12/2009",
+		"Assets": 40300000,
+		"InflationAdjustedAssets": 56198003.14
+	},
+	{
+		"Bank": "Republic Federal Bank",
+		"Date": "11/12/2009",
+		"Assets": 433000000,
+		"InflationAdjustedAssets": 603814773.2
+	},
+	{
+		"Bank": "Greater Atlantic Bank",
+		"Date": "04/12/2009",
+		"Assets": 203000000,
+		"InflationAdjustedAssets": 283081752.8
+	},
+	{
+		"Bank": "Benchmark Bank",
+		"Date": "04/12/2009",
+		"Assets": 170000000,
+		"InflationAdjustedAssets": 237063536.8
+	},
+	{
+		"Bank": "AmTrust Bank",
+		"Date": "04/12/2009",
+		"Assets": 12000000000,
+		"InflationAdjustedAssets": 16733896717
+	},
+	{
+		"Bank": "The Tattnall Bank",
+		"Date": "04/12/2009",
+		"Assets": 49600000,
+		"InflationAdjustedAssets": 69166773.1
+	},
+	{
+		"Bank": "First Security National Bank",
+		"Date": "04/12/2009",
+		"Assets": 128000000,
+		"InflationAdjustedAssets": 178494898.3
+	},
+	{
+		"Bank": "The Buckhead Community Bank",
+		"Date": "04/12/2009",
+		"Assets": 874000000,
+		"InflationAdjustedAssets": 1218785478
+	},
+	{
+		"Bank": "Commerce Bank of Southwest Florida",
+		"Date": "20/11/2009",
+		"Assets": 79700000,
+		"InflationAdjustedAssets": 111140964
+	},
+	{
+		"Bank": "Pacific Coast National Bank",
+		"Date": "13/11/2009",
+		"Assets": 134400000,
+		"InflationAdjustedAssets": 187419643.2
+	},
+	{
+		"Bank": "Orion Bank",
+		"Date": "13/11/2009",
+		"Assets": 2700000000,
+		"InflationAdjustedAssets": 3765126761
+	},
+	{
+		"Bank": "Century Bank",
+		"Date": "13/11/2009",
+		"Assets": 728000000,
+		"InflationAdjustedAssets": 1015189734
+	},
+	{
+		"Bank": "United Commercial Bank",
+		"Date": "06/11/2009",
+		"Assets": 11200000000,
+		"InflationAdjustedAssets": 15618303603
+	},
+	{
+		"Bank": "Gateway Bank of St. Louis",
+		"Date": "06/11/2009",
+		"Assets": 27700000,
+		"InflationAdjustedAssets": 38627411.59
+	},
+	{
+		"Bank": "Prosperan Bank",
+		"Date": "06/11/2009",
+		"Assets": 199500000,
+		"InflationAdjustedAssets": 278201032.9
+	},
+	{
+		"Bank": "Home Federal Savings Bank",
+		"Date": "06/11/2009",
+		"Assets": 14900000,
+		"InflationAdjustedAssets": 20777921.76
+	},
+	{
+		"Bank": "United Security Bank",
+		"Date": "06/11/2009",
+		"Assets": 157000000,
+		"InflationAdjustedAssets": 218935148.7
+	},
+	{
+		"Bank": "North Houston Bank",
+		"Date": "30/10/2009",
+		"Assets": 326200000,
+		"InflationAdjustedAssets": 454883092.4
+	},
+	{
+		"Bank": "Madisonville State Bank",
+		"Date": "30/10/2009",
+		"Assets": 256700000,
+		"InflationAdjustedAssets": 357965940.6
+	},
+	{
+		"Bank": "Citizens National Bank",
+		"Date": "30/10/2009",
+		"Assets": 118200000,
+		"InflationAdjustedAssets": 164828882.7
+	},
+	{
+		"Bank": "Park National Bank",
+		"Date": "30/10/2009",
+		"Assets": 4706100000,
+		"InflationAdjustedAssets": 6562615945
+	},
+	{
+		"Bank": "Pacific National Bank",
+		"Date": "30/10/2009",
+		"Assets": 2335300000,
+		"InflationAdjustedAssets": 3256555750
+	},
+	{
+		"Bank": "California National Bank",
+		"Date": "30/10/2009",
+		"Assets": 7792200000,
+		"InflationAdjustedAssets": 10866155833
+	},
+	{
+		"Bank": "San Diego National Bank",
+		"Date": "30/10/2009",
+		"Assets": 3608100000,
+		"InflationAdjustedAssets": 5031464395
+	},
+	{
+		"Bank": "Community Bank of Lemont",
+		"Date": "30/10/2009",
+		"Assets": 81800000,
+		"InflationAdjustedAssets": 114069396
+	},
+	{
+		"Bank": "Bank USA",
+		"Date": "30/10/2009",
+		"Assets": 212800000,
+		"InflationAdjustedAssets": 296747768.5
+	},
+	{
+		"Bank": "First DuPage Bank",
+		"Date": "23/10/2009",
+		"Assets": 279000000,
+		"InflationAdjustedAssets": 389063098.7
+	},
+	{
+		"Bank": "Riverview Community Bank",
+		"Date": "23/10/2009",
+		"Assets": 108000000,
+		"InflationAdjustedAssets": 150605070.5
+	},
+	{
+		"Bank": "Bank of Elmwood",
+		"Date": "23/10/2009",
+		"Assets": 327400000,
+		"InflationAdjustedAssets": 456556482.1
+	},
+	{
+		"Bank": "Flagship National Bank",
+		"Date": "23/10/2009",
+		"Assets": 190000000,
+		"InflationAdjustedAssets": 264953364.7
+	},
+	{
+		"Bank": "Hillcrest Bank Florida",
+		"Date": "23/10/2009",
+		"Assets": 83000000,
+		"InflationAdjustedAssets": 115742785.6
+	},
+	{
+		"Bank": "American United Bank",
+		"Date": "23/10/2009",
+		"Assets": 111000000,
+		"InflationAdjustedAssets": 154788544.6
+	},
+	{
+		"Bank": "Partners Bank",
+		"Date": "23/10/2009",
+		"Assets": 65500000,
+		"InflationAdjustedAssets": 91339186.25
+	},
+	{
+		"Bank": "San Joaquin Bank",
+		"Date": "16/10/2009",
+		"Assets": 775000000,
+		"InflationAdjustedAssets": 1080730830
+	},
+	{
+		"Bank": "Southern Colorado National Bank",
+		"Date": "02/10/2009",
+		"Assets": 39500000,
+		"InflationAdjustedAssets": 55082410.03
+	},
+	{
+		"Bank": "Jennings State Bank",
+		"Date": "02/10/2009",
+		"Assets": 56300000,
+		"InflationAdjustedAssets": 78509865.43
+	},
+	{
+		"Bank": "Warren Bank",
+		"Date": "02/10/2009",
+		"Assets": 538000000,
+		"InflationAdjustedAssets": 750236369.5
+	},
+	{
+		"Bank": "Georgian Bank",
+		"Date": "25/09/2009",
+		"Assets": 2000000000,
+		"InflationAdjustedAssets": 2788982786
+	},
+	{
+		"Bank": "Irwin Union Bank",
+		"Date": "18/09/2009",
+		"Assets": 493000000,
+		"InflationAdjustedAssets": 687484256.8
+	},
+	{
+		"Bank": "Irwin Union Bank and Trust Company",
+		"Date": "18/09/2009",
+		"Assets": 2700000000,
+		"InflationAdjustedAssets": 3765126761
+	},
+	{
+		"Bank": "Venture Bank",
+		"Date": "11/09/2009",
+		"Assets": 970000000,
+		"InflationAdjustedAssets": 1352656651
+	},
+	{
+		"Bank": "Brickwell Community Bank",
+		"Date": "11/09/2009",
+		"Assets": 72000000,
+		"InflationAdjustedAssets": 100403380.3
+	},
+	{
+		"Bank": "Corus Bank",
+		"Date": "11/09/2009",
+		"Assets": 7000000000,
+		"InflationAdjustedAssets": 9761439752
+	},
+	{
+		"Bank": "First State Bank",
+		"Date": "04/09/2009",
+		"Assets": 105000000,
+		"InflationAdjustedAssets": 146421596.3
+	},
+	{
+		"Bank": "Platinum Community Bank",
+		"Date": "04/09/2009",
+		"Assets": 345600000,
+		"InflationAdjustedAssets": 481936225.5
+	},
+	{
+		"Bank": "Vantus Bank",
+		"Date": "04/09/2009",
+		"Assets": 458000000,
+		"InflationAdjustedAssets": 638677058
+	},
+	{
+		"Bank": "InBank",
+		"Date": "04/09/2009",
+		"Assets": 212000000,
+		"InflationAdjustedAssets": 295632175.3
+	},
+	{
+		"Bank": "First Bank of Kansas City",
+		"Date": "04/09/2009",
+		"Assets": 16000000,
+		"InflationAdjustedAssets": 22311862.29
+	},
+	{
+		"Bank": "Affinity Bank",
+		"Date": "28/08/2009",
+		"Assets": 1000000000,
+		"InflationAdjustedAssets": 1394491393
+	},
+	{
+		"Bank": "Mainstreet Bank",
+		"Date": "28/08/2009",
+		"Assets": 459000000,
+		"InflationAdjustedAssets": 640071549.4
+	},
+	{
+		"Bank": "Bradford Bank",
+		"Date": "28/08/2009",
+		"Assets": 452000000,
+		"InflationAdjustedAssets": 630310109.7
+	},
+	{
+		"Bank": "Guaranty Bank",
+		"Date": "21/08/2009",
+		"Assets": 13000000000,
+		"InflationAdjustedAssets": 18128388110
+	},
+	{
+		"Bank": "CapitalSouth Bank",
+		"Date": "21/08/2009",
+		"Assets": 617000000,
+		"InflationAdjustedAssets": 860401189.5
+	},
+	{
+		"Bank": "First Coweta Bank",
+		"Date": "21/08/2009",
+		"Assets": 167000000,
+		"InflationAdjustedAssets": 232880062.6
+	},
+	{
+		"Bank": "ebank",
+		"Date": "21/08/2009",
+		"Assets": 143000000,
+		"InflationAdjustedAssets": 199412269.2
+	},
+	{
+		"Bank": "Community Bank of Nevada",
+		"Date": "14/08/2009",
+		"Assets": 1520000000,
+		"InflationAdjustedAssets": 2119626918
+	},
+	{
+		"Bank": "Community Bank of Arizona",
+		"Date": "14/08/2009",
+		"Assets": 158500000,
+		"InflationAdjustedAssets": 221026885.8
+	},
+	{
+		"Bank": "Union Bank",
+		"Date": "14/08/2009",
+		"Assets": 124000000,
+		"InflationAdjustedAssets": 172916932.7
+	},
+	{
+		"Bank": "Colonial Bank",
+		"Date": "14/08/2009",
+		"Assets": 25000000000,
+		"InflationAdjustedAssets": 34862284827
+	},
+	{
+		"Bank": "Dwelling House Savings and Loan Association",
+		"Date": "14/08/2009",
+		"Assets": 13400000,
+		"InflationAdjustedAssets": 18686184.67
+	},
+	{
+		"Bank": "Community First Bank",
+		"Date": "07/08/2009",
+		"Assets": 209000000,
+		"InflationAdjustedAssets": 291448701.2
+	},
+	{
+		"Bank": "Community National Bank of Sarasota County",
+		"Date": "07/08/2009",
+		"Assets": 97000000,
+		"InflationAdjustedAssets": 135265665.1
+	},
+	{
+		"Bank": "First State Bank",
+		"Date": "07/08/2009",
+		"Assets": 463000000,
+		"InflationAdjustedAssets": 645649515
+	},
+	{
+		"Bank": "Mutual Bank",
+		"Date": "31/07/2009",
+		"Assets": 1600000000,
+		"InflationAdjustedAssets": 2231186229
+	},
+	{
+		"Bank": "First BankAmericano",
+		"Date": "31/07/2009",
+		"Assets": 166000000,
+		"InflationAdjustedAssets": 231485571.3
+	},
+	{
+		"Bank": "Peoples Community Bank",
+		"Date": "31/07/2009",
+		"Assets": 705800000,
+		"InflationAdjustedAssets": 984232025.2
+	},
+	{
+		"Bank": "Integrity Bank",
+		"Date": "31/07/2009",
+		"Assets": 119000000,
+		"InflationAdjustedAssets": 165944475.8
+	},
+	{
+		"Bank": "First State Bank of Altus",
+		"Date": "31/07/2009",
+		"Assets": 103400000,
+		"InflationAdjustedAssets": 144190410
+	},
+	{
+		"Bank": "Security Bank of Bibb County",
+		"Date": "24/07/2009",
+		"Assets": 1200000000,
+		"InflationAdjustedAssets": 1673389672
+	},
+	{
+		"Bank": "Security Bank of Houston County",
+		"Date": "24/07/2009",
+		"Assets": 383000000,
+		"InflationAdjustedAssets": 534090203.6
+	},
+	{
+		"Bank": "Security Bank of Jones County",
+		"Date": "24/07/2009",
+		"Assets": 453000000,
+		"InflationAdjustedAssets": 631704601.1
+	},
+	{
+		"Bank": "Security Bank of Gwinnett County",
+		"Date": "24/07/2009",
+		"Assets": 322000000,
+		"InflationAdjustedAssets": 449026228.6
+	},
+	{
+		"Bank": "Security Bank of North Metro",
+		"Date": "24/07/2009",
+		"Assets": 224000000,
+		"InflationAdjustedAssets": 312366072.1
+	},
+	{
+		"Bank": "Security Bank of North Fulton",
+		"Date": "24/07/2009",
+		"Assets": 209000000,
+		"InflationAdjustedAssets": 291448701.2
+	},
+	{
+		"Bank": "Waterford Village Bank",
+		"Date": "24/07/2009",
+		"Assets": 61400000,
+		"InflationAdjustedAssets": 85621771.54
+	},
+	{
+		"Bank": "Temecula Valley Bank",
+		"Date": "17/07/2009",
+		"Assets": 1500000000,
+		"InflationAdjustedAssets": 2091737090
+	},
+	{
+		"Bank": "Vineyard Bank",
+		"Date": "17/07/2009",
+		"Assets": 1900000000,
+		"InflationAdjustedAssets": 2649533647
+	},
+	{
+		"Bank": "BankFirst",
+		"Date": "17/07/2009",
+		"Assets": 275000000,
+		"InflationAdjustedAssets": 383485133.1
+	},
+	{
+		"Bank": "First Piedmont Bank",
+		"Date": "17/07/2009",
+		"Assets": 115000000,
+		"InflationAdjustedAssets": 160366510.2
+	},
+	{
+		"Bank": "Bank of Wyoming",
+		"Date": "10/07/2009",
+		"Assets": 70000000,
+		"InflationAdjustedAssets": 97614397.52
+	},
+	{
+		"Bank": "Founders Bank",
+		"Date": "02/07/2009",
+		"Assets": 962500000,
+		"InflationAdjustedAssets": 1342197966
+	},
+	{
+		"Bank": "Millennium State Bank of Texas",
+		"Date": "02/07/2009",
+		"Assets": 118000000,
+		"InflationAdjustedAssets": 164549984.4
+	},
+	{
+		"Bank": "The First National Bank of Danville",
+		"Date": "02/07/2009",
+		"Assets": 166000000,
+		"InflationAdjustedAssets": 231485571.3
+	},
+	{
+		"Bank": "The Elizabeth State Bank",
+		"Date": "02/07/2009",
+		"Assets": 55500000,
+		"InflationAdjustedAssets": 77394272.32
+	},
+	{
+		"Bank": "Rock River Bank",
+		"Date": "02/07/2009",
+		"Assets": 77000000,
+		"InflationAdjustedAssets": 107375837.3
+	},
+	{
+		"Bank": "The First State Bank of Winchester",
+		"Date": "02/07/2009",
+		"Assets": 36000000,
+		"InflationAdjustedAssets": 50201690.15
+	},
+	{
+		"Bank": "The John Warner Bank",
+		"Date": "02/07/2009",
+		"Assets": 70000000,
+		"InflationAdjustedAssets": 97614397.52
+	},
+	{
+		"Bank": "Mirae Bank",
+		"Date": "26/06/2009",
+		"Assets": 456000000,
+		"InflationAdjustedAssets": 635888075.3
+	},
+	{
+		"Bank": "MetroPacific Bank",
+		"Date": "26/06/2009",
+		"Assets": 80000000,
+		"InflationAdjustedAssets": 111559311.4
+	},
+	{
+		"Bank": "Horizon Bank",
+		"Date": "26/06/2009",
+		"Assets": 87600000,
+		"InflationAdjustedAssets": 122157446
+	},
+	{
+		"Bank": "Neighborhood Community Bank",
+		"Date": "26/06/2009",
+		"Assets": 221600000,
+		"InflationAdjustedAssets": 309019292.7
+	},
+	{
+		"Bank": "Community Bank of West Georgia",
+		"Date": "26/06/2009",
+		"Assets": 199400000,
+		"InflationAdjustedAssets": 278061583.8
+	},
+	{
+		"Bank": "Cooperative Bank",
+		"Date": "19/06/2009",
+		"Assets": 970000000,
+		"InflationAdjustedAssets": 1352656651
+	},
+	{
+		"Bank": "Southern Community Bank",
+		"Date": "19/06/2009",
+		"Assets": 377000000,
+		"InflationAdjustedAssets": 525723255.2
+	},
+	{
+		"Bank": "First National Bank of Anthony",
+		"Date": "19/06/2009",
+		"Assets": 156900000,
+		"InflationAdjustedAssets": 218795699.6
+	},
+	{
+		"Bank": "Bank of Lincolnwood",
+		"Date": "05/06/2009",
+		"Assets": 214000000,
+		"InflationAdjustedAssets": 298421158.1
+	},
+	{
+		"Bank": "Citizens National Bank",
+		"Date": "22/05/2009",
+		"Assets": 437000000,
+		"InflationAdjustedAssets": 609392738.8
+	},
+	{
+		"Bank": "Strategic Capital Bank",
+		"Date": "22/05/2009",
+		"Assets": 537000000,
+		"InflationAdjustedAssets": 748841878.1
+	},
+	{
+		"Bank": "BankUnited",
+		"Date": "21/05/2009",
+		"Assets": 12800000000,
+		"InflationAdjustedAssets": 17849489832
+	},
+	{
+		"Bank": "Westsound Bank",
+		"Date": "08/05/2009",
+		"Assets": 334600000,
+		"InflationAdjustedAssets": 466596820.1
+	},
+	{
+		"Bank": "America West Bank",
+		"Date": "01/05/2009",
+		"Assets": 299400000,
+		"InflationAdjustedAssets": 417510723.1
+	},
+	{
+		"Bank": "Citizens Community Bank",
+		"Date": "01/05/2009",
+		"Assets": 45100000,
+		"InflationAdjustedAssets": 62891561.83
+	},
+	{
+		"Bank": "Silverton Bank",
+		"Date": "01/05/2009",
+		"Assets": 4100000000,
+		"InflationAdjustedAssets": 5717414712
+	},
+	{
+		"Bank": "First Bank of Idaho",
+		"Date": "24/04/2009",
+		"Assets": 488900000,
+		"InflationAdjustedAssets": 681766842.1
+	},
+	{
+		"Bank": "First Bank of Beverly Hills",
+		"Date": "24/04/2009",
+		"Assets": 1500000000,
+		"InflationAdjustedAssets": 2091737090
+	},
+	{
+		"Bank": "Michigan Heritage Bank",
+		"Date": "24/04/2009",
+		"Assets": 184600000,
+		"InflationAdjustedAssets": 257423111.2
+	},
+	{
+		"Bank": "American Southern Bank",
+		"Date": "24/04/2009",
+		"Assets": 112300000,
+		"InflationAdjustedAssets": 156601383.4
+	},
+	{
+		"Bank": "Great Basin Bank of Nevada",
+		"Date": "17/04/2009",
+		"Assets": 270900000,
+		"InflationAdjustedAssets": 377767718.4
+	},
+	{
+		"Bank": "American Sterling Bank",
+		"Date": "17/04/2009",
+		"Assets": 181000000,
+		"InflationAdjustedAssets": 252402942.1
+	},
+	{
+		"Bank": "New Frontier Bank",
+		"Date": "10/04/2009",
+		"Assets": 2000000000,
+		"InflationAdjustedAssets": 2788982786
+	},
+	{
+		"Bank": "Cape Fear Bank",
+		"Date": "10/04/2009",
+		"Assets": 492000000,
+		"InflationAdjustedAssets": 686089765.4
+	},
+	{
+		"Bank": "Omni National Bank",
+		"Date": "27/03/2009",
+		"Assets": 956000000,
+		"InflationAdjustedAssets": 1333133772
+	},
+	{
+		"Bank": "TeamBank",
+		"Date": "20/03/2009",
+		"Assets": 669800000,
+		"InflationAdjustedAssets": 934030335.1
+	},
+	{
+		"Bank": "FirstCity Bank",
+		"Date": "20/03/2009",
+		"Assets": 297000000,
+		"InflationAdjustedAssets": 414163943.7
+	},
+	{
+		"Bank": "Colorado National Bank",
+		"Date": "20/03/2009",
+		"Assets": 123500000,
+		"InflationAdjustedAssets": 172219687
+	},
+	{
+		"Bank": "Freedom Bank of Georgia",
+		"Date": "06/03/2009",
+		"Assets": 173000000,
+		"InflationAdjustedAssets": 241247011
+	},
+	{
+		"Bank": "Security Savings Bank",
+		"Date": "27/02/2009",
+		"Assets": 238300000,
+		"InflationAdjustedAssets": 332307299
+	},
+	{
+		"Bank": "Heritage Community Bank",
+		"Date": "27/02/2009",
+		"Assets": 232900000,
+		"InflationAdjustedAssets": 324777045.5
+	},
+	{
+		"Bank": "Silver Falls Bank",
+		"Date": "20/02/2009",
+		"Assets": 131400000,
+		"InflationAdjustedAssets": 183236169.1
+	},
+	{
+		"Bank": "Pinnacle Bank",
+		"Date": "13/02/2009",
+		"Assets": 73000000,
+		"InflationAdjustedAssets": 101797871.7
+	},
+	{
+		"Bank": "Corn Belt Bank and Trust Company",
+		"Date": "13/02/2009",
+		"Assets": 271800000,
+		"InflationAdjustedAssets": 379022760.6
+	},
+	{
+		"Bank": "Riverside Bank of the Gulf Coast",
+		"Date": "13/02/2009",
+		"Assets": 539000000,
+		"InflationAdjustedAssets": 751630860.9
+	},
+	{
+		"Bank": "Sherman County Bank",
+		"Date": "13/02/2009",
+		"Assets": 129800000,
+		"InflationAdjustedAssets": 181004982.8
+	},
+	{
+		"Bank": "County Bank",
+		"Date": "06/02/2009",
+		"Assets": 1700000000,
+		"InflationAdjustedAssets": 2370635368
+	},
+	{
+		"Bank": "Alliance Bank",
+		"Date": "06/02/2009",
+		"Assets": 1140000000,
+		"InflationAdjustedAssets": 1589720188
+	},
+	{
+		"Bank": "FirstBank Financial Services",
+		"Date": "06/02/2009",
+		"Assets": 337000000,
+		"InflationAdjustedAssets": 469943599.5
+	},
+	{
+		"Bank": "Ocala National Bank",
+		"Date": "30/01/2009",
+		"Assets": 223500000,
+		"InflationAdjustedAssets": 311668826.4
+	},
+	{
+		"Bank": "Suburban Federal Savings Bank",
+		"Date": "30/01/2009",
+		"Assets": 360000000,
+		"InflationAdjustedAssets": 502016901.5
+	},
+	{
+		"Bank": "MagnetBank",
+		"Date": "30/01/2009",
+		"Assets": 292900000,
+		"InflationAdjustedAssets": 408446529
+	},
+	{
+		"Bank": "1st Centennial Bank",
+		"Date": "23/01/2009",
+		"Assets": 803300000,
+		"InflationAdjustedAssets": 1120194936
+	},
+	{
+		"Bank": "Bank of Clark County",
+		"Date": "16/01/2009",
+		"Assets": 446500000,
+		"InflationAdjustedAssets": 622640407
+	},
+	{
+		"Bank": "National Bank of Commerce",
+		"Date": "16/01/2009",
+		"Assets": 430900000,
+		"InflationAdjustedAssets": 600886341.3
+	},
+	{
+		"Bank": "Sanderson State Bank",
+		"Date": "12/12/2008",
+		"Assets": 37000000,
+		"InflationAdjustedAssets": 51412613.85
+	},
+	{
+		"Bank": "Haven Trust Bank",
+		"Date": "12/12/2008",
+		"Assets": 572000000,
+		"InflationAdjustedAssets": 794811219.5
+	},
+	{
+		"Bank": "First Georgia Community Bank",
+		"Date": "05/12/2008",
+		"Assets": 237500000,
+		"InflationAdjustedAssets": 330013399.7
+	},
+	{
+		"Bank": "PFF Bank and Trust",
+		"Date": "21/11/2008",
+		"Assets": 3700000000,
+		"InflationAdjustedAssets": 5141261385
+	},
+	{
+		"Bank": "Downey Savings and Loan Association",
+		"Date": "21/11/2008",
+		"Assets": 12800000000,
+		"InflationAdjustedAssets": 17785985332
+	},
+	{
+		"Bank": "Community Bank",
+		"Date": "21/11/2008",
+		"Assets": 681000000,
+		"InflationAdjustedAssets": 946270000.9
+	},
+	{
+		"Bank": "Security Pacific Bank",
+		"Date": "07/11/2008",
+		"Assets": 561100000,
+		"InflationAdjustedAssets": 779665341.4
+	},
+	{
+		"Bank": "Franklin Bank",
+		"Date": "07/11/2008",
+		"Assets": 5100000000,
+		"InflationAdjustedAssets": 7086603531
+	},
+	{
+		"Bank": "Freedom Bank",
+		"Date": "31/10/2008",
+		"Assets": 287000000,
+		"InflationAdjustedAssets": 398795139.9
+	},
+	{
+		"Bank": "Alpha Bank & Trust",
+		"Date": "24/10/2008",
+		"Assets": 354100000,
+		"InflationAdjustedAssets": 492032609.9
+	},
+	{
+		"Bank": "Meridian Bank",
+		"Date": "10/10/2008",
+		"Assets": 39200000,
+		"InflationAdjustedAssets": 54469580.08
+	},
+	{
+		"Bank": "Main Street Bank",
+		"Date": "10/10/2008",
+		"Assets": 98000000,
+		"InflationAdjustedAssets": 136173950.2
+	},
+	{
+		"Bank": "Washington Mutual Bank",
+		"Date": "25/09/2008",
+		"Assets": 307000000000,
+		"InflationAdjustedAssets": 426586000000
+	},
+	{
+		"Bank": "Ameribank",
+		"Date": "19/09/2008",
+		"Assets": 115000000,
+		"InflationAdjustedAssets": 159795962
+	},
+	{
+		"Bank": "Silver State Bank",
+		"Date": "05/09/2008",
+		"Assets": 2000000000,
+		"InflationAdjustedAssets": 2779060208
+	},
+	{
+		"Bank": "Integrity Bank",
+		"Date": "29/08/2008",
+		"Assets": 1100000000,
+		"InflationAdjustedAssets": 1528483114
+	},
+	{
+		"Bank": "Columbian Bank and Trust",
+		"Date": "22/08/2008",
+		"Assets": 752000000,
+		"InflationAdjustedAssets": 1044926638
+	},
+	{
+		"Bank": "First Priority Bank",
+		"Date": "01/08/2008",
+		"Assets": 259000000,
+		"InflationAdjustedAssets": 359888297
+	},
+	{
+		"Bank": "First National Bank of Nevada",
+		"Date": "25/07/2008",
+		"Assets": 3400000000,
+		"InflationAdjustedAssets": 4724402354
+	},
+	{
+		"Bank": "First Heritage Bank National Association",
+		"Date": "25/07/2008",
+		"Assets": 254000000,
+		"InflationAdjustedAssets": 352940646.4
+	},
+	{
+		"Bank": "IndyMac Bank",
+		"Date": "11/07/2008",
+		"Assets": 32010000000,
+		"InflationAdjustedAssets": 44478858632
+	},
+	{
+		"Bank": "First Integrity Bank",
+		"Date": "30/05/2008",
+		"Assets": 54700000,
+		"InflationAdjustedAssets": 76007296.69
+	},
+	{
+		"Bank": "ANB Financial",
+		"Date": "09/05/2008",
+		"Assets": 2100000000,
+		"InflationAdjustedAssets": 2918013219
+	},
+	{
+		"Bank": "Hume Bank",
+		"Date": "07/03/2008",
+		"Assets": 18700000,
+		"InflationAdjustedAssets": 25984212.95
+	},
+	{
+		"Bank": "Douglass National Bank",
+		"Date": "25/01/2008",
+		"Assets": 58500000,
+		"InflationAdjustedAssets": 81287511.09
+	},
+	{
+		"Bank": "Miami Valley Bank",
+		"Date": "04/10/2007",
+		"Assets": 86700000,
+		"InflationAdjustedAssets": 125097852.8
+	},
+	{
+		"Bank": "NetBank",
+		"Date": "28/09/2007",
+		"Assets": 2500000000,
+		"InflationAdjustedAssets": 3607204522
+	},
+	{
+		"Bank": "Metropolitan Savings",
+		"Date": "02/02/2007",
+		"Assets": 15800000,
+		"InflationAdjustedAssets": 22797532.58
+	},
+	{
+		"Bank": "Bank of Ephraim",
+		"Date": "25/06/2004",
+		"Assets": 46400000,
+		"InflationAdjustedAssets": 73492521.83
+	},
+	{
+		"Bank": "Reliance Bank",
+		"Date": "19/03/2004",
+		"Assets": 30300000,
+		"InflationAdjustedAssets": 47991883.86
+	},
+	{
+		"Bank": "Guaranty National Bank of Tallahassee",
+		"Date": "12/03/2004",
+		"Assets": 74100000,
+		"InflationAdjustedAssets": 117366290.2
+	},
+	{
+		"Bank": "Dollar Savings Bank of Newark",
+		"Date": "14/02/2004",
+		"Assets": 12300000,
+		"InflationAdjustedAssets": 19481853.85
+	},
+	{
+		"Bank": "Pulaski Savings Bank",
+		"Date": "14/11/2003",
+		"Assets": 10200000,
+		"InflationAdjustedAssets": 16588210.35
+	},
+	{
+		"Bank": "First National Bank of Blanchardville",
+		"Date": "09/05/2003",
+		"Assets": 35000000,
+		"InflationAdjustedAssets": 56920329.64
+	},
+	{
+		"Bank": "Southern Pacific Bank",
+		"Date": "07/02/2003",
+		"Assets": 1000000000,
+		"InflationAdjustedAssets": 1626295133
+	},
+	{
+		"Bank": "Farmers Bank & Trust of Cheneyville",
+		"Date": "17/12/2002",
+		"Assets": 37000000,
+		"InflationAdjustedAssets": 61538790.83
+	},
+	{
+		"Bank": "Bank of Alamo",
+		"Date": "08/11/2002",
+		"Assets": 69400000,
+		"InflationAdjustedAssets": 115426813.1
+	},
+	{
+		"Bank": "AmTrade International Bank",
+		"Date": "30/09/2002",
+		"Assets": 12000000,
+		"InflationAdjustedAssets": 19958526.75
+	},
+	{
+		"Bank": "Universal Federal Savings Bank",
+		"Date": "27/06/2002",
+		"Assets": 51600000,
+		"InflationAdjustedAssets": 85821665.05
+	},
+	{
+		"Bank": "Connecticut Bank of Commerce",
+		"Date": "26/06/2002",
+		"Assets": 398600000,
+		"InflationAdjustedAssets": 662955730.4
+	},
+	{
+		"Bank": "New Century Bank",
+		"Date": "28/03/2002",
+		"Assets": 19000000,
+		"InflationAdjustedAssets": 31601000.69
+	},
+	{
+		"Bank": "Net 1st National Bank",
+		"Date": "01/03/2002",
+		"Assets": 34700000,
+		"InflationAdjustedAssets": 57713406.53
+	},
+	{
+		"Bank": "NextBank",
+		"Date": "07/02/2002",
+		"Assets": 700000000,
+		"InflationAdjustedAssets": 1164247394
+	},
+	{
+		"Bank": "Oakwood Deposit Bank Company",
+		"Date": "01/02/2002",
+		"Assets": 72300000,
+		"InflationAdjustedAssets": 120250123.7
+	},
+	{
+		"Bank": "Bank of Sierra Blanca",
+		"Date": "18/01/2002",
+		"Assets": 10800000,
+		"InflationAdjustedAssets": 17962674.08
+	},
+	{
+		"Bank": "Hamilton Bank",
+		"Date": "11/01/2002",
+		"Assets": 1300000000,
+		"InflationAdjustedAssets": 2162173732
+	},
+	{
+		"Bank": "Sinclair National Bank",
+		"Date": "07/09/2001",
+		"Assets": 30700000,
+		"InflationAdjustedAssets": 51870303.33
+	},
+	{
+		"Bank": "Superior Bank",
+		"Date": "27/07/2001",
+		"Assets": 2300000000,
+		"InflationAdjustedAssets": 3886048784
+	},
+	{
+		"Bank": "The Malta National Bank",
+		"Date": "03/05/2001",
+		"Assets": 9500000,
+		"InflationAdjustedAssets": 16051071.06
+	},
+	{
+		"Bank": "First Alliance Bank & Trust Company",
+		"Date": "02/02/2001",
+		"Assets": 18400000,
+		"InflationAdjustedAssets": 31088390.27
+	}
+]
