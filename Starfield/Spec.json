@@ -1,0 +1,109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 500,
+  "height": 500,
+  "padding": 0,
+  "background": "black",
+  "data": [
+    {
+      "name": "source",
+      "values": [],
+      "transform": [
+        {"type": "sequence", "start": 1, "stop": 300, "step": 1, "as": "id"},
+        {"type": "formula", "as": "x", "expr": "random()*2-1"},
+        {"type": "formula", "as": "y", "expr": "random()*2-1"},
+        {
+          "type": "formula",
+          "as": "z",
+          "expr": "datum.sx >-2 &&datum.sx <2 && datum.sy >-2 &&datum.sy <2 && counter > 0?datum.z-1:200"
+        },
+        {"type": "formula", "as": "sx", "expr": "datum.x/datum.z*200"},
+        {"type": "formula", "as": "sy", "expr": "datum.y/datum.z*200"},
+        {
+          "type": "formula",
+          "as": "px",
+          "expr": "datum.z==200?datum.sx:datum.px"
+        },
+        {
+          "type": "formula",
+          "as": "py",
+          "expr": "datum.z==200?datum.sy:datum.py"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "run",
+      "value": false,
+      "on": [{"events": "click", "update": "!run"}]
+    },
+    {
+      "name": "counter",
+      "value": 200,
+      "on": [
+        {
+          "events": {"type": "timer", "throttle": 0},
+          "update": "run&&counter>1?counter -1 :200"
+        },
+        {"events": {"type": "dblclick"}, "update": "200"}
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": {"signal": "[-1,1]"},
+      "range": "width"
+    },
+    {
+      "name": "yscale",
+      "type": "linear",
+      "domain": {"signal": "[-1,1]"},
+      "range": "height"
+    },
+    {
+      "name": "size",
+      "type": "linear",
+      "round": true,
+      "nice": false,
+      "zero": true,
+      "domain": [0, 200],
+      "range": [100, 0]
+    }
+  ],
+  "marks": [
+    {
+      "name": "stars",
+      "type": "symbol",
+      "from": {"data": "source"},
+      "encode": {
+        "update": {
+          "x": {"field": "sx", "scale": "xscale"},
+          "y": {"field": "sy", "scale": "yscale"},
+          "size": {"scale": "size", "field": "z"},
+          "shape": {"value": "circle"},
+          "fill": {"value": "white"},
+          "tooltip": {"signal": "datum"}
+        }
+      }
+    },
+    {
+      "name": "streaks",
+      "type": "rule",
+      "from": {"data": "source"},
+      "encode": {
+        "update": {
+          "x": {"field": "px", "scale": "xscale"},
+          "y": {"field": "py", "scale": "yscale"},
+          "x2": {"field": "sx", "scale": "xscale"},
+          "y2": {"field": "sy", "scale": "yscale"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 0.5},
+          "opacity": {"value": 0.8}
+        }
+      }
+    }
+  ]
+}

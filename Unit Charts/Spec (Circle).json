@@ -1,0 +1,145 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 300,
+  "height": 300,
+  "padding": 50,
+  "background": "#222431",
+  "signals": [
+    {
+      "name": "textGradient",
+      "update": "{gradient: 'linear', stops: [{offset: 0, color: '#14d8cc'}, {offset: 1, color: '#4c8bee'}]}"
+    },
+    {"name": "percent", "update": "83"}
+  ],
+  "data": [
+    {
+      "name": "back",
+      "values": [],
+      "transform": [
+        {"type": "sequence", "start": 0, "stop": 100, "step": 1, "as": "val"},
+        {"type": "formula", "expr": "1", "as": "t"},
+        {
+          "type": "pie",
+          "field": "t",
+          "startAngle": {"signal": "0"},
+          "endAngle": {"signal": "2*PI"}
+        }
+      ]
+    },
+    {
+      "name": "front",
+      "values": [],
+      "transform": [
+        {
+          "type": "sequence",
+          "start": 0,
+          "stop": {"signal": "percent"},
+          "step": 1,
+          "as": "val"
+        },
+        {"type": "formula", "expr": "1", "as": "t"},
+        {
+          "type": "pie",
+          "field": "t",
+          "startAngle": {"signal": "0"},
+          "endAngle": {"signal": "((2*PI)/100)*percent"}
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "back", "field": "val"},
+      "range": ["#14d8cc", "#4c8bee", "#6567ee", "#b533d2", "#b533d2"]
+    }
+  ],
+  "marks": [
+    {
+      "type": "arc",
+      "from": {"data": "back"},
+      "encode": {
+        "enter": {
+          "fill": {"value": "#3f424e"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"}
+        },
+        "update": {
+          "startAngle": {"field": "startAngle"},
+          "endAngle": {"field": "endAngle"},
+          "padAngle": {"signal": "0.015"},
+          "innerRadius": {"signal": "(width / 2)-15"},
+          "outerRadius": {"signal": "width / 2"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "from": {"data": "front"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "val"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"}
+        },
+        "update": {
+          "startAngle": {"field": "startAngle"},
+          "endAngle": {"field": "endAngle"},
+          "padAngle": {"signal": "0.015"},
+          "innerRadius": {"signal": "(width / 2)-15"},
+          "outerRadius": {"signal": "width / 2"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "data": [{"a": 1}],
+      "encode": {
+        "enter": {
+          "fill": {"value": "#3f424e"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"}
+        },
+        "update": {
+          "startAngle": {"signal": "0"},
+          "endAngle": {"signal": "2*PI"},
+          "innerRadius": {"signal": "(width / 2)-25"},
+          "outerRadius": {"signal": "(width / 2)-20"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {"signal": "percent + '%'"},
+          "align": {"value": "center"},
+          "fontWeight": {"value": "bold"},
+          "fill": {"signal": "textGradient"},
+          "x": {"signal": "width /2"},
+          "y": {"signal": "width /2"},
+          "dy": {"value": 10},
+          "fontSize": {"value": 70}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {"value": "on target"},
+          "align": {"value": "center"},
+          "fontWeight": {"value": "bold"},
+          "fill": {"value": "#9092a1"},
+          "x": {"signal": "width /2"},
+          "y": {"signal": "width /2"},
+          "dy": {"value": 40},
+          "fontSize": {"value": 30}
+        }
+      }
+    }
+  ]
+}

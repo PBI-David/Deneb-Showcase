@@ -1,0 +1,911 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Dataviz by Dav Bacci",
+  "width": 1050,
+  "background": "#343537",
+  "height": 750,
+  "padding": {
+    "top": 80,
+    "left": 40,
+    "right": 85
+  },
+  "autosize": {
+    "type": "none",
+    "contains": "padding"
+  },
+  "signals": [
+    {
+      "name": "radius",
+      "update": "(width / 6)-92"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "key": "key-0",
+          "value": 19,
+          "category": 0
+        },
+        {
+          "key": "key-1",
+          "value": 22,
+          "category": 0
+        },
+        {
+          "key": "key-2",
+          "value": 14,
+          "category": 0
+        },
+        {
+          "key": "key-3",
+          "value": 38,
+          "category": 0
+        },
+        {
+          "key": "key-4",
+          "value": 23,
+          "category": 0
+        },
+        {
+          "key": "key-5",
+          "value": 5,
+          "category": 0
+        },
+        {
+          "key": "key-6",
+          "value": 27,
+          "category": 0
+        },
+        {
+          "key": "key-0",
+          "value": 13,
+          "category": 1
+        },
+        {
+          "key": "key-1",
+          "value": 12,
+          "category": 1
+        },
+        {
+          "key": "key-2",
+          "value": 42,
+          "category": 1
+        },
+        {
+          "key": "key-3",
+          "value": 13,
+          "category": 1
+        },
+        {
+          "key": "key-4",
+          "value": 6,
+          "category": 1
+        },
+        {
+          "key": "key-5",
+          "value": 15,
+          "category": 1
+        },
+        {
+          "key": "key-6",
+          "value": 8,
+          "category": 1
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "values": [
+        {
+          "Name": "Easy Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/easy-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 20,
+          "Difficulty": "Easy",
+          "kcal": 61,
+          "fat (g)": 2,
+          "saturates (g)": 1,
+          "carbs (g)": 7,
+          "sugars (g)": 1,
+          "fibre (g)": 0,
+          "protein (g)": 3,
+          "salt (g)": 0.1
+        },
+        {
+          "Name": "American Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/american-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 25,
+          "Cooking Time (Mins)": 30,
+          "Difficulty": "Easy",
+          "kcal": 356,
+          "fat (g)": 13,
+          "saturates (g)": 6,
+          "carbs (g)": 46,
+          "sugars (g)": 8,
+          "fibre (g)": 2,
+          "protein (g)": 13,
+          "salt (g)": 1.25
+        },
+        {
+          "Name": [
+            "American Blueberry",
+            "Pancakes"
+          ],
+          "Link": "https://www.bbcgoodfood.com/recipes/american-blueberry-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 15,
+          "Cooking Time (Mins)": 20,
+          "Difficulty": "Easy",
+          "kcal": 108,
+          "fat (g)": 0,
+          "saturates (g)": 1,
+          "carbs (g)": 18,
+          "sugars (g)": 0,
+          "fibre (g)": 1,
+          "protein (g)": 4,
+          "salt (g)": 0.41
+        },
+        {
+          "Name": [
+            "Chocolate Filled Pancakes",
+            " with Caramelised Banana"
+          ],
+          "Link": "https://www.bbcgoodfood.com/recipes/chocolate-filled-pancakes-caramelised-banana",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 25,
+          "Cooking Time (Mins)": 30,
+          "Difficulty": "More effort",
+          "kcal": 797,
+          "fat (g)": 37,
+          "saturates (g)": 12,
+          "carbs (g)": 94,
+          "sugars (g)": 57,
+          "fibre (g)": 6,
+          "protein (g)": 18,
+          "salt (g)": 14
+        },
+        {
+          "Name": [
+            "Fluffy American Pancakes",
+            "with Cherry-Berry Syrup"
+          ],
+          "Link": "https://www.bbcgoodfood.com/recipes/best-ever-fluffy-american-pancakes-cherry-berry-syrup",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 30,
+          "Difficulty": "Easy",
+          "kcal": 233,
+          "fat (g)": 11.75,
+          "saturates (g)": 6.25,
+          "carbs (g)": 24,
+          "sugars (g)": 7.25,
+          "fibre (g)": 1.25,
+          "protein (g)": 7,
+          "salt (g)": 0.775
+        },
+        {
+          "Name": "Scotch Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/scotch-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 15,
+          "Difficulty": "Easy",
+          "kcal": 121,
+          "fat (g)": 3,
+          "saturates (g)": 1,
+          "carbs (g)": 19,
+          "sugars (g)": 3,
+          "fibre (g)": 1,
+          "protein (g)": 4,
+          "salt (g)": 0.5
+        },
+        {
+          "Name": "Fluffy Japanese Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/fluffy-japanese-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 90,
+          "Difficulty": "Easy",
+          "kcal": 174,
+          "fat (g)": 4,
+          "saturates (g)": 1,
+          "carbs (g)": 27,
+          "sugars (g)": 8,
+          "fibre (g)": 1,
+          "protein (g)": 6,
+          "salt (g)": 0.4
+        },
+        {
+          "Name": "Easy Banana Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/easy-banana-pancakes",
+          "Type": "Sweet",
+          "Prep Time (Mins)": 5,
+          "Cooking Time (Mins)": 10,
+          "Difficulty": "Easy",
+          "kcal": 161.3333333,
+          "fat (g)": 2.333333333,
+          "saturates (g)": 1,
+          "carbs (g)": 87,
+          "sugars (g)": 19,
+          "fibre (g)": 5,
+          "protein (g)": 15,
+          "salt (g)": 1.21
+        },
+        {
+          "Name": "Eggs Benedict Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/eggs-benedict-pancakes",
+          "Type": "Savoury",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 20,
+          "Difficulty": "Easy",
+          "kcal": 605,
+          "fat (g)": 36,
+          "saturates (g)": 19,
+          "carbs (g)": 46,
+          "sugars (g)": 5,
+          "fibre (g)": 2,
+          "protein (g)": 23,
+          "salt (g)": 2.14
+        },
+        {
+          "Name": "Ham & Cheese Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/smoked-ham-cheese-pancakes",
+          "Type": "Savoury",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 8,
+          "Difficulty": "Easy",
+          "kcal": 327,
+          "fat (g)": 19,
+          "saturates (g)": 10,
+          "carbs (g)": 23,
+          "sugars (g)": 2,
+          "fibre (g)": 1,
+          "protein (g)": 15,
+          "salt (g)": 1.6
+        },
+        {
+          "Name": "Crispy Duck Pancakes",
+          "Link": "https://www.bbcgoodfood.com/recipes/crispy-duck-pancakes",
+          "Type": "Savoury",
+          "Prep Time (Mins)": 10,
+          "Cooking Time (Mins)": 30,
+          "Difficulty": "Easy",
+          "kcal": 402,
+          "fat (g)": 18,
+          "saturates (g)": 5,
+          "carbs (g)": 44,
+          "sugars (g)": 19,
+          "fibre (g)": 3,
+          "protein (g)": 13,
+          "salt (g)": 0.9
+        }
+      ],
+      "transform": [
+        {
+          "type": "joinaggregate",
+          "fields": [
+            "kcal",
+            "fat (g)",
+            "saturates (g)",
+            "carbs (g)",
+            "sugars (g)",
+            "fibre (g)",
+            "protein (g)",
+            "salt (g)"
+          ],
+          "ops": [
+            "max",
+            "max",
+            "max",
+            "max",
+            "max",
+            "max",
+            "max",
+            "max"
+          ],
+          "as": [
+            "max kcal",
+            "max fat (g)",
+            "max saturates (g)",
+            "max carbs (g)",
+            "max sugars (g)",
+            "max fibre (g)",
+            "max protein (g)",
+            "max salt (g)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "table3",
+      "source": "source",
+      "transform": [
+        {
+          "type": "window",
+          "sort": {
+            "field": "Name",
+            "order": "ascending"
+          },
+          "ops": ["row_number"],
+          "as": ["index"]
+        },
+        {
+          "type": "formula",
+          "as": "Time",
+          "expr": "datum['Prep Time (Mins)']+datum['Cooking Time (Mins)']"
+        },
+        {
+          "type": "joinaggregate",
+          "fields": [
+            "kcal",
+            "fat (g)",
+            "saturates (g)",
+            "carbs (g)",
+            "sugars (g)",
+            "fibre (g)",
+            "protein (g)",
+            "salt (g)",
+            "Time"
+          ],
+          "ops": [
+            "mean",
+            "mean",
+            "mean",
+            "mean",
+            "mean",
+            "mean",
+            "mean",
+            "mean",
+            "mean"
+          ],
+          "as": [
+            "m kcal",
+            "m fat (g)",
+            "m saturates (g)",
+            "m carbs (g)",
+            "m sugars (g)",
+            "m fibre (g)",
+            "m protein (g)",
+            "m salt (g)",
+            "m Time"
+          ]
+        },
+        {
+          "type": "fold",
+          "fields": [
+            "kcal",
+            "fat (g)",
+            "saturates (g)",
+            "carbs (g)",
+            "sugars (g)",
+            "fibre (g)",
+            "protein (g)",
+            "salt (g)",
+            "m kcal",
+            "m fat (g)",
+            "m saturates (g)",
+            "m carbs (g)",
+            "m sugars (g)",
+            "m fibre (g)",
+            "m protein (g)",
+            "m salt (g)"
+          ]
+        },
+        {
+          "type": "project",
+          "fields": [
+            "Name",
+            "Link",
+            "Type",
+            "Difficulty",
+            "key",
+            "value",
+            "Time",
+            "index",
+            "m Time"
+          ]
+        },
+        {
+          "type": "formula",
+          "as": "value",
+          "expr": "datum.key=='salt (g)'? round(datum.value *10)/10: round(datum.value )"
+        },
+        {
+          "type": "formula",
+          "as": "category",
+          "expr": "indexof(datum.key, 'm ')==-1?'data':'average'"
+        },
+        {
+          "type": "formula",
+          "as": "key",
+          "expr": "replace(datum.key, 'm ','')"
+        }
+      ]
+    },
+    {
+      "name": "table4",
+      "source": "table3",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["key"]
+        },
+        {
+          "type": "lookup",
+          "from": "table3",
+          "key": "key",
+          "fields": ["key"],
+          "as": ["value"],
+          "values": ["value"]
+        },
+        {
+          "type": "formula",
+          "as": "index",
+          "expr": "12"
+        },
+        {
+          "type": "formula",
+          "as": "Name",
+          "expr": "'Average'"
+        },
+        {
+          "type": "formula",
+          "as": "category",
+          "expr": "'data'"
+        }
+      ]
+    },
+    {
+      "name": "table5",
+      "source": ["table3", "table4"]
+    },
+    {
+      "name": "keys",
+      "source": "table5",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["key"]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "angular",
+      "type": "point",
+      "range": {"signal": "[-PI, PI]"},
+      "padding": 0.5,
+      "domain": {
+        "data": "keys",
+        "field": "key"
+      }
+    },
+    {
+      "name": "kcal",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "kcal"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max kcal']*1.3"
+      }
+    },
+    {
+      "name": "fat (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "fat (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max fat (g)']*1.1"
+      }
+    },
+    {
+      "name": "saturates (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "saturates (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max saturates (g)']*1.2"
+      }
+    },
+    {
+      "name": "carbs (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "carbs (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max carbs (g)']*1.2"
+      }
+    },
+    {
+      "name": "sugars (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "sugars (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max sugars (g)']*1.2"
+      }
+    },
+    {
+      "name": "fibre (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "fibre (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max fibre (g)']*1.1"
+      }
+    },
+    {
+      "name": "protein (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "protein (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max protein (g)']*1.2"
+      }
+    },
+    {
+      "name": "salt (g)",
+      "type": "linear",
+      "range": {
+        "signal": "[0, radius]"
+      },
+      "zero": true,
+      "nice": true,
+      "domain": {
+        "data": "source",
+        "field": "salt (g)"
+      },
+      "domainMin": 0,
+      "domainMax": {
+        "signal": "data('source')[0]['max salt (g)']*1.2"
+      }
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "data": "table5",
+        "field": "category"
+      },
+      "range": ["#ff2d1d", "grey"]
+    },
+    {
+      "name": "color2",
+      "type": "ordinal",
+      "domain": {
+        "data": "table5",
+        "field": "Name"
+      },
+      "range": ["#ffb025"]
+    }
+  ],
+  "encode": {
+    "enter": {
+      "x": {"signal": "radius"},
+      "y": {"signal": "radius"}
+    }
+  },
+  "layout": {
+    "columns": 4,
+    "padding": {
+      "row": 50,
+      "column": 30
+    },
+    "align": "all"
+  },
+  "marks": [
+    {
+      "type": "group",
+      "name": "categories",
+      "zindex": 1,
+      "from": {
+        "facet": {
+          "data": "table5",
+          "name": "facet",
+          "groupby": ["index", "Name"]
+        }
+      },
+      "sort": {
+        "field": "datum.index",
+        "order": "ascending"
+      },
+      "title": {
+        "text": {
+          "signal": "parent.Name"
+        },
+        "color": "#d0d0d2",
+        "frame": "group",
+        "fontSize": 12,
+        "fontWeight": "600",
+        "baseline": "line-bottom",
+        "dy": -5,
+        "orient": "top",
+        "lineHeight": 20
+      },
+      "marks": [
+        {
+          "type": "group",
+          "name": "categories",
+          "zindex": 1,
+          "from": {
+            "facet": {
+              "data": "facet",
+              "name": "facet2",
+              "groupby": ["category"]
+            }
+          },
+          "marks": [
+            {
+              "type": "line",
+              "name": "category-line",
+              "from": {
+                "data": "facet2"
+              },
+              "encode": {
+                "update": {
+                  "interpolate": {
+                    "value": "linear-closed"
+                  },
+                  "x": {
+                    "signal": "scale(datum.key, datum.value) * cos(scale('angular', datum.key))"
+                  },
+                  "y": {
+                    "signal": "scale(datum.key, datum.value) * sin(scale('angular', datum.key))"
+                  },
+                  "stroke": [
+                    {
+                      "test": "datum.category=='data'",
+                      "scale": "color2",
+                      "field": "Name"
+                    },
+                    {"value": "grey"}
+                  ],
+                  "strokeWidth": {
+                    "signal": "datum.category=='data'?1:0"
+                  },
+                  "strokeDash": {
+                    "value": [0]
+                  },
+                  "fill": [
+                    {
+                      "test": "datum.category=='data'",
+                      "scale": "color2",
+                      "field": "Name"
+                    },
+                    {"value": "grey"}
+                  ],
+                  "fillOpacity": {
+                    "signal": "datum.category=='data'?1:0.3"
+                  }
+                }
+              }
+            },
+            {
+              "type": "text",
+              "name": "value-text",
+              "from": {
+                "data": "facet2"
+              },
+              "encode": {
+                "enter": {
+                  "x": {
+                    "signal": "(scale(datum.key, datum.value) +5) * cos(scale('angular', datum.key))"
+                  },
+                  "y": {
+                    "signal": "(scale(datum.key, datum.value)+5) * sin(scale('angular', datum.key))"
+                  },
+                  "text": {
+                    "signal": "datum.value==0?'':datum.category=='data'?datum.value:'' "
+                  },
+                  "align": [
+                    {
+                      "test": "abs(scale('angular', datum.key)) > PI / 2",
+                      "value": "right"
+                    },
+                    {"value": "left"}
+                  ],
+                  "baseline": [
+                    {
+                      "test": "scale('angular', datum.key) > 0",
+                      "value": "top"
+                    },
+                    {
+                      "test": "scale('angular', datum.key) == 0",
+                      "value": "middle"
+                    },
+                    {"value": "bottom"}
+                  ],
+                  "fill": {
+                    "scale": "color2",
+                    "field": "Name"
+                  },
+                  "opacity": {
+                    "value": 0.6
+                  },
+                  "fontSize": {
+                    "value": 9
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "rule",
+          "name": "radial-grid",
+          "from": {"data": "keys"},
+          "zindex": 0,
+          "encode": {
+            "enter": {
+              "x": {"value": 0},
+              "y": {"value": 0},
+              "x2": {
+                "signal": "radius * cos(scale('angular', datum.key))"
+              },
+              "y2": {
+                "signal": "radius * sin(scale('angular', datum.key))"
+              },
+              "stroke": {
+                "value": "lightgray"
+              },
+              "strokeWidth": {
+                "value": 0.5
+              },
+              "opacity": {"value": 0.2}
+            }
+          }
+        },
+        {
+          "type": "text",
+          "name": "key-label",
+          "from": {"data": "keys"},
+          "zindex": 1,
+          "encode": {
+            "enter": {
+              "x": {
+                "signal": "(radius + 5) * cos(scale('angular', datum.key))"
+              },
+              "y": {
+                "signal": "(radius + 5) * sin(scale('angular', datum.key))"
+              },
+              "text": {"field": "key"},
+              "align": [
+                {
+                  "test": "abs(scale('angular', datum.key)) > PI / 2",
+                  "value": "right"
+                },
+                {"value": "left"}
+              ],
+              "baseline": [
+                {
+                  "test": "scale('angular', datum.key) > 0",
+                  "value": "top"
+                },
+                {
+                  "test": "scale('angular', datum.key) == 0",
+                  "value": "middle"
+                },
+                {"value": "bottom"}
+              ],
+              "fill": {
+                "value": "white"
+              },
+              "opacity": {"value": 0.5},
+             
+              "fontSize":{"value":12}
+            }
+          }
+        },
+        {
+          "type": "line",
+          "name": "outer-line",
+          "from": {
+            "data": "radial-grid"
+          },
+          "encode": {
+            "enter": {
+              "interpolate": {
+                "value": "linear-closed"
+              },
+              "x": {"field": "x2"},
+              "y": {"field": "y2"},
+              "stroke": {
+                "value": "lightgray"
+              },
+              "strokeWidth": {
+                "value": 1
+              },
+              "opacity": {"value": 0}
+            }
+          }
+        },
+        {
+          "type": "rule",
+          "name": "seperator",
+          "from": {"data": "facet"},
+          "encode": {
+            "enter": {
+              "x": {"signal": "140"},
+              "y": {"signal": "-60"},
+              "y2": {"signal": "60"},
+              "stroke": {
+                "signal": "'lightgray'"
+              },
+              "strokeOpacity": {
+                "signal": "0.3"
+              },
+              "strokeWidth": [
+                {
+                  "test": "datum.index ==4||datum.index ==8||datum.index ==12",
+                  "value": 0
+                },
+                {"value": 0.2}
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

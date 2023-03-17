@@ -1,0 +1,204 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"description": "Dataviz by Davide Bacci (https://www.linkedin.com/in/davbacci/). Data sourced from https://coronavirus.data.gov.uk/ and https://geoportal.statistics.gov.uk/ and special thanks to https://mapshaper.org/",
+	"background": "#18191C",
+	"width": 900,
+	"height": 900,
+	"title": {
+	  "text": "COVID-19 Cases in the UK",
+	  "dy": 60,
+	  "subtitle": [
+		"Rate per 100,000 people of new cases in rolling 7 day period"
+	  ],
+	  "fontSize": 34,
+	  "color": "#E8EAE5",
+	  "subtitleFontSize": 16,
+	  "subtitlePadding": 10,
+	  "subtitleColor": "#908F95",
+	  "align": "left",
+	  "anchor": "start",
+	  "baseline": "top"
+	},
+	"autosize": "none",
+	"padding": {"bottom": 10, "left": 20, "right": 0, "top": 30},
+	"signals": [
+	  {
+		"name": "run",
+		"value": false,
+		"on": [{"events": "click", "update": "!run"}]
+	  },
+	  {
+		"name": "counter",
+		"value": -1,
+		"on": [
+		  {
+			"events": {"type": "timer", "throttle": 0},
+			"update": "run&&counter<830?counter + 1:counter"
+		  },
+		  {"events": {"type": "dblclick"}, "update": "0"}
+		]
+	  }
+	],
+	"data": [
+	  {
+		"name": "covid",
+		"url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Covid%20Topojson/newCasesBySpecimenDateRollingRateIndexed.csv",
+		"format": {
+		  "type": "csv",
+		  "parse": {"newCasesBySpecimenDateRollingRate": "number"}
+		}
+	  },
+	  {
+		"name": "e",
+		"url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Covid%20Topojson/LAD_(Dec_2019)_Boundaries_UK_BFC_simplified.json",
+		"format": {
+		  "type": "topojson",
+		  "feature": "LAD_(Dec_2019)_Boundaries_UK_BFC.geojson"
+		},
+		"transform": [
+		  {"type": "formula", "as": "id", "expr": "datum.properties.lad19cd"},
+		  {"type": "formula", "as": "key", "expr": "counter+datum.id"},
+		  {
+			"type": "lookup",
+			"from": "covid",
+			"key": "key",
+			"fields": ["key"],
+			"values": ["newCasesBySpecimenDateRollingRate", "longDate"]
+		  },
+		  {
+			"type": "window",
+			"sort": {
+			  "field": "newCasesBySpecimenDateRollingRate",
+			  "order": "descending"
+			},
+			"ops": ["row_number"],
+			"fields": [null],
+			"as": ["row"]
+		  }
+		]
+	  },
+	  {
+		"name": "i",
+		"url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Covid%20Topojson/i.json",
+		"format": {"type": "topojson", "mesh": "IRL_adm1", "filter": "exterior"}
+	  }
+	],
+	"projections": [
+	  {
+		"name": "projection",
+		"type": "mercator",
+		"fit": {"signal": "data('e')"},
+		"extent": [[150, 0], [900, 800]]
+	  }
+	],
+	"scales": [
+	  {
+		"name": "color",
+		"type": "quantize",
+		"domainMax": 500,
+		"reverse": false,
+		"domain": {"data": "covid", "field": "newCasesBySpecimenDateRollingRate"},
+		"range": {"scheme": "inferno", "count": 20, "extent": [0.3, 1]}
+	  }
+	],
+	"marks": [
+	  {
+		"type": "text",
+		"from": {"data": "e"},
+		"encode": {
+		  "update": {
+			"text": {
+			  "signal": "datum.row==1&& datum.longDate==null? '05 Feb 2020':datum.row==1? datum.longDate:null "
+			},
+			"align": {"value": "left"},
+			"fill": {"value": "#908F95"},
+			"x": {"signal": "0"},
+			"y": {"signal": "height - 60"},
+			"fontSize": {"value": 20},
+			"fontWeight": {"value": "900"}
+		  }
+		}
+	  },
+	  {
+		"type": "shape",
+		"from": {"data": "e"},
+		"encode": {
+		  "enter": {"tooltip": {"signal": "datum"}},
+		  "update": {
+			"fill": [
+			  {
+				"test": "datum.newCasesBySpecimenDateRollingRate== null",
+				"value": "#363639"
+			  },
+			  {"scale": "color", "field": "newCasesBySpecimenDateRollingRate"}
+			],
+			"stroke": {"value": "black"},
+			"strokeWidth": {"value": 0.2},
+			"strokeOpacity": {"value": 0.4},
+			"fillOpacity": {"value": 0.7}
+		  }
+		},
+		"transform": [{"type": "geoshape", "projection": "projection"}]
+	  },
+	  {
+		"type": "shape",
+		"from": {"data": "i"},
+		"encode": {
+		  "enter": {
+			"tooltip": {"signal": "datum"},
+			"fill": {"value": "#363639"},
+			"fillOpacity": {"value": 0.7},
+			"stroke": {"value": "black"},
+			"strokeOpacity": {"value": 0.4},
+			"strokeWidth": {"value": 0.5}
+		  }
+		},
+		"transform": [{"type": "geoshape", "projection": "projection"}]
+	  },
+	  {
+		"type": "text",
+		"data": [{}],
+		"encode": {
+		  "update": {
+			"text": {
+			  "value": [
+				"Source: https://coronavirus.data.gov.uk",
+				"Dataviz: David Bacci"
+			  ]
+			},
+			"baseline": {"value": "top"},
+			"align": {"value": "left"},
+			"lineHeight": {"value": 16},
+			"fill": {"value": "#908F95"},
+			"x": {"signal": "width - 210"},
+			"y": {"signal": "height -35"},
+			"fontSize": {"value": 10},
+			"fillOpacity": {"value": 0.8}
+		  }
+		}
+	  }
+	],
+	"legends": [
+	  {
+		"fill": "color",
+		"orient": "none",
+		"title": ["Cases  per  100k people"],
+		"titleAlign": "left",
+		"titleLineHeight": 16,
+		"titlePadding": 10,
+		"titleFontWeight": "500",
+		"titleFontSize": 12,
+		"labelFontSize": 10,
+		"direction": "horizontal",
+		"legendX": {"signal": "0"},
+		"legendY": {"signal": "height - 50"},
+		"labelColor": "#908F95",
+		"titleColor": "#908F95",
+		"titleAnchor": "start",
+		"gradientThickness": 5,
+		"gradientLength": 130,
+		"labelOffset": 5,
+		"labelSeparation": 5
+	  }
+	]
+  }

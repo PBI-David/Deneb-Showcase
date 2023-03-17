@@ -1,0 +1,306 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A beeswarm chart example that uses a force-directed layout to group items by category.",
+  "width": 1200,
+  "height": 400,
+  "padding": {"left": 5, "right": 5, "top": 10, "bottom": 10},
+  "autosize": "pad",
+  "background": "#f6f8fa",
+  "signals": [
+    {"name": "cx", "update": "width / 2"},
+    {"name": "cy", "update": "height / 2"},
+    {
+      "name": "run",
+      "value": false,
+      "on": [{"events": "click", "update": "!run"}]
+    },
+    {
+      "name": "counter",
+      "value": 1,
+      "on": [
+        {
+          "events": {"type": "timer", "throttle": 250},
+          "update": "run&&counter<=251?counter + 1:counter"
+        },
+        {"events": {"type": "dblclick"}, "update": "0"}
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "Index All",
+      "url": "https://gist.githubusercontent.com/PBI-David/7da50587da155ad93c8ad4feeb13ed4b/raw/f1fac591fab023e373f11d4b74418448dc1435a9/Index.json"
+    },
+    {
+      "name": "Index",
+      "values": [
+        {"Index": 1, "Date": "2021-07-07", "Adj Close": 4358.13, "Percent": 0}
+      ],
+      "transform": [
+        {"type": "formula", "as": "Index", "expr": "counter"},
+        {
+          "type": "lookup",
+          "from": "Index All",
+          "key": "Index",
+          "fields": ["Index"],
+          "values": ["Percent", "Date", "Adj Close"],
+          "as": ["Percent", "Date", "Adj Close"],
+          "default": 0
+        }
+      ]
+    },
+    {
+      "name": "S&P All",
+      "url": "https://gist.githubusercontent.com/PBI-David/7da50587da155ad93c8ad4feeb13ed4b/raw/83bc94aea5e55487a02240fea5fa78496abaf7f1/S&P%2520Data%2520All.json"
+    },
+    {
+      "name": "S&P",
+      "url": "https://gist.githubusercontent.com/PBI-David/7da50587da155ad93c8ad4feeb13ed4b/raw/9fbfa1289d41eed2a2f93db148960cf1d7d9cc95/S&P%2520Data",
+      "transform": [
+        {"type": "formula", "as": "New Key", "expr": "datum.Company+counter"},
+        {
+          "type": "lookup",
+          "from": "S&P All",
+          "key": "Key",
+          "fields": ["New Key"],
+          "values": ["Percent", "Date", "Share Price"],
+          "as": ["Percent", "Date", "Share Price"],
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "linear",
+      "domain": [-1.2, 1.2],
+      "range": "height"
+    },
+    {
+      "name": "xscale",
+      "type": "band",
+      "domain": [
+        "Communication Services",
+        "Basic Materials",
+        "Consumer Cyclical",
+        "Consumer Defensive",
+        "Energy",
+        "Technology",
+        "Real Estate",
+        "Financial Services",
+        "Utilities",
+        "Healthcare",
+        "Industrials"
+      ],
+      "range": "width"
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "S&P", "field": "Sector"},
+      "range": {"scheme": "category20"}
+    },
+    {
+      "name": "size",
+      "domain": {"data": "S&P", "field": "Market Cap"},
+      "range": [0, 5000]
+    }
+  ],
+  "legends": [
+    {
+      "size": "size",
+      "title": "Market Cap",
+      "orient": "none",
+      "legendX": 400,
+      "legendY": -130,
+      "columnPadding": 20,
+      "rowPadding": 10,
+      "offset": 30,
+      "titleAnchor": "start",
+      "titlePadding": 20,
+      "titleOrient": "top",
+      "titleColor": "#595959",
+      "direction": "horizontal",
+      "symbolFillColor": "#e9e9e9",
+      "symbolStrokeWidth": 0.5,
+      "symbolType": "circle",
+      "encode": {"labels": {"update": {"text": {"signal": "datum.label +'B'"}}}}
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "xscale",
+      "grid": true,
+      "domain": false,
+      "ticks": false,
+      "labelFontSize": 11,
+      "labelFontWeight": "500",
+      "gridWidth": 0.5,
+      "gridOpacity": 0.8,
+      "labelColor": "#595959",
+      "encode": {
+        "labels": {
+          "update": {
+            "dy": [
+              {
+                "test": "datum.label =='Basic Materials'||datum.label =='Consumer Defensive'||datum.label =='Financial Services'||datum.label =='Healthcare'||datum.label =='Technology'",
+                "value": 25
+              },
+              {"value": 5}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "orient": "left",
+      "scale": "yscale",
+      "format": "%",
+      "grid": true,
+      "tickCount": 8,
+      "ticks": false,
+      "labelFontSize": 11,
+      "domain": false,
+      "gridWidth": 0.5,
+      "gridOpacity": 0.8,
+      "labelColor": "#595959",
+      "encode": {
+        "grid": {
+          "update": {
+            "stroke": [
+              {"test": "datum.label =='0%'", "value": "black"},
+              {"value": "silver"}
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "marks": [
+    {
+      "type": "rule",
+      "from": {"data": "Index"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "black"},
+          "strokeWidth": {"value": 0.5},
+          "strokeDash": {"value": [1, 1]},
+          "x": {"signal": "width"},
+          "x2": {"value": 0},
+          "y": {"scale": "yscale", "field": "Percent"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "Index"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "text": {"signal": "'S&P  ' + format(datum.Percent, '0.1%')"},
+          "dx": {"value": 2},
+          "fill": {"value": "#595959"},
+          "x": {"field": {"group": "width"}},
+          "y": {"scale": "yscale", "field": "Percent"},
+          "zindex": {"value": 2}
+        }
+      }
+    },
+    {
+      "name": "nodes",
+      "type": "symbol",
+      "from": {"data": "S&P"},
+      "encode": {
+        "enter": {
+          "size": {"field": "Market Cap", "scale": "size"},
+          "fill": {"scale": "color", "field": "Sector"}
+        },
+        "update": {
+          "xfocus": {"scale": "xscale", "field": "Sector", "band": 0.5},
+          "yfocus": {"scale": "yscale", "field": "Percent"},
+          "stroke": {"value": "black"},
+          "strokeWidth": {"value": 0.5},
+          "zindex": {"value": 1},
+          "tooltip": {
+            "signal": "{'Company':datum.Company , 'Sector':datum.Sector ,'Market Cap':datum['Market Cap']+'B' ,'Percent': format(datum.Percent, '0.1%'),'Share Price': datum['Share Price'],'Date': datum['Date']}"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "restart": true,
+          "alpha": 0.2,
+          "forces": [
+            {
+              "force": "collide",
+              "iterations": 4,
+              "strength": 0.5,
+              "radius": {"expr": "sqrt(datum.size) / 2"}
+            },
+            {"force": "x", "x": "xfocus", "strength": 1},
+            {"force": "y", "y": "yfocus", "strength": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fontSize": {"value": 10},
+          "fontWeight": {"value": "bold"},
+          "fill": {"value": "white"}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "tooltip": {
+            "signal": "{'Company':datum.datum.Company , 'Sector':datum.datum.Sector , 'Market Cap':datum.datum['Market Cap']+'B' ,'Percent': format(datum.datum.Percent, '0.1%'),'Share Price': datum.datum['Share Price'],'Date': datum.datum['Date']}"
+          },
+          "text": [
+            {"test": "datum.datum['Market Cap'] < 300", "value": ""},
+            {"field": "datum.Company"}
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {"value": ["Source: Yahoo! Finance", "Dataviz: David Bacci"]},
+          "align": {"value": "left"},
+          "lineHeight": {"value": 16},
+          "fill": {"value": "#595959"},
+          "x": {"signal": "width - 100"},
+          "y": {"signal": "height + 100"},
+          "fontSize": {"value": 10}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "Index"},
+      "encode": {
+        "update": {
+          "text": {
+            "signal": "datum.Date + ' SPY ' + format(datum.Percent, '0.1%')"
+          },
+          "align": {"value": "left"},
+          "fill": {"value": "#ced0d2"},
+          "x": {"signal": "-30"},
+          "y": {"signal": " -50"},
+          "fontSize": {"value": 35}
+        }
+      }
+    }
+  ]
+}

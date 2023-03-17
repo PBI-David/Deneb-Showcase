@@ -1,0 +1,166 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Deneb by David Bacci",
+  "width": 800,
+  "height": 450,
+  "padding": {"left": -150, "top": -180},
+  "signals": [
+    {
+      "name": "run",
+      "value": false,
+      "on": [{"events": "click", "update": "!run"}]
+    },
+    {
+      "name": "counter",
+      "value": -1,
+      "on": [{"events": "click", "update": "counter==6?0: counter+1"}]
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Deneb%20Bubble%20Text/bubble.json"
+    }
+  ],
+  "scales": [
+    {"name": "x", "type": "linear", "domain": [0, 800], "range": "width"},
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [0, 450],
+      "reverse": true,
+      "range": "height"
+    },
+    {
+      "name": "color1",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "table", "field": "a"},
+      "range": {"scheme": "turbo"}
+    },
+    {
+      "name": "color2",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "table", "field": "c"},
+      "range": {"scheme": "plasma"}
+    },
+    {
+      "name": "color3",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "table", "field": "e"},
+      "range": {"scheme": "rainbow"}
+    },
+    {
+      "name": "color4",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "table", "field": "g"},
+      "range": {"scheme": "inferno"}
+    },
+    {
+      "name": "color5",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "table", "field": "i"},
+      "range": {"scheme": "sinebow"}
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {"size": {"value": 110}},
+        "update": {
+          "strokeWidth": {"value": 10},
+          "tooltip": {"signal": "item"},
+          "stroke": {"value": "transparent"},
+          "fill": [
+            {
+              "test": "(counter == 0 || counter == 1) && datum.a ==300",
+              "value": "transparent"
+            },
+            {"test": " counter == 2 && datum.c ==300", "value": "transparent"},
+            {"test": " counter == 3 && datum.e ==300", "value": "transparent"},
+            {"test": " counter == 4 && datum.g ==300", "value": "transparent"},
+            {"test": " counter == 5 && datum.i ==300", "value": "transparent"},
+            {
+              "test": " (counter == 0 || counter == 1)",
+              "scale": "color1",
+              "field": "a"
+            },
+            {"test": " counter == 2", "scale": "color2", "field": "c"},
+            {"test": " counter == 3", "scale": "color3", "field": "e"},
+            {"test": " counter == 4", "scale": "color4", "field": "g"},
+            {"test": " counter == 5", "scale": "color5", "field": "i"},
+            {"value": "transparent"}
+          ],
+          "xfocus": {
+            "scale": "x",
+            "signal": "counter == 0 ?  random()*800:counter == 1?  datum.a:counter == 2?datum.c:counter == 3?  datum.e:counter == 4?  datum.g :counter == 5?  datum.i:datum.a "
+          },
+          "yfocus": {
+            "scale": "y",
+            "signal": "counter == 0 ?  random()*450:counter == 1?  datum.b:counter == 2?datum.d:counter == 3?  datum.f:counter == 4?  datum.h:counter == 5?  datum.j:datum.a"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "restart": true,
+          "iterations": 800,
+          "alphaMin": 0.00001,
+          "static": false,
+          "forces": [
+            {"force": "x", "x": "xfocus", "strength": 0.07},
+            {"force": "y", "y": "yfocus", "strength": 0.07}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "update": {
+          "text": {"value": "😀"},
+          "angle": {"signal": "random()*360"},
+          "xfocus": {"scale": "x", "signal": "random()*800"},
+          "yfocus": {"scale": "y", "signal": "random()*450"},
+          "fontSize": {"signal": "counter==6? random()* 30:0"}
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "restart": true,
+          "iterations": 800,
+          "alphaMin": 0.00001,
+          "static": false,
+          "forces": [
+            {"force": "x", "x": "xfocus", "strength": 0.03},
+            {"force": "y", "y": "yfocus", "strength": 0.03}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {"value": ["Dataviz: David Bacci"]},
+          "align": {"value": "left"},
+          "fill": {"value": "#595959"},
+          "x": {"signal": "width - 100"},
+          "y": {"signal": "height + 10"},
+          "fontSize": {"value": 10}
+        }
+      }
+    }
+  ]
+}

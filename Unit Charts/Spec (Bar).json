@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+  "background": "#222431",
+  "padding": 30,
+  "data": {
+    "values": [
+      {"a": "A", "val": 14},
+      {"a": "B", "val": 17},
+      {"a": "C", "val": 13},
+      {"a": "D", "val": 19},
+      {"a": "E", "val": 33},
+      {"a": "F", "val": 29},
+      {"a": "G", "val": 31},
+      {"a": "H", "val": 26},
+      {"a": "I", "val": 23},
+      {"a": "J", "val": 19},
+      {"a": "K", "val": 25},
+      {"a": "L", "val": 21},
+      {"a": "M", "val": 19},
+      {"a": "N", "val": 14},
+      {"a": "O", "val": 17},
+      {"a": "P", "val": 12}
+    ]
+  },
+  "transform": [
+    {"calculate": "sequence(0,40)", "as": "sequence"},
+    {"calculate": "sequence(0,datum.val)", "as": "sequence2"},
+    {"flatten": ["sequence", "sequence2"]},
+    {"calculate": "1", "as": "b"},
+    {"calculate": "datum.sequence2 ==null? null:1", "as": "c"}
+  ],
+  "width": 700,
+  "height": 500,
+  "encoding": {
+    "x": {
+      "field": "a",
+      "type": "nominal",
+      "scale": {"paddingInner": 0.1, "paddingOuter": 0},
+      "axis": null
+    },
+    "y": {"field": "b", "type": "quantitative", "axis": null},
+    "color": {"field": "a", "legend": null, "scale": {"scheme": "plasma"}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "stroke": "#222431", "strokeWidth": 3},
+      "encoding": {
+        "x": {
+          "field": "a",
+          "type": "nominal",
+          "scale": {"paddingInner": 0.1, "paddingOuter": 0},
+          "axis": null
+        },
+        "y": {"field": "b", "type": "quantitative", "axis": null},
+        "color": {"value": "#3f424e"}
+      }
+    },
+    {
+      "mark": {"type": "bar", "stroke": "#222431", "strokeWidth": 3},
+      "encoding": {
+        "x": {
+          "field": "a",
+          "type": "nominal",
+          "scale": {"paddingInner": 0.1, "paddingOuter": 0},
+          "axis": null
+        },
+        "y": {"field": "c", "type": "quantitative", "axis": null},
+        "color": {"field": "a", "legend": null, "scale": {"scheme": "sinebow"}}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}
