@@ -2,6 +2,20 @@
 
 This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out. 
 
+## Bank Failure Bubble Chart
+
+I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
+
+
+[Online editor (absolute)](https://lnkd.in/eSUxUWvP)
+
+[Online editor (inflation adjusted)](https://lnkd.in/eKHin8Y8)
+
+
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.jpg)
+
+
 ## Calendar Heatmap
 
 A template for a multi-year calendar using Vega-Lite.
@@ -51,6 +65,8 @@ A faceted spider chart which was my submission to a competition using a BBC Good
 
 I won 😊.
 
+[Online Editor](https://tinyurl.com/2p96jvfy)
+
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Pancake%20Spider%20Chart/Thumbnail.jpg)
 
@@ -59,7 +75,8 @@ I won 😊.
 
 A parliament chart created using Vega.  
 
-[Online Editor](https://lnkd.in/e4FttpTB)
+[Online Editor](https://tinyurl.com/ysy8w2ve)
+
 
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
@@ -122,6 +139,8 @@ Unit charts can be an engaging and eye catching tool to have in an analyst’s t
 
 A useful variance chart created using Vega-Lite showing actuals, forecasts (or budgets), absolute variance and percentage variance.  
 
+[Online Editor](https://tinyurl.com/htzdnzzx)
+
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Variance%20Chart/Thumbnail.jpg)
 
@@ -130,6 +149,9 @@ A useful variance chart created using Vega-Lite showing actuals, forecasts (or b
 Waffle charts break a lot of dataviz best practices but sometimes, you just need a striking visual to make the numbers stand out and pop in a report. They can also be ideal for infographics.
 
 As well as the faceted percentage example below, I have also included versions for faceted absolute, stacked absolute and stacked percentage as each have their place.
+
+[Online Editor](https://tinyurl.com/mpcv95cj)
+
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Waffle%20Charts/Thumbnail.jpg)
 
