@@ -1,0 +1,106 @@
+{
+  "width": {"step": 14},
+  "height": {"step": 14},
+  "background": "#222431",
+  "data": {
+    "name": "dataset",
+    "url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Calendar%20Heatmap/data.json",
+    "format": {"parse": {"Date": "date:'%d/%m/%Y'"}}
+  },
+  "transform": [
+    {"calculate": "'20'+year(datum.Date)", "as": "Year"},
+    {"calculate": "monthAbbrevFormat(month(datum.Date))", "as": "MonthName"},
+    {"calculate": "month(datum.Date)", "as": "MonthNumber"},
+    {
+      "calculate": "day(datum.Date)==0?week(datum.Date)-1:week(datum.Date)",
+      "as": "WeekNumber"
+    }
+  ],
+  "mark": {"type": "bar", "tooltip": true, "cornerRadius": 2},
+  "encoding": {
+    "column": {
+      "spacing": 10,
+      "field": "MonthName",
+      "sort": [],
+      "title": "",
+      "header": {
+        "labelFontSize": 18,
+        "labelPadding": 10,
+        "labelFont": "Segoe UI",
+        "labelColor": "#9092a1"
+      }
+    },
+    "row": {
+      "field": "Year",
+      "title": "",
+      "sort": "descending",
+      "header": {
+        "labelFontSize": 44,
+        "labelPadding": 5,
+        "labelFont": "Segoe UI",
+        "labelColor": "#9092a1"
+      }
+    },
+    "x": {"field": "WeekNumber", "axis": null, "title": ""},
+    "y": {
+      "field": "Date",
+      "timeUnit": "day",
+      "sort": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "type": "ordinal",
+      "title": "",
+      "axis": {
+        "labels": true,
+        "format": "",
+        "ticks": false,
+        "labelPadding": 18,
+        "labelColor": "#9092a1"
+      }
+    },
+    "color": {
+      "field": "Amount",
+      "type": "quantitative",
+      "legend": null,
+      "scale": {
+        "reverse": true,
+        "scheme": {"name": "turbo", "extent": [0.1, 1]}
+      }
+    }
+  },
+  "resolve": {"axis": {"x": "independent"}, "scale": {"x": "independent"}},
+  "config": {
+    "view": {"stroke": "transparent"},
+    "font": "Segoe UI",
+    "text": {"font": "Segoe UI", "fontSize": 12, "fill": "#605E5C"},
+    "axis": {
+      "ticks": false,
+      "grid": false,
+      "domain": false,
+      "labelColor": "#605E5C",
+      "labelFontSize": 12,
+      "titleFont": "wf_standard-font, helvetica, arial, sans-serif",
+      "titleColor": "#252423",
+      "titleFontSize": 16,
+      "titleFontWeight": "normal"
+    },
+    "axisX": {"labelPadding": 5},
+    "axisY": {"labelPadding": 10},
+    "header": {
+      "titleFont": "wf_standard-font, helvetica, arial, sans-serif",
+      "titleFontSize": 16,
+      "titleColor": "#252423",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 13.333333333333332,
+      "labelColor": "#9092a1"
+    },
+    "legend": {
+      "titleFont": "Segoe UI",
+      "titleFontWeight": "bold",
+      "titleColor": "#605E5C",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 13.333333333333332,
+      "labelColor": "#605E5C",
+      "symbolType": "circle",
+      "symbolSize": 75
+    }
+  }
+}
