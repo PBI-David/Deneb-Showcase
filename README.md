@@ -63,9 +63,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ## Pancake Spider Chart
 
-A faceted spider chart which was my submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions. 
-
-I won 😊.
+A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions. 
 
 [Online Editor](https://tinyurl.com/2p96jvfy)
 
