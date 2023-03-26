@@ -54,7 +54,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ## Gantt Chart
 
-A Gantt chart implemeted in Vega.
+A Gantt chart implemented in Vega.
 
 [Online Editor](https://tinyurl.com/3vt2bc5p)
 
