@@ -6,9 +6,9 @@ This is a collection of advanced dataviz examples using [Vega](https://vega.gith
 
 I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
 
-[Online editor (absolute)](https://tinyurl.com/3zex9uwr)
+[Online editor (absolute)](https://tinyurl.com/5n7k37jj)
 
-[Online editor (inflation adjusted)](https://tinyurl.com/8trhuhsz)
+[Online editor (inflation adjusted)](https://tinyurl.com/4pue7knb)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.jpg)
 
