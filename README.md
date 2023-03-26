@@ -1,20 +1,16 @@
 # Deneb-Showcase
 
-This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out. 
+This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out.
 
 ## Bank Failure Bubble Chart
 
 I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
 
-
 [Online editor (absolute)](https://lnkd.in/eSUxUWvP)
 
 [Online editor (inflation adjusted)](https://lnkd.in/eKHin8Y8)
 
-
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.jpg)
-
 
 ## Calendar Heatmap
 
@@ -26,21 +22,19 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
-
 ## Covid Map
 
 An animated map using Vega showing the spread of Covid-19 across the UK using data from https://coronavirus.data.gov.uk/.
 
-Topojson can be a bit tricky to get working in the certified Deneb visual (no loading from external sources) but the .pbix below shows this can be done by embedding the topojson inline. 
+Topojson can be a bit tricky to get working in the certified Deneb visual (no loading from external sources) but the .pbix below shows this can be done by embedding the topojson inline.
 
 [Online Editor](https://lnkd.in/eRwdYEYc) (click to start)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Map/Thumbnail.jpg)
 
-
 ## Deneb Bubble Text
 
-A fun animation showing transition between different words using Vega. Text co-ordinates were genenerated using P5. 
+A fun animation showing transition between different words using Vega. Text co-ordinates were genenerated using P5.
 
 [Online Editor](https://lnkd.in/e_Nk6sAB) (click to start)
 
@@ -48,11 +42,9 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Deneb%20Bubble%20Text/Thumbnail.jpg)
 
-
-
 ## Fireworks
 
-An experiment using Vega to create a firework simulation.  
+An experiment using Vega to create a firework simulation.
 
 [Online Editor](https://lnkd.in/e3TVGm-z) (click to start)
 
@@ -60,38 +52,39 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Fireworks/Thumbnail.jpg)
 
+## Gantt Chart
+
+A Gantt chart implemeted in Vega.
+
+[Online Editor](https://tinyurl.com/3vt2bc5p)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.jpg)
 
 ## Pancake Spider Chart
 
-A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions. 
+A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions.
 
 [Online Editor](https://tinyurl.com/2p96jvfy)
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Pancake%20Spider%20Chart/Thumbnail.jpg)
-
 
 ## Parliament Chart
 
-A parliament chart created using Vega.  
+A parliament chart created using Vega.
 
 [Online Editor](https://tinyurl.com/ysy8w2ve)
-
 
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
 
-
 ## S&P Beeswarm Chart
 
-An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop. 
+An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop.
 
 [Online Editor](https://lnkd.in/euc8TSrd)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/S%26P%20Beeswarm%20Chart/Thumbnail.jpg)
-
-
 
 ## Sankey Chart
 
@@ -101,46 +94,37 @@ It is very configurable and I’ve tried to account for as many edge cases I can
 
 [Online Editor](https://lnkd.in/eTpuaNa6)
 
-
 Inspired by:
 
 https://www.sankeyart.com/sankeys/public/142/
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Sankey%20Chart/Thumbnail.jpg)
-
 
 ## Starfield
 
-A fun experiment using Vega to create a starfield simulation.  
+A fun experiment using Vega to create a starfield simulation.
 
 [Online Editor](https://vega.github.io/editor/#/url/vega/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykSArJQBWENgDsQAGhAB3GgBN6aAQAZVM+DTJYV6mTiQKFNcWTQaQTJFADWZAE5sG4hWisAbG7ekgFSTBRUAG1QcSQEOHcxBgcoKJliJA8GOAg0YIBdGUwHJHEIADM2BwQM0EwATxwo9Ag4AEdU8XjfCECHTDQARhl2thw0AGZ9EHa4QdRekCR09EUQAF8pCurakGLShi9fWfcAD184fZwHdzzXNgQACgBKACoAJgBabqWVkCqa902EbZQZHt0JUjiczugLgorncnq93qtvuhfv9dnMQAAvUGndz+TAMBCUCD7AAEAD5no9iQAyKm4-GEkkAHkpNOJdIJEEqZIp1NpAXpnOJzN5xKgznEmDgDjJxNUAH52ZR0a9UI91PDPmsfiU-jtAWiiVjwX5+QT9gRFeinurlgj1si9TMDSCZMdsehFZULaaldbVBqvvadSj9e4cIdXWCcT70QBeWNq+WKomoRXhgNapHBx1AkA4F0gN3Gy3xxMKn2c1M+-NLTKLbJjbThDxzUIgcKRc4uXxJFK1QrJeoyCTlQukCVoqAeGh2XwMHC49YAQgc3frtvbEXWYpckrOiWSqTQieHkhCoDg48wczt7kwNEi+8+MCc2A8tVUyxA88XXfENJ3CUpVJbo5UAvdiVeYlVRtD5LzgCc0FvD0mA8KcZx8L8fwCdZE1res+igZI0lHDt1n2aBiN8QN3GncQ4CQJ8oWQUwkMbMhm3cYJXikbpMneEALjIdZ5CUGANTI9xKko99qMzEA6IYpiriQVjUFACAm2SLieL4gShPWLQdC6DdJLqGh0QSTVEQU0wlN8JwXDcVBclSGRxBnftBzgGRLKcNBXJ8vwVLU4INETBsDIybp9FUOsG2QBxbFbMIt2iDp0hyeTOQQJg2A8XxCicMp1JNQJomcOIoi-BCxQUWpQGwyU2MOUrChoOAPGcsYIzGIjZPQCj+uqmQQTajquuiAsZPWaThoEzTLLYmbogsqz2s67rMS-CAYCQRFQF7I90CgGg4lkr92o8ArSqOkSYDoEbPjYfL70mDStJusr8SWRY-o+MyxlyBjkrkmzV1kmQiquNjcSCMZKtaGqWjYeq2KahqQFa0ANsm9B00IqjBpWr8xpxibuprQmBpAOaqK-fZHjY3HusNanyJJ0amfGzapraebgU5oGnFsTG7vcWQHuanbcjYUWAHVFGUW7Dw-SgBC-AYbDoMmQHF1BVEoAAOP6-rrIA/view) (click to start)
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Starfield/Thumbnail.jpg)
-
 
 ## Unit Charts
 
-Unit charts can be an engaging and eye catching tool to have in an analyst’s toolbox. Here's two created using Vega and Vega-Lite 
+Unit charts can be an engaging and eye catching tool to have in an analyst’s toolbox. Here's two created using Vega and Vega-Lite
 
 [Online Editor 1](https://lnkd.in/eXiFJbmY)
 
 [Online Editor 2](https://lnkd.in/e35HC8uK)
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Unit%20Charts/Thumbnail.png)
-
-
 
 ## Variance Chart
 
-A useful variance chart created using Vega-Lite showing actuals, forecasts (or budgets), absolute variance and percentage variance.  
+A useful variance chart created using Vega-Lite showing actuals, forecasts (or budgets), absolute variance and percentage variance.
 
 [Online Editor](https://tinyurl.com/htzdnzzx)
-
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Variance%20Chart/Thumbnail.jpg)
 
@@ -152,8 +136,4 @@ As well as the faceted percentage example below, I have also included versions f
 
 [Online Editor](https://tinyurl.com/mpcv95cj)
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Waffle%20Charts/Thumbnail.jpg)
-
-
-
