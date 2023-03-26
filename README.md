@@ -18,7 +18,7 @@ A template for a multi-year calendar using Vega-Lite.
 
 Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
-[Online Editor](https://tinyurl.com/wajh92t7)
+[Online Editor](https://tinyurl.com/3haw2kzk)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
@@ -28,7 +28,7 @@ An animated map using Vega showing the spread of Covid-19 across the UK using da
 
 Topojson can be a bit tricky to get working in the certified Deneb visual (no loading from external sources) but the .pbix below shows this can be done by embedding the topojson inline.
 
-[Online Editor](https://lnkd.in/eRwdYEYc) (click to start)
+[Online Editor](https://tinyurl.com/3mykjcst) (click to start)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Map/Thumbnail.jpg)
 
