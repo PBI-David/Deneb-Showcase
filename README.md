@@ -18,7 +18,7 @@ A template for a multi-year calendar using Vega-Lite.
 
 Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
-[Online Editor](https://tinyurl.com/3haw2kzk)
+[Online Editor](https://tinyurl.com/yetw5em6)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
@@ -124,7 +124,7 @@ Unit charts can be an engaging and eye catching tool to have in an analyst’s t
 
 A useful variance chart created using Vega-Lite showing actuals, forecasts (or budgets), absolute variance and percentage variance.
 
-[Online Editor](https://tinyurl.com/htzdnzzx)
+[Online Editor](https://tinyurl.com/bdzhh3de)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Variance%20Chart/Thumbnail.jpg)
 
@@ -134,6 +134,6 @@ Waffle charts break a lot of dataviz best practices but sometimes, you just need
 
 As well as the faceted percentage example below, I have also included versions for faceted absolute, stacked absolute and stacked percentage as each have their place.
 
-[Online Editor](https://tinyurl.com/mpcv95cj)
+[Online Editor](https://tinyurl.com/a8mkk6x4)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Waffle%20Charts/Thumbnail.jpg)
