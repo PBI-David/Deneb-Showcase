@@ -58,7 +58,7 @@ A Gantt chart implemeted in Vega.
 
 [Online Editor](https://tinyurl.com/3vt2bc5p)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.jpg)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.png)
 
 ## Pancake Spider Chart
 
