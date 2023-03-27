@@ -15,7 +15,7 @@
     {"name": "endColumn", "value": 45},
     {"name": "daysColumn", "value": 35},
     {"name": "progressColumn", "value": 55},
-       {"name": "columnPadding", "value": 15},
+    {"name": "columnPadding", "value": 15},
     {
       "name": "height",
       "update": "bandspace(domain('y').length, yPaddingInner, yPaddingOuter) * y_step"
@@ -58,7 +58,7 @@
           "start": "05/03/2023",
           "end": "12/03/2023",
           "completion": 80,
-          "dependencies": 1
+          "dependencies": "1"
         },
         {
           "id": 4,
@@ -88,7 +88,7 @@
           "start": "12/03/2023",
           "end": "16/03/2023",
           "completion": 80,
-          "dependencies": null
+          "dependencies": "5"
         },
         {
           "id": 7,
@@ -403,7 +403,12 @@
           "type": "filter",
           "expr": "isValid(datum.dependencies) && datum.dependencies!='' "
         },
-        {
+           {
+          "type": "formula",
+          "expr": "split(datum.dependencies,',')" ,"as":"dependencies"
+        },
+             {"type": "flatten", "fields": ["dependencies"]},
+               {
           "type": "lookup",
           "from": "y_scale",
           "key": "id",
@@ -444,10 +449,15 @@
         },
         {"type": "fold", "fields": ["a", "b", "d", "e", "c"]},
         {"type": "filter", "expr": "datum.value[0] != null"}
-      ]
+     
+       ]
     }
   ],
-  "layout": {"padding": {"signal":"columnPadding"}, "bounds": "flush", "align": "none"},
+  "layout": {
+    "padding": {"signal": "columnPadding"},
+    "bounds": "flush",
+    "align": "none"
+  },
   "marks": [
     {
       "type": "group",
@@ -736,7 +746,7 @@
             "facet": {
               "name": "dependencyLinesFacet",
               "data": "dependencyLines",
-              "groupby": "id"
+              "groupby": ["id","dependencies"]
             }
           },
           "marks": [
@@ -1172,7 +1182,15 @@
         {
           "scale": "y",
           "orient": "left",
-          "encode": {"ticks": {"update": {"x2": {"signal": "-taskColumn-startColumn-endColumn-daysColumn-progressColumn-(columnPadding*5)-15"}}}},
+          "encode": {
+            "ticks": {
+              "update": {
+                "x2": {
+                  "signal": "-taskColumn-startColumn-endColumn-daysColumn-progressColumn-(columnPadding*5)-15"
+                }
+              }
+            }
+          },
           "tickColor": "#f1f1f1",
           "bandPosition": 1.35,
           "labels": false,
