@@ -56,7 +56,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 A Gantt chart implemented in Vega.
 
-[Online Editor](https://tinyurl.com/3vt2bc5p)
+[Online Editor](https://tinyurl.com/bddxbv4f)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.png)
 
