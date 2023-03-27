@@ -10,11 +10,12 @@
     {"name": "days", "update": "data('days')[0]['days']"},
     {"name": "yPaddingInner", "value": 0.45},
     {"name": "yPaddingOuter", "value": 0.2},
-    {"name": "taskColumn", "value": 180},
-    {"name": "startColumn", "value": 40},
-    {"name": "endColumn", "value": 25},
-    {"name": "daysColumn", "value": 0},
+    {"name": "taskColumn", "value": 130},
+    {"name": "startColumn", "value": 45},
+    {"name": "endColumn", "value": 45},
+    {"name": "daysColumn", "value": 35},
     {"name": "progressColumn", "value": 55},
+       {"name": "columnPadding", "value": 15},
     {
       "name": "height",
       "update": "bandspace(domain('y').length, yPaddingInner, yPaddingOuter) * y_step"
@@ -28,188 +29,188 @@
   "data": [
     {
       "name": "input",
-      "values":[
- {
-   "id": 1,
-   "phase": "Initiation",
-   "task": "Requirements gathering",
-   "milestone": null,
-   "start": "01/03/2023",
-   "end": "03/03/2023",
-   "completion": 50,
-   "dependencies": null
- },
- {
-   "id": 2,
-   "phase": "Initiation",
-   "task": "Stakeholder workshop",
-   "milestone": null,
-   "start": "05/03/2023",
-   "end": "06/03/2023",
-   "completion": 75,
-   "dependencies": null
- },
- {
-   "id": 3,
-   "phase": "Initiation",
-   "task": "Story boarding",
-   "milestone": null,
-   "start": "05/03/2023",
-   "end": "12/03/2023",
-   "completion": 80,
-   "dependencies": 1
- },
- {
-   "id": 4,
-   "phase": "Initiation",
-   "task": "Initiation complete",
-   "milestone": true,
-   "start": "13/03/2023",
-   "end": "13/03/2023",
-   "completion": 100,
-   "dependencies": 3
- },
- {
-   "id": 5,
-   "phase": "Design",
-   "task": "E2E data solution design",
-   "milestone": null,
-   "start": "07/03/2023",
-   "end": "15/03/2023",
-   "completion": 35,
-   "dependencies": null
- },
- {
-   "id": 6,
-   "phase": "Design",
-   "task": "Wireframes",
-   "milestone": null,
-   "start": "12/03/2023",
-   "end": "16/03/2023",
-   "completion": 80,
-   "dependencies": null
- },
- {
-   "id": 7,
-   "phase": "Design",
-   "task": "Prototyping",
-   "milestone": null,
-   "start": "13/03/2023",
-   "end": "22/03/2023",
-   "completion": 40,
-   "dependencies": 6
- },
- {
-   "id": 8,
-   "phase": "Design",
-   "task": "Design complete",
-   "milestone": true,
-   "start": "22/03/2023",
-   "end": "22/03/2023",
-   "completion": 0,
-   "dependencies": 7
- },
- {
-   "id": 9,
-   "phase": "Implementation",
-   "task": "ETL",
-   "milestone": null,
-   "start": "09/03/2023",
-   "end": "19/03/2023",
-   "completion": 15,
-   "dependencies": null
- },
- {
-   "id": 10,
-   "phase": "Implementation",
-   "task": "Data modelling",
-   "milestone": null,
-   "start": "15/03/2023",
-   "end": "21/03/2023",
-   "completion": 40,
-   "dependencies": null
- },
- {
-   "id": 11,
-   "phase": "Implementation",
-   "task": "Measures & KPIs",
-   "milestone": null,
-   "start": "15/03/2023",
-   "end": "17/03/2023",
-   "completion": 50,
-   "dependencies": null
- },
- {
-   "id": 12,
-   "phase": "Implementation",
-   "task": "Dataviz ",
-   "milestone": null,
-   "start": "20/03/2023",
-   "end": "23/03/2023",
-   "completion": 15,
-   "dependencies": 11
- },
- {
-   "id": 13,
-   "phase": "Implementation",
-   "task": "Performance testing",
-   "milestone": null,
-   "start": "20/03/2023",
-   "end": "23/03/2023",
-   "completion": 20,
-   "dependencies": null
- },
- {
-   "id": 14,
-   "phase": "Implementation",
-   "task": "Implementation complete",
-   "milestone": true,
-   "start": "24/03/2023",
-   "end": "24/03/2023",
-   "completion": 0,
-   "dependencies": 13
- },
- {
-   "id": 15,
-   "phase": "Deployment",
-   "task": "User training",
-   "milestone": null,
-   "start": "23/03/2023",
-   "end": "24/03/2023",
-   "completion": 65,
-   "dependencies": null
- },
- {
-   "id": 16,
-   "phase": "Deployment",
-   "task": "Refresh schedule & alerts",
-   "milestone": null,
-   "start": "27/03/2023",
-   "end": "27/03/2023",
-   "completion": 50,
-   "dependencies": 15
- },
- {
-   "id": 17,
-   "phase": "Deployment",
-   "task": "Executive presentation",
-   "milestone": null,
-   "start": "28/03/2023",
-   "end": "31/03/2023",
-   "completion": 0,
-   "dependencies": 16
- },
- {
-   "id": 18,
-   "phase": "Deployment",
-   "task": "Deployment complete",
-   "milestone": true,
-   "start": "31/03/2023",
-   "end": "31/03/2023",
-   "completion": 0,
-   "dependencies": null
- }
-],
+      "values": [
+        {
+          "id": 1,
+          "phase": "Initiation",
+          "task": "Requirements gathering",
+          "milestone": null,
+          "start": "01/03/2023",
+          "end": "03/03/2023",
+          "completion": 50,
+          "dependencies": null
+        },
+        {
+          "id": 2,
+          "phase": "Initiation",
+          "task": "Stakeholder workshop",
+          "milestone": null,
+          "start": "05/03/2023",
+          "end": "06/03/2023",
+          "completion": 75,
+          "dependencies": null
+        },
+        {
+          "id": 3,
+          "phase": "Initiation",
+          "task": "Story boarding",
+          "milestone": null,
+          "start": "05/03/2023",
+          "end": "12/03/2023",
+          "completion": 80,
+          "dependencies": 1
+        },
+        {
+          "id": 4,
+          "phase": "Initiation",
+          "task": "Initiation complete",
+          "milestone": true,
+          "start": "13/03/2023",
+          "end": "13/03/2023",
+          "completion": 100,
+          "dependencies": 3
+        },
+        {
+          "id": 5,
+          "phase": "Design",
+          "task": "E2E data solution design",
+          "milestone": null,
+          "start": "07/03/2023",
+          "end": "15/03/2023",
+          "completion": 35,
+          "dependencies": null
+        },
+        {
+          "id": 6,
+          "phase": "Design",
+          "task": "Wireframes",
+          "milestone": null,
+          "start": "12/03/2023",
+          "end": "16/03/2023",
+          "completion": 80,
+          "dependencies": null
+        },
+        {
+          "id": 7,
+          "phase": "Design",
+          "task": "Prototyping",
+          "milestone": null,
+          "start": "13/03/2023",
+          "end": "22/03/2023",
+          "completion": 40,
+          "dependencies": 6
+        },
+        {
+          "id": 8,
+          "phase": "Design",
+          "task": "Design complete",
+          "milestone": true,
+          "start": "22/03/2023",
+          "end": "22/03/2023",
+          "completion": 0,
+          "dependencies": 7
+        },
+        {
+          "id": 9,
+          "phase": "Implementation",
+          "task": "ETL",
+          "milestone": null,
+          "start": "09/03/2023",
+          "end": "19/03/2023",
+          "completion": 15,
+          "dependencies": null
+        },
+        {
+          "id": 10,
+          "phase": "Implementation",
+          "task": "Data modelling",
+          "milestone": null,
+          "start": "15/03/2023",
+          "end": "21/03/2023",
+          "completion": 40,
+          "dependencies": null
+        },
+        {
+          "id": 11,
+          "phase": "Implementation",
+          "task": "Measures & KPIs",
+          "milestone": null,
+          "start": "15/03/2023",
+          "end": "17/03/2023",
+          "completion": 50,
+          "dependencies": null
+        },
+        {
+          "id": 12,
+          "phase": "Implementation",
+          "task": "Dataviz ",
+          "milestone": null,
+          "start": "20/03/2023",
+          "end": "23/03/2023",
+          "completion": 15,
+          "dependencies": 11
+        },
+        {
+          "id": 13,
+          "phase": "Implementation",
+          "task": "Performance testing",
+          "milestone": null,
+          "start": "20/03/2023",
+          "end": "23/03/2023",
+          "completion": 20,
+          "dependencies": null
+        },
+        {
+          "id": 14,
+          "phase": "Implementation",
+          "task": "Implementation complete",
+          "milestone": true,
+          "start": "24/03/2023",
+          "end": "24/03/2023",
+          "completion": 0,
+          "dependencies": 13
+        },
+        {
+          "id": 15,
+          "phase": "Deployment",
+          "task": "User training",
+          "milestone": null,
+          "start": "23/03/2023",
+          "end": "24/03/2023",
+          "completion": 65,
+          "dependencies": null
+        },
+        {
+          "id": 16,
+          "phase": "Deployment",
+          "task": "Refresh schedule & alerts",
+          "milestone": null,
+          "start": "27/03/2023",
+          "end": "27/03/2023",
+          "completion": 50,
+          "dependencies": 15
+        },
+        {
+          "id": 17,
+          "phase": "Deployment",
+          "task": "Executive presentation",
+          "milestone": null,
+          "start": "28/03/2023",
+          "end": "31/03/2023",
+          "completion": 0,
+          "dependencies": 16
+        },
+        {
+          "id": 18,
+          "phase": "Deployment",
+          "task": "Deployment complete",
+          "milestone": true,
+          "start": "31/03/2023",
+          "end": "31/03/2023",
+          "completion": 0,
+          "dependencies": null
+        }
+      ],
       "format": {
         "parse": {"start": "date:'%d/%m/%Y'", "end": "date:'%d/%m/%Y'"}
       },
@@ -446,11 +447,12 @@
       ]
     }
   ],
-  "layout": {"padding": 20, "bounds": "flush", "align": "none"},
+  "layout": {"padding": {"signal":"columnPadding"}, "bounds": "flush", "align": "none"},
   "marks": [
     {
       "type": "group",
       "name": "taskColumn",
+      "style": "cell",
       "title": {
         "text": "Task",
         "anchor": "start",
@@ -483,7 +485,8 @@
               "fontWeight": {
                 "signal": "datum.phase == datum.task?'bold':'normal'"
               },
-              "baseline": {"value": "middle"}, "limit":{"signal": "taskColumn-35"}
+              "baseline": {"value": "middle"},
+              "limit": {"signal": "taskColumn"}
             }
           }
         },
@@ -506,9 +509,10 @@
     {
       "type": "group",
       "name": "startColumn",
+      "style": "cell",
       "title": {
         "text": "Start",
-        "anchor": "start",
+        "anchor": "end",
         "frame": "group",
         "align": "right",
         "color": "#666666"
@@ -527,11 +531,14 @@
           "encode": {
             "update": {
               "align": {"value": "right"},
-              "fill": {"signal": "datum.phase == datum.task?'#666666':'#666666'"},
+              "x": {"signal": "startColumn"},
+              "fill": {
+                "signal": "datum.phase == datum.task?'#666666':'#666666'"
+              },
               "y": {"signal": "scale('y',datum.task)+bandwidth('y')/2"},
               "text": {"signal": "timeFormat(datum.start,' %d/%m/%y')"},
               "baseline": {"value": "middle"},
-                  "fontWeight": {
+              "fontWeight": {
                 "signal": "datum.phase == datum.task?'bold':'normal'"
               }
             }
@@ -542,9 +549,10 @@
     {
       "type": "group",
       "name": "endColumn",
+      "style": "cell",
       "title": {
         "text": "End",
-        "anchor": "start",
+        "anchor": "end",
         "frame": "group",
         "align": "right",
         "color": "#666666"
@@ -563,11 +571,14 @@
           "encode": {
             "update": {
               "align": {"value": "right"},
-              "fill": {"signal": "datum.phase == datum.task?'#666666':'#666666'"},
+              "x": {"signal": "endColumn"},
+              "fill": {
+                "signal": "datum.phase == datum.task?'#666666':'#666666'"
+              },
               "y": {"signal": "scale('y',datum.task)+bandwidth('y')/2"},
               "text": {"signal": "timeFormat(datum.end,' %d/%m/%y')"},
               "baseline": {"value": "middle"},
-                  "fontWeight": {
+              "fontWeight": {
                 "signal": "datum.phase == datum.task?'bold':'normal'"
               }
             }
@@ -578,9 +589,10 @@
     {
       "type": "group",
       "name": "daysColumn",
+      "style": "cell",
       "title": {
         "text": "Days",
-        "anchor": "start",
+        "anchor": "end",
         "frame": "group",
         "align": "right",
         "color": "#666666"
@@ -599,11 +611,14 @@
           "encode": {
             "update": {
               "align": {"value": "right"},
-              "fill": {"signal": "datum.phase == datum.task?'#666666':'#666666'"},
+              "fill": {
+                "signal": "datum.phase == datum.task?'#666666':'#666666'"
+              },
+              "x": {"signal": "daysColumn"},
               "y": {"signal": "scale('y',datum.task)+bandwidth('y')/2"},
               "text": {"signal": "datum.days+' d'"},
               "baseline": {"value": "middle"},
-                  "fontWeight": {
+              "fontWeight": {
                 "signal": "datum.phase == datum.task?'bold':'normal'"
               }
             }
@@ -614,6 +629,7 @@
     {
       "type": "group",
       "name": "completionColumn",
+      "style": "cell",
       "title": {
         "text": "Progress",
         "anchor": "start",
@@ -1156,7 +1172,7 @@
         {
           "scale": "y",
           "orient": "left",
-          "tickSize": 430, 
+          "encode": {"ticks": {"update": {"x2": {"signal": "-taskColumn-startColumn-endColumn-daysColumn-progressColumn-(columnPadding*5)-15"}}}},
           "tickColor": "#f1f1f1",
           "bandPosition": 1.35,
           "labels": false,
@@ -1212,7 +1228,10 @@
   ],
   "config": {
     "view": {"stroke": "transparent"},
-    "style": {"col": {"fontSize": 11}},
+    "style": {
+      "col": {"fontSize": 11},
+      "cell": {"strokeWidth": {"signal": "0"}}
+    },
     "font": "Arial",
     "text": {"font": "Arial", "fontSize": 10, "fill": "#666666"},
     "axis": {
