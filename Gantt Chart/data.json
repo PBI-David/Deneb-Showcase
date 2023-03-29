@@ -1,0 +1,182 @@
+[
+	{
+		"id": 1,
+		"phase": "Initiation",
+		"task": "Requirements gathering",
+		"milestone": null,
+		"start": "01/03/2023",
+		"end": "03/03/2023",
+		"completion": 50,
+		"dependencies": null
+	},
+	{
+		"id": 2,
+		"phase": "Initiation",
+		"task": "Stakeholder workshop",
+		"milestone": null,
+		"start": "05/03/2023",
+		"end": "06/03/2023",
+		"completion": 75,
+		"dependencies": null
+	},
+	{
+		"id": 3,
+		"phase": "Initiation",
+		"task": "Story boarding",
+		"milestone": null,
+		"start": "05/03/2023",
+		"end": "12/03/2023",
+		"completion": 80,
+		"dependencies": "1"
+	},
+	{
+		"id": 4,
+		"phase": "Initiation",
+		"task": "Initiation complete",
+		"milestone": true,
+		"start": "13/03/2023",
+		"end": "13/03/2023",
+		"completion": 100,
+		"dependencies": 3
+	},
+	{
+		"id": 5,
+		"phase": "Design",
+		"task": "E2E data solution design",
+		"milestone": null,
+		"start": "07/03/2023",
+		"end": "15/03/2023",
+		"completion": 35,
+		"dependencies": null
+	},
+	{
+		"id": 6,
+		"phase": "Design",
+		"task": "Wireframes",
+		"milestone": null,
+		"start": "12/03/2023",
+		"end": "16/03/2023",
+		"completion": 80,
+		"dependencies": "5"
+	},
+	{
+		"id": 7,
+		"phase": "Design",
+		"task": "Prototyping",
+		"milestone": null,
+		"start": "13/03/2023",
+		"end": "22/03/2023",
+		"completion": 40,
+		"dependencies": 6
+	},
+	{
+		"id": 8,
+		"phase": "Design",
+		"task": "Design complete",
+		"milestone": true,
+		"start": "22/03/2023",
+		"end": "22/03/2023",
+		"completion": 0,
+		"dependencies": 7
+	},
+	{
+		"id": 9,
+		"phase": "Implementation",
+		"task": "ETL",
+		"milestone": null,
+		"start": "09/03/2023",
+		"end": "19/03/2023",
+		"completion": 15,
+		"dependencies": null
+	},
+	{
+		"id": 10,
+		"phase": "Implementation",
+		"task": "Data modelling",
+		"milestone": null,
+		"start": "15/03/2023",
+		"end": "21/03/2023",
+		"completion": 40,
+		"dependencies": null
+	},
+	{
+		"id": 11,
+		"phase": "Implementation",
+		"task": "Measures & KPIs",
+		"milestone": null,
+		"start": "15/03/2023",
+		"end": "17/03/2023",
+		"completion": 50,
+		"dependencies": null
+	},
+	{
+		"id": 12,
+		"phase": "Implementation",
+		"task": "Dataviz ",
+		"milestone": null,
+		"start": "20/03/2023",
+		"end": "23/03/2023",
+		"completion": 15,
+		"dependencies": 11
+	},
+	{
+		"id": 13,
+		"phase": "Implementation",
+		"task": "Performance testing",
+		"milestone": null,
+		"start": "20/03/2023",
+		"end": "23/03/2023",
+		"completion": 20,
+		"dependencies": null
+	},
+	{
+		"id": 14,
+		"phase": "Implementation",
+		"task": "Implementation complete",
+		"milestone": true,
+		"start": "24/03/2023",
+		"end": "24/03/2023",
+		"completion": 0,
+		"dependencies": 13
+	},
+	{
+		"id": 15,
+		"phase": "Deployment",
+		"task": "User training",
+		"milestone": null,
+		"start": "23/03/2023",
+		"end": "24/03/2023",
+		"completion": 65,
+		"dependencies": null
+	},
+	{
+		"id": 16,
+		"phase": "Deployment",
+		"task": "Refresh schedule & alerts",
+		"milestone": null,
+		"start": "27/03/2023",
+		"end": "27/03/2023",
+		"completion": 50,
+		"dependencies": 15
+	},
+	{
+		"id": 17,
+		"phase": "Deployment",
+		"task": "Executive presentation",
+		"milestone": null,
+		"start": "28/03/2023",
+		"end": "31/03/2023",
+		"completion": 0,
+		"dependencies": 16
+	},
+	{
+		"id": 18,
+		"phase": "Deployment",
+		"task": "Deployment complete",
+		"milestone": true,
+		"start": "31/03/2023",
+		"end": "31/03/2023",
+		"completion": 0,
+		"dependencies": null
+	}
+]
