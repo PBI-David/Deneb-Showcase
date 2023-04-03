@@ -60,6 +60,14 @@ A Gantt chart implemented in Vega.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.png)
 
+## Infographic Bar Chart
+
+An infographic style bar chart implemented in Vega using data driven SVG paths.
+
+[Online Editor](https://tinyurl.com/359kvse2)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Bar%20Chart/Thumbnail.png)
+
 ## Pancake Spider Chart
 
 A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions.

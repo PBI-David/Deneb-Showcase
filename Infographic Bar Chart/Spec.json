@@ -1,0 +1,203 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "autosize": "pad",
+  "background": "#f0eeef",
+  "width": {"signal": "group1Width+group2Width+group3Width"},
+  "height": 600,
+  "padding": 5,
+  "signals": [
+    {"name": "group1Width", "update": "130"},
+    {"name": "group2Width", "update": "100"},
+    {"name": "group3Width", "update": "700"},
+    {"name": "innerScaleSize", "update": "4"}
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {"name": "Cheetah", "speed": 75},
+        {"name": "Sailfish", "speed": 67},
+        {"name": "Ostrich", "speed": 56},
+        {"name": "Jackrabbit", "speed": 45},
+        {"name": "Warthog", "speed": 35},
+        {"name": "Human", "speed": 23}
+      ],
+      "transform": [
+        {
+          "type": "window",
+          "sort": {"field": "speed", "order": "descending"},
+          "ops": ["rank"],
+          "as": ["rank"]
+        }
+      ]
+    },
+    {
+      "name": "linkTable",
+      "source": ["table"],
+      "transform": [
+        {
+          "type": "formula",
+          "as": "shadow",
+          "expr": "'M ' + group1Width + ' '  + scale('y', datum.name) + ' L '+ scale('x', 0) + ' '+ scale('yInner', datum.name) + ' L ' + scale('x', 0) + ' '  + (scale('yInner', datum.name)+bandwidth('yInner'))  + ' L  ' + group1Width + ' '  + (scale('y', datum.name)+bandwidth('y'))     "
+        },
+        {
+          "type": "formula",
+          "as": "arrow",
+          "expr": "'M ' + ((scale('x', datum.speed)) -1) + ' ' +  scale('yInner', datum.name) + ' L ' +  (scale('x', datum.speed)+bandwidth('yInner')/2) +' ' + (scale('yInner', datum.name)+ bandwidth('yInner')/2)  +' L ' + ((scale('x', datum.speed))-1) + ' ' + (scale('yInner', datum.name)+ bandwidth('yInner'))         "
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "table", "field": "speed"},
+      "nice": true,
+      "range": {
+        "signal": "[group1Width+group2Width,group1Width+group2Width+group3Width]"
+      }
+    },
+    {
+      "name": "y",
+      "domain": {
+        "data": "table",
+        "field": "name",
+        "sort": {"field": "speed", "op": "min", "order": "descending"}
+      },
+      "type": "band",
+      "paddingInner": 0.1,
+      "range": "height"
+    },
+    {
+      "name": "yInner",
+      "domain": {
+        "data": "table",
+        "field": "name",
+        "sort": {"field": "speed", "op": "min", "order": "descending"}
+      },
+      "type": "band",
+      "paddingInner": 0.1,
+      "range": {
+        "signal": "[height/innerScaleSize, height-(height/innerScaleSize)]"
+      }
+    },
+    {
+      "name": "colour",
+      "type": "ordinal",
+      "range": {"scheme": "category10"},
+      "domain": {"data": "table", "field": "name"}
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "table"},
+      "name": "outerBars",
+      "encode": {
+        "enter": {
+          "x": {"value": 0},
+          "x2": {"signal": "group1Width"},
+          "y": {"scale": "y", "field": "name"},
+          "height": {"scale": "y", "band": 1}
+        },
+        "update": {"fill": {"field": "name", "scale": "colour"}}
+      }
+    },
+    {
+      "type": "path",
+      "name": "shadows",
+      "from": {"data": "linkTable"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 0},
+          "path": {"signal": "datum.shadow"},
+          "fill": {
+            "signal": "merge(hsl(scale('colour', datum.name)), {l:0.33})"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "table"},
+      "name": "innerBars",
+      "encode": {
+        "update": {
+          "x": {"scale": "x", "signal": "0"},
+          "x2": {
+            "scale": "x",
+            "signal": "datum.speed",
+            "offset": {"value": 0}
+          },
+          "y": {"scale": "yInner", "field": "name"},
+          "height": {"scale": "yInner", "band": 1},
+          "fill": {"field": "name", "scale": "colour"},
+          "strokeWidth": {"value": 0},
+          "stroke": {"field": "name", "scale": "colour"}, "cornerRadiusTopRight":{"value": 3}, "cornerRadiusBottomRight":{"value": 3}
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "arrows",
+      "from": {"data": "linkTable"},
+      "encode": {
+        "update": {
+          "path": {"signal": "datum.arrow"},
+          "fill": {"signal": "scale('colour', datum.name)"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "ranks",
+      "from": {"data": "table"},
+      "encode": {
+        "update": {
+          "text": {"signal": "datum.rank"},
+          "fill": {"signal": "'#f1f1f1'"},
+          "font": {"value": "Impact"},
+          "fontSize": {"value": 55},
+          "y": {"signal": "scale('y', datum.name)+bandwidth('y')/2"},
+          "baseline": {"value": "middle"},
+          "align": {"value": "center"},
+          "x": {"signal": "group1Width/2"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "names",
+      "from": {"data": "table"},
+      "encode": {
+        "update": {
+          "fill": {"signal": "'white'"},
+          "text": {"field": "name"},
+          "x": {"signal": "scale('x',datum.speed)-20"},
+          "fontWeight": {"value": "bold"},
+          "align": {"value": "right"},
+          "y": {"signal": "scale('yInner', datum.name)+bandwidth('y')/4.5"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "speed",
+      "from": {"data": "names"},
+      "encode": {
+        "update": {
+          "fill": {"signal": "'white'"},
+          "text": {"signal": "datum.datum.speed +' mph'"},
+          "x": {"signal": "datum.x"},
+          "fontWeight": {"value": "normal"},
+          "align": {"value": "right"},
+          "y": {"signal": "datum.y"},
+          "dy": {"value": 15}
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "red", "strokeWidth": 2}}
+}
