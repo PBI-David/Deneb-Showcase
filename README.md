@@ -40,7 +40,7 @@ A fun animation showing transition between different words using Vega. Text co-o
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Deneb%20Bubble%20Text/Animation%20Thumbnail2.gif)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Deneb%20Bubble%20Text/Animation%20Thumbnail3.gif)
 
 ## Fireworks
 
