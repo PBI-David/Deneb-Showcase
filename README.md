@@ -22,7 +22,7 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
-## Covid Map
+## Covid Map (Animated)
 
 An animated map using Vega showing the spread of Covid-19 across the UK using data from https://coronavirus.data.gov.uk/.
 
@@ -32,7 +32,7 @@ Topojson can be a bit tricky to get working in the certified Deneb visual (no lo
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Map/Thumbnail.jpg)
 
-## Deneb Bubble Text
+## Deneb Bubble Text (Animated)
 
 A fun animation showing transition between different words using Vega. Text co-ordinates were genenerated using P5.
 
@@ -42,7 +42,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Deneb%20Bubble%20Text/Animation%20Optimised.gif)
 
-## Fireworks
+## Fireworks (Animated)
 
 An experiment using Vega to create a firework simulation.
 
@@ -86,7 +86,7 @@ Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
 
-## S&P Beeswarm Chart
+## S&P Beeswarm Chart (Animated)
 
 An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop.
 
@@ -108,7 +108,7 @@ https://www.sankeyart.com/sankeys/public/142/
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Sankey%20Chart/Thumbnail.jpg)
 
-## Starfield
+## Starfield (Animated)
 
 A fun experiment using Vega to create a starfield simulation.
 
