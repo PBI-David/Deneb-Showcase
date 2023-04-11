@@ -92,6 +92,10 @@ An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made 
 
 [Online Editor](https://lnkd.in/euc8TSrd)
 
+
+[Inspired by Chartfleau.](https://old.reddit.com/r/dataisbeautiful/comments/vp04dv/oc_the_worst_first_half_for_the_stock_market_in/)
+
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/S%26P%20Beeswarm%20Chart/Thumbnail.jpg)
 
 ## Sankey Chart
