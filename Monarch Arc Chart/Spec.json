@@ -1,0 +1,1129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "width": 900,
+  "height": 800,
+  "background": "#192730",
+  "padding": {"bottom": 70, "left": 70, "right": 70, "top": 70},
+  "autosize": "pad",
+  "signals": [
+    {"name": "facetWidth", "value": 70},
+    {"name": "facetHeight", "value": 70},
+    {"name": "legendX", "update": "0"},
+    {"name": "legendY", "update": "1200"},
+    {"name": "keyTitleX", "update": "700"},
+    {"name": "keyTitleY", "update": "legendY+10"},
+    {"name": "keyX", "update": "817"},
+    {"name": "keyY", "update": "1270"},
+    {"name": "lifeCircleColour", "update": "'silver'"},
+    {"name": "legendLabelColour", "update": "'silver'"},
+    {"name": "monarchLabelColour", "update": "'#d0d0d2'"}
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "House": "Wessex",
+          "Name": "Alfred the Great",
+          "Reign Start": "01/01/0886",
+          "Reign End": "26/10/0899",
+          "Reign Period": "13 years",
+          "Birth": "01/01/0849",
+          "Death": "26/10/0899",
+          "Age": 50,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 37,
+          "Reign End Age": 50.8
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edward the Elder",
+          "Reign Start": "26/10/0899",
+          "Reign End": "17/07/0924",
+          "Reign Period": "24 years, 266 days",
+          "Birth": "01/01/0874",
+          "Death": "17/07/0924",
+          "Age": 50,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 25.8,
+          "Reign End Age": 50.6
+        },
+        {
+          "House": "Wessex",
+          "Name": "Athelstan",
+          "Reign Start": "17/07/0924",
+          "Reign End": "27/10/0939",
+          "Reign Period": "15 years",
+          "Birth": "01/01/0894",
+          "Death": "27/10/0939",
+          "Age": 45,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 30.6,
+          "Reign End Age": 45.8
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edmund I",
+          "Reign Start": "27/10/0939",
+          "Reign End": "26/05/0946",
+          "Reign Period": "6 years, 212 days",
+          "Birth": "01/01/0921",
+          "Death": "26/05/0946",
+          "Age": 25,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 18.8,
+          "Reign End Age": 25.4
+        },
+        {
+          "House": "Wessex",
+          "Name": "Eadred",
+          "Reign Start": "26/05/0946",
+          "Reign End": "23/11/0955",
+          "Reign Period": "9 years, 182 days",
+          "Birth": "01/01/0923",
+          "Death": "23/11/0955",
+          "Age": 32,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 23.4,
+          "Reign End Age": 32.9
+        },
+        {
+          "House": "Wessex",
+          "Name": "Eadwig",
+          "Reign Start": "23/11/0955",
+          "Reign End": "01/10/0959",
+          "Reign Period": "3 years, 313 days",
+          "Birth": "01/01/0940",
+          "Death": "01/10/0959",
+          "Age": 19,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 15.9,
+          "Reign End Age": 19.8
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edgar",
+          "Reign Start": "01/10/0959",
+          "Reign End": "08/07/0975",
+          "Reign Period": "15 years, 281 days",
+          "Birth": "01/01/0943",
+          "Death": "08/07/0975",
+          "Age": 31,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 16.8,
+          "Reign End Age": 32.5
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edward the Martyr",
+          "Reign Start": "08/07/0975",
+          "Reign End": "18/03/0978",
+          "Reign Period": "2 years, 254 days",
+          "Birth": "01/01/0962",
+          "Death": "18/03/0978",
+          "Age": 16,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 13.5,
+          "Reign End Age": 16.2
+        },
+        {
+          "House": "Wessex",
+          "Name": "Aethelred II",
+          "Reign Start": "18/03/0978",
+          "Reign End": "25/12/1013",
+          "Reign Period": "35 years",
+          "Birth": "01/01/0966",
+          "Death": "23/04/1016",
+          "Age": 48,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 12.2,
+          "Reign End Age": 48
+        },
+        {
+          "House": "Denmark",
+          "Name": "Sweyn Forkbeard",
+          "Reign Start": "25/12/1013",
+          "Reign End": "03/02/1014",
+          "Reign Period": "0 years, 41 days",
+          "Birth": "17/04/0963",
+          "Death": "03/02/1014",
+          "Age": 50,
+          "Notes": "",
+          "Reign Start Age": 50.7,
+          "Reign End Age": 51.3
+        },
+        {
+          "House": "Wessex",
+          "Name": "Aethelred II",
+          "Reign Start": "03/02/1014",
+          "Reign End": "23/04/1016",
+          "Reign Period": "2 years, 81 days",
+          "Birth": "01/01/0966",
+          "Death": "23/04/1016",
+          "Age": 48,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 48.1,
+          "Reign End Age": 50.3
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edmund II",
+          "Reign Start": "23/04/1016",
+          "Reign End": "30/11/1016",
+          "Reign Period": "0 years, 222 days",
+          "Birth": "01/01/0990",
+          "Death": "30/11/1016",
+          "Age": 26,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 26.3,
+          "Reign End Age": 26.9
+        },
+        {
+          "House": "Denmark",
+          "Name": "Canute",
+          "Reign Start": "18/10/1016",
+          "Reign End": "12/11/1035",
+          "Reign Period": "19 years, 26 days",
+          "Birth": "01/01/0995",
+          "Death": "12/11/1035",
+          "Age": 40,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 21.8,
+          "Reign End Age": 40.9
+        },
+        {
+          "House": "Denmark",
+          "Name": "Harold I",
+          "Reign Start": "12/11/1035",
+          "Reign End": "17/03/1040",
+          "Reign Period": "4 years, 127 days",
+          "Birth": "01/01/1016",
+          "Death": "17/03/1040",
+          "Age": 24,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 19.9,
+          "Reign End Age": 24.2
+        },
+        {
+          "House": "Denmark",
+          "Name": "Harthacanute",
+          "Reign Start": "17/03/1040",
+          "Reign End": "08/06/1042",
+          "Reign Period": "2 years, 84 days",
+          "Birth": "01/01/1018",
+          "Death": "08/06/1042",
+          "Age": 24,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 22.2,
+          "Reign End Age": 24.4
+        },
+        {
+          "House": "Wessex",
+          "Name": "Edward the Confessor",
+          "Reign Start": "08/06/1042",
+          "Reign End": "05/01/1066",
+          "Reign Period": "23 years, 212 days",
+          "Birth": "01/01/1003",
+          "Death": "05/01/1066",
+          "Age": 63,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 39.5,
+          "Reign End Age": 63.1
+        },
+        {
+          "House": "Godwin",
+          "Name": "Harold II",
+          "Reign Start": "05/01/1066",
+          "Reign End": "14/10/1066",
+          "Reign Period": "0 years, 282 days",
+          "Birth": "01/01/1022",
+          "Death": "14/10/1066",
+          "Age": 44,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 44,
+          "Reign End Age": 44.8
+        },
+        {
+          "House": "Normandy",
+          "Name": "William I",
+          "Reign Start": "25/12/1066",
+          "Reign End": "09/09/1087",
+          "Reign Period": "20 years, 259 days",
+          "Birth": "01/01/1028",
+          "Death": "09/09/1087",
+          "Age": 59,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 39,
+          "Reign End Age": 59.7
+        },
+        {
+          "House": "Normandy",
+          "Name": "William II",
+          "Reign Start": "26/09/1087",
+          "Reign End": "02/08/1100",
+          "Reign Period": "12 years, 311 days",
+          "Birth": "01/01/1056",
+          "Death": "02/08/1100",
+          "Age": 44,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 31.8,
+          "Reign End Age": 44.6
+        },
+        {
+          "House": "Normandy",
+          "Name": "Henry I",
+          "Reign Start": "05/08/1100",
+          "Reign End": "01/12/1135",
+          "Reign Period": "35 years, 119 days",
+          "Birth": "01/08/1068",
+          "Death": "01/12/1135",
+          "Age": 67,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 32,
+          "Reign End Age": 67.4
+        },
+        {
+          "House": "Blois",
+          "Name": "Stephen",
+          "Reign Start": "22/12/1135",
+          "Reign End": "25/10/1154",
+          "Reign Period": "18 years, 308 days",
+          "Birth": "01/01/1096",
+          "Death": "25/10/1154",
+          "Age": 58,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 40,
+          "Reign End Age": 58.9
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Henry II",
+          "Reign Start": "19/12/1154",
+          "Reign End": "06/07/1189",
+          "Reign Period": "34 years, 200 days",
+          "Birth": "05/03/1133",
+          "Death": "06/07/1189",
+          "Age": 56,
+          "Notes": "",
+          "Reign Start Age": 21.8,
+          "Reign End Age": 56.4
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Richard I",
+          "Reign Start": "03/09/1189",
+          "Reign End": "06/04/1199",
+          "Reign Period": "9 years, 216 days",
+          "Birth": "08/09/1157",
+          "Death": "06/04/1199",
+          "Age": 41,
+          "Notes": "",
+          "Reign Start Age": 32,
+          "Reign End Age": 41.6
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "John",
+          "Reign Start": "27/05/1199",
+          "Reign End": "19/10/1216",
+          "Reign Period": "17 years, 146 days",
+          "Birth": "24/12/1166",
+          "Death": "19/10/1216",
+          "Age": 49,
+          "Notes": "",
+          "Reign Start Age": 32.4,
+          "Reign End Age": 49.9
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Henry III",
+          "Reign Start": "28/10/1216",
+          "Reign End": "16/11/1272",
+          "Reign Period": "56 years, 20 days",
+          "Birth": "01/10/1207",
+          "Death": "16/11/1272",
+          "Age": 65,
+          "Notes": "",
+          "Reign Start Age": 9.1,
+          "Reign End Age": 65.2
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Edward I",
+          "Reign Start": "20/11/1272",
+          "Reign End": "07/07/1307",
+          "Reign Period": "34 years, 230 days",
+          "Birth": "17/06/1239",
+          "Death": "07/07/1307",
+          "Age": 68,
+          "Notes": "",
+          "Reign Start Age": 33.5,
+          "Reign End Age": 68.1
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Edward II",
+          "Reign Start": "08/07/1307",
+          "Reign End": "20/01/1327",
+          "Reign Period": "19 years, 197 days",
+          "Birth": "25/04/1284",
+          "Death": "21/09/1327",
+          "Age": 43,
+          "Notes": "",
+          "Reign Start Age": 23.2,
+          "Reign End Age": 42.8
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Edward III",
+          "Reign Start": "25/01/1327",
+          "Reign End": "21/06/1377",
+          "Reign Period": "50 years, 148 days",
+          "Birth": "13/11/1312",
+          "Death": "21/06/1377",
+          "Age": 64,
+          "Notes": "",
+          "Reign Start Age": 14.2,
+          "Reign End Age": 64.6
+        },
+        {
+          "House": "Plantagenet",
+          "Name": "Richard II",
+          "Reign Start": "22/06/1377",
+          "Reign End": "29/09/1399",
+          "Reign Period": "22 years, 100 days",
+          "Birth": "06/01/1367",
+          "Death": "14/02/1400",
+          "Age": 33,
+          "Notes": "",
+          "Reign Start Age": 10.5,
+          "Reign End Age": 32.8
+        },
+        {
+          "House": "Lancaster",
+          "Name": "Henry IV",
+          "Reign Start": "30/09/1399",
+          "Reign End": "20/03/1413",
+          "Reign Period": "13 years, 172 days",
+          "Birth": "01/04/1367",
+          "Death": "20/03/1413",
+          "Age": 45,
+          "Notes": "Birth date is approximate",
+          "Reign Start Age": 32.5,
+          "Reign End Age": 46
+        },
+        {
+          "House": "Lancaster",
+          "Name": "Henry V",
+          "Reign Start": "21/03/1413",
+          "Reign End": "31/08/1422",
+          "Reign Period": "9 years, 164 days",
+          "Birth": "16/09/1386",
+          "Death": "31/08/1422",
+          "Age": 35,
+          "Notes": "",
+          "Reign Start Age": 26.5,
+          "Reign End Age": 36
+        },
+        {
+          "House": "Lancaster",
+          "Name": "Henry VI",
+          "Reign Start": "01/09/1422",
+          "Reign End": "04/03/1461",
+          "Reign Period": "38 years, 185 days",
+          "Birth": "06/12/1421",
+          "Death": "21/05/1471",
+          "Age": 49,
+          "Notes": "",
+          "Reign Start Age": 0.7,
+          "Reign End Age": 39.3
+        },
+        {
+          "House": "York",
+          "Name": "Edward IV",
+          "Reign Start": "04/03/1461",
+          "Reign End": "03/10/1470",
+          "Reign Period": "9 years, 214 days",
+          "Birth": "28/04/1442",
+          "Death": "09/04/1483",
+          "Age": 40,
+          "Notes": "",
+          "Reign Start Age": 18.9,
+          "Reign End Age": 28.5
+        },
+        {
+          "House": "Lancaster",
+          "Name": "Henry VI",
+          "Reign Start": "03/10/1470",
+          "Reign End": "11/04/1471",
+          "Reign Period": "0 years. 191 days",
+          "Birth": "06/12/1421",
+          "Death": "21/05/1471",
+          "Age": 49,
+          "Notes": "",
+          "Reign Start Age": 48.9,
+          "Reign End Age": 49.4
+        },
+        {
+          "House": "York",
+          "Name": "Edward IV",
+          "Reign Start": "11/04/1471",
+          "Reign End": "09/04/1483",
+          "Reign Period": "11 years, 364 days",
+          "Birth": "28/04/1442",
+          "Death": "09/04/1483",
+          "Age": 40,
+          "Notes": "",
+          "Reign Start Age": 29,
+          "Reign End Age": 41
+        },
+        {
+          "House": "York",
+          "Name": "Edward V",
+          "Reign Start": "09/04/1483",
+          "Reign End": "25/06/1483",
+          "Reign Period": "0 years, 78 days",
+          "Birth": "02/11/1470",
+          "Death": "01/01/1483",
+          "Age": 12,
+          "Notes": "Death date is approximate",
+          "Reign Start Age": 12.4,
+          "Reign End Age": 12.7
+        },
+        {
+          "House": "York",
+          "Name": "Richard III",
+          "Reign Start": "26/06/1483",
+          "Reign End": "22/08/1485",
+          "Reign Period": "2 years, 58 days",
+          "Birth": "02/10/1452",
+          "Death": "22/08/1485",
+          "Age": 32,
+          "Notes": "",
+          "Reign Start Age": 30.8,
+          "Reign End Age": 32.9
+        },
+        {
+          "House": "Tudor",
+          "Name": "Henry VII",
+          "Reign Start": "22/08/1485",
+          "Reign End": "21/04/1509",
+          "Reign Period": "23 years, 243 days",
+          "Birth": "28/01/1457",
+          "Death": "21/04/1509",
+          "Age": 52,
+          "Notes": "",
+          "Reign Start Age": 28.6,
+          "Reign End Age": 52.3
+        },
+        {
+          "House": "Tudor",
+          "Name": "Henry VIII",
+          "Reign Start": "22/04/1509",
+          "Reign End": "28/01/1547",
+          "Reign Period": "37 years, 282 days",
+          "Birth": "29/06/1491",
+          "Death": "28/01/1547",
+          "Age": 55,
+          "Notes": "",
+          "Reign Start Age": 17.8,
+          "Reign End Age": 55.6
+        },
+        {
+          "House": "Tudor",
+          "Name": "Edward VI",
+          "Reign Start": "28/01/1547",
+          "Reign End": "06/07/1553",
+          "Reign Period": "6 years, 160 days",
+          "Birth": "12/10/1537",
+          "Death": "06/07/1553",
+          "Age": 15,
+          "Notes": "",
+          "Reign Start Age": 9.3,
+          "Reign End Age": 15.7
+        },
+        {
+          "House": "Tudor",
+          "Name": "Mary I",
+          "Reign Start": "19/07/1553",
+          "Reign End": "17/11/1558",
+          "Reign Period": "5 years, 122 days",
+          "Birth": "18/02/1516",
+          "Death": "17/11/1558",
+          "Age": 42,
+          "Notes": "",
+          "Reign Start Age": 37.4,
+          "Reign End Age": 42.8
+        },
+        {
+          "House": "Tudor",
+          "Name": "Philip",
+          "Reign Start": "25/07/1554",
+          "Reign End": "17/11/1558",
+          "Reign Period": "4 years, 116 days",
+          "Birth": "21/05/1527",
+          "Death": "13/09/1598",
+          "Age": 71,
+          "Notes": "",
+          "Reign Start Age": 27.2,
+          "Reign End Age": 31.5
+        },
+        {
+          "House": "Tudor",
+          "Name": "Elizabeth I",
+          "Reign Start": "17/11/1558",
+          "Reign End": "24/03/1603",
+          "Reign Period": "44 years, 128 days",
+          "Birth": "07/09/1533",
+          "Death": "24/03/1603",
+          "Age": 69,
+          "Notes": "",
+          "Reign Start Age": 25.2,
+          "Reign End Age": 69.6
+        },
+        {
+          "House": "Stuart",
+          "Name": "James I",
+          "Reign Start": "24/03/1603",
+          "Reign End": "27/03/1625",
+          "Reign Period": "22 years, 4 days",
+          "Birth": "19/06/1566",
+          "Death": "27/03/1625",
+          "Age": 58,
+          "Notes": "",
+          "Reign Start Age": 36.8,
+          "Reign End Age": 58.8
+        },
+        {
+          "House": "Stuart",
+          "Name": "Charles I",
+          "Reign Start": "27/03/1625",
+          "Reign End": "30/01/1649",
+          "Reign Period": "23 years, 310 days",
+          "Birth": "19/11/1600",
+          "Death": "30/01/1649",
+          "Age": 48,
+          "Notes": "",
+          "Reign Start Age": 24.4,
+          "Reign End Age": 48.2
+        },
+        {
+          "House": "Commonwealth",
+          "Name": "Oliver Cromwell",
+          "Reign Start": "16/12/1653",
+          "Reign End": "03/09/1658",
+          "Reign Period": "4 years, 262 days",
+          "Birth": "25/04/1599",
+          "Death": "03/09/1658",
+          "Age": 59,
+          "Notes": "",
+          "Reign Start Age": 54.7,
+          "Reign End Age": 59.4
+        },
+        {
+          "House": "Commonwealth",
+          "Name": "Richard Cromwell",
+          "Reign Start": "03/09/1658",
+          "Reign End": "07/05/1659",
+          "Reign Period": "0 years, 247 days",
+          "Birth": "04/10/1626",
+          "Death": "12/07/1712",
+          "Age": 85,
+          "Notes": "",
+          "Reign Start Age": 31.9,
+          "Reign End Age": 32.6
+        },
+        {
+          "House": "Stuart",
+          "Name": "Charles II",
+          "Reign Start": "29/05/1660",
+          "Reign End": "06/02/1685",
+          "Reign Period": "24 years, 254 days",
+          "Birth": "29/05/1630",
+          "Death": "06/02/1685",
+          "Age": 54,
+          "Notes": "",
+          "Reign Start Age": 30,
+          "Reign End Age": 54.7
+        },
+        {
+          "House": "Stuart",
+          "Name": "James II",
+          "Reign Start": "06/02/1685",
+          "Reign End": "23/12/1688",
+          "Reign Period": "3 years, 321 days",
+          "Birth": "14/10/1633",
+          "Death": "16/09/1701",
+          "Age": 67,
+          "Notes": "",
+          "Reign Start Age": 51.4,
+          "Reign End Age": 55.2
+        },
+        {
+          "House": "Stuart/Orange",
+          "Name": "Mary II",
+          "Reign Start": "13/02/1689",
+          "Reign End": "28/12/1694",
+          "Reign Period": "5 years, 319 days",
+          "Birth": "30/04/1662",
+          "Death": "28/12/1694",
+          "Age": 32,
+          "Notes": "",
+          "Reign Start Age": 26.8,
+          "Reign End Age": 32.7
+        },
+        {
+          "House": "Stuart/Orange",
+          "Name": "William III",
+          "Reign Start": "13/02/1689",
+          "Reign End": "08/03/1702",
+          "Reign Period": "13 years, 24 days",
+          "Birth": "04/11/1650",
+          "Death": "08/03/1702",
+          "Age": 51,
+          "Notes": "",
+          "Reign Start Age": 38.3,
+          "Reign End Age": 51.4
+        },
+        {
+          "House": "Stuart/Orange",
+          "Name": "Anne",
+          "Reign Start": "08/03/1702",
+          "Reign End": "01/08/1714",
+          "Reign Period": "12 years, 147 days",
+          "Birth": "06/02/1665",
+          "Death": "01/08/1714",
+          "Age": 49,
+          "Notes": "",
+          "Reign Start Age": 37.1,
+          "Reign End Age": 49.5
+        },
+        {
+          "House": "Hanover ",
+          "Name": "George I",
+          "Reign Start": "01/08/1714",
+          "Reign End": "11/06/1727",
+          "Reign Period": "12 years, 315 days",
+          "Birth": "28/05/1660",
+          "Death": "11/06/1727",
+          "Age": 67,
+          "Notes": "",
+          "Reign Start Age": 54.2,
+          "Reign End Age": 67.1
+        },
+        {
+          "House": "Hanover ",
+          "Name": "George II",
+          "Reign Start": "11/06/1727",
+          "Reign End": "25/10/1760",
+          "Reign Period": "33 years, 126 days",
+          "Birth": "30/10/1683",
+          "Death": "25/10/1760",
+          "Age": 76,
+          "Notes": "",
+          "Reign Start Age": 43.6,
+          "Reign End Age": 77
+        },
+        {
+          "House": "Hanover ",
+          "Name": "George III",
+          "Reign Start": "25/10/1760",
+          "Reign End": "29/01/1820",
+          "Reign Period": "59 years, 97 days",
+          "Birth": "24/05/1738",
+          "Death": "29/01/1820",
+          "Age": 81,
+          "Notes": "",
+          "Reign Start Age": 22.4,
+          "Reign End Age": 81.7
+        },
+        {
+          "House": "Hanover ",
+          "Name": "George IV",
+          "Reign Start": "29/01/1820",
+          "Reign End": "26/06/1830",
+          "Reign Period": "10 years, 149 days",
+          "Birth": "12/08/1763",
+          "Death": "26/06/1830",
+          "Age": 67,
+          "Notes": "",
+          "Reign Start Age": 56.5,
+          "Reign End Age": 66.9
+        },
+        {
+          "House": "Hanover ",
+          "Name": "William IV",
+          "Reign Start": "26/06/1830",
+          "Reign End": "20/06/1837",
+          "Reign Period": "6 years, 360 days",
+          "Birth": "21/08/1765",
+          "Death": "20/06/1837",
+          "Age": 71,
+          "Notes": "",
+          "Reign Start Age": 64.9,
+          "Reign End Age": 71.9
+        },
+        {
+          "House": "Hanover ",
+          "Name": "Victoria",
+          "Reign Start": "20/06/1837",
+          "Reign End": "22/01/1901",
+          "Reign Period": "63 years, 217 days",
+          "Birth": "24/05/1819",
+          "Death": "22/01/1901",
+          "Age": 81,
+          "Notes": "",
+          "Reign Start Age": 18.1,
+          "Reign End Age": 81.7
+        },
+        {
+          "House": "Saxe-Coburg Gotha",
+          "Name": "Edward VII",
+          "Reign Start": "22/01/1901",
+          "Reign End": "06/05/1910",
+          "Reign Period": "9 years, 105 days",
+          "Birth": "09/11/1841",
+          "Death": "06/05/1910",
+          "Age": 68,
+          "Notes": "",
+          "Reign Start Age": 59.2,
+          "Reign End Age": 68.5
+        },
+        {
+          "House": "Windsor",
+          "Name": "George V",
+          "Reign Start": "06/05/1910",
+          "Reign End": "20/01/1936",
+          "Reign Period": "25 years, 260 days",
+          "Birth": "03/06/1865",
+          "Death": "20/01/1936",
+          "Age": 70,
+          "Notes": "",
+          "Reign Start Age": 45,
+          "Reign End Age": 70.7
+        },
+        {
+          "House": "Windsor",
+          "Name": "Edward VIII",
+          "Reign Start": "20/01/1936",
+          "Reign End": "11/12/1936",
+          "Reign Period": "0 years, 327 days",
+          "Birth": "23/06/1894",
+          "Death": "28/05/1972",
+          "Age": 77,
+          "Notes": "",
+          "Reign Start Age": 41.6,
+          "Reign End Age": 42.5
+        },
+        {
+          "House": "Windsor",
+          "Name": "George VI",
+          "Reign Start": "11/12/1936",
+          "Reign End": "06/02/1952",
+          "Reign Period": "15 years, 58 days",
+          "Birth": "14/12/1895",
+          "Death": "06/02/1952",
+          "Age": 56,
+          "Notes": "",
+          "Reign Start Age": 41,
+          "Reign End Age": 56.2
+        },
+        {
+          "House": "Windsor",
+          "Name": "Elizabeth II",
+          "Reign Start": "06/02/1952",
+          "Reign End": "08/09/2022",
+          "Reign Period": "70 years, 215 days",
+          "Birth": "21/04/1926",
+          "Death": "08/09/2022",
+          "Age": 96,
+          "Notes": "",
+          "Reign Start Age": 25.8,
+          "Reign End Age": 96.4
+        },
+        {
+          "House": "Windsor",
+          "Name": "Charles III",
+          "Reign Start": "08/09/2022",
+          "Reign End": "",
+          "Reign Period": "221 days",
+          "Birth": "14/11/1948",
+          "Death": "",
+          "Age": 74,
+          "Notes": "",
+          "Reign Start Age": 73.9,
+          "Reign End Age": 74.5
+        }
+      ]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "House",
+      "direction": "horizontal",
+      "titleColor": {"signal": "legendLabelColour"},
+      "labelColor": {"signal": "legendLabelColour"},
+      "orient": "none",
+      "legendY": {"signal": "legendY"},
+      "legendX": {"signal": "legendX"},
+      "padding": 0,
+      "columns": 4,
+      "offset": 110,
+      "rowPadding": 10,
+      "columnPadding": 60,
+      "strokeColor": "",
+      "encode": {
+        "symbols": {
+          "enter": {
+            "shape": {
+              "value": "m -0.01332636,-0.63421406 c -0.0558846,0.005699 -0.0990523,0.0530842 -0.0990523,0.11048006 0,0.0306255 0.0141754,0.0599157 0.0343008,0.0800062 l -0.2400122,0.31620306 c -0.0371009,0.0491761 -0.0944205,0.080006 -0.15619691,0.080006 -0.0522679,0 -0.10415657,-0.0238589 -0.14095991,-0.0609539 l -0.14476916,-0.1447691 c 0.024734,-0.0203588 0.0380926,-0.0531429 0.0380926,-0.0876245 0,-0.0612223 -0.0492344,-0.11048008 -0.11048004,-0.11048008 -0.0612222,0 -0.11048,0.0492347 -0.11048,0.11048008 0,0.0496428 0.0312088,0.0924954 0.0761967,0.10667078 -3.3892e-4,0.005323 0.002469,0.009859 0.003809,0.0152254 l 0.11428929,0.46859077 c 0.005891,0.0235672 0.0290508,0.0380925 0.0533179,0.0380925 h 0.69717481 l 0.69717459,-0.003809 c 0.0241506,-1.2834e-4 0.0474843,-0.014642 0.0533179,-0.0380925 L 0.86668648,-0.21897 c 0.0013,-0.005244 2.829e-4,-0.0100336 0,-0.0152254 0.043167,-0.0152254 0.076197,-0.0583813 0.076197,-0.10667078 0,-0.0612165 -0.049293,-0.11048001 -0.11048,-0.11048001 -0.061216,0 -0.11048002,0.0492347 -0.11048002,0.11048001 0,0.0348842 0.0166254,0.067254 0.0418843,0.0876245 l -0.14857835,0.14476919 c -0.0372759,0.0372758 -0.088237,0.0609539 -0.14095991,0.0609539 -0.0619514,0 -0.11911941,-0.0303924 -0.15619692,-0.080006 L 0.08186941,-0.44753726 c 0.0190171,-0.0199507 0.0304508,-0.0464928 0.0304508,-0.0761971 0,-0.0612222 -0.0530845,-0.11048006 -0.11428929,-0.11048006 -0.003826,0 -0.0077,-3.7975e-4 -0.0114336,0 z m -0.67812599,1.03623851 c -0.0240922,0.004928 -0.0418843,0.0277673 -0.0418843,0.0533179 v 0.12572284 c 0,0.029167 0.0241506,0.053318 0.0533179,0.053318 h 1.36768093 c 0.0291674,-10e-8 0.0533179,-0.0241507 0.0533179,-0.053318 V 0.45534234 c 0,-0.0292257 -0.0241506,-0.0533179 -0.0533179,-0.0533179 h -1.36768151 c -0.00365,0 -0.007992,-7.0469e-4 -0.011433,10e-9 z"
+            },
+            "strokeWidth": {"value": 0},
+            "size": {"value": 500}
+          }
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "House"},
+      "range": [
+        "#e7298a",
+        "#cccf3a",
+        "#f65beb",
+        "#d95f02",
+        "#66a61e",
+        "#28a3dc",
+        "#fc6064",
+        "#73f65c",
+        "#9f3cb1",
+        "#2751e3",
+        "#d62728",
+        "#5154b3",
+        "#e2a902",
+        "#8ca252",
+        "#1b9e77"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "group",
+      "style": "cell",
+      "layout": {
+        "columns": 8,
+        "padding": {"row": 75, "column": 60},
+        "align": "all",
+        "bounds": "flush",
+        "center": true
+      },
+      "marks": [
+        {
+          "type": "group",
+          "style": "cell",
+          "name": "monarchs",
+          "from": {
+            "facet": {"data": "table", "name": "facet", "groupby": ["Name"]}
+          },
+          "sort": {"field": "datum.index", "order": "ascending"},
+          "title": {
+            "text": {"signal": "parent.Name"},
+            "color": {
+              "signal": "monarchLabelColour"
+            },
+            "fontSize": 12,
+            "fontWeight": "400",
+            "dy": 8,
+            "orient": "bottom",
+            "lineHeight": 0,
+            "align": "center",
+            "anchor": "middle"
+          },
+          "encode": {
+            "update": {
+              "width": {"signal": "facetWidth"},
+              "height": {"signal": "facetHeight"}
+            }
+          },
+          "marks": [
+            {
+              "type": "arc",
+              "name": "life",
+              "from": {"data": "facet"},
+              "encode": {
+                "enter": {},
+                "update": {
+                  "fill": {"signal": "lifeCircleColour"},
+                  "x": {"signal": "item.mark.group.width/2"},
+                  "y": {"signal": "item.mark.group.height/2"},
+                  "startAngle": {"value": 0},
+                  "endAngle": {"signal": "(2*PI/100)*datum.Age"},
+                  "innerRadius": {"signal": "28"},
+                  "outerRadius": {"signal": "29"},
+                  "tooltip": {"signal": "item"}
+                }
+              }
+            },
+            {
+              "type": "arc",
+              "name": "reign",
+              "from": {"data": "facet"},
+              "encode": {
+                "enter": {},
+                "update": {
+                  "fill": {"field": "House", "scale": "color"},
+                  "x": {"signal": "item.mark.group.width/2"},
+                  "y": {"signal": "item.mark.group.height/2"},
+                  "startAngle": {
+                    "signal": "(2*PI/100)*datum['Reign Start Age']"
+                  },
+                  "endAngle": {"signal": "(2*PI/100)*datum['Reign End Age']"},
+                  "innerRadius": {"signal": "25"},
+                  "outerRadius": {"signal": "32"},
+                  "tooltip": {"signal": "item"}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "keyTitle",
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "legendLabelColour"},
+          "text": {"value": "Life & Reign"}, "fontWeight":{"value": "bold"},"fontSize":{"value": 11},
+          "x": {"signal": "keyTitleX"},
+          "y": {"signal": "keyTitleY"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "name": "key",
+      "data": [{}],
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "lifeCircleColour"},
+          "x": {"signal": "keyX "},
+          "y": {"signal": "keyY "},
+          "startAngle": {"value": 0},
+          "endAngle": {"signal": "(2*PI/100)*75"},
+          "innerRadius": {"signal": "28"},
+          "outerRadius": {"signal": "29"},
+          "tooltip": {"signal": "item"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "name": "key2",
+      "data": [{}],
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "lifeCircleColour"},
+          "x": {"signal": "keyX"},
+          "y": {"signal": "keyY"},
+          "startAngle": {"signal": "(2*PI/100)*25"},
+          "endAngle": {"signal": "(2*PI/100)*50"},
+          "innerRadius": {"signal": "25"},
+          "outerRadius": {"signal": "32"},
+          "tooltip": {"signal": "item"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "birth",
+      "from": {"data": "key2"},
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "legendLabelColour"},
+          "text": {"value": "birth"}, "fontSize":{"value": 11},
+          "align": {"value": "center"},
+          "x": {"signal": "datum.x"},
+          "y": {"signal": "datum.y-datum.outerRadius - 2"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "death",
+      "from": {"data": "key2"},
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "legendLabelColour"},
+          "text": {"value": "death"},"fontSize":{"value": 11},
+          "align": {"value": "right"},
+          "x": {"signal": "datum.x-datum.outerRadius"},
+          "y": {"signal": "datum.y"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "reign",
+      "from": {"data": "key2"},
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "legendLabelColour"},
+          "text": {"value": "reign"},"fontSize":{"value": 11},
+          "align": {"value": "left"},
+          "x": {"signal": "datum.x+27"},
+          "y": {"signal": "datum.y+30"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "name": "key3",
+      "data": [{}],
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "lifeCircleColour"},
+          "x": {"signal": "keyX +125"},
+          "y": {"signal": "keyY "},
+          "startAngle": {"value": 0},
+          "endAngle": {"signal": "2*PI"},
+          "innerRadius": {"signal": "28"},
+          "outerRadius": {"signal": "29"},
+          "tooltip": {"signal": "item"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "life",
+      "from": {"data": "key3"},
+      "encode": {
+        "enter": {},
+        "update": {
+          "fill": {"signal": "legendLabelColour"},
+          "text": {"value": "100 years"},"fontSize":{"value": 10},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "x": {"signal": "datum.x"},
+          "y": {"signal": "datum.y"}
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "red"},
+    "style": {"col": {"fontSize": 11}, "cell": {"strokeWidth": {"signal": "0"}}}
+  }
+}
