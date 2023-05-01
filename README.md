@@ -25,6 +25,15 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
+
+## Coronation Arc Chart
+
+A dataviz made in Vega and PowerBI for the coronation of Charles III.
+
+[Online Editor](https://tinyurl.com/26pctf4u)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Coronation%20Arc%20Chart/Thumbnail.png)
+
 ## Covid Map (Animated)
 
 An animated map using Vega showing the spread of Covid-19 across the UK using data from https://coronavirus.data.gov.uk/.
