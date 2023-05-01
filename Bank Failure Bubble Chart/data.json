@@ -1,5 +1,11 @@
 [
 	{
+		"Bank": "First Republic Bank",
+		"Date": "01/05/2023",
+		"Assets": 229100000000,
+		"InflationAdjustedAssets": 229100000000
+	},
+	{
 		"Bank": "Signature Bank",
 		"Date": "12/03/2023",
 		"Assets": 110400000000,
