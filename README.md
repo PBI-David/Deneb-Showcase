@@ -10,7 +10,7 @@ I thought it would be interesting to plot the recent bank failures (as reported 
 
 [Online editor (absolute)](https://tinyurl.com/5n7k37jj)
 
-[Online editor (inflation adjusted)](https://tinyurl.com/4pue7knb)
+[Online editor (inflation adjusted)](https://tinyurl.com/mwb9tynf)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.png)
 
