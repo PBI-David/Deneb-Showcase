@@ -1,301 +1,298 @@
 {
-	"$schema": "https://vega.github.io/schema/vega/v5.json",
-	"width": 1500,
-	"height": 1000,
-	"padding": { "left": 0, "right": 0, "top": 0, "bottom": 0 },
-	"description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
-	"autosize": "pad",
-	"signals": [
-		{ "name": "cx", "update": "width / 2" },
-		{ "name": "cy", "update": "height / 2" },
-		{
-			"name": "counter",
-			"value": -3,
-			"on": [
-				{
-					"events": { "type": "timer", "throttle": 700 },
-					"update": "counter<7?counter + 1:counter"
-				}
-			]
-		}
-	],
-	"data": [
-		{
-			"name": "table",
-			"url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Bank%20Failure%20Bubble%20Chart/data.json",
-			"format": { "parse": { "Date": "date:'%d/%m/%Y'" } },
-			"transform": [
-				{ "type": "formula", "as": "Year", "expr": "year(datum.Date)" },
-				{
-					"type": "formula",
-					"as": "friendlyDate",
-					"expr": "date(datum.Date)+'/'+(toNumber(month(datum.Date))+1)+'/'+year(datum.Date)"
-				}
-			]
-		}
-	],
-	"scales": [
-		{
-			"type": "sqrt",
-			"name": "size",
-			"domain": { "data": "table", "field": "InflationAdjustedAssets" },
-			"range": [0.01, 0.1]
-		},
-		{
-			"type": "time",
-			"name": "x",
-			"nice": true,
-			"domainMax": { "signal": "1735760232000" },
-			"domain": { "data": "table", "field": "Date" },
-			"range": "width"
-		},
-		{
-			"name": "color",
-			"type": "ordinal",
-			"domain": { "data": "table", "field": "Year", "sort": true },
-			"range": [
-				"#c5b0d5",
-				"#ff9896",
-				"#d6616b",
-				"#6baed6",
-				"#bcbddc",
-				"#4a8cbd",
-				"#f2924c",
-				"#7e80cf",
-				"#74c476",
-				"#e7c06a",
-				"#ce6dbd",
-				"#c7e9c0",
-				"#637939",
-				"#ff9896",
-				"#c49c94",
-				"#17becf",
-				"#98df8a",
-				"#ab4849"
-			],
-			"reverse": false
-		}
-	],
-	"axes": [
-		{
-			"offset": -50,
-			"zindex": 1,
-			"labelFont": { "value": "Lato " },
-			"orient": "top",
-			"scale": "x",
-			"domain": true,
-			"ticks": true,
-			"labelFontSize": 12,
-			"labelFontWeight": "500",
-			"labelColor": "#dedede",
-			"tickCount": 20,
-			"tickExtra": true,
-			"tickSize": { "signal": "datum.label %2  == 0? -10:10" },
-			"encode": {
-				"labels": {
-					"update": {
-						"dy": [
-							{ "test": "datum.label %2  == 0", "value": 20 },
-							{ "value": 0 }
-						]
-					}
-				}
-			}
-		}
-	],
-	"marks": [
-		{
-			"type": "rect",
-			"name": "back",
-			"clip": false,
-			"data": [{}],
-			"encode": {
-				"enter": {
-					"fill": {
-						"value": {
-							"gradient": "linear",
-							"x1": 0,
-							"y1": 1,
-							"x2": 1,
-							"y2": 0,
-							"stops": [
-								{ "offset": 0, "color": "#4d6193" },
-								{ "offset": 1, "color": "#263967" }
-							]
-						}
-					},
-					"x": { "signal": "-40" },
-					"y": { "signal": "0" },
-					"width": { "signal": "width+80" },
-					"height": { "signal": "height" }
-				}
-			}
-		},
-		{
-			"clip": true,
-			"type": "text",
-			"data": [{}],
-			"encode": {
-				"enter": {
-					"fontSize": { "signal": "60" },
-					"font": { "value": "Lato Black" },
-					"align": { "value": "left" },
-					"fill": { "value": "white" },
-					"text": { "value": ["Bank Failures", "2001-2023"] },
-					"x": { "signal": "0" },
-					"y": { "signal": "height-130" }
-				}
-			}
-		},
-		{
-			"type": "text",
-			"clip": true,
-			"data": [{}],
-			"encode": {
-				"enter": {
-					"fontSize": { "signal": "16" },
-					"align": { "value": "left" },
-					"font": { "value": "Lato " },
-					"fontWeight": { "value": "normal" },
-					"fill": { "value": "white" },
-					"text": {
-						"value": [
-							"Reported by Federal Deposit Insurance Corporation (FDIC)",
-							"Inflation Adjusted"
-						]
-					},
-					"x": { "signal": "0" },
-					"y": { "signal": "height-40" }
-				}
-			}
-		},
-		{
-			"name": "labelSizes",
-			"clip": true,
-			"type": "text",
-			"from": { "data": "table" },
-			"encode": {
-				"enter": {
-					"fontSize": {
-						"signal": "max( sqrt(datum.InflationAdjustedAssets)/22000, 8.5)"
-					},
-					"fontWeight": { "value": "bold" },
-					"fill": { "value": "transparent" },
-					"text": { "field": "Bank" },
-					"x": { "value": 100 },
-					"y": { "value": 100 }
-				}
-			}
-		},
-		{
-			"clip": true,
-			"name": "nodes",
-			"type": "symbol",
-			"from": { "data": "table" },
-			"encode": {
-				"enter": {
-					"fill": { "scale": "color", "field": "Year" },
-					"fillOpacity": { "value": 1 },
-					"zindex": { "value": 2 }
-				},
-				"update": {
-					"size": {
-						"signal": "pow(2 * datum.InflationAdjustedAssets, 2)",
-						"scale": "size"
-					},
-					"xfocus": { "field": "Date", "scale": "x" },
-					"yfocus": { "signal": "cy" },
-					"stroke": { "value": "black" },
-					"strokeWidth": { "value": 0.5 },
-					"tooltip": {
-						"signal": "{'Bank':datum.Bank , 'Date':datum.friendlyDate ,'Assets':replace( format(datum.InflationAdjustedAssets,'$.3~s'),'G', 'B') }"
-					}
-				}
-			},
-			"transform": [
-				{
-					"type": "force",
-					"iterations": 100,
-					"restart": true,
-					"static": false,
-					"forces": [
-						{
-							"force": "collide",
-							"iterations": 2,
-							"radius": { "expr": "sqrt(datum.size) / 2" },
-							"strength": 0.7
-						},
-						{
-							"force": "x",
-							"x": "xfocus",
-							"strength": {
-								"signal": "counter==0?1:counter==1?1:counter==2?0:counter==3?1:counter==4?1:counter==5?0:counter==6?1:1"
-							}
-						},
-						{
-							"force": "y",
-							"y": "yfocus",
-							"strength": {
-								"signal": "counter==0?1:counter==1?0:counter==2?0:counter==3?0:counter==4?0.04:counter==5?0.04:counter==6?0.04:0"
-							}
-						}
-					]
-				},
-				{
-					"type": "lookup",
-					"from": "labelSizes",
-					"key": "text",
-					"fields": ["datum.Bank"],
-					"values": ["bounds.x1", "bounds.x2"],
-					"as": ["a", "b"]
-				}
-			]
-		},
-		{
-			"clip": true,
-			"type": "text",
-			"name": "labels",
-			"from": { "data": "nodes" },
-			"encode": {
-				"update": {
-					"align": { "value": "center" },
-					"baseline": { "value": "bottom" },
-					"fontSize": {
-						"signal": "max( sqrt(datum.datum.InflationAdjustedAssets)/22000, 8.5) "
-					},
-					"lineHeight": {
-						"signal": "max( sqrt(datum.datum.InflationAdjustedAssets)/14000, 12) "
-					},
-					"fontWeight": { "value": "normal" },
-					"fill": { "value": "white" },
-					"limit": { "signal": "(datum.bounds.x2-datum.bounds.x1)-6" },
-					"text": {
-						"signal": "datum.datum.InflationAdjustedAssets> 5000000000?[datum.datum.Bank,replace( format(datum.datum.InflationAdjustedAssets,'$.3~s'),'G', 'B')]:''"
-					},
-					"x": { "field": "x" },
-					"y": { "field": "y" },
-					"tooltip": {
-						"signal": "{'Bank':datum.datum.Bank , 'Date':datum.datum.friendlyDate ,'InflationAdjustedAssets':replace( format(datum.datum.InflationAdjustedAssets,'$.3~s'),'G', 'B') }"
-					}
-				}
-			}
-		},
-		{
-			"type": "text",
-			"data": [{}],
-			"encode": {
-				"update": {
-					"text": { "value": ["Source: www.fdic.gov", "Dataviz: David Bacci"] },
-					"href": { "value": "https://www.linkedin.com/in/davbacci" },
-					"align": { "value": "left" },
-					"lineHeight": { "value": 16 },
-					"fill": { "value": "white" },
-					"x": { "signal": "width - 100" },
-					"y": { "signal": "height-60" },
-					"fontSize": { "value": 10 },
-					"font": { "value": "Segoe UI " }
-				}
-			}
-		}
-	]
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 1500,
+  "height": 1000,
+  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "autosize": "pad",
+  "signals": [
+    {"name": "cx", "update": "width / 2"},
+    {"name": "cy", "update": "height / 2"},
+    {
+      "name": "counter",
+      "value": -3,
+      "on": [
+        {
+          "events": {"type": "timer", "throttle": 700},
+          "update": "counter<7?counter + 1:counter"
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/PBI-David/Deneb-Showcase/main/Bank%20Failure%20Bubble%20Chart/data.json",
+      "format": {"parse": {"Date": "date:'%d/%m/%Y'"}},
+      "transform": [
+        {"type": "formula", "as": "Year", "expr": "year(datum.Date)"},
+        {
+          "type": "formula",
+          "as": "friendlyDate",
+          "expr": "timeFormat(datum.Date, '%d/%m/%Y')"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "type": "sqrt",
+      "name": "size",
+      "domain": {"data": "table", "field": "InflationAdjustedAssets"},
+      "range": [0.01, 0.1]
+    },
+    {
+      "type": "time",
+      "name": "x",
+      "nice": true,
+      "domainMax": {"signal": "1735760232000"},
+      "domain": {"data": "table", "field": "Date"},
+      "range": "width"
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "Year", "sort": true},
+      "range": [
+        "#c5b0d5",
+        "#ff9896",
+        "#d6616b",
+        "#6baed6",
+        "#bcbddc",
+        "#4a8cbd",
+        "#f2924c",
+        "#7e80cf",
+        "#74c476",
+        "#e7c06a",
+        "#ce6dbd",
+        "#c7e9c0",
+        "#637939",
+        "#ff9896",
+        "#c49c94",
+        "#17becf",
+        "#98df8a",
+        "#ab4849"
+      ],
+      "reverse": false
+    }
+  ],
+  "axes": [
+    {
+      "offset": -50,
+      "zindex": 1,
+      "labelFont": {"value": "Lato "},
+      "orient": "top",
+      "scale": "x",
+      "domain": true,
+      "ticks": true,
+      "labelFontSize": 12,
+      "labelFontWeight": "500",
+      "labelColor": "#dedede",
+      "tickCount": 20,
+      "tickExtra": true,
+      "tickSize": {"signal": "datum.label %2  == 0? -10:10"},
+      "encode": {
+        "labels": {
+          "update": {
+            "dy": [{"test": "datum.label %2  == 0", "value": 20}, {"value": 0}]
+          }
+        }
+      }
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "name": "back",
+      "clip": false,
+      "data": [{}],
+      "encode": {
+        "enter": {
+          "fill": {
+            "value": {
+              "gradient": "linear",
+              "x1": 0,
+              "y1": 1,
+              "x2": 1,
+              "y2": 0,
+              "stops": [
+                {"offset": 0, "color": "#4d6193"},
+                {"offset": 1, "color": "#263967"}
+              ]
+            }
+          },
+          "x": {"signal": "-40"},
+          "y": {"signal": "0"},
+          "width": {"signal": "width+80"},
+          "height": {"signal": "height"}
+        }
+      }
+    },
+    {
+      "clip": true,
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "enter": {
+          "fontSize": {"signal": "60"},
+          "font": {"value": "Lato Black"},
+          "align": {"value": "left"},
+          "fill": {"value": "white"},
+          "text": {"value": ["Bank Failures", "2001-2023"]},
+          "x": {"signal": "0"},
+          "y": {"signal": "height-130"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "clip": true,
+      "data": [{}],
+      "encode": {
+        "enter": {
+          "fontSize": {"signal": "16"},
+          "align": {"value": "left"},
+          "font": {"value": "Lato "},
+          "fontWeight": {"value": "normal"},
+          "fill": {"value": "white"},
+          "text": {
+            "value": [
+              "Reported by Federal Deposit Insurance Corporation (FDIC)",
+              "Inflation Adjusted"
+            ]
+          },
+          "x": {"signal": "0"},
+          "y": {"signal": "height-40"}
+        }
+      }
+    },
+    {
+      "name": "labelSizes",
+      "clip": true,
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "fontSize": {
+            "signal": "max( sqrt(datum.InflationAdjustedAssets)/22000, 8.5)"
+          },
+          "fontWeight": {"value": "bold"},
+          "fill": {"value": "transparent"},
+          "text": {"field": "Bank"},
+          "x": {"value": 100},
+          "y": {"value": 100}
+        }
+      }
+    },
+    {
+      "clip": true,
+      "name": "nodes",
+      "type": "symbol",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "Year"},
+          "fillOpacity": {"value": 1},
+          "zindex": {"value": 2}
+        },
+        "update": {
+          "size": {
+            "signal": "pow(2 * datum.InflationAdjustedAssets, 2)",
+            "scale": "size"
+          },
+          "xfocus": {"field": "Date", "scale": "x"},
+          "yfocus": {"signal": "cy"},
+          "stroke": {"value": "black"},
+          "strokeWidth": {"value": 0.5},
+          "tooltip": {
+            "signal": "{'Bank':datum.Bank , 'Date':datum.friendlyDate ,'Assets':replace( format(datum.InflationAdjustedAssets,'$.3~s'),'G', 'B') }"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "iterations": 100,
+          "restart": true,
+          "static": false,
+          "forces": [
+            {
+              "force": "collide",
+              "iterations": 2,
+              "radius": {"expr": "sqrt(datum.size) / 2"},
+              "strength": 0.7
+            },
+            {
+              "force": "x",
+              "x": "xfocus",
+              "strength": {
+                "signal": "counter==0?1:counter==1?1:counter==2?0:counter==3?1:counter==4?1:counter==5?0:counter==6?1:1"
+              }
+            },
+            {
+              "force": "y",
+              "y": "yfocus",
+              "strength": {
+                "signal": "counter==0?1:counter==1?0:counter==2?0:counter==3?0:counter==4?0.04:counter==5?0.04:counter==6?0.04:0"
+              }
+            }
+          ]
+        },
+        {
+          "type": "lookup",
+          "from": "labelSizes",
+          "key": "text",
+          "fields": ["datum.Bank"],
+          "values": ["bounds.x1", "bounds.x2"],
+          "as": ["a", "b"]
+        }
+      ]
+    },
+    {
+      "clip": true,
+      "type": "text",
+      "name": "labels",
+      "from": {"data": "nodes"},
+      "encode": {
+        "update": {
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fontSize": {
+            "signal": "max( sqrt(datum.datum.InflationAdjustedAssets)/22000, 8.5) "
+          },
+          "lineHeight": {
+            "signal": "max( sqrt(datum.datum.InflationAdjustedAssets)/14000, 12) "
+          },
+          "fontWeight": {"value": "normal"},
+          "fill": {"value": "white"},
+          "limit": {"signal": "(datum.bounds.x2-datum.bounds.x1)-6"},
+          "text": {
+            "signal": "datum.datum.InflationAdjustedAssets> 5000000000?[datum.datum.Bank,replace( format(datum.datum.InflationAdjustedAssets,'$.3~s'),'G', 'B')]:''"
+          },
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "tooltip": {
+            "signal": "{'Bank':datum.datum.Bank , 'Date':datum.datum.friendlyDate ,'InflationAdjustedAssets':replace( format(datum.datum.InflationAdjustedAssets,'$.3~s'),'G', 'B') }"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {"value": ["Source: www.fdic.gov", "Dataviz: David Bacci"]},
+          "href": {"value": "https://www.linkedin.com/in/davbacci"},
+          "align": {"value": "left"},
+          "lineHeight": {"value": 16},
+          "fill": {"value": "white"},
+          "x": {"signal": "width - 100"},
+          "y": {"signal": "height-60"},
+          "fontSize": {"value": 10},
+          "font": {"value": "Segoe UI "}
+        }
+      }
+    }
+  ]
 }

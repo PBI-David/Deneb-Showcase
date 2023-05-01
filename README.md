@@ -4,7 +4,6 @@ This is a collection of advanced dataviz examples using [Vega](https://vega.gith
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
-
 ## Bank Failure Bubble Chart
 
 I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
@@ -13,7 +12,7 @@ I thought it would be interesting to plot the recent bank failures (as reported 
 
 [Online editor (inflation adjusted)](https://tinyurl.com/4pue7knb)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.jpg)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.png)
 
 ## Calendar Heatmap
 
@@ -24,7 +23,6 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 [Online Editor](https://tinyurl.com/yetw5em6)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
-
 
 ## Coronation Arc Chart
 
@@ -104,9 +102,7 @@ An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made 
 
 [Online Editor](https://lnkd.in/euc8TSrd)
 
-
 [Inspired by Chartfleau.](https://old.reddit.com/r/dataisbeautiful/comments/vp04dv/oc_the_worst_first_half_for_the_stock_market_in/)
-
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/S%26P%20Beeswarm%20Chart/Thumbnail.jpg)
 
