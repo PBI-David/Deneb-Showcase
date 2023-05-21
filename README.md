@@ -78,6 +78,14 @@ An infographic style bar chart implemented in Vega using data driven SVG paths.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Bar%20Chart/Thumbnail.png)
 
+## Organisation Tree Chart
+
+An hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, zooming and panning.
+
+[Online Editor](https://tinyurl.com/mu9hwcxz)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Organisation%20Tree%20Chart/Thumbnail.png)
+
 ## Pancake Spider Chart
 
 A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions.
