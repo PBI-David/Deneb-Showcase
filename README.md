@@ -82,7 +82,7 @@ An infographic style bar chart implemented in Vega using data driven SVG paths.
 
 An hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, zooming and panning.
 
-[Online Editor](https://tinyurl.com/mu9hwcxz)
+[Online Editor](https://tinyurl.com/ynhuvekc)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Organisation%20Tree%20Chart/Thumbnail.png)
 
