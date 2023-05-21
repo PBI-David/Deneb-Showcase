@@ -17,7 +17,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Los Angeles",
+		"level4": "Area 1",
 		"person": "Edward Foster",
 		"kpi": 60
 	},
@@ -25,7 +25,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Los Angeles",
+		"level4": "Area 1",
 		"level5": "Location 1",
 		"person": "Jodie Hilton",
 		"kpi": 20
@@ -34,7 +34,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Los Angeles",
+		"level4": "Area 1",
 		"level5": "Location 2",
 		"person": "Finlay Akhtar",
 		"kpi": 10
@@ -43,7 +43,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Los Angeles",
+		"level4": "Area 1",
 		"level5": "Location 3",
 		"person": "Joe Young",
 		"kpi": 34
@@ -52,7 +52,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "New York",
+		"level4": "Area 2",
 		"person": "George Stephens",
 		"kpi": 85
 	},
@@ -60,7 +60,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "New York",
+		"level4": "Area 2",
 		"level5": "Location 1",
 		"person": "Keira Hughes",
 		"kpi": 25
@@ -69,7 +69,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Miami",
+		"level4": "Area 3",
 		"person": "Abigail Allen",
 		"kpi": 40
 	},
@@ -77,7 +77,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Miami",
+		"level4": "Area 3",
 		"level5": "Location 1",
 		"person": "Spencer Preston",
 		"kpi": 89
@@ -86,7 +86,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Washington",
+		"level4": "Area 4",
 		"person": "Scott Begum",
 		"kpi": 97
 	},
@@ -94,7 +94,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Washington",
+		"level4": "Area 4",
 		"level5": "Location 2",
 
 		"person": "Rebecca Barnes",
@@ -104,7 +104,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Washington",
+		"level4": "Area 4",
 		"level5": "Location 3",
 
 		"person": "Zak Hope",
@@ -114,7 +114,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "Washington",
+		"level4": "Area 4",
 		"level5": "Location 1",
 
 		"person": "Eleanor Atkins",
@@ -125,7 +125,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
-		"level4": "San Francisco",
+		"level4": "Area 5",
 		"person": "Scott McCarthy",
 		"kpi": 87
 	},
@@ -140,7 +140,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "Canada",
-		"level4": "Vancouver",
+		"level4": "Area 1",
 		"person": "Madison Powell",
 		"kpi": 49
 	},
@@ -148,7 +148,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "Canada",
-		"level4": "Vancouver",
+		"level4": "Area 1",
 		"level5": "Location 1",
 		"person": "Scarlett Rowe",
 		"kpi": 30
@@ -157,7 +157,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "Canada",
-		"level4": "Vancouver",
+		"level4": "Area 1",
 		"level5": "Location 2",
 		"person": "Tilly Weston",
 		"kpi": 50
@@ -166,7 +166,7 @@
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "Canada",
-		"level4": "Ottawa",
+		"level4": "Area 2",
 		"person": "William Miles",
 		"kpi": 70
 	},
