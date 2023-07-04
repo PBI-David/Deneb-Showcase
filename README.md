@@ -24,6 +24,14 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
+## Convex Hull
+
+An implementation of the Graham Scan algorithm for a convex hull using only transforms and signals in Vega.
+
+[Online Editor](https://tinyurl.com/mr2d8vne)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Convex%20Hull/Convex%20Hull.gif)
+
 ## Coronation Arc Chart
 
 A dataviz made in Vega and PowerBI for the coronation of Charles III.
