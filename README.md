@@ -30,7 +30,7 @@ An implementation of the Graham Scan algorithm for a convex hull using only tran
 
 [Online Editor](https://tinyurl.com/mr2d8vne)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Convex%20Hull/Convex%20Hull2.gif)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Convex%20Hull/Convex%20Hull.gif)
 
 ## Coronation Arc Chart
 
