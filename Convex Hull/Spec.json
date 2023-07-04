@@ -1,0 +1,381 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"description": "Convex hull implementation by David Bacci: https://www.linkedin.com/in/davbacci/",
+	"width": 1000,
+	"height": 900,
+	"padding": { "bottom": 50, "left": 50, "right": 40, "top": 40 },
+	"autosize": "pad",
+	"background": "#232840",
+	"signals": [
+		{
+			"name": "timer",
+			"update": "0",
+			"on": [
+				{
+					"events": { "type": "timer", "throttle": 50 },
+					"update": "counters.i <groupSize?timer +1 :timer"
+				}
+			]
+		},
+		{ "name": "groupSize", "value": false, "update": "data('groups').length" },
+		{
+			"name": "itemSize",
+			"value": false,
+			"update": "counters.i<groupSize?data('groups')[counters.i].count:false"
+		},
+		{
+			"name": "currentGroup",
+			"update": "counters.i<groupSize?data('groups')[counters.i].group:false"
+		},
+		{
+			"name": "currentItem",
+			"update": "counters.j<itemSize? data('groups')[counters.i]['values'][counters.j]:false"
+		},
+		{
+			"name": "p1",
+			"on": [
+				{
+					"events": { "signal": "timer" },
+					"update": "data('hull')[length(data('hull'))-3]"
+				}
+			]
+		},
+		{
+			"name": "p2",
+			"on": [
+				{
+					"events": { "signal": "timer" },
+					"update": "data('hull')[length(data('hull'))-2]"
+				}
+			]
+		},
+		{
+			"name": "p3",
+			"on": [
+				{
+					"events": { "signal": "timer" },
+					"update": "data('hull')[length(data('hull'))-1]"
+				}
+			]
+		},
+		{
+			"name": "counters",
+			"update": "{i:0, j:0}",
+			"on": [
+				{
+					"events": { "signal": "timer" },
+					"update": "currentGroup!=false&&direction=='forward'? merge(counters, {i:counters.j == itemSize+1? counters.i+1: counters.i, j:counters.j == itemSize+1 ?0:counters.j+1}):counters"
+				}
+			]
+		},
+		{
+			"name": "orient",
+			"update": "p1!=null && p1.group==p3.group?(p2.y - p1.y) * (p3.x - p2.x) - (p3.y - p2.y) * (p2.x - p1.x):-10"
+		},
+		{ "name": "direction", "update": "orient>=0?'back':'forward'" },
+		{
+			"name": "addPoint",
+			"update": "currentItem!=null && currentItem.id <= 2?currentItem:direction=='forward' ?currentItem:false"
+		},
+		{
+			"name": "remPoint",
+			"update": "direction == 'back'?{group:p2.group, id:p2.id}:false"
+		}
+	],
+	"data": [
+		{
+			"name": "table",
+			"values": [
+				{ "company": "QuantumGen", "execution": 8.75, "vision": 89.875 },
+				{ "company": "QuantumGen", "execution": 8.75, "vision": 91.625 },
+				{ "company": "QuantumGen", "execution": 9.75, "vision": 94.625 },
+				{ "company": "QuantumGen", "execution": 17.75, "vision": 93.375 },
+				{ "company": "QuantumGen", "execution": 24.25, "vision": 93.375 },
+				{ "company": "QuantumGen", "execution": 24.25, "vision": 93.375 },
+				{ "company": "QuantumGen", "execution": 18.75, "vision": 90.125 },
+				{ "company": "QuantumGen", "execution": 12.75, "vision": 91.875 },
+				{ "company": "QuantumGen", "execution": 18.25, "vision": 97.875 },
+				{ "company": "QuantumGen", "execution": 18.25, "vision": 97.875 },
+				{ "company": "QuantumGen", "execution": 25.25, "vision": 95.125 },
+				{ "company": "QuantumGen", "execution": 26.75, "vision": 91.125 },
+				{ "company": "QuantumGen", "execution": 14.75, "vision": 86.625 },
+				{ "company": "VirtuLife", "execution": 80.75, "vision": 96.125 },
+				{ "company": "VirtuLife", "execution": 84.75, "vision": 95.625 },
+				{ "company": "VirtuLife", "execution": 81.75, "vision": 94.375 },
+				{ "company": "VirtuLife", "execution": 75.25, "vision": 93.625 },
+				{ "company": "VirtuLife", "execution": 77.75, "vision": 90.625 },
+				{ "company": "VirtuLife", "execution": 71.75, "vision": 88.375 },
+				{ "company": "VirtuLife", "execution": 78.75, "vision": 89.375 },
+				{ "company": "VirtuLife", "execution": 84.25, "vision": 92.375 },
+				{ "company": "VirtuLife", "execution": 87.75, "vision": 89.375 },
+				{ "company": "VirtuLife", "execution": 83.75, "vision": 82.125 },
+				{ "company": "VirtuLife", "execution": 81.25, "vision": 63.125 },
+				{ "company": "VirtuLife", "execution": 76.75, "vision": 70.375 },
+				{ "company": "LumaDyne ", "execution": 68.25, "vision": 74.875 },
+				{ "company": "LumaDyne ", "execution": 76.25, "vision": 75.875 },
+				{ "company": "LumaDyne ", "execution": 83.25, "vision": 74.375 },
+				{ "company": "LumaDyne ", "execution": 76.25, "vision": 67.125 },
+				{ "company": "LumaDyne ", "execution": 70.25, "vision": 64.875 },
+				{ "company": "LumaDyne ", "execution": 78.25, "vision": 55.375 },
+				{ "company": "LumaDyne ", "execution": 84.75, "vision": 51.125 },
+				{ "company": "LumaDyne ", "execution": 85.75, "vision": 44.125 },
+				{ "company": "LumaDyne ", "execution": 79.25, "vision": 43.875 },
+				{ "company": "LumaDyne ", "execution": 75.75, "vision": 41.375 },
+				{ "company": "LumaDyne ", "execution": 86.75, "vision": 36.375 },
+				{ "company": "LumaDyne ", "execution": 79.75, "vision": 35.625 },
+				{ "company": "LumaDyne ", "execution": 65.25, "vision": 45.375 },
+				{ "company": "RoboServe", "execution": 8.75, "vision": 60.125 },
+				{ "company": "RoboServe", "execution": 11.25, "vision": 63.875 },
+				{ "company": "RoboServe", "execution": 22.25, "vision": 64.375 },
+				{ "company": "RoboServe", "execution": 22.75, "vision": 60.625 },
+				{ "company": "RoboServe", "execution": 17.75, "vision": 61.625 },
+				{ "company": "RoboServe", "execution": 17.75, "vision": 56.125 },
+				{ "company": "RoboServe", "execution": 8.25, "vision": 51.625 },
+				{ "company": "RoboServe", "execution": 13.75, "vision": 57.375 },
+				{ "company": "RoboServe", "execution": 22.75, "vision": 56.125 },
+				{ "company": "RoboServe", "execution": 30.75, "vision": 54.875 },
+				{ "company": "RoboServe", "execution": 37.75, "vision": 58.625 },
+				{ "company": "RoboServe", "execution": 40.75, "vision": 73.875 },
+				{ "company": "RoboServe", "execution": 41.25, "vision": 66.375 },
+				{ "company": "RoboServe", "execution": 33.75, "vision": 77.625 },
+				{ "company": "NovaEdge", "execution": 17.25, "vision": 13.875 },
+				{ "company": "NovaEdge", "execution": 19.75, "vision": 16.375 },
+				{ "company": "NovaEdge", "execution": 23.75, "vision": 16.375 },
+				{ "company": "NovaEdge", "execution": 30.25, "vision": 18.375 },
+				{ "company": "NovaEdge", "execution": 28.25, "vision": 21.125 },
+				{ "company": "NovaEdge", "execution": 38.25, "vision": 20.375 },
+				{ "company": "NovaEdge", "execution": 48.25, "vision": 18.125 },
+				{ "company": "NovaEdge", "execution": 81.25, "vision": 13.875 },
+				{ "company": "NovaEdge", "execution": 26.75, "vision": 11.375 },
+				{ "company": "NovaEdge", "execution": 28.25, "vision": 15.125 },
+				{ "company": "NovaEdge", "execution": 35.75, "vision": 14.125 },
+				{ "company": "SynthiTech", "execution": 24.25, "vision": 53.125 },
+				{ "company": "SynthiTech", "execution": 27.25, "vision": 59.625 },
+				{ "company": "SynthiTech", "execution": 34.75, "vision": 57.625 },
+				{ "company": "SynthiTech", "execution": 71.25, "vision": 49.375 },
+				{ "company": "SynthiTech", "execution": 71.25, "vision": 49.375 },
+				{ "company": "SynthiTech", "execution": 71.75, "vision": 42.625 },
+				{ "company": "SynthiTech", "execution": 59.75, "vision": 38.375 },
+				{ "company": "SynthiTech", "execution": 46.25, "vision": 51.875 },
+				{ "company": "SynthiTech", "execution": 39.75, "vision": 45.875 },
+				{ "company": "SynthiTech", "execution": 31.25, "vision": 47.875 },
+				{ "company": "SynthiTech", "execution": 50.25, "vision": 43.625 },
+				{ "company": "AeroLink", "execution": 8.75, "vision": 31.875 },
+				{ "company": "AeroLink", "execution": 10.25, "vision": 35.125 },
+				{ "company": "AeroLink", "execution": 15.25, "vision": 33.375 },
+				{ "company": "AeroLink", "execution": 21.25, "vision": 33.375 },
+				{ "company": "AeroLink", "execution": 26.75, "vision": 32.375 },
+				{ "company": "AeroLink", "execution": 19.25, "vision": 29.625 },
+				{ "company": "AeroLink", "execution": 14.75, "vision": 31.375 },
+				{ "company": "AeroLink", "execution": 11.25, "vision": 29.125 },
+				{ "company": "AeroLink", "execution": 3.75, "vision": 28.625 },
+				{ "company": "AeroLink", "execution": 4.25, "vision": 22.875 },
+				{ "company": "AeroLink", "execution": 13.75, "vision": 26.625 },
+				{ "company": "AeroLink", "execution": 4.75, "vision": 37.375 }
+			]
+		},
+		{
+			"name": "calcs",
+			"source": "table",
+			"transform": [
+				{
+					"type": "project",
+					"fields": ["company", "execution", "vision"],
+					"as": ["group", "x", "y"]
+				},
+				{
+					"type": "window",
+					"sort": { "field": ["y", "x"], "order": ["ascending", "ascending"] },
+					"groupby": ["group"],
+					"ops": ["first_value", "first_value"],
+					"fields": ["x", "y"],
+					"as": ["px", "py"]
+				},
+				{
+					"type": "formula",
+					"expr": "atan2(datum.y - datum.py, datum.x - datum.px)",
+					"as": "angle"
+				},
+				{
+					"type": "formula",
+					"expr": "(datum.x-datum.px)*(datum.x-datum.px)+(datum.y-datum.py)*(datum.y-datum.py)",
+					"as": "distance"
+				},
+				{
+					"type": "collect",
+					"sort": {
+						"field": ["group", "angle", "distance"],
+						"order": ["ascending", "ascending", "ascending"]
+					}
+				},
+				{
+					"type": "window",
+					"sort": {
+						"field": ["angle", "distance"],
+						"order": ["ascending", "ascending"]
+					},
+					"groupby": ["group", "angle"],
+					"ops": ["last_value", "last_value"],
+					"frame": [null, null],
+					"fields": ["x", "y"],
+					"as": ["last_x", "last_y"]
+				},
+				{
+					"type": "formula",
+					"expr": "datum.x == datum.px && datum.y == datum.py?'no': datum.x == datum.last_x && datum.y == datum.last_y? 'no':'yes'",
+					"as": "colinear"
+				},
+				{ "type": "filter", "expr": "datum.colinear=='no'" },
+				{
+					"type": "project",
+					"fields": ["group", "x", "y", "px", "py", "angle"]
+				},
+				{
+					"type": "window",
+					"sort": {
+						"field": ["angle", "distance"],
+						"order": ["ascending", "ascending"]
+					},
+					"groupby": ["group"],
+					"ops": ["row_number"],
+					"as": ["id"]
+				},
+				{ "type": "formula", "expr": "datum.id-1", "as": "id" }
+			]
+		},
+		{
+			"name": "groups",
+			"source": "calcs",
+			"transform": [
+				{
+					"type": "aggregate",
+					"groupby": ["group"],
+					"ops": ["values", "count"],
+					"fields": ["null", "null"],
+					"as": ["values", "count"]
+				}
+			]
+		},
+		{
+			"name": "hull",
+			"values": [],
+			"on": [
+				{ "trigger": "addPoint", "insert": "addPoint" },
+				{ "trigger": "remPoint", "remove": "remPoint" }
+			]
+		}
+	],
+	"legends": [
+		{
+			"direction": "vertical",
+			"legendX": 1050,
+			"legendY": 0,
+			"orient": "none",
+			"stroke": "color",
+			"fill": "color",
+			"titleColor": "#b6bcdd",
+			"padding": 10,
+			"encode": {
+				"title": { "update": { "fontSize": { "value": 14 } } },
+				"symbols": { "update": { "fillOpacity": { "value": 0.4 } } },
+				"labels": {
+					"update": {
+						"fontSize": { "value": 12 },
+						"fill": { "value": "#b6bcdd" }
+					}
+				}
+			}
+		}
+	],
+	"scales": [
+		{
+			"name": "color",
+			"type": "ordinal",
+			"range": { "scheme": "rainbow" },
+			"domain": { "data": "calcs", "field": "group" }
+		},
+		{
+			"name": "xscale",
+			"type": "linear",
+			"domain": { "data": "calcs", "field": "x" },
+			"range": [0, { "signal": "width" }],
+			"zero": true,
+			"domainMax": 100
+		},
+		{
+			"name": "yscale",
+			"type": "linear",
+			"domain": { "data": "calcs", "field": "y" },
+			"range": [{ "signal": "height" }, 0],
+			"zero": true,
+			"domainMax": 100
+		}
+	],
+	"marks": [
+		{
+			"name": "points",
+			"type": "symbol",
+			"zindex": 1,
+			"from": { "data": "calcs" },
+			"encode": {
+				"update": {
+					"fill": { "field": "group", "scale": "color" },
+					"fillOpacity": { "value": 0.8 },
+					"size": { "value": 76 },
+					"stroke": { "field": "group", "scale": "color" },
+					"strokeWidth": { "value": 1 },
+					"strokeOpacity": { "value": 1 },
+					"x": { "scale": "xscale", "field": "x" },
+					"y": { "scale": "yscale", "field": "y" },
+					"tooltip": { "signal": "datum" }
+				}
+			}
+		},
+		{
+			"type": "group",
+			"name": "categories",
+			"from": {
+				"facet": { "data": "hull", "name": "facet", "groupby": ["group"] }
+			},
+			"marks": [
+				{
+					"type": "line",
+					"name": "category-line",
+					"from": { "data": "facet" },
+					"encode": {
+						"update": {
+							"interpolate": { "value": "catmull-rom-closed" },
+							"x": { "signal": "scale('xscale',datum.x)" },
+							"y": { "signal": "scale('yscale',datum.y)" },
+							"stroke": { "signal": "scale('color',datum.group)" },
+							"fill": { "signal": "scale('color',datum.group)" },
+							"fillOpacity": { "signal": "0.5" },
+							"strokeWidth": { "signal": "2" }
+						}
+					}
+				}
+			]
+		}
+	],
+	"axes": [
+		{
+			"labelColor": "#b6bcdd",
+			"scale": "xscale",
+			"orient": "bottom",
+			"title": "Execution",
+			"titleColor": "#b6bcdd",
+			"tickCount": 10,
+			"zindex": 0
+		},
+		{
+			"labelColor": "#b6bcdd",
+			"scale": "yscale",
+			"orient": "left",
+			"title": "Vision",
+			"titleColor": "#b6bcdd",
+			"labelOverlap": true,
+			"tickCount": 10,
+			"zindex": 0
+		}
+	]
+}
