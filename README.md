@@ -146,6 +146,14 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Starfield/Thumbnail.jpg)
 
+## Tennis Grand Slams
+
+A competition entry using a tennis grand slam dataset made using Deneb, Vega and Power BI.
+
+[Online Link](https://app.powerbi.com/view?r=eyJrIjoiNzEwZGUzMzktMWE0Ni00YTBjLWJiYzYtNmVkYTk5OWY2MzM3IiwidCI6Ijk4ZmNmZGZkLWNjNWYtNDI1ZC1hMTUwLTEzZDM5NWIxYThmMyJ9)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Tennis%20Grand%20Slams/Thumbnail.jpg)
+
 ## Unit Charts
 
 Unit charts can be an engaging and eye catching tool to have in an analyst’s toolbox. Here's two created using Vega and Vega-Lite
