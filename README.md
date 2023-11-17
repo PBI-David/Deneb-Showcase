@@ -86,6 +86,19 @@ An infographic style bar chart implemented in Vega using data driven SVG paths.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Bar%20Chart/Thumbnail.png)
 
+## Mekko Chart
+
+A Mekko bar chart showing global miltitary spending in 2022 implemented in Vega using data from [SIPRI](https://www.sipri.org/databases/milex).
+
+Mekko charts come in two main flavours:
+
+1. A Mekko bar chart with the y-axis acting like a normal stacked bar chart but with a normalised x-axis (percentage based) so you can see the proportion taken by each major segment.
+2. A Marimekko chart where both the x-axis and y-axis are normalised (percentage based).
+
+[Online Editor](https://tinyurl.com/2ywxtcb4)
+
+![](<https://github.com/PBI-David/Deneb-Showcase/blob/main/Mekko%20Chart/Thumbnail%20(Mekko%20Bar).png>)
+
 ## Organisation Tree Chart
 
 An hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, zooming and panning.
