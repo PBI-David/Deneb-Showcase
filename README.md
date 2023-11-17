@@ -95,7 +95,7 @@ Mekko charts come in two main flavours:
 1. A Mekko bar chart with the y-axis acting like a normal stacked bar chart but with a normalised x-axis (percentage based) so you can see the proportion taken by each major segment.
 2. A Marimekko chart where both the x-axis and y-axis are normalised (percentage based).
 
-[Online Editor](https://tinyurl.com/2ywxtcb4)
+[Online Editor](https://tinyurl.com/2s4r3unm)
 
 ![](<https://github.com/PBI-David/Deneb-Showcase/blob/main/Mekko%20Chart/Thumbnail%20(Mekko%20Bar).png>)
 
