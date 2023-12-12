@@ -1,0 +1,988 @@
+{"nodes":[{"name": "Ledger+", "group": "Accounting"},
+        {"name": "ConnectEase", "group": "Customer"},
+        {"name": "SinteractPro", "group": "Customer"},
+        {"name": "PayRoller", "group": "Accounting"},
+        {"name": "CashFlowX", "group": "Accounting"},
+        {"name": "BookKeepPro", "group": "Accounting"},
+        {"name": "TaxTrack", "group": "Accounting"},
+        {"name": "AuditWise", "group": "Accounting"},
+        {"name": "ExpenseEZ", "group": "Accounting"},
+        {"name": "ProfitMax", "group": "Accounting"},
+        {"name": "BudgetMate", "group": "Accounting"},
+        {"name": "BinvoiceGen", "group": "Accounting"},
+        {"name": "AssetValu", "group": "Accounting"},
+        {"name": "VATMaster", "group": "Accounting"},
+        {"name": "LedgerLite", "group": "Accounting"},
+        {"name": "PayTrack", "group": "Accounting"},
+        {"name": "CashBooker", "group": "Accounting"},
+        {"name": "AuditGuard", "group": "Accounting"},
+        {"name": "PowerBI", "group": "Reporting"},
+        {"name": "Tableau", "group": "Reporting"},
+        {"name": "QlikView", "group": "Reporting"},
+        {"name": "Looker", "group": "Reporting"},
+        {"name": "Sisense", "group": "Reporting"},
+        {"name": "MicroStrategy", "group": "Reporting"},
+        {"name": "Cognos Analytics", "group": "Reporting"},
+        {"name": "Yellowfin", "group": "Reporting"},
+        {"name": "Domo", "group": "Reporting"},
+        {"name": "Pentaho", "group": "Reporting"},
+        {"name": "Birst", "group": "Reporting"},
+        {"name": "Periscope Data", "group": "Reporting"},
+        {"name": "Zoho Analytics", "group": "Reporting"},
+        {"name": "GoodData", "group": "Reporting"},
+        {"name": "Microsoft SSRS", "group": "Reporting"},
+        {"name": "Oracle Analytics Cloud", "group": "Reporting"},
+        {"name": "SAP BusinessObjects", "group": "Reporting"},
+        {"name": "Cognos TM1", "group": "Reporting"},
+        {"name": "Google Data Studio", "group": "Reporting"},
+        {"name": "CDA", "group": "Banking"},
+        {"name": "ATM-X", "group": "Banking"},
+        {"name": "CBS-Pro", "group": "Banking"},
+        {"name": "EFT-Core", "group": "Banking"},
+        {"name": "KYC-Master", "group": "Banking"},
+        {"name": "AML-Secure", "group": "Banking"},
+        {"name": "SWIFT-Net", "group": "Banking"},
+        {"name": "RTGS-Plus", "group": "Banking"},
+        {"name": "FDX-Elite", "group": "Banking"},
+        {"name": "Loans-360", "group": "Banking"},
+        {"name": "CRM-Fusion", "group": "Banking"},
+        {"name": "MBS-Optima", "group": "Banking"},
+        {"name": "FMS-Prime", "group": "Banking"},
+        {"name": "P2P-Gateway", "group": "Banking"},
+        {"name": "RDC-Express", "group": "Banking"},
+        {"name": "ACH-Secure", "group": "Banking"},
+        {"name": "POS-Master", "group": "Banking"},
+        {"name": "AB-Mobile", "group": "Banking"},
+        {"name": "CustCare-Plus", "group": "Banking"},
+        {"name": "LMS-Elite", "group": "Banking"},
+        {"name": "CustHub", "group": "Customer"},
+        {"name": "ProfileM", "group": "Customer"},
+        {"name": "AddrPro", "group": "Customer"},
+        {"name": "Contact360", "group": "Customer"},
+        {"name": "CustEngage", "group": "Customer"},
+        {"name": "SurveyX", "group": "Customer"},
+        {"name": "EngageMate", "group": "Customer"},
+        {"name": "ServicePro", "group": "Customer"},
+        {"name": "AIDVerify", "group": "Customer"},
+        {"name": "FeedbackX", "group": "Customer"},
+        {"name": "OrderEase", "group": "Customer"},
+        {"name": "SurveyPlus", "group": "Customer"},
+        {"name": "RewardsHub", "group": "Customer"},
+        {"name": "ComplaintM", "group": "Customer"},
+        {"name": "CustInsights", "group": "Customer"},
+        {"name": "Address Pro", "group": "Customer"},
+        {"name": "CustomerCare", "group": "Customer"},
+        {"name": "SupportX", "group": "Customer"},
+        {"name": "QueryAssist", "group": "Customer"},
+        {"name": "CustPortal", "group": "Customer"},
+        {"name": "OrderTrack", "group": "Customer"},
+        {"name": "FeedbackPro", "group": "Customer"},
+        {"name": "ProfilePlus", "group": "Customer"},
+        {"name": "SafeSys", "group": "Audit"},
+        {"name": "AuditPro", "group": "Audit"},
+        {"name": "CheckM8", "group": "Audit"},
+        {"name": "RiskGuard", "group": "Audit"},
+        {"name": "ComplyX", "group": "Audit"},
+        {"name": "AuditMate", "group": "Audit"},
+        {"name": "PropSafe", "group": "Mortgages"},
+        {"name": "LoanGenX", "group": "Mortgages"},
+        {"name": "MortApp", "group": "Mortgages"},
+        {"name": "RateWise", "group": "Mortgages"},
+        {"name": "DocSecure", "group": "Mortgages"},
+        {"name": "AssureMort", "group": "Mortgages"},
+        {"name": "PayLink", "group": "Mortgages"},
+        {"name": "HomeTrack", "group": "Mortgages"}] 
+		,"links":[{
+          "source": "PowerBI",
+          "target": "Tableau",
+          "value": "Sales performance metrics"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "QlikView",
+          "value": "Customer segmentation"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "AML-Secure",
+          "value": "Customer segmentation"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "GoodData",
+          "value": "Customer segmentation"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "Cognos Analytics",
+          "value": "Customer segmentation"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "MicroStrategy",
+          "value": "Financial reports"
+        },
+        {
+          "source": "Cognos Analytics",
+          "target": "Yellowfin",
+          "value": "Product analytics"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "Domo",
+          "value": "Supply chain data"
+        },
+        {
+          "source": "Birst",
+          "target": "Periscope Data",
+          "value": "Market trends"
+        },
+        {"source": "PowerBI", "target": "Sisense", "value": "Market trends"},
+        {"source": "RTGS-Plus", "target": "CBS-Pro", "value": "Market trends"},
+        {"source": "PowerBI", "target": "CBS-Pro", "value": "Market trends"},
+        {
+          "source": "Google Data Studio",
+          "target": "Zoho Analytics",
+          "value": "Employee performance"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "Oracle Analytics Cloud",
+          "value": "Inventory status"
+        },
+        {
+          "source": "LMS-Elite",
+          "target": "RTGS-Plus",
+          "value": "Inventory status"
+        },
+        {
+          "source": "FeedbackX",
+          "target": "CustomerCare",
+          "value": "Inventory status"
+        },
+        {
+          "source": "EFT-Core",
+          "target": "RTGS-Plus",
+          "value": "Inventory status"
+        },
+        {
+          "source": "SAP BusinessObjects",
+          "target": "Cognos TM1",
+          "value": "Budget forecasts"
+        },
+        {
+          "source": "Google Data Studio",
+          "target": "Yellowfin",
+          "value": "Customer satisfaction"
+        },
+        {
+          "source": "PowerBI",
+          "target": "SAP BusinessObjects",
+          "value": "Order fulfillment"
+        },
+        {
+          "source": "Birst",
+          "target": "Microsoft SSRS",
+          "value": "Marketing ROI"
+        },
+        {
+          "source": "Periscope Data",
+          "target": "Cognos Analytics",
+          "value": "Social media engagement"
+        },
+        {
+          "source": "Sisense",
+          "target": "Looker",
+          "value": "Website traffic"
+        },
+        {
+          "source": "Cognos TM1",
+          "target": "Sisense",
+          "value": "Productivity metrics"
+        },
+        {
+          "source": "CustInsights",
+          "target": "Contact360",
+          "value": "Productivity metrics"
+        },
+        {
+          "source": "EFT-Core",
+          "target": "FeedbackX",
+          "value": "Productivity metrics"
+        },
+        {"source": "PowerBI", "target": "Birst", "value": "Customer feedback"},
+        {
+          "source": "Tableau",
+          "target": "SAP BusinessObjects",
+          "value": "Vendor performance"
+        },
+        {
+          "source": "Microsoft SSRS",
+          "target": "Google Data Studio",
+          "value": "Website conversions"
+        },
+        {
+          "source": "Pentaho",
+          "target": "Tableau",
+          "value": "Website conversions stage 2"
+        },
+        {
+          "source": "Yellowfin",
+          "target": "Pentaho",
+          "value": "Website conversions stage 3"
+        },
+        {"source": "CDA", "target": "ATM-X", "value": "Account balances"},
+        {"source": "CBS-Pro", "target": "ATM-X", "value": "Account metadata"},
+        {
+          "source": "CBS-Pro",
+          "target": "SAP BusinessObjects",
+          "value": "Account metadata"
+        },
+        {
+          "source": "CBS-Pro",
+          "target": "Cognos TM1",
+          "value": "Account metadata"
+        },
+        {
+          "source": "ATM-X",
+          "target": "Cognos TM1",
+          "value": "Account metadata"
+        },
+        {
+          "source": "SWIFT-Net",
+          "target": "EFT-Core",
+          "value": "Account metadata"
+        },
+        {
+          "source": "RTGS-Plus",
+          "target": "ProfileM",
+          "value": "Account metadata"
+        },
+        {
+          "source": "RTGS-Plus",
+          "target": "AddrPro",
+          "value": "Account metadata"
+        },
+        {
+          "source": "CustEngage",
+          "target": "Microsoft SSRS",
+          "value": "Account metadata"
+        },
+        {
+          "source": "EFT-Core",
+          "target": "CRM-Fusion",
+          "value": "Transaction history"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "RTGS-Plus",
+          "value": "Funds transfer details"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "CustCare-Plus",
+          "value": "Loan application status"
+        },
+        {
+          "source": "BookKeepPro",
+          "target": "PayTrack",
+          "value": "Loan application status"
+        },
+        {
+          "source": "AML-Secure",
+          "target": "RDC-Express",
+          "value": "Risk assessment data"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "ACH-Secure",
+          "value": "Customer identification"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "P2P-Gateway",
+          "value": "Peer-to-peer payments"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "ACH-Secure",
+          "value": "Automated Clearing House transactions"
+        },
+        {
+          "source": "RTGS-Plus",
+          "target": "CRM-Fusion",
+          "value": "Marketing campaign impact"
+        },
+        {
+          "source": "CDA",
+          "target": "RTGS-Plus",
+          "value": "Real-time gross settlement"
+        },
+        {
+          "source": "FMS-Prime",
+          "target": "LMS-Elite",
+          "value": "Financial management reports"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "Loans-360",
+          "value": "Loan disbursement details"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "KYC-Master",
+          "value": "Customer onboarding information"
+        },
+        {
+          "source": "SWIFT-Net",
+          "target": "ACH-Secure",
+          "value": "Secure electronic funds transfer"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "POS-Master",
+          "value": "Point of sale transactions"
+        },
+        {
+          "source": "CustomerCare",
+          "target": "RewardsHub",
+          "value": "Point of sale transactions"
+        },
+        {
+          "source": "CDA",
+          "target": "CRM-Fusion",
+          "value": "Customer relationship details"
+        },
+        {
+          "source": "FMS-Prime",
+          "target": "AML-Secure",
+          "value": "Anti-money laundering checks"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "RTGS-Plus",
+          "value": "Real-time funds transfer"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "CustCare-Plus",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "Birst",
+          "target": "FeedbackPro",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "FeedbackX",
+          "target": "FDX-Elite",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "Cognos Analytics",
+          "target": "QueryAssist",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "Pentaho",
+          "target": "PowerBI",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "AddrPro",
+          "target": "PowerBI",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "CRM-Fusion",
+          "target": "RDC-Express",
+          "value": "Customer data verification"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "AB-Mobile",
+          "value": "Peer-to-peer payment history"
+        },
+        {"source": "CDA", "target": "ATM-X", "value": "Account balances"},
+        {
+          "source": "EFT-Core",
+          "target": "CRM-Fusion",
+          "value": "Transaction history"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "RTGS-Plus",
+          "value": "Funds transfer details"
+        },
+        {
+          "source": "SWIFT-Net",
+          "target": "MBS-Optima",
+          "value": "International transactions"
+        },
+        {"source": "CustHub", "target": "ProfileM", "value": "Post code data"},
+        {
+          "source": "AddrPro",
+          "target": "Contact360",
+          "value": "Address verification details"
+        },
+        {
+          "source": "CustEngage",
+          "target": "AIDVerify",
+          "value": "Identity verification"
+        },
+        {
+          "source": "FeedbackX",
+          "target": "OrderEase",
+          "value": "Customer feedback on orders"
+        },
+        {
+          "source": "SurveyPlus",
+          "target": "RewardsHub",
+          "value": "Survey participation rewards"
+        },
+        {
+          "source": "ComplaintM",
+          "target": "CustInsights",
+          "value": "Customer complaint analytics"
+        },
+        {
+          "source": "CustomerCare",
+          "target": "SupportX",
+          "value": "Customer support interactions"
+        },
+        {
+          "source": "QueryAssist",
+          "target": "CustPortal",
+          "value": "Query assistance in the portal"
+        },
+        {
+          "source": "FeedbackPro",
+          "target": "ProfilePlus",
+          "value": "Feedback on customer profiles"
+        },
+        {
+          "source": "CustHub",
+          "target": "OrderTrack",
+          "value": "Order tracking information"
+        },
+        {
+          "source": "AddrPro",
+          "target": "AIDVerify",
+          "value": "Identity verification for addresses"
+        },
+        {
+          "source": "Contact360",
+          "target": "CustPortal",
+          "value": "Customer contact details in portal"
+        },
+        {
+          "source": "SurveyPlus",
+          "target": "OrderEase",
+          "value": "Survey responses affecting orders"
+        },
+        {
+          "source": "FeedbackPro",
+          "target": "CustEngage",
+          "value": "Feedback influencing engagement"
+        },
+        {
+          "source": "CustInsights",
+          "target": "CustomerCare",
+          "value": "Insights influencing customer care"
+        },
+        {
+          "source": "ProfileM",
+          "target": "QueryAssist",
+          "value": "Profile-related query assistance"
+        },
+        {
+          "source": "Address Pro",
+          "target": "FeedbackX",
+          "value": "Order tracking feedback"
+        },
+        {
+          "source": "Contact360",
+          "target": "RewardsHub",
+          "value": "Contact details for rewards"
+        },
+        {
+          "source": "AddrPro",
+          "target": "CustPortal",
+          "value": "Address data in customer portal"
+        },
+        {
+          "source": "QueryAssist",
+          "target": "ProfilePlus",
+          "value": "Profile-related query assistance"
+        },
+        {
+          "source": "CustEngage",
+          "target": "CustHub",
+          "value": "Customer engagement details"
+        },
+        {
+          "source": "OrderEase",
+          "target": "ProfileM",
+          "value": "Order-related profile data"
+        },
+        {
+          "source": "RewardsHub",
+          "target": "CustInsights",
+          "value": "Rewards impacting customer insights"
+        },
+        {
+          "source": "CustInsights",
+          "target": "SupportX",
+          "value": "Insights affecting support queries"
+        },
+        {
+          "source": "FeedbackX",
+          "target": "OrderTrack",
+          "value": "Feedback influencing order tracking"
+        },
+        {
+          "source": "ProfilePlus",
+          "target": "AddrPro",
+          "value": "Profile data affecting addresses"
+        },
+        {
+          "source": "QueryAssist",
+          "target": "FeedbackPro",
+          "value": "Query assistance for feedback"
+        },
+        {
+          "source": "CustPortal",
+          "target": "SurveyPlus",
+          "value": "Portal data influencing surveys"
+        },
+        {
+          "source": "CustHub",
+          "target": "FeedbackPro",
+          "value": "Customer feedback hub"
+        },
+        {
+          "source": "Contact360",
+          "target": "CustEngage",
+          "value": "Contact data influencing engagement"
+        },
+        {
+          "source": "RewardsHub",
+          "target": "OrderTrack",
+          "value": "Rewards-related order tracking"
+        },
+        {
+          "source": "SupportX",
+          "target": "ProfileM",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "Address Pro",
+          "target": "ProfileM",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "Address Pro",
+          "target": "CBS-Pro",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "QueryAssist",
+          "target": "CBS-Pro",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "LMS-Elite",
+          "target": "CBS-Pro",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "QueryAssist",
+          "target": "PowerBI",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "CRM-Fusion",
+          "target": "FDX-Elite",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "RDC-Express",
+          "target": "FDX-Elite",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "FMS-Prime",
+          "target": "CDA",
+          "value": "Support interactions affecting profiles"
+        },
+        {
+          "source": "Ledger+",
+          "target": "PayRoller",
+          "value": "Ledger meta data"
+        },
+        {
+          "source": "CashFlowX",
+          "target": "AuditWise",
+          "value": "Cash flow audit details"
+        },
+        {
+          "source": "ExpenseEZ",
+          "target": "BookKeepPro",
+          "value": "Expense details in bookkeeping"
+        },
+        {
+          "source": "ProfitMax",
+          "target": "BinvoiceGen",
+          "value": "Profit details from invoicing"
+        },
+        {
+          "source": "BudgetMate",
+          "target": "AssetValu",
+          "value": "Budget allocation for assets"
+        },
+        {
+          "source": "FeedbackX",
+          "target": "Address Pro",
+          "value": "Budget allocation for assets"
+        },
+        {
+          "source": "VATMaster",
+          "target": "TaxTrack",
+          "value": "VAT details in tax tracking"
+        },
+        {
+          "source": "LedgerLite",
+          "target": "PayTrack",
+          "value": "Ledger details in payroll tracking"
+        },
+        {
+          "source": "CashBooker",
+          "target": "LedgerLite",
+          "value": "Cash details in ledger"
+        },
+        {
+          "source": "PayRoller",
+          "target": "LedgerLite",
+          "value": "Payroll entries in ledger"
+        },
+        {
+          "source": "BudgetMate",
+          "target": "ProfitMax",
+          "value": "Budget impact on profits"
+        },
+        {
+          "source": "CashFlowX",
+          "target": "PayRoller",
+          "value": "Cash flow in payroll"
+        },
+        {
+          "source": "ExpenseEZ",
+          "target": "CashBooker",
+          "value": "Expense details in cash book"
+        },
+        {
+          "source": "AuditWise",
+          "target": "VATMaster",
+          "value": "Audit details in VAT tracking"
+        },
+        {
+          "source": "Ledger+",
+          "target": "ProfitMax",
+          "value": "Ledger details affecting profits"
+        },
+        {
+          "source": "EngageMate",
+          "target": "SurveyX",
+          "value": "Customer survey data"
+        },
+        {
+          "source": "SurveyX",
+          "target": "ServicePro",
+          "value": "Customer engagement impacting service"
+        },
+        {
+          "source": "ServicePro",
+          "target": "SurveyX",
+          "value": "Customer feedback influencing surveys"
+        },
+        {
+          "source": "EngageMate",
+          "target": "CustEngage",
+          "value": "Customer feedback influencing surveys"
+        },
+        {
+          "source": "AssetValu",
+          "target": "ExpenseEZ",
+          "value": "Asset value affecting expenses"
+        },
+        {
+          "source": "Address Pro",
+          "target": "RTGS-Plus",
+          "value": "Asset value affecting expenses"
+        },
+        {
+          "source": "BookKeepPro",
+          "target": "ComplaintM",
+          "value": "Asset value affecting expenses"
+        },
+        {
+          "source": "ComplyX",
+          "target": "AML-Secure",
+          "value": "Asset value affecting expenses"
+        },
+        {
+          "source": "CustomerCare",
+          "target": "ComplaintM",
+          "value": "Asset value affecting expenses"
+        },
+        {
+          "source": "CashBooker",
+          "target": "BudgetMate",
+          "value": "Cash book entries affecting budget"
+        },
+        {
+          "source": "CashBooker",
+          "target": "VATMaster",
+          "value": "Invoice impact on VAT"
+        },
+        {
+          "source": "BudgetMate",
+          "target": "AuditGuard",
+          "value": "Budget details in audit"
+        },
+        {
+          "source": "AuditWise",
+          "target": "LedgerLite",
+          "value": "Audit details in ledger"
+        },
+        {
+          "source": "PayTrack",
+          "target": "ExpenseEZ",
+          "value": "Payroll tracking affecting expenses"
+        },
+        {
+          "source": "TaxTrack",
+          "target": "LedgerLite",
+          "value": "Tax tracking entries in ledger"
+        },
+        {
+          "source": "LedgerLite",
+          "target": "CashFlowX",
+          "value": "Ledger entries affecting cash flow"
+        },
+        {
+          "source": "Ledger+",
+          "target": "BookKeepPro",
+          "value": "Ledger details affecting bookkeeping"
+        },
+        {"source": "SafeSys", "target": "CheckM8", "value": "Audit meta data"},
+        {
+          "source": "AuditPro",
+          "target": "RiskGuard",
+          "value": "Audit details affecting risk assessment"
+        },
+        {
+          "source": "ComplyX",
+          "target": "AuditMate",
+          "value": "Compliance details in audit"
+        },
+        {
+          "source": "RiskGuard",
+          "target": "SafeSys",
+          "value": "Risk assessment affecting audit"
+        },
+        {
+          "source": "AuditMate",
+          "target": "CheckM8",
+          "value": "Audit details affecting checks"
+        },
+        {
+          "source": "SafeSys",
+          "target": "AuditPro",
+          "value": "Audit details affecting auditing process"
+        },
+        {
+          "source": "ComplyX",
+          "target": "SafeSys",
+          "value": "Compliance details affecting audit"
+        },
+        {
+          "source": "RiskGuard",
+          "target": "AuditPro",
+          "value": "Risk assessment in audit process"
+        },
+        {
+          "source": "AuditMate",
+          "target": "SafeSys",
+          "value": "Audit details affecting safety systems"
+        },
+        {
+          "source": "CheckM8",
+          "target": "ComplyX",
+          "value": "Checks impacting compliance"
+        },
+        {
+          "source": "RiskGuard",
+          "target": "CheckM8",
+          "value": "Risk assessment in checks"
+        },
+        {
+          "source": "AuditPro",
+          "target": "AuditMate",
+          "value": "Audit details affecting audit mate"
+        },
+        {
+          "source": "PropSafe",
+          "target": "LoanGenX",
+          "value": "Mortgage meta data"
+        },
+        {
+          "source": "PropSafe",
+          "target": "HomeTrack",
+          "value": "Property details affecting home tracking"
+        },
+        {
+          "source": "LoanGenX",
+          "target": "PayLink",
+          "value": "Loan details impacting payment links"
+        },
+        {
+          "source": "MortApp",
+          "target": "AssureMort",
+          "value": "Mortgage application affecting insurance"
+        },
+        {
+          "source": "DocSecure",
+          "target": "HomeTrack",
+          "value": "Secure documents affecting home tracking"
+        },
+        {
+          "source": "RateWise",
+          "target": "LoanGenX",
+          "value": "Rates impacting loan generation"
+        },
+        {
+          "source": "MortApp",
+          "target": "DocSecure",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "RateWise",
+          "target": "LMS-Elite",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "Address Pro",
+          "target": "SurveyPlus",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "AssureMort",
+          "target": "LMS-Elite",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "AuditMate",
+          "target": "LMS-Elite",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "AssureMort",
+          "target": "DocSecure",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "RateWise",
+          "target": "ATM-X",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "AssureMort",
+          "target": "FMS-Prime",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "FDX-Elite",
+          "target": "FMS-Prime",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "FMS-Prime",
+          "target": "AuditMate",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "CustPortal",
+          "target": "PayTrack",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "LedgerLite",
+          "target": "CustPortal",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "LedgerLite",
+          "target": "CustEngage",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "LMS-Elite",
+          "target": "CDA",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "AuditPro",
+          "target": "MortApp",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "FMS-Prime",
+          "target": "MortApp",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "SurveyPlus",
+          "target": "PayTrack",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "BookKeepPro",
+          "target": "CustInsights",
+          "value": "Mortgage application documents"
+        },
+        {
+          "source": "RateWise",
+          "target": "AssureMort",
+          "value": "Insurance details impacting rates"
+        },
+        {
+          "source": "PayLink",
+          "target": "HomeTrack",
+          "value": "Payment details affecting home tracking"
+        },
+        {
+          "source": "LoanGenX",
+          "target": "AssureMort",
+          "value": "Loan generation affecting insurance"
+        },
+        {
+          "source": "PropSafe",
+          "target": "DocSecure",
+          "value": "Property safety documents"
+        },
+        {
+          "source": "RateWise",
+          "target": "PayLink",
+          "value": "Rates impacting payment links"
+        },
+        {
+          "source": "EngageMate",
+          "target": "SinteractPro",
+          "value": "Rates impacting payment links"
+        },
+        {
+          "source": "SinteractPro",
+          "target": "ConnectEase",
+          "value": "Rates impacting payment links"
+        }]}
