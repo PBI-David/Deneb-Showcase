@@ -70,6 +70,14 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Fireworks/Thumbnail.jpg)
 
+## Force Direct Graph (Dynamic)
+
+A force direct graph which supports pan, zoom, node drag and dynamic labels.
+
+[Online Editor](https://lnkd.in/e3TVGm-z)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Force%20Directed%20Graph/Thumb.jpg)
+
 ## Gantt Chart
 
 A Gantt chart implemented in Vega.
