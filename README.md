@@ -72,9 +72,9 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 ## Force Direct Graph (Dynamic)
 
-A force direct graph which supports pan, zoom, node drag and dynamic labels.
+A force direct graph which supports pan, zoom, node drag, dynamic labels, network highlighting and arrows showing the transfer direction.
 
-[Online Editor](https://lnkd.in/e3TVGm-z)
+[Online Editor](http://tinyurl.com/2a4nhxhk)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Force%20Directed%20Graph/Thumb.jpg)
 
