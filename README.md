@@ -80,11 +80,11 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 ## Gantt Chart
 
-A Gantt chart implemented in Vega.
+A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods. 
 
-[Online Editor](https://tinyurl.com/bddxbv4f)
+[Online Editor](https://evyb.short.gy/nCRa3r)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Thumbnail.png)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.0%20Thumbnail.png?raw=true)
 
 ## Infographic Bar Chart
 
