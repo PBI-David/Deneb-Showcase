@@ -1,4 +1,4 @@
-# Instructions
+# Features
 
 The Gantt chart is built using Vega and Deneb and has now been updated with the most requested features including:
 - 	Day, month and year periods now fully supported
@@ -16,16 +16,18 @@ The Gantt chart is built using Vega and Deneb and has now been updated with the 
 - 	Easily change the colours throughout
 - 	Double click the chart to reset the view
 
+# Instructions
 
 To use the chart with your own data, follow the steps below:
 
 
 **1.** Install the Deneb visual within Power BI 
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/32c054b7c07a89f5d0fba96de64a308427f8e676/Gantt%20Chart/1.png?raw=true)
 
-**2. **Your data must follow the structure below:
+**2.** Your data must follow the structure below:
 
-|<div style="width:110px">Column Name  </div>   |<div style="width:140px">Type  </div>              |Description                                                                                                                                                                                |
+|Column Name <img width="150" height="1">   |<img width="140" height="1">Type                |Description                                                                                                                                                                                |
 |---------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |id          |Text or number   |Each task must have a unique id                                                                                                                                                            |
 |phase       |Text             |The phase the task belongs to                                                                                                                                                              |
@@ -42,12 +44,13 @@ To use the chart with your own data, follow the steps below:
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/2.png?raw=true)
 
-**4. **Create a new empty Vega specification
+**4.** Create a new empty Vega specification
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/3.png?raw=true)
-**5.	**Paste the specification from the sample .pbix 
 
-**6.	**Close the Deneb editor and the Gannt will now be fully functional.
+**5.** Paste the specification from the sample .pbix 
+
+**6.** Close the Deneb editor and the Gannt will now be fully functional.
 
 The following options can be easily configured within the specification.
 
