@@ -5,7 +5,7 @@ The Gantt chart is built using Vega and Deneb and has now been updated with the 
 - 	Use the mouse wheel to zoom in/out to dynamically change the granularity
 - 	Use the shortcut buttons to zoom to days, months, years or the entire project timeline with a single click
 - 	Hold down the left mouse button to pan the chart in all directions and keep the axes in view
-- 	Click on a phases to expand collapse the child tasks
+- 	Click on a phase to expand collapse the child tasks
 - 	Use the shortcut buttons to expand and collapse all phases at once
 - 	Tasks now support multiple dependencies
 - 	Hover over a task to highlight all its dependencies
