@@ -1077,7 +1077,7 @@
 									"align": { "value": "right" },
 									"x": { "signal": "endColumnWidth" },
 									"y": { "signal": "scale('y', datum.id)+bandwidth('y')/2" },
-									"text": { "signal": "timeFormat(datum.end,' %d/%m/%y')" },
+									"text": { "signal": "timeFormat(datum.labelEnd,' %d/%m/%y')" },
 									"font": {
 										"signal": "datum.phase == datum.task?'Arial':'Segoe UI'"
 									},
