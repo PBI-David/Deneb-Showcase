@@ -80,7 +80,7 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 ## Gantt Chart
 
-A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods. 
+A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods.
 
 [Online Editor](https://evyb.short.gy/nCRa3r)
 
@@ -132,6 +132,14 @@ A parliament chart created using Vega.
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
+
+## President Age Range Chart
+
+An original range chart of presidential ages created in Vega.
+
+[Online Editor](https://evyb.short.gy/EeraL0)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/President%20Age%20Range%20Chart/Thumbnail.png)
 
 ## S&P Beeswarm Chart (Animated)
 
