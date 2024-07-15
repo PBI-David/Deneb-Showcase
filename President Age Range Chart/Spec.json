@@ -1,0 +1,1112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "width": 1000,
+  "background": "#F6F0E6",
+  "autosize": "pad",
+  "padding": 25,
+  "title": "",
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "No": "1",
+          "President": "George Washington",
+          "Prospective": null,
+          "Start Label": "57 years 67 days",
+          "Start Encode": 57.18356164,
+          "End Label": "65 years 10 days",
+          "End Encode": 65.02739726,
+          "Alive": false,
+          "Death Label": "67 years 295 days",
+          "Death Encode": 67.80821918,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "10",
+          "President": "John Tyler",
+          "Prospective": null,
+          "Start Label": "51 years 6 days",
+          "Start Encode": 51.01643836,
+          "End Label": "54 years 340 days",
+          "End Encode": 54.93150685,
+          "Alive": false,
+          "Death Label": "71 years 295 days",
+          "Death Encode": 71.80821918,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "11",
+          "President": "James K. Polk",
+          "Prospective": null,
+          "Start Label": "49 years 122 days",
+          "Start Encode": 49.33424658,
+          "End Label": "53 years 122 days",
+          "End Encode": 53.33424658,
+          "Alive": false,
+          "Death Label": "53 years 225 days",
+          "Death Encode": 53.61643836,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "12",
+          "President": "Zachary Taylor",
+          "Prospective": null,
+          "Start Label": "64 years 100 days",
+          "Start Encode": 64.2739726,
+          "End Label": "65 years 227 days",
+          "End Encode": 65.62191781,
+          "Alive": false,
+          "Death Label": "65 years 227 days",
+          "Death Encode": 65.62191781,
+          "Party": "Other",
+          "Death Type": "Died in Office"
+        },
+        {
+          "No": "13",
+          "President": "Millard Fillmore",
+          "Prospective": null,
+          "Start Label": "50 years 183 days",
+          "Start Encode": 50.50136986,
+          "End Label": "53 years 56 days",
+          "End Encode": 53.15342466,
+          "Alive": false,
+          "Death Label": "74 years 60 days",
+          "Death Encode": 74.16438356,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "14",
+          "President": "Franklin Pierce",
+          "Prospective": null,
+          "Start Label": "48 years 101 days",
+          "Start Encode": 48.27671233,
+          "End Label": "52 years 101 days",
+          "End Encode": 52.27671233,
+          "Alive": false,
+          "Death Label": "64 years 319 days",
+          "Death Encode": 64.8739726,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "15",
+          "President": "James Buchanan",
+          "Prospective": null,
+          "Start Label": "65 years 315 days",
+          "Start Encode": 65.8630137,
+          "End Label": "69 years 315 days",
+          "End Encode": 69.8630137,
+          "Alive": false,
+          "Death Label": "77 years 39 days",
+          "Death Encode": 77.10684932,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "16",
+          "President": "Abraham Lincoln",
+          "Prospective": null,
+          "Start Label": "52 years 20 days",
+          "Start Encode": 52.05479452,
+          "End Label": "56 years 62 days",
+          "End Encode": 56.16986301,
+          "Alive": false,
+          "Death Label": "56 years 62 days",
+          "Death Encode": 56.16986301,
+          "Party": "Other",
+          "Death Type": "Assassinated in Office"
+        },
+        {
+          "No": "17",
+          "President": "Andrew Johnson",
+          "Prospective": null,
+          "Start Label": "56 years 107 days",
+          "Start Encode": 56.29315068,
+          "End Label": "60 years 65 days",
+          "End Encode": 60.17808219,
+          "Alive": false,
+          "Death Label": "66 years 214 days",
+          "Death Encode": 66.58630137,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "18",
+          "President": "Ulysses S. Grant",
+          "Prospective": null,
+          "Start Label": "46 years 311 days",
+          "Start Encode": 46.85205479,
+          "End Label": "54 years 311 days",
+          "End Encode": 54.85205479,
+          "Alive": false,
+          "Death Label": "63 years 87 days",
+          "Death Encode": 63.23835616,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "19",
+          "President": "Rutherford B. Hayes",
+          "Prospective": null,
+          "Start Label": "54 years 151 days",
+          "Start Encode": 54.41369863,
+          "End Label": "58 years 151 days",
+          "End Encode": 58.41369863,
+          "Alive": false,
+          "Death Label": "70 years 105 days",
+          "Death Encode": 70.28767123,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "2",
+          "President": "John Adams",
+          "Prospective": null,
+          "Start Label": "61 years 125 days",
+          "Start Encode": 61.34246575,
+          "End Label": "65 years 125 days",
+          "End Encode": 65.34246575,
+          "Alive": false,
+          "Death Label": "90 years 247 days",
+          "Death Encode": 90.67671233,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "20",
+          "President": "James A. Garfield",
+          "Prospective": null,
+          "Start Label": "49 years 105 days",
+          "Start Encode": 49.28767123,
+          "End Label": "49 years 304 days",
+          "End Encode": 49.83287671,
+          "Alive": false,
+          "Death Label": "49 years 304 days",
+          "Death Encode": 49.83287671,
+          "Party": "Republican",
+          "Death Type": "Assassinated in Office"
+        },
+        {
+          "No": "21",
+          "President": "Chester A. Arthur",
+          "Prospective": null,
+          "Start Label": "51 years 349 days",
+          "Start Encode": 51.95616438,
+          "End Label": "55 years 150 days",
+          "End Encode": 55.4109589,
+          "Alive": false,
+          "Death Label": "57 years 44 days",
+          "Death Encode": 57.12054795,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "22",
+          "President": "Grover Cleveland",
+          "Prospective": null,
+          "Start Label": "47 years 351 days",
+          "Start Encode": 47.96164384,
+          "End Label": "51 years 351 days",
+          "End Encode": 51.96164384,
+          "Alive": false,
+          "Death Label": "71 years 98 days",
+          "Death Encode": 71.26849315,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "23",
+          "President": "Benjamin Harrison",
+          "Prospective": null,
+          "Start Label": "55 years 196 days",
+          "Start Encode": 55.5369863,
+          "End Label": "59 years 196 days",
+          "End Encode": 59.5369863,
+          "Alive": false,
+          "Death Label": "67 years 205 days",
+          "Death Encode": 67.56164384,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "24",
+          "President": "Grover Cleveland",
+          "Prospective": null,
+          "Start Label": "55 years 351 days",
+          "Start Encode": 55.96164384,
+          "End Label": "59 years 351 days",
+          "End Encode": 59.96164384,
+          "Alive": false,
+          "Death Label": "71 years 98 days",
+          "Death Encode": 71.26849315,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "25",
+          "President": "William McKinley",
+          "Prospective": null,
+          "Start Label": "54 years 34 days",
+          "Start Encode": 54.09315068,
+          "End Label": "58 years 228 days",
+          "End Encode": 58.62465753,
+          "Alive": false,
+          "Death Label": "58 years 228 days",
+          "Death Encode": 58.62465753,
+          "Party": "Republican",
+          "Death Type": "Assassinated in Office"
+        },
+        {
+          "No": "26",
+          "President": "Theodore Roosevelt",
+          "Prospective": null,
+          "Start Label": "42 years 322 days",
+          "Start Encode": 42.88219178,
+          "End Label": "50 years 128 days",
+          "End Encode": 50.35068493,
+          "Alive": false,
+          "Death Label": "60 years 71 days",
+          "Death Encode": 60.19452055,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "27",
+          "President": "William Howard Taft",
+          "Prospective": null,
+          "Start Label": "51 years 170 days",
+          "Start Encode": 51.46575342,
+          "End Label": "55 years 170 days",
+          "End Encode": 55.46575342,
+          "Alive": false,
+          "Death Label": "72 years 174 days",
+          "Death Encode": 72.47671233,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "28",
+          "President": "Woodrow Wilson",
+          "Prospective": null,
+          "Start Label": "56 years 66 days",
+          "Start Encode": 56.18082192,
+          "End Label": "64 years 66 days",
+          "End Encode": 64.18082192,
+          "Alive": false,
+          "Death Label": "67 years 37 days",
+          "Death Encode": 67.10136986,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "29",
+          "President": "Warren G. Harding",
+          "Prospective": null,
+          "Start Label": "55 years 122 days",
+          "Start Encode": 55.33424658,
+          "End Label": "57 years 273 days",
+          "End Encode": 57.74794521,
+          "Alive": false,
+          "Death Label": "57 years 273 days",
+          "Death Encode": 57.74794521,
+          "Party": "Republican",
+          "Death Type": "Died in Office"
+        },
+        {
+          "No": "3",
+          "President": "Thomas Jefferson",
+          "Prospective": null,
+          "Start Label": "57 years 325 days",
+          "Start Encode": 57.89041096,
+          "End Label": "65 years 325 days",
+          "End Encode": 65.89041096,
+          "Alive": false,
+          "Death Label": "83 years 82 days",
+          "Death Encode": 83.22465753,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "30",
+          "President": "Calvin Coolidge",
+          "Prospective": null,
+          "Start Label": "51 years 29 days",
+          "Start Encode": 51.07945205,
+          "End Label": "56 years 243 days",
+          "End Encode": 56.66575342,
+          "Alive": false,
+          "Death Label": "60 years 185 days",
+          "Death Encode": 60.50684932,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "31",
+          "President": "Herbert Hoover",
+          "Prospective": null,
+          "Start Label": "54 years 206 days",
+          "Start Encode": 54.56438356,
+          "End Label": "58 years 206 days",
+          "End Encode": 58.56438356,
+          "Alive": false,
+          "Death Label": "90 years 71 days",
+          "Death Encode": 90.19452055,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "32",
+          "President": "Franklin D. Roosevelt",
+          "Prospective": null,
+          "Start Label": "51 years 33 days",
+          "Start Encode": 51.09041096,
+          "End Label": "63 years 72 days",
+          "End Encode": 63.19726027,
+          "Alive": false,
+          "Death Label": "63 years 72 days",
+          "Death Encode": 63.19726027,
+          "Party": "Democratic",
+          "Death Type": "Died in Office"
+        },
+        {
+          "No": "33",
+          "President": "Harry S. Truman",
+          "Prospective": null,
+          "Start Label": "60 years 339 days",
+          "Start Encode": 60.92876712,
+          "End Label": "68 years 257 days",
+          "End Encode": 68.70410959,
+          "Alive": false,
+          "Death Label": "88 years 232 days",
+          "Death Encode": 88.63561644,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "34",
+          "President": "Dwight D. Eisenhower",
+          "Prospective": null,
+          "Start Label": "62 years 98 days",
+          "Start Encode": 62.26849315,
+          "End Label": "70 years 98 days",
+          "End Encode": 70.26849315,
+          "Alive": false,
+          "Death Label": "78 years 165 days",
+          "Death Encode": 78.45205479,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "35",
+          "President": "John F. Kennedy",
+          "Prospective": null,
+          "Start Label": "43 years 236 days",
+          "Start Encode": 43.64657534,
+          "End Label": "46 years 177 days",
+          "End Encode": 46.48493151,
+          "Alive": false,
+          "Death Label": "46 years 177 days",
+          "Death Encode": 46.48493151,
+          "Party": "Democratic",
+          "Death Type": "Assassinated in Office"
+        },
+        {
+          "No": "36",
+          "President": "Lyndon B. Johnson",
+          "Prospective": null,
+          "Start Label": "55 years 87 days",
+          "Start Encode": 55.23835616,
+          "End Label": "60 years 146 days",
+          "End Encode": 60.4,
+          "Alive": false,
+          "Death Label": "64 years 148 days",
+          "Death Encode": 64.40547945,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "37",
+          "President": "Richard Nixon",
+          "Prospective": null,
+          "Start Label": "56 years 11 days",
+          "Start Encode": 56.03013699,
+          "End Label": "61 years 212 days",
+          "End Encode": 61.58082192,
+          "Alive": false,
+          "Death Label": "81 years 103 days",
+          "Death Encode": 81.28219178,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "38",
+          "President": "Gerald Ford",
+          "Prospective": null,
+          "Start Label": "61 years 26 days",
+          "Start Encode": 61.07123288,
+          "End Label": "63 years 190 days",
+          "End Encode": 63.52054795,
+          "Alive": false,
+          "Death Label": "93 years 165 days",
+          "Death Encode": 93.45205479,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "39",
+          "President": "Jimmy Carter",
+          "Prospective": null,
+          "Start Label": "52 years 111 days",
+          "Start Encode": 52.30410959,
+          "End Label": "56 years 111 days",
+          "End Encode": 56.30410959,
+          "Alive": true,
+          "Death Label": "99 years 288 days",
+          "Death Encode": 99.7890411,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "4",
+          "President": "James Madison",
+          "Prospective": null,
+          "Start Label": "57 years 353 days",
+          "Start Encode": 57.96712329,
+          "End Label": "65 years 353 days",
+          "End Encode": 65.96712329,
+          "Alive": false,
+          "Death Label": "85 years 104 days",
+          "Death Encode": 85.28493151,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "40",
+          "President": "Ronald Reagan",
+          "Prospective": null,
+          "Start Label": "69 years 349 days",
+          "Start Encode": 69.95616438,
+          "End Label": "77 years 349 days",
+          "End Encode": 77.95616438,
+          "Alive": false,
+          "Death Label": "93 years 120 days",
+          "Death Encode": 93.32876712,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "41",
+          "President": "George H. W. Bush",
+          "Prospective": null,
+          "Start Label": "64 years 222 days",
+          "Start Encode": 64.60821918,
+          "End Label": "68 years 222 days",
+          "End Encode": 68.60821918,
+          "Alive": false,
+          "Death Label": "94 years 171 days",
+          "Death Encode": 94.46849315,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "42",
+          "President": "Bill Clinton",
+          "Prospective": null,
+          "Start Label": "46 years 154 days",
+          "Start Encode": 46.42191781,
+          "End Label": "54 years 154 days",
+          "End Encode": 54.42191781,
+          "Alive": true,
+          "Death Label": "77 years 331 days",
+          "Death Encode": 77.90684932,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "43",
+          "President": "George W. Bush",
+          "Prospective": null,
+          "Start Label": "54 years 198 days",
+          "Start Encode": 54.54246575,
+          "End Label": "62 years 198 days",
+          "End Encode": 62.54246575,
+          "Alive": true,
+          "Death Label": "78 years 9 days",
+          "Death Encode": 78.02465753,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "44",
+          "President": "Barack Obama",
+          "Prospective": null,
+          "Start Label": "47 years 169 days",
+          "Start Encode": 47.4630137,
+          "End Label": "55 years 169 days",
+          "End Encode": 55.4630137,
+          "Alive": true,
+          "Death Label": "62 years 346 days",
+          "Death Encode": 62.94794521,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "45",
+          "President": "Donald Trump",
+          "Prospective": null,
+          "Start Label": "70 years 220 days",
+          "Start Encode": 70.60273973,
+          "End Label": "74 years 220 days",
+          "End Encode": 74.60273973,
+          "Alive": true,
+          "Death Label": "78 years 31 days",
+          "Death Encode": 78.08493151,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "46",
+          "President": "Joe Biden",
+          "Prospective": null,
+          "Start Label": "78 years 61 days",
+          "Start Encode": 78.16712329,
+          "End Label": "82 years 61 days",
+          "End Encode": 82.16712329,
+          "Alive": true,
+          "Death Label": "81 years 238 days",
+          "Death Encode": 81.65205479,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "46​",
+          "President": "Joe Biden",
+          "Prospective": true,
+          "Start Label": "82 years 61 days",
+          "Start Encode": 82.16712329,
+          "End Label": "86 years 61 days",
+          "End Encode": 86.16712329,
+          "Alive": true,
+          "Death Label": "81 years 238 days",
+          "Death Encode": 81.65205479,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "47​",
+          "President": "Donald Trump",
+          "Prospective": true,
+          "Start Label": "78 years 220 days",
+          "Start Encode": 78.60273973,
+          "End Label": "82 years 220 days",
+          "End Encode": 82.60273973,
+          "Alive": true,
+          "Death Label": "78 years 31 days",
+          "Death Encode": 78.08493151,
+          "Party": "Republican",
+          "Death Type": ""
+        },
+        {
+          "No": "5",
+          "President": "James Monroe",
+          "Prospective": null,
+          "Start Label": "58 years 310 days",
+          "Start Encode": 58.84931507,
+          "End Label": "66 years 310 days",
+          "End Encode": 66.84931507,
+          "Alive": false,
+          "Death Label": "73 years 67 days",
+          "Death Encode": 73.18356164,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "6",
+          "President": "John Quincy Adams",
+          "Prospective": null,
+          "Start Label": "57 years 236 days",
+          "Start Encode": 57.64657534,
+          "End Label": "61 years 236 days",
+          "End Encode": 61.64657534,
+          "Alive": false,
+          "Death Label": "80 years 227 days",
+          "Death Encode": 80.62191781,
+          "Party": "Other",
+          "Death Type": ""
+        },
+        {
+          "No": "7",
+          "President": "Andrew Jackson",
+          "Prospective": null,
+          "Start Label": "61 years 354 days",
+          "Start Encode": 61.96986301,
+          "End Label": "69 years 354 days",
+          "End Encode": 69.96986301,
+          "Alive": false,
+          "Death Label": "78 years 85 days",
+          "Death Encode": 78.23287671,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "8",
+          "President": "Martin Van Buren",
+          "Prospective": null,
+          "Start Label": "54 years 89 days",
+          "Start Encode": 54.24383562,
+          "End Label": "58 years 89 days",
+          "End Encode": 58.24383562,
+          "Alive": false,
+          "Death Label": "79 years 231 days",
+          "Death Encode": 79.63287671,
+          "Party": "Democratic",
+          "Death Type": ""
+        },
+        {
+          "No": "9",
+          "President": "William Henry Harrison",
+          "Prospective": null,
+          "Start Label": "68 years 23 days",
+          "Start Encode": 68.0630137,
+          "End Label": "68 years 54 days",
+          "End Encode": 68.14794521,
+          "Alive": false,
+          "Death Label": "68 years 54 days",
+          "Death Encode": 68.14794521,
+          "Party": "Other",
+          "Death Type": "Died in Office"
+        }
+      ],
+      "transform": [
+        {"type": "extent", "field": "No", "signal": "myExtent"},
+        {
+          "type": "formula",
+          "as": "No",
+          "expr": "datum.Prospective?datum.No+'​':datum.No"
+        },
+        {
+          "type": "formula",
+          "as": "Alive Label",
+          "expr": "datum.Alive?'Alive':'Dead'"
+        },
+        {
+          "type": "formula",
+          "as": "President",
+          "expr": "datum.Prospective?datum.President+' (Prospective)':datum.President"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "height", "update": "(myExtent[1]+2)*stepSize+10"},
+    {"name": "stepSize", "update": "16"}
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "range": "width",
+      "domain": {
+        "data": "table",
+        "fields": ["Start Encode", "End Encode", "Death Encode"]
+      },
+      "domainMin": 30,
+      "domainMax": 100
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "range": {"step": {"signal": "stepSize"}},
+      "domain": {
+        "data": "table",
+        "field": "No",
+        "sort": {"field": "Start Encode", "op": "max", "order": "descending"}
+      },
+      "padding": 0.2
+    },
+    {
+      "name": "c1",
+      "type": "ordinal",
+      "range": ["#224798", "#a43e44", "#A9791C"],
+      "domain": ["Democratic", "Republican", "Other"]
+    },
+    {
+      "name": "c2",
+      "type": "ordinal",
+      "range": ["#739AD5", "#EA9999", "#EBC67E"],
+      "domain": ["Democratic", "Republican", "Other"]
+    },
+    {
+      "name": "strokeDash",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "Alive Label", "sort": true},
+      "range": [[], [2, 4]]
+    },
+    {
+      "name": "death",
+      "type": "ordinal",
+      "range": [
+        "m -0.08499,9.18061 c -5,0 -9,-4 -9,-9 0,-5 4,-9 9,-9 5,0 9,4 9,9 0,5 -4,9 -9,9 z m 0,-16 c -3.9,0 -7,3.1 -7,7 0,3.9 3.1,7 7,7 3.9,0 7,-3.1 7,-7 0,-3.9 -3.1,-7 -7,-7 z m 0,11 c -2.2,0 -4,-1.8 -4,-4 0,-2.2 1.8,-4 4,-4 2.2,0 4,1.8 4,4 0,2.2 -1.8,4 -4,4 z m 0,-6 c -1.1,0 -2,0.9 -2,2 0,1.1 0.9,2 2,2 1.1,0 2,-0.9 2,-2 0,-1.1 -0.9,-2 -2,-2 z M -0.08499,12.18061 c -0.6,0 -1,-0.4 -1,-1 v -8 c 0,-0.6 0.4,-1 1,-1 0.6,0 1,0.4 1,1 v 8 c 0,0.6 -0.4,1 -1,1 z M -0.08499,-1.81939 c -0.6,0 -1,-0.4 -1,-1 v -8 c 0,-0.6 0.4,-1 1,-1 0.6,0 1,0.4 1,1 v 8 c 0,0.6 -0.4,1 -1,1 z M -3.08499,1.18061 h -8 c -0.6,0 -1,-0.4 -1,-1 0,-0.6 0.4,-1 1,-1 h 8 c 0.6,0 1,0.4 1,1 0,0.6 -0.4,1 -1,1 z M 10.91501,1.18061 h -8 c -0.6,0 -1,-0.4 -1,-1 0,-0.6 0.4,-1 1,-1 h 8 c 0.6,0 1,0.4 1,1 0,0.6 -0.4,1 -1,1 z",
+        "M 6.73411,-7.8353 H 2.62583 v -4.03746 c 0,-0.35086 -0.28107,-0.63515 -0.6319,-0.63515 h -3.03199 c -0.35082,0 -0.6319,0.28428 -0.6319,0.63515 v 4.03746 h -4.10828 c -0.29829,0 -0.52664,0.22391 -0.52664,0.5222 v 3.22228 c 0,0.2983 0.22836,0.5513 0.52664,0.5513 h 4.10828 V 5.6602 c 0,0.35086 0.28108,0.63536 0.6319,0.63536 h 3.03199 c 0.35083,0 0.6319,-0.28455 0.6319,-0.63536 v -9.19972 h 4.10828 c 0.29829,0 0.52664,-0.253 0.52664,-0.5513 V -7.3131 c 0,-0.2983 -0.22836,-0.5222 -0.52664,-0.5222 z",
+        "m 0,0"
+      ],
+      "domain": ["Assassinated in Office", "Died in Office", ""]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "c1",
+      "symbolType": "square",
+      "symbolOpacity": 0.8,
+      "labelColor": "#3f444d",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 12,
+      "title": "",
+      "titlePadding": 0
+    },
+    {
+      "fill": "death",
+      "shape": "death",
+      "symbolSize": 2,
+      "labelOffset": 6,
+      "labelColor": "#3f444d",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 12,
+      "offset": 20,
+      "titlePadding": 100,
+      "orient": "none",
+      "legendX": {"signal": "width +20"},
+      "legendY": {"signal": "110"}
+    },
+    {
+      "strokeDash": "strokeDash",
+      "symbolType": "stroke",
+      "symbolOpacity": 0.8,
+      "labelColor": "#3f444d",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 12,
+      "title": "",
+      "titlePadding": 0,
+      "encode": {"symbols": {"update": {"stroke": {"value": "#3f444d"}}}}
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "zindex": 0,
+      "domain": false,
+      "labelColor": "grey",
+      "labelFontSize": 11,
+      "labelFont": "Segoe UI",
+      "labelOpacity": 0.8,
+      "grid": true,
+      "tickCount": 8,
+      "tickColor": "#dddddd",
+      "title": "President Age",
+      "titleColor": "#3f444d",
+      "titleFont": "Segoe UI",
+      "titleOpacity": 0.8,
+      "titleFontSize": 13,
+      "titleFontWeight": "normal"
+    },
+    {
+      "orient": "left",
+      "scale": "y",
+      "zindex": 1,
+      "tickOpacity": 0,
+      "labels": false
+    }
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "name": "medianLabel",
+      "data": [{}],
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "value": 38.8},
+          "y": {"signal": "height+30"},
+          "text": {"value": ["Median Age 38.8","in United States"]},
+          "font": {"value": "Segoe UI"},
+          "fontSize": {"value": 12},
+          "fontStyle": {"value": "normal"},
+          "baseline": {"value": "middle"},
+          "align": {"value": "right"},
+          "fill": {"value": "teal"},
+          "opacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "medianRule",
+      "data": [{}],
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "value": 38.8},
+          "y": {"value": 0},
+          "x2": {"scale": "x", "value": 38.8},
+          "y2": {"signal": "height+20"},
+          "stroke": {"value": "teal"},
+          "opacity": {"value": 0.6}, "strokeDash":{"value": [2,3]}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "number",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"value": -8},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "text": {"field": "No"},
+          "font": {"value": "Segoe UI"},
+          "fontSize": {"value": 12},
+          "fontStyle": {"signal": "datum.Prospective?'italic':'normal'"},
+          "baseline": {"value": "middle"},
+          "align": {"value": "right"},
+          "fill": {"signal": "datum.Prospective?scale('c1',datum.Party):'#3f444d'"},
+          "opacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "name",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"value": 8},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "text": {"field": "President"},
+          "font": {"value": "Segoe UI"},
+          "fontSize": {"value": 12},
+          "fontStyle": {"signal": "datum.Prospective?'italic':'normal'"},
+          "baseline": {"value": "middle"},
+          "fill": {"signal": "datum.Prospective?scale('c1',datum.Party):'#3f444d'"},
+          "opacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "before",
+      "from": {"data": "name"},
+      "encode": {
+        "enter": {
+          "x": {"field": "bounds.x2", "offset": 5},
+          "x2": {
+            "scale": "x",
+            "signal": "datum.datum['Start Encode']",
+            "offset": -20
+          },
+          "y": {"scale": "y", "field": "datum.No", "band": 0.5},
+          "y2": {"scale": "y", "field": "datum.No", "band": 0.5},
+          "stroke": {"value": "#3f444d"},
+          "strokeDash": {
+            "field": "datum.['Alive Label']",
+            "scale": "strokeDash"
+          },
+          "strokeWidth": {"value": 1},
+          "opacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "after",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "End Encode", "offset": 20},
+          "x2": {"scale": "x", "field": "Death Encode"},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "y2": {"scale": "y", "field": "No", "band": 0.5},
+          "stroke": {"value": "#3f444d"},
+          "strokeDash": {"field": "Alive Label", "scale": "strokeDash"},
+          "strokeWidth": {
+            "signal": "datum.No =='46' || datum.No =='11' || datum.Prospective !=null  || datum['Death Type'] !=''?0:1"
+          },
+          "opacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "name": "presidency",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Start Encode"},
+          "x2": {"scale": "x", "field": "End Encode"},
+          "y": {"scale": "y", "field": "No"},
+          "height": {"signal": "bandwidth('y')"},
+          "fill": {"scale": "c2", "field": "Party"},
+          "opacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "name": "presidencyStart",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Start Encode", "offset": 0},
+          "width": {"value": 4},
+          "y": {"scale": "y", "field": "No"},
+          "height": {"signal": "bandwidth('y')"},
+          "fill": {"scale": "c1", "field": "Party"},
+          "opacity": {"signal": "datum.Prospective ==null ?1:0"}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "name": "presidencyEnd",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "End Encode", "offset": -4},
+          "width": {"value": 4},
+          "y": {"scale": "y", "field": "No"},
+          "height": {"signal": "bandwidth('y')"},
+          "fill": {"scale": "c1", "field": "Party"},
+          "opacity": {"signal": "datum.Prospective ==null ?1:0"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "startAge",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Start Encode", "offset": -3},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "text": {"signal": "split(datum['Start Label'],' ' )[0]"},
+          "align": {"value": "right"},
+          "baseline": {"value": "middle"},
+          "fill": {"field": "Party", "scale": "c1"},
+          "opacity": {"value": 0.9}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "endAge",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "End Encode", "offset": 3},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "text": {
+            "signal": "datum.President =='James K. Polk'?'': split(datum['End Label'],' ' )[0] "
+          },
+          "align": {"value": "left"},
+          "fontSize": {"value": 11},
+          "baseline": {"value": "middle"},
+          "fill": {"field": "Party", "scale": "c1"},
+          "opacity": {"value": 0.9}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "deathAge",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Death Encode", "offset": 3},
+          "y": {"scale": "y", "field": "No", "band": 0.5},
+          "text": {
+            "signal": "datum.President =='Joe Biden' || datum['Death Type'] !='' || datum.Prospective !=null?'':split(datum['Death Label'],' ' )[0]"
+          },
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "#3f444d"},
+          "opacity": {"value": 0.7}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "name": "deathInOffice",
+      "from": {"data": "endAge"},
+      "encode": {
+        "enter": {
+          "x": {"field": "bounds.x2", "offset": 9},
+          "y": {"scale": "y", "field": "datum.No", "band": 0.5},
+          "shape": {"scale": "death", "field": "datum['Death Type']"},
+          "size": {"value": 1.5},
+          "fill": {"field": "datum.Party", "scale": "c1"},
+          "opacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "prospectiveStart",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Start Encode", "offset": 3},
+          "x2": {"scale": "x", "field": "Start Encode", "offset": 3},
+          "y": {"scale": "y", "field": "No", "band": 0},
+          "y2": {"scale": "y", "field": "No", "band": 1},
+          "strokeWidth": {"signal": "datum.Prospective? 6:0"},
+          "stroke": {"field": "Party", "scale": "c1"},
+          "strokeDash": {"value": [2, 2]},
+          "opacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "name": "prospectiveEnd",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "End Encode", "offset": -3},
+          "x2": {"scale": "x", "field": "End Encode", "offset": -3},
+          "y": {"scale": "y", "field": "No", "band": 0},
+          "y2": {"scale": "y", "field": "No", "band": 1},
+          "strokeWidth": {"signal": "datum.Prospective? 6:0"},
+          "stroke": {"field": "Party", "scale": "c1"},
+          "strokeDash": {"value": [2, 2]},
+          "opacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "data": [{}],
+      "encode": {
+        "update": {
+          "text": {
+            "value": [
+              "Source: https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age",
+              "Dataviz: David Bacci"
+            ]
+          },
+          "href": {"value": "https://www.linkedin.com/in/davbacci"},
+          "align": {"value": "left"},
+          "lineHeight": {"value": 16},
+          "fill": {"value": "grey"}, "opacity":{"value": 0.8},
+          "x": {"signal": "width - 220"},
+          "y": {"signal": "height+60"},
+          "fontSize": {"value": 10},
+          "font": {"value": "Segoe UI "}
+        }
+      }
+    }
+  ]
+}

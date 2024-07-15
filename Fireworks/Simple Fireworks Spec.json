@@ -1,0 +1,170 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"width": 500,
+	"height": 500,
+	"padding": 0,
+	"background": "black",
+	"data": [
+		{
+			"name": "source",
+			"values": [],
+			"transform": [
+				{ "type": "sequence", "start": 1, "stop": 500, "step": 20, "as": "id" },
+				{ "type": "formula", "as": "hue", "expr": "floor(random()*(360+1))" },
+				{ "type": "formula", "as": "explosion", "expr": "sequence(1,100,1)" },
+				{
+					"type": "formula",
+					"as": "x",
+					"expr": "domain('xscale')[0]+random() * (domain('xscale')[1]-domain('xscale')[0]+1)"
+				},
+				{ "type": "flatten", "fields": ["explosion"] },
+				{
+					"type": "formula",
+					"as": "accy",
+					"expr": "(counter-counter)+gravity"
+				},
+				{
+					"type": "formula",
+					"as": "vely",
+					"expr": "datum.vely==null?(random()*3.5)+3:counter > datum.id?datum.vely+datum.accy:(random()*3.5)+3"
+				},
+				{
+					"type": "formula",
+					"as": "y",
+					"expr": "datum.y==null?0:counter > datum.id && datum.vely>0?datum.y+datum.vely:0"
+				},
+				{
+					"type": "window",
+					"sort": { "field": "explosion", "order": "ascending" },
+					"ops": ["first_value", "first_value", "first_value"],
+					"fields": ["x", "y", "vely"],
+					"groupby": ["id"],
+					"as": ["seedx", "seedy", "seedvely"]
+				},
+				{
+					"type": "formula",
+					"as": "lifespan",
+					"expr": "datum.seedvely>0?1:  datum.lifespan-0.02+(counter-counter)"
+				},
+				{ "type": "formula", "as": "accxExp", "expr": "0" },
+				{
+					"type": "formula",
+					"as": "accyExp",
+					"expr": "(counter-counter)+gravity/3"
+				},
+				{ "type": "formula", "as": "angleExp", "expr": "random()*(2*PI-0+1)" },
+				{
+					"type": "formula",
+					"as": "velxExp",
+					"expr": "datum.seedvely>0?(random()*2-1)*cos(datum.angleExp):datum.velxExp+datum.accxExp"
+				},
+				{
+					"type": "formula",
+					"as": "velyExp",
+					"expr": "datum.seedvely>0?(random()*2-1)*sin(datum.angleExp):datum.velyExp+datum.accyExp"
+				},
+				{
+					"type": "formula",
+					"as": "xExp",
+					"expr": "datum.seedvely>0? datum.seedx: datum.xExp+datum.velxExp"
+				},
+				{
+					"type": "formula",
+					"as": "yExp",
+					"expr": "datum.seedvely>0? datum.seedy: datum.yExp+datum.velyExp"
+				},
+				{ "type": "filter", "expr": "counter > datum.id && datum.yExp > 0" }
+			]
+		}
+	],
+	"signals": [
+		{
+			"name": "run",
+			"value": false,
+			"on": [{ "events": "click", "update": "!run" }]
+		},
+		{ "name": "gravity", "value": -0.2 },
+		{
+			"name": "counter",
+			"value": 1,
+			"on": [
+				{
+					"events": { "type": "timer", "throttle": 20 },
+					"update": "run&&counter<550?counter +1 :0"
+				},
+				{ "events": { "type": "dblclick" }, "update": "0" }
+			]
+		}
+	],
+	"scales": [
+		{
+			"name": "xscale",
+			"type": "linear",
+			"domain": { "signal": "[-50,50]" },
+			"range": "width"
+		},
+		{
+			"name": "yscale",
+			"type": "linear",
+			"domain": { "signal": "[0,100]" },
+			"range": "height"
+		},
+		{
+			"name": "size",
+			"type": "linear",
+			"round": true,
+			"nice": false,
+			"zero": true,
+			"domain": [0, 200],
+			"range": [100, 0]
+		}
+	],
+	"marks": [
+		{
+			"name": "firework",
+			"type": "symbol",
+			"from": { "data": "source" },
+			"encode": {
+				"update": {
+					"x": { "field": "x", "scale": "xscale" },
+					"y": { "field": "y", "scale": "yscale" },
+					"size": [
+						{ "test": "datum.explosion ==1 && datum.seedvely>0", "value": 20 },
+						{ "value": 0 }
+					],
+					"shape": { "value": "circle" },
+					"fill": {
+						"color": {
+							"h": { "field": "hue" },
+							"s": { "value": 1 },
+							"l": { "value": 0.5 }
+						}
+					},
+					"tooltip": { "signal": "datum" }
+				}
+			}
+		},
+		{
+			"name": "explosions",
+			"type": "symbol",
+			"from": { "data": "source" },
+			"encode": {
+				"update": {
+					"x": { "field": "xExp", "scale": "xscale" },
+					"y": { "field": "yExp", "scale": "yscale" },
+					"size": { "value": 20 },
+					"shape": { "value": "circle" },
+					"fill": {
+						"color": {
+							"h": { "field": "hue" },
+							"s": { "value": 1 },
+							"l": { "value": 0.5 }
+						}
+					},
+					"opacity": { "field": "lifespan" },
+					"tooltip": { "signal": "datum" }
+				}
+			}
+		}
+	]
+}
