@@ -135,7 +135,7 @@ Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ## Particle Simulation Background
 
-A simple particle simulation which can be used for a landing page background.
+A simple particle simulation which can be used for a landing page background. Advanced version supports mouse repel and particle drag.
 
 [Online Editor](https://evyb.short.gy/TFWfbe)
 
