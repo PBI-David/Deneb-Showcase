@@ -133,6 +133,16 @@ Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parliament%20Chart/Thumbnail.jpg)
 
+## Particle Simulation Background
+
+A simple particle simulation which can be used for a landing page background.
+
+[Online Editor](https://evyb.short.gy/TFWfbe)
+
+Inspired by the amazing [Frank's Laboratory](https://www.youtube.com/@Frankslaboratory)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Particle%20Simulation%20Background/Thumbnail.jpg)
+
 ## President Age Range Chart
 
 An original range chart of presidential ages created in Vega.
