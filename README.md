@@ -2,6 +2,7 @@
 
 This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out.
 
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
 ## Bank Failure Bubble Chart
@@ -149,7 +150,11 @@ A bar chart race showing world population by country from 1950 to 2023. Created 
 
 [Online Editor](https://evyb.short.gy/ApnAXy)
 
-https://github.com/PBI-David/Deneb-Showcase/blob/0417b03197fd8552cd6be78e8ad1b20ad85aee40/Population%20Bar%20Chart%20Race/Thumbnail.mp4
+
+
+https://github.com/user-attachments/assets/92705c7f-eb0f-4eea-8016-2a678c4f8ef3
+
+
 
 ## President Age Range Chart
 
