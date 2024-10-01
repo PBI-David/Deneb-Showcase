@@ -135,13 +135,21 @@ Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
 ## Particle Simulation Background
 
-A simple particle simulation which can be used for a landing page background. Advanced version supports mouse repel and particle drag.
+A simple particle simulation which can be used for a landing page background. Advanced version supports mouse repel and particle drag. Created using Vega.
 
 [Online Editor](https://evyb.short.gy/TFWfbe)
 
 Inspired by the amazing [Frank's Laboratory](https://www.youtube.com/@Frankslaboratory)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Particle%20Simulation%20Background/Thumbnail.jpg)
+
+## Population Bar Chart Race
+
+A bar chart race showing world population by country from 1950 to 2023. Created using Vega.
+
+[Online Editor](https://evyb.short.gy/ApnAXy)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Population Bar Chart Race/Thumbnail.gif)
 
 ## President Age Range Chart
 
