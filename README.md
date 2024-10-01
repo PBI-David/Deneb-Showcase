@@ -149,7 +149,7 @@ A bar chart race showing world population by country from 1950 to 2023. Created 
 
 [Online Editor](https://evyb.short.gy/ApnAXy)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/325726a35d0c730293794f1dd630c0fc69d0a783/Population%20Bar%20Chart%20Race/Thumbnail.gif)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/0417b03197fd8552cd6be78e8ad1b20ad85aee40/Population%20Bar%20Chart%20Race/Thumbnail.mp4)
 
 ## President Age Range Chart
 
