@@ -198,7 +198,7 @@ A fun experiment using Vega to create a starfield simulation.
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Starfield/Thumbnail.jpg)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/146a7cd2a53879de76e120f8af5576f1c858a283/Starfield/Thumbnail.gif)
 
 ## Tennis Grand Slams
 
