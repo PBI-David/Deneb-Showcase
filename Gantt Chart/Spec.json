@@ -291,7 +291,12 @@
           "sort": {"field": "start", "order": "ascending"},
           "ops": ["rank"],
           "as": ["phaseSort"]
-        }
+        },
+        {
+          "type": "formula",
+          "as": "phaseSort",
+          "expr": "'phaseSort'+random()*0.01"
+        },
       ]
     },
     {
