@@ -11,7 +11,7 @@
     {"name": "showDomainSpanLabel", "value": false},
     {
       "name": "startGrain",
-      "value": "Months",
+      "value": "Days",
       "description": "Days, Months, Years or All"
     },
     {"name": "textColour", "value": "#666666"},
@@ -37,6 +37,10 @@
     {"name": "progressColumnWidth", "value": 55},
     {"name": "columnPadding", "value": 15},
     {"name": "oneDay", "update": "1000*60*60*24"},
+    {
+      "name": "timeoffset",
+      "update": "timezoneoffset(data('dataset')[0]['start']) * 60 *1000"
+    },
     {
       "name": "dayBandwidth",
       "update": "scale('x', timeOffset('day', datetime(2000,1,1),1)) - scale('x', datetime(2000,1,1))"
@@ -72,7 +76,7 @@
     },
     {
       "name": "xExt",
-      "update": "startGrain=='All'?dayExt:startGrain=='Years'?yearExt:startGrain=='Months'?monthExt:dayExt"
+      "update": "startGrain=='All'?allExt:startGrain=='Years'?yearExt:startGrain=='Months'?monthExt:dayExt"
     },
     {"name": "today", "update": "utc(year(now()),month(now()),date(now()))"},
     {"name": "todayRule", "update": "timeFormat(today,'%d/%m/%y')"},
@@ -255,7 +259,7 @@
       ]
     },
     {
-      "name": "input",
+      "name": "dataset",
       "values": [
         {
           "id": 1,
@@ -468,14 +472,28 @@
           "hyperlink": "http://www.google.com"
         }
       ],
-      "format": {"parse": {"start": "utc:'%d/%m/%Y'", "end": "utc:'%d/%m/%Y'"}},
+      "format": {"parse": {"start": "utc:'%d/%m/%Y'", "end": "utc:'%d/%m/%Y'"}}
+    },
+    {
+      "name": "input",
+      "source": "dataset",
       "transform": [
+        {
+          "type": "formula",
+          "as": "start",
+          "expr": "utc(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start)) + timeoffset"
+        },
+        {
+          "type": "formula",
+          "as": "end",
+          "expr": "utc(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)) + timeoffset"
+        },
         {"type": "formula", "as": "labelEnd", "expr": "datum.end"},
         {"type": "formula", "as": "end", "expr": "datetime(+datum.end+oneDay)"},
         {
           "type": "formula",
           "as": "days",
-          "expr": "(datum.end-datum.start)/oneDay"
+          "expr": "round(((datum.end-datum.start)/oneDay)*10)/10"
         },
         {
           "type": "formula",
@@ -618,7 +636,7 @@
         {
           "type": "formula",
           "as": "start",
-          "expr": "datetime(utc(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence))"
+          "expr": "datetime(utc(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence) + (timeoffset))"
         },
         {
           "type": "filter",
@@ -710,9 +728,9 @@
           "type": "lookup",
           "from": "input",
           "key": "id",
-          "values": ["id", "end", "phase"],
+          "values": ["id", "end", "phase", "milestone"],
           "fields": ["dependencies"],
-          "as": ["sourceId", "sourceEnd", "sourcePhase"]
+          "as": ["sourceId", "sourceEnd", "sourcePhase", "sourceMilestone"]
         },
         {
           "type": "lookup",

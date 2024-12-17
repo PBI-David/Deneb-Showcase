@@ -4,7 +4,6 @@ This is a collection of advanced dataviz examples using [Vega](https://vega.gith
 
 Feel free to buy me a [coffee](https://buymeacoffee.com/davidebacci)
 
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
 ## Bank Failure Bubble Chart
@@ -85,7 +84,7 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods.
 
-[Online Editor](https://evyb.short.gy/Qxf4c9)
+[Online Editor](https://evyb.short.gy/OsTfrF)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.0%20Thumbnail.png?raw=true)
 
@@ -152,11 +151,7 @@ A bar chart race showing world population by country from 1950 to 2023. Created 
 
 [Online Editor](https://evyb.short.gy/ApnAXy)
 
-
-
 https://github.com/user-attachments/assets/92705c7f-eb0f-4eea-8016-2a678c4f8ef3
-
-
 
 ## President Age Range Chart
 
