@@ -636,7 +636,7 @@
         {
           "type": "formula",
           "as": "start",
-          "expr": "datetime(utc(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence) + (timeoffset))"
+          "expr": "datetime(utc(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence))"
         },
         {
           "type": "filter",
