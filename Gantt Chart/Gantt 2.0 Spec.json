@@ -479,14 +479,14 @@
       "source": "dataset",
       "transform": [
         {
-          "type": "formula",
+          "type": "formula",  
           "as": "start",
-          "expr": "utc(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start)) + timeoffset"
+          "expr": "+datetime(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start))+ timeoffset"
         },
         {
           "type": "formula",
           "as": "end",
-          "expr": "utc(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)) + timeoffset"
+          "expr": "+datetime(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)) + timeoffset"
         },
         {"type": "formula", "as": "labelEnd", "expr": "datum.end"},
         {"type": "formula", "as": "end", "expr": "datetime(+datum.end+oneDay)"},
@@ -636,7 +636,7 @@
         {
           "type": "formula",
           "as": "start",
-          "expr": "datetime(utc(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence))"
+          "expr": "+datetime(year(xDom[0]),month(xDom[0]),date(xDom[0]))   +(oneDay*datum.sequence)"
         },
         {
           "type": "filter",

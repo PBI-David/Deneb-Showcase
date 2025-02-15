@@ -2,8 +2,6 @@
 
 This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out.
 
-Feel free to buy me a [coffee](https://buymeacoffee.com/davidebacci)
-
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
 ## Bank Failure Bubble Chart
@@ -84,7 +82,7 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods.
 
-[Online Editor](https://evyb.short.gy/BdYTrn)
+[Online Editor](https://evyb.short.gy/3PBGH7)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.0%20Thumbnail.png?raw=true)
 
