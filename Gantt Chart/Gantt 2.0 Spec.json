@@ -78,7 +78,7 @@
       "name": "xExt",
       "update": "startGrain=='All'?allExt:startGrain=='Years'?yearExt:startGrain=='Months'?monthExt:dayExt"
     },
-    {"name": "today", "update": "utc(year(now()),month(now()),date(now()))"},
+    {"name": "today", "update": "+datetime(year(now()),month(now()),date(now()))"},
     {"name": "todayRule", "update": "timeFormat(today,'%d/%m/%y')"},
     {
       "name": "zoom",
@@ -472,7 +472,7 @@
           "hyperlink": "http://www.google.com"
         }
       ],
-      "format": {"parse": {"start": "utc:'%d/%m/%Y'", "end": "utc:'%d/%m/%Y'"}}
+      "format": {"parse": {"start": "date:'%d/%m/%Y'", "end": "date:'%d/%m/%Y'"}}
     },
     {
       "name": "input",
@@ -481,12 +481,12 @@
         {
           "type": "formula",  
           "as": "start",
-          "expr": "+datetime(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start))+ timeoffset"
+          "expr": "+datetime(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start))"
         },
         {
           "type": "formula",
           "as": "end",
-          "expr": "+datetime(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)) + timeoffset"
+          "expr": "+datetime(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)) "
         },
         {"type": "formula", "as": "labelEnd", "expr": "datum.end"},
         {"type": "formula", "as": "end", "expr": "datetime(+datum.end+oneDay)"},
@@ -539,7 +539,7 @@
         {
           "type": "formula",
           "as": "days",
-          "expr": "(datum.end-datum.start)/oneDay"
+          "expr": "round(((datum.end-datum.start)/oneDay)*10)/10"
         },
         {
           "type": "window",
