@@ -14,6 +14,11 @@
       "value": "Days",
       "description": "Days, Months, Years or All"
     },
+    {
+      "name": "initPhaseState",
+      "value": "open",
+      "description": "open or close"
+    },
     {"name": "textColour", "value": "#666666"},
     {
       "name": "coloursDark",
@@ -78,7 +83,10 @@
       "name": "xExt",
       "update": "startGrain=='All'?allExt:startGrain=='Years'?yearExt:startGrain=='Months'?monthExt:dayExt"
     },
-    {"name": "today", "update": "+datetime(year(now()),month(now()),date(now()))"},
+    {
+      "name": "today",
+      "update": "+datetime(year(now()),month(now()),date(now()))"
+    },
     {"name": "todayRule", "update": "timeFormat(today,'%d/%m/%y')"},
     {
       "name": "zoom",
@@ -249,15 +257,6 @@
     }
   ],
   "data": [
-    {
-      "name": "collapsedPhases",
-      "on": [
-        {"trigger": "phaseClicked", "toggle": "phaseClicked"},
-        {"trigger": "closeAll", "remove": true},
-        {"trigger": "closeAll", "insert": "data('phases')"},
-        {"trigger": "openAll", "remove": true}
-      ]
-    },
     {
       "name": "dataset",
       "values": [
@@ -472,14 +471,16 @@
           "hyperlink": "http://www.google.com"
         }
       ],
-      "format": {"parse": {"start": "date:'%d/%m/%Y'", "end": "date:'%d/%m/%Y'"}}
+      "format": {
+        "parse": {"start": "date:'%d/%m/%Y'", "end": "date:'%d/%m/%Y'"}
+      }
     },
     {
       "name": "input",
       "source": "dataset",
       "transform": [
         {
-          "type": "formula",  
+          "type": "formula",
           "as": "start",
           "expr": "+datetime(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start))"
         },
@@ -552,6 +553,19 @@
           "as": "id",
           "expr": "length(data('input'))+datum.id+'^^^^^'"
         }
+      ]
+    },
+    {
+      "name": "collapsedPhases",
+      "on": [
+        {"trigger": "phaseClicked", "toggle": "phaseClicked"},
+        {
+          "trigger": "initPhaseState",
+          "insert": "initPhaseState=='close'? data('phases'):null"
+        },
+        {"trigger": "closeAll", "remove": true},
+        {"trigger": "closeAll", "insert": "data('phases')"},
+        {"trigger": "openAll", "remove": true}
       ]
     },
     {
