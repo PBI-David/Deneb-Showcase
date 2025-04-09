@@ -96,6 +96,14 @@ An infographic style bar chart implemented in Vega using data driven SVG paths.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Bar%20Chart/Thumbnail.png)
 
+## Infographic Column Chart
+
+An infographic style column chart implemented in Vega using data driven SVG paths.
+
+[Online Editor](https://evyb.short.gy/AildYy)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Column%20Chart/Thumbnail.png)
+
 ## Mekko Chart
 
 A Mekko bar chart showing global miltitary spending in 2022 implemented in Vega using data from [SIPRI](https://www.sipri.org/databases/milex).
