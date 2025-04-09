@@ -1,0 +1,167 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "background": "",
+  "width": 800,
+  "height": 300,
+  "padding": {"top": 30},
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {"category": "A", "amount": 28},
+        {"category": "B", "amount": 55},
+        {"category": "C", "amount": 43},
+        {"category": "D", "amount": 91},
+        {"category": "E", "amount": 81},
+        {"category": "F", "amount": 53},
+        {"category": "G", "amount": 19}
+      ],
+      "transform": [
+        {
+          "type": "joinaggregate",
+          "fields": ["amount"],
+          "ops": ["max"],
+          "as": ["maxAmount"]
+        },
+        {"type": "formula", "as": "maxAmount", "expr": "datum.maxAmount * 1.3"}
+      ]
+    },
+    {
+      "name": "dynamicSVG",
+      "source": ["table"],
+      "transform": [
+        {
+          "type": "formula",
+          "as": "topDiscContainer",
+          "expr": "'M '+ scale('x', datum.category)  +' ,' + scale('y', datum.maxAmount) +' A 2 1,0,0,0 ' + (scale('x', datum.category) + bandwidth('x'))  +' ,' + scale('y', datum.maxAmount) + 'M '+ scale('x', datum.category)  +' ,' + scale('y', datum.maxAmount) +' A 2 1,0,0,1 ' + (scale('x', datum.category) + bandwidth('x'))  +' ,' + scale('y', datum.maxAmount)  "
+        },
+        {
+          "type": "formula",
+          "as": "topDisc",
+          "expr": "'M '+ scale('x', datum.category)  +' ,' + scale('y', datum.amount) +' A 2 1,0,0,0 ' + (scale('x', datum.category) + bandwidth('x'))  +' ,' + scale('y', datum.amount) + 'M '+ scale('x', datum.category)  +' ,' + scale('y', datum.amount) +' A 2 1,0,0,1 ' + (scale('x', datum.category) + bandwidth('x'))  +' ,' + scale('y', datum.amount)  "
+        },
+        {
+          "type": "formula",
+          "as": "bottomDisc",
+          "expr": "'M '+ scale('x', datum.category)  +' , ' + height + ' A 2 1,0,0,0 ' + (scale('x', datum.category) + bandwidth('x'))  +' , ' + height + ''    "
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {"data": "table", "field": "category"},
+      "range": "width",
+      "padding": 0.35,
+      "round": true
+    },
+    {
+      "name": "y",
+      "domain": {"data": "table", "field": "maxAmount"},
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "name": "colour",
+      "type": "ordinal",
+      "range": {"scheme": "viridis"},
+      "domain": {"data": "table", "field": "category"}
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "domain": false,
+      "ticks": false,
+      "offset": 25
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "name": "container",
+      "from": {"data": "dynamicSVG"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "category"},
+          "width": {"scale": "x", "band": 1},
+          "y": {"scale": "y", "field": "maxAmount"},
+          "y2": {"scale": "y", "value": 0},
+          "fill": {"value": "#d5d5d3"}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "name": "bars",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "category"},
+          "width": {"scale": "x", "band": 1},
+          "y": {"scale": "y", "field": "amount"},
+          "y2": {"scale": "y", "value": 0},
+          "opacity": {"value": 1},
+          "fill": {"field": "category", "scale": "colour"}
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "topDisc",
+      "from": {"data": "dynamicSVG"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 0},
+          "path": {"signal": "datum.topDisc"},
+          "fill": {
+            "signal": "merge(hsl(scale('colour', datum.category)), {l:0.73})"
+          }
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "topDiscContainer",
+      "from": {"data": "dynamicSVG"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 0},
+          "path": {"signal": "datum.topDiscContainer"},
+          "fill": {"value": "#eceae8"}
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "bottomDisc",
+      "from": {"data": "dynamicSVG"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 0},
+          "path": {"signal": "datum.bottomDisc"},
+          "fill": {"field": "category", "scale": "colour"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "labels",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "category", "band": 0.5},
+          "y": {"scale": "y", "field": "amount"},
+          "dy": {"value": -25},
+          "fill": {"value": "#48494a"},
+          "text": {"field": "amount"},
+          "align": {"value": "center"}
+        }
+      }
+    }
+  ]
+}
