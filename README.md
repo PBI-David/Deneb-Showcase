@@ -211,6 +211,23 @@ A competition entry using a tennis grand slam dataset made using Deneb, Vega and
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Tennis%20Grand%20Slams/Thumbnail.jpg)
 
+## TopN Donut Chart
+
+You’ve probably read that pie charts should be avoided at all costs in your reports but is this advice based on any actual evidence? Leland Wilkinson (author of the Grammar of Graphics which serves as the foundation for every modern data viz library) wrote the following:
+
+> I've heard a few opinions here about pie charts that are unsupportable. Statisticians (and designers like Tufte) rant about pie charts and their negativism creeps into blogs that users take for gospel. These rants are not based on solid psychological research and they are made by people who have no training in psychology. Allow me a story.
+
+You can read his full thoughts here:
+https://github.com/vega/vega-lite/pull/5676#issuecomment-565731079
+
+The conclusion is that pie charts should be your _preferred choice_ for proportion of whole data but only when there are 7 or fewer categories.
+
+Here is a Vega donut chart with TopN & Others functionality including an algorithm for non overlapping labels.
+
+[Online Editor](https://evyb.short.gy/tMuO2M)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/TopN%20Donut%20Chart/Thumbnail.png)
+
 ## Unit Charts
 
 Unit charts can be an engaging and eye catching tool to have in an analyst’s toolbox. Here's two created using Vega and Vega-Lite
