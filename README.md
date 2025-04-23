@@ -226,7 +226,7 @@ Here is a Vega donut chart with TopN & Others functionality including an algorit
 
 [Online Editor](https://evyb.short.gy/tMuO2M)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/TopN%20Donut%20Chart/Thumbnail.png | width=500)
+<img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/TopN%20Donut%20Chart/Thumbnail.png" width="500">
 
 ## Unit Charts
 
