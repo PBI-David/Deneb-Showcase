@@ -16,6 +16,8 @@ The Gantt chart is built using Vega and Deneb and has now been updated with the 
 - 	Easily change the colours throughout
 - 	Double click the chart to reset the view
 
+If you'd like help with customising these charts, feel free to reach out to me on LinkedIn for consultancy services.
+
 # Instructions
 
 To use the chart with your own data, follow the steps below:
