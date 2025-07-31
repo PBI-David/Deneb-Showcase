@@ -108,11 +108,9 @@ An infographic style column chart implemented in Vega using data driven SVG path
 
 Bubble art created using in Vega using a force transform. Instructions to create.
 
-[Online Editor]()
-
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Column%20Chart/Thumbnail.png)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Mario%20Bubble%20Art/thumbnail.jpg)
 
 ## Mekko Chart
 
