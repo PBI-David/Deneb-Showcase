@@ -106,7 +106,7 @@ An infographic style column chart implemented in Vega using data driven SVG path
 
 ## Mario Bubble Art
 
-Bubble art created using in Vega using a force transform. Instructions to create.
+Bubble art created in Deneb using Vega and a force transform. Instructions to create your own here.
 
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
