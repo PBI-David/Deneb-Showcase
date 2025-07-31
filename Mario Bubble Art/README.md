@@ -17,9 +17,11 @@ img = loadImage("/shrek.jpg")
 **5.** Open the console. In Firefox, you can do this by pressing F12.
 
 **6.** You will see an array of colour codes has been generated.
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Mario%20Bubble%20Art/1.png)
 
 **7.** Right click the array and click copy object.
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Mario%20Bubble%20Art/2.png)
 
 **8.** Paste this object to replace the colour code values which currently exist in Deneb in the dataset named _colourCodes_
