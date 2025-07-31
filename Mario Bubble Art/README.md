@@ -18,21 +18,10 @@ img = loadImage("/shrek.jpg")
 
 **6.** You will see an array of colour codes has been generated.
 
-The following options can be easily configured within the specification.
+[](https://github.com/PBI-David/Deneb-Showcase/blob/main/Mario%20Bubble%20Art/1.png)
 
-| Signal              | Description                                                                                                                                                       |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| showTooltips        | Globally enable/disable tooltips. This has no effect on long task names which will always show a tooltip when the task name length exceeds the task column width. |
-| showButtons         | Enable/disable shortcut buttons at the top of the chart.                                                                                                          |
-| showDomainSpanLabel | Show/hide a text box showing the current span of the chart                                                                                                        |
-| textColour          | The main text colour used throughout                                                                                                                              |
-| coloursDark         | The array of colours used for dark shades                                                                                                                         |
-| coloursLight        | The array of colours used for light shades                                                                                                                        |
-| yRowHeight          | The row heights                                                                                                                                                   |
-| yRowPadding         | The padding of the rows as a percentage (do not exceed 0.5 as this is doubled to account for both sides)                                                          |
-| taskColumnWidth     | Task column width                                                                                                                                                 |
-| startColumnWidth    | Start date column width                                                                                                                                           |
-| endColumnWidth      | End date column width                                                                                                                                             |
-| daysColumnWidth     | Days column width                                                                                                                                                 |
-| progressColumnWidth | Progress column width                                                                                                                                             |
-| columnPadding       | The padding between the table columns                                                                                                                             |
+**7.** Right click the array and click copy object.
+
+**8.** Paste this object to replace the colour code values which currently exist in Deneb in the dataset named _colourCodes_
+
+**9.** Click play in Deneb and your image will be created 🚀.
