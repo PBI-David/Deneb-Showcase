@@ -2,23 +2,24 @@
 
 The Gantt chart is built using Vega and Deneb and has now been updated with the most requested features including:
 
--     Day, month and year periods now fully supported
--     Use the mouse wheel to zoom in/out to dynamically change the granularity
--     Use the shortcut buttons to zoom to days, months, years or the entire project timeline with a single click
--     Collapsible columns
--     Hold down the left mouse button to pan the chart in all directions and keep the axes in view
--     Click on a phase to expand collapse the child tasks
--     Use the shortcut buttons to expand and collapse all phases at once
--     Tasks now support multiple dependencies
--     Hover over a task to highlight all its dependencies
--     Different tasks with the same name now supported
--     Resize the Deneb container in PowerBI and the chart will now autoscale
--     Enable/disable tooltips in config
--     Enable/disable buttons in config
--     Easily change the colours throughout
--     Double click the chart to reset the view
--     Initial chart view can be set to today’s date or to the project start date
--     Initial chart view can have collapsed or expanded columns or rows
+- Day, month and year periods now fully supported
+- Use the mouse wheel to zoom in/out to dynamically change the granularity
+- Use the shortcut buttons to zoom to days, months, years or the entire project timeline with a single click
+- Collapsible columns
+- Hold down the left mouse button to pan the chart in all directions and keep the axes in view
+- Click on a phase to expand collapse the child tasks
+- Use the shortcut buttons to expand and collapse all phases at once
+- Tasks now support multiple dependencies
+- Hover over a task to highlight all its dependencies
+- Different tasks with the same name now supported
+- Resize the Deneb container in PowerBI and the chart will now autoscale
+- Enable/disable tooltips in config
+- Enable/disable buttons in config
+- Easily change the colours throughout
+- Double click the chart to reset the view
+- Initial chart view can be set to today’s date or to the project start date
+- Initial chart view can have collapsed or expanded columns or rows
+
 
 If you'd like help with customising these charts, feel free to reach out to me on LinkedIn for consultancy services.
 
@@ -80,3 +81,4 @@ The following options can be easily configured within the specification.
 | daysColumnWidth     | Days column width                                                                                                                                                 |
 | progressColumnWidth | Progress column width                                                                                                                                             |
 | columnPadding       | The padding between the table columns                                                                                                                             |
+
