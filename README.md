@@ -86,7 +86,7 @@ A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month a
 
 [Online Editor](https://evyb.short.gy/ZaeeDC)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.0%20Thumbnail.png?raw=true)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.1%20Thumbnail.png?raw=true)
 
 ## Infographic Bar Chart
 
