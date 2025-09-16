@@ -110,6 +110,8 @@ Bubble art created in Deneb using Vega and a force transform. [Instructions to c
 
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
+[Online Editor](https://evyb.short.gy/7EFuMU)
+
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Mario%20Bubble%20Art/thumbnail.jpg)
 
 ## Mekko Chart
