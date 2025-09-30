@@ -21,7 +21,7 @@ The Gantt chart is built using Vega and Deneb and has now been updated with the 
 - Initial chart view can have collapsed or expanded columns or rows
 
 
-If you'd like help with customising this chart, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/davbacci/) for consultancy services.
+If you'd like help with customising this chart or have feature requests, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/davbacci/) for consultancy services.
 
 # Instructions
 
@@ -81,5 +81,6 @@ The following options can be easily configured within the specification.
 | daysColumnWidth     | Days column width                                                                                                                                                 |
 | progressColumnWidth | Progress column width                                                                                                                                             |
 | columnPadding       | The padding between the table columns                                                                                                                             |
+
 
 
