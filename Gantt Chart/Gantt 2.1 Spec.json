@@ -796,7 +796,7 @@
         {"type": "formula", "as": "milestone", "expr": "null"},
         {
           "type": "filter",
-          "expr": "datum.dependencies!='null' && datum.dependencies!='' && datum.internalDependenciesIndex == -1"
+          "expr": "datum.dependencies!='null' && datum.dependencies!='' && datum.dependencies!='undefined' && datum.internalDependenciesIndex == -1"
         },
         {
           "type": "lookup",

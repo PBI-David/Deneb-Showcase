@@ -84,7 +84,7 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods. [Instructions](https://github.com/PBI-David/Deneb-Showcase/tree/main/Gantt%20Chart) for use in Power BI.
 
-[Online Editor](https://evyb.short.gy/KDqvtR)
+[Online Editor](https://evyb.short.gy/v3eJZd)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.1%20Thumbnail.png?raw=true)
 
