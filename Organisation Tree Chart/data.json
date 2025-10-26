@@ -1,13 +1,7 @@
 [
 	{ "level1": "Acme", "person": "Max Armstrong", "kpi": 75, "image":"Max.jpg"},
 
-	{
-		"level1": "Acme",
-		"level2": "Online",
-		"person": "Alex Mason",
-		"kpi": 30,
-		"image":"Alex.jpg"
-	},
+
 	{
 		"level1": "Acme",
 		"level2": "North America",
@@ -512,5 +506,12 @@
 		"person": "Santosh Bhardvaj",
 		"kpi": 85,
 		"image":"Santosh.jpg"
+	},
+		{
+		"level1": "Acme",
+		"level2": "Online",
+		"person": "Alex Mason",
+		"kpi": 30,
+		"image":"Alex.jpg"
 	}
 ]
