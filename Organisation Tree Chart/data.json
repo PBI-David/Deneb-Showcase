@@ -1,17 +1,19 @@
 [
-	{ "level1": "Acme", "person": "Max Armstrong", "kpi": 75 },
+	{ "level1": "Acme", "person": "Max Armstrong", "kpi": 75, "image":"Max.jpg"},
 	{
 		"level1": "Acme",
 		"level2": "North America",
 		"person": "Dwayne Billiot",
-		"kpi": 80
+		"kpi": 80,
+		"image":"Dwayne.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "United States",
 		"person": "Robert C. Carmichael",
-		"kpi": 50
+		"kpi": 50,
+		"image":"Robert.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -19,7 +21,8 @@
 		"level3": "United States",
 		"level4": "Area 1",
 		"person": "Edward Foster",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Edward.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -28,7 +31,8 @@
 		"level4": "Area 1",
 		"level5": "Location 1",
 		"person": "Jodie Hilton",
-		"kpi": 20
+		"kpi": 20,
+		"image":"Jodie.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -37,7 +41,8 @@
 		"level4": "Area 1",
 		"level5": "Location 2",
 		"person": "Finlay Akhtar",
-		"kpi": 10
+		"kpi": 10,
+		"image":"Finlay.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -46,7 +51,8 @@
 		"level4": "Area 1",
 		"level5": "Location 3",
 		"person": "Joe Young",
-		"kpi": 34
+		"kpi": 34,
+		"image":"Joe.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -54,7 +60,8 @@
 		"level3": "United States",
 		"level4": "Area 2",
 		"person": "George Stephens",
-		"kpi": 85
+		"kpi": 85,
+		"image":"George.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -63,7 +70,8 @@
 		"level4": "Area 2",
 		"level5": "Location 1",
 		"person": "Keira Hughes",
-		"kpi": 25
+		"kpi": 25,
+		"image":"Keira.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -71,7 +79,8 @@
 		"level3": "United States",
 		"level4": "Area 3",
 		"person": "Abigail Allen",
-		"kpi": 40
+		"kpi": 40,
+		"image":"Abigail.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -80,7 +89,8 @@
 		"level4": "Area 3",
 		"level5": "Location 1",
 		"person": "Spencer Preston",
-		"kpi": 89
+		"kpi": 89,
+		"image":"Spencer.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -88,7 +98,8 @@
 		"level3": "United States",
 		"level4": "Area 4",
 		"person": "Scott Begum",
-		"kpi": 97
+		"kpi": 97,
+		"image":"Scott.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -96,9 +107,9 @@
 		"level3": "United States",
 		"level4": "Area 4",
 		"level5": "Location 2",
-
 		"person": "Rebecca Barnes",
-		"kpi": 10
+		"kpi": 10,
+		"image":"Rebecca.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -106,9 +117,9 @@
 		"level3": "United States",
 		"level4": "Area 4",
 		"level5": "Location 3",
-
 		"person": "Zak Hope",
-		"kpi": 55
+		"kpi": 55,
+		"image":"Zak.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -116,9 +127,9 @@
 		"level3": "United States",
 		"level4": "Area 4",
 		"level5": "Location 1",
-
 		"person": "Eleanor Atkins",
-		"kpi": 29
+		"kpi": 29,
+		"image":"Eleanor.jpg"
 	},
 
 	{
@@ -127,14 +138,16 @@
 		"level3": "United States",
 		"level4": "Area 5",
 		"person": "Scott McCarthy",
-		"kpi": 87
+		"kpi": 87,
+		"image":"Scott M.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "North America",
 		"level3": "Canada",
 		"person": "Charles Sena",
-		"kpi": 40
+		"kpi": 40,
+		"image":"Charles.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -142,7 +155,8 @@
 		"level3": "Canada",
 		"level4": "Area 1",
 		"person": "Madison Powell",
-		"kpi": 49
+		"kpi": 49,
+		"image":"Madison.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -151,7 +165,8 @@
 		"level4": "Area 1",
 		"level5": "Location 1",
 		"person": "Scarlett Rowe",
-		"kpi": 30
+		"kpi": 30,
+		"image":"Scarlett.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -160,7 +175,8 @@
 		"level4": "Area 1",
 		"level5": "Location 2",
 		"person": "Tilly Weston",
-		"kpi": 50
+		"kpi": 50,
+		"image":"Tilly.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -168,20 +184,23 @@
 		"level3": "Canada",
 		"level4": "Area 2",
 		"person": "William Miles",
-		"kpi": 70
+		"kpi": 70,
+		"image":"William.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"person": "Isabella Oliveira Barbosa",
-		"kpi": 90
+		"kpi": 90,
+		"image":"Isabella.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"level3": "Mexico",
 		"person": "Miguel Ferreira",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Miguel.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -189,7 +208,8 @@
 		"level3": "Mexico",
 		"level4": "Location 1",
 		"person": "Gustavo Martins Gomes",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Gustavo.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -197,7 +217,8 @@
 		"level3": "Mexico",
 		"level4": "Location 2",
 		"person": "Gabrielle Goncalves",
-		"kpi": 30
+		"kpi": 30,
+		"image":"Gabrielle.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -205,14 +226,16 @@
 		"level3": "Mexico",
 		"level4": "Location 3",
 		"person": "Sofia Carvalho",
-		"kpi": 66
+		"kpi": 66,
+		"image":"Sofia.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"level3": "Argentina",
-		"person": "Renan Araujo Pinto",
-		"kpi": 10
+		"person": "Renata Araujo Pinto",
+		"kpi": 10,
+		"image":"Renata.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -221,28 +244,32 @@
 		"level4": "Location 1",
 
 		"person": "Emily Araujo",
-		"kpi": 50
+		"kpi": 50,
+		"image":"Emily.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"level3": "Brazil",
 		"person": "Isabelle Almeida",
-		"kpi": 37
+		"kpi": 37,
+		"image":"Isabelle.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"level3": "Cuba",
 		"person": "Júlio Ferreira Almeida",
-		"kpi": 98
+		"kpi": 98,
+		"image":"Julio.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "LATAM",
 		"level3": "Chile",
 		"person": "Eduarda Melo Cardoso",
-		"kpi": 40
+		"kpi": 40,
+		"image":"Eduarda.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -251,7 +278,8 @@
 		"level4": "Area 1",
 
 		"person": "Amanda Gomes Oliveira",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Amanda.jpg"
 	},
 	{
 		"level1": "Acme",
