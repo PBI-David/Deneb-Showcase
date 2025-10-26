@@ -1,5 +1,13 @@
 [
 	{ "level1": "Acme", "person": "Max Armstrong", "kpi": 75, "image":"Max.jpg"},
+
+	{
+		"level1": "Acme",
+		"level2": "Online",
+		"person": "Alex Mason",
+		"kpi": 30,
+		"image":"Alex.jpg"
+	},
 	{
 		"level1": "Acme",
 		"level2": "North America",
@@ -287,8 +295,9 @@
 		"level3": "Chile",
 		"level4": "Area 2",
 
-		"person": "Miguel Pereira",
-		"kpi": 40
+		"person": "Pascal Pereira",
+		"kpi": 40,
+		"image":"Pascal.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -297,7 +306,8 @@
 		"level4": "Area 3",
 
 		"person": "Danilo Lima Dias",
-		"kpi": 10
+		"kpi": 10,
+		"image":"Danilo.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -307,7 +317,8 @@
 		"level5": "Location 1",
 
 		"person": "Estevan Silva Cunha",
-		"kpi": 34
+		"kpi": 34,
+		"image":"Estevan.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -317,7 +328,8 @@
 		"level5": "Location 2",
 
 		"person": "Enzo Barros Souza",
-		"kpi": 70
+		"kpi": 70,
+		"image":"Enzo.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -327,7 +339,8 @@
 		"level5": "Location 3",
 
 		"person": "Livia Rodrigues Barbosa",
-		"kpi": 30
+		"kpi": 30,
+		"image":"Livia.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -336,8 +349,9 @@
 		"level4": "Area 3",
 		"level5": "Location 4",
 
-		"person": "Miguel Cunha",
-		"kpi": 80
+		"person": "Armando Cunha",
+		"kpi": 80,
+		"image":"Armando.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -347,27 +361,31 @@
 		"level5": "Location 5",
 
 		"person": "Pedro Souza Silva",
-		"kpi": 30
+		"kpi": 30,
+		"image":"Pedro.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "EMEA",
 		"person": "Alisha Spencer",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Alisha.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "EMEA",
 		"level3": "UK",
 		"person": "Hayden Foster",
-		"kpi": 20
+		"kpi": 20,
+		"image":"Hayden.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "EMEA",
 		"level3": "France",
 		"person": "Jacob Summers",
-		"kpi": 10
+		"kpi": 10,
+		"image":"Jacob.jpg"
 	},
 
 	{
@@ -375,7 +393,8 @@
 		"level2": "EMEA",
 		"level3": "Italy",
 		"person": "Phoebe King",
-		"kpi": 30
+		"kpi": 30,
+		"image":"Phoebe.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -383,14 +402,16 @@
 		"level3": "Italy",
 		"level4": "Location 1",
 		"person": "Joel Whitehead",
-		"kpi": 50
+		"kpi": 50,
+		"image":"Joel.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "EMEA",
 		"level3": "Spain",
 		"person": "Ruby Little",
-		"kpi": 70
+		"kpi": 70,
+		"image":"Ruby.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -398,7 +419,8 @@
 		"level3": "Spain",
 		"level4": "Location 1",
 		"person": "Mollie Hartley",
-		"kpi": 20
+		"kpi": 20,
+		"image":"Mollie.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -406,42 +428,48 @@
 		"level3": "Spain",
 		"level4": "Location 2",
 		"person": "Alfie Reed",
-		"kpi": 60
+		"kpi": 60,
+		"image":"Alfie.jpg"
 	},
 
 	{
 		"level1": "Acme",
 		"level2": "APAC",
 		"person": "Natasha Winter",
-		"kpi": 55
+		"kpi": 55,
+		"image":"Natasha.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "APAC",
 		"level3": "Australia",
 		"person": "Cameron White",
-		"kpi": 55
+		"kpi": 55,
+		"image":"Cameron.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "APAC",
 		"level3": "New Zealand",
 		"person": "Sophia Buckley",
-		"kpi": 25
+		"kpi": 25,
+		"image":"Sophia.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "APAC",
 		"level3": "China",
 		"person": "Yue Ying Tsou",
-		"kpi": 35
+		"kpi": 35,
+		"image":"Yue.jpg"
 	},
 	{
 		"level1": "Acme",
 		"level2": "APAC",
 		"level3": "India",
 		"person": "Amar Ayyar",
-		"kpi": 45
+		"kpi": 45,
+		"image":"Amar.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -449,7 +477,8 @@
 		"level3": "India",
 		"level4": "Area 1",
 		"person": "Arpit Sinha",
-		"kpi": 55
+		"kpi": 55,
+		"image":"Arpit.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -459,7 +488,8 @@
 		"level5": "Location 1",
 
 		"person": "Chandika Bhattacharya",
-		"kpi": 65
+		"kpi": 65,
+		"image":"Chandika.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -469,7 +499,8 @@
 		"level5": "Location 2",
 
 		"person": "Jaya Prabhu",
-		"kpi": 75
+		"kpi": 75,
+		"image":"Jaya.jpg"
 	},
 	{
 		"level1": "Acme",
@@ -479,6 +510,7 @@
 		"level5": "Location 3",
 
 		"person": "Santosh Bhardvaj",
-		"kpi": 85
+		"kpi": 85,
+		"image":"Santosh.jpg"
 	}
 ]
