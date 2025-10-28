@@ -135,7 +135,7 @@ An hierarchical tree chart implemented in Vega that supports colour coding of br
 
 [Online Editor](https://tinyurl.com/ynhuvekc)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Organisation%20Tree%20Chart/Thumbnail.png)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Organisation%20Tree%20Chart/Thumbnail%20Photos.jpg)
 
 ## Pancake Spider Chart
 
