@@ -133,7 +133,7 @@ Mekko charts come in two main flavours:
 
 An hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, zooming and panning.
 
-[Online Editor](https://tinyurl.com/ynhuvekc)
+[Online Editor](https://evyb.short.gy/kZIlsn)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Organisation%20Tree%20Chart/Thumbnail%20Photos.jpg)
 
