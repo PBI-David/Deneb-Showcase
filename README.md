@@ -131,7 +131,9 @@ Mekko charts come in two main flavours:
 
 ## Organisation Tree Chart
 
-An hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, zooming and panning.
+A hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, profile photos, zooming and panning.
+
+Images courtesy of [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). Base64 image processing code kindly borrowed from [Chris Webb](https://blog.crossjoin.co.uk/2019/05/19/storing-large-images-in-power-bi-datasets). 
 
 [Online Editor](https://evyb.short.gy/kZIlsn)
 
