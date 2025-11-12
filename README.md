@@ -88,7 +88,7 @@ If you have a requirement for more advanced features like task baselines, more l
 
 [Online Editor](https://evyb.short.gy/v3eJZd)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.1%20Thumbnail.png?raw=true)
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gantt%20Chart/Gantt%202.1%20Thumbnail.jpg?raw=true)
 
 ## Infographic Bar Chart
 
@@ -133,7 +133,7 @@ Mekko charts come in two main flavours:
 
 A hierarchical tree chart implemented in Vega that supports colour coding of branches, expandable nodes, profile photos, zooming and panning.
 
-Images courtesy of [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). Base64 image processing code kindly borrowed from [Chris Webb](https://blog.crossjoin.co.uk/2019/05/19/storing-large-images-in-power-bi-datasets). 
+Images courtesy of [Pexels](https://www.pexels.com) and [Unsplash](https://unsplash.com). Base64 image processing code kindly borrowed from [Chris Webb](https://blog.crossjoin.co.uk/2019/05/19/storing-large-images-in-power-bi-datasets).
 
 [Online Editor](https://evyb.short.gy/kZIlsn)
 
