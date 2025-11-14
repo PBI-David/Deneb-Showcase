@@ -10,9 +10,9 @@ If you'd like help with customising these charts, feel free to reach out to me o
 
 I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
 
-[Online editor (absolute)](https://tinyurl.com/5n7k37jj)
+[Online editor (absolute)](https://evyb.short.gy/jYyw96)
 
-[Online editor (inflation adjusted)](https://tinyurl.com/mwb9tynf)
+[Online editor (inflation adjusted)](https://evyb.short.gy/izhJta)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Bank%20Failure%20Bubble%20Chart/thumbnail1.png)
 
@@ -22,7 +22,7 @@ A template for a multi-year calendar using Vega-Lite.
 
 Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
-[Online Editor](https://tinyurl.com/yetw5em6)
+[Online Editor](https://evyb.short.gy/ufzyFa)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Calendar%20Heatmap/Thumbnail.jpg)
 
@@ -30,7 +30,7 @@ Inspired by the [amazing Mike Bostock.](https://observablehq.com/@d3/calendar)
 
 An implementation of the Graham Scan algorithm for a convex hull using only transforms and signals in Vega.
 
-[Online Editor](https://tinyurl.com/mr2d8vne)
+[Online Editor](https://evyb.short.gy/fYcVMX)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Convex%20Hull/Convex%20Hull.gif)
 
@@ -38,7 +38,7 @@ An implementation of the Graham Scan algorithm for a convex hull using only tran
 
 A dataviz made in Vega and PowerBI for the coronation of Charles III.
 
-[Online Editor](https://tinyurl.com/26pctf4u)
+[Online Editor](https://evyb.short.gy/PnUbwr)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Coronation%20Arc%20Chart/Thumbnail.png)
 
@@ -48,7 +48,7 @@ An animated map using Vega showing the spread of Covid-19 across the UK using da
 
 Topojson can be a bit tricky to get working in the certified Deneb visual (no loading from external sources) but the .pbix below shows this can be done by embedding the topojson inline.
 
-[Online Editor](https://tinyurl.com/3mykjcst) (click to start)
+[Online Editor](https://evyb.short.gy/dUirCZ) (click to start)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Covid%20Map/Thumbnail.jpg)
 
@@ -56,7 +56,7 @@ Topojson can be a bit tricky to get working in the certified Deneb visual (no lo
 
 A fun animation showing transition between different words using Vega. Text co-ordinates were genenerated using P5.
 
-[Online Editor](https://lnkd.in/e_Nk6sAB) (click to start)
+[Online Editor](https://evyb.short.gy/NPMFss) (click to start)
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
@@ -66,7 +66,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 An experiment using Vega to create a firework simulation.
 
-[Online Editor](https://lnkd.in/e3TVGm-z) (click to start)
+[Online Editor](https://evyb.short.gy/tfWoTS) (click to start)
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
@@ -76,7 +76,7 @@ Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecoding
 
 A force direct graph which supports pan, zoom, node drag, dynamic labels, network highlighting and arrows showing the transfer direction.
 
-[Online Editor](http://tinyurl.com/2a4nhxhk)
+[Online Editor](https://evyb.short.gy/gwspyM)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Force%20Directed%20Graph/Thumb.jpg)
 
@@ -94,7 +94,7 @@ If you have a requirement for more advanced features like task baselines, more l
 
 An infographic style bar chart implemented in Vega using data driven SVG paths.
 
-[Online Editor](https://tinyurl.com/359kvse2)
+[Online Editor](https://evyb.short.gy/YbV4uG)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Infographic%20Bar%20Chart/Thumbnail.png)
 
@@ -125,7 +125,7 @@ Mekko charts come in two main flavours:
 1. A Mekko bar chart with the y-axis acting like a normal stacked bar chart but with a normalised x-axis (percentage based) so you can see the proportion taken by each major segment.
 2. A Marimekko chart where both the x-axis and y-axis are normalised (percentage based).
 
-[Online Editor](https://tinyurl.com/2s4r3unm)
+[Online Editor](https://evyb.short.gy/oOKkBA)
 
 ![](<https://github.com/PBI-David/Deneb-Showcase/blob/main/Mekko%20Chart/Thumbnail%20(Mekko%20Bar).png>)
 
@@ -143,7 +143,7 @@ Images courtesy of [Pexels](https://www.pexels.com) and [Unsplash](https://unspl
 
 A faceted spider chart which was my winning submission to a competition using a BBC Good Food pancake recipe dataset and built with Deneb, Vega and PowerBI. In Vega, each axis can have its own scale which is essential for comparing different dimensions.
 
-[Online Editor](https://tinyurl.com/2p96jvfy)
+[Online Editor](https://evyb.short.gy/eeSgku)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Pancake%20Spider%20Chart/Thumbnail.jpg)
 
@@ -151,7 +151,7 @@ A faceted spider chart which was my winning submission to a competition using a 
 
 A parliament chart created using Vega.
 
-[Online Editor](https://tinyurl.com/ysy8w2ve)
+[Online Editor](https://evyb.short.gy/xL3WSm)
 
 Inspired by the amazing [Flerlage Twins](https://www.flerlagetwins.com/)
 
@@ -187,7 +187,7 @@ An original range chart of presidential ages created in Vega.
 
 An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop.
 
-[Online Editor](https://lnkd.in/euc8TSrd)
+[Online Editor](https://evyb.short.gy/gYVfvv)
 
 [Inspired by Chartfleau.](https://old.reddit.com/r/dataisbeautiful/comments/vp04dv/oc_the_worst_first_half_for_the_stock_market_in/)
 
@@ -199,7 +199,7 @@ Sankey charts (allvuial charts) are great for visualising a business process or 
 
 It is very configurable and I’ve tried to account for as many edge cases I can think of.
 
-[Online Editor](https://lnkd.in/eTpuaNa6)
+[Online Editor](https://evyb.short.gy/UZK76q)
 
 Inspired by:
 
@@ -211,7 +211,7 @@ https://www.sankeyart.com/sankeys/public/142/
 
 A fun experiment using Vega to create a starfield simulation.
 
-[Online Editor](https://vega.github.io/editor/#/url/vega/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykSArJQBWENgDsQAGhAB3GgBN6aAQAZVM+DTJYV6mTiQKFNcWTQaQTJFADWZAE5sG4hWisAbG7ekgFSTBRUAG1QcSQEOHcxBgcoKJliJA8GOAg0YIBdGUwHJHEIADM2BwQM0EwATxwo9Ag4AEdU8XjfCECHTDQARhl2thw0AGZ9EHa4QdRekCR09EUQAF8pCurakGLShi9fWfcAD184fZwHdzzXNgQACgBKACoAJgBabqWVkCqa902EbZQZHt0JUjiczugLgorncnq93qtvuhfv9dnMQAAvUGndz+TAMBCUCD7AAEAD5no9iQAyKm4-GEkkAHkpNOJdIJEEqZIp1NpAXpnOJzN5xKgznEmDgDjJxNUAH52ZR0a9UI91PDPmsfiU-jtAWiiVjwX5+QT9gRFeinurlgj1si9TMDSCZMdsehFZULaaldbVBqvvadSj9e4cIdXWCcT70QBeWNq+WKomoRXhgNapHBx1AkA4F0gN3Gy3xxMKn2c1M+-NLTKLbJjbThDxzUIgcKRc4uXxJFK1QrJeoyCTlQukCVoqAeGh2XwMHC49YAQgc3frtvbEXWYpckrOiWSqTQieHkhCoDg48wczt7kwNEi+8+MCc2A8tVUyxA88XXfENJ3CUpVJbo5UAvdiVeYlVRtD5LzgCc0FvD0mA8KcZx8L8fwCdZE1res+igZI0lHDt1n2aBiN8QN3GncQ4CQJ8oWQUwkMbMhm3cYJXikbpMneEALjIdZ5CUGANTI9xKko99qMzEA6IYpiriQVjUFACAm2SLieL4gShPWLQdC6DdJLqGh0QSTVEQU0wlN8JwXDcVBclSGRxBnftBzgGRLKcNBXJ8vwVLU4INETBsDIybp9FUOsG2QBxbFbMIt2iDp0hyeTOQQJg2A8XxCicMp1JNQJomcOIoi-BCxQUWpQGwyU2MOUrChoOAPGcsYIzGIjZPQCj+uqmQQTajquuiAsZPWaThoEzTLLYmbogsqz2s67rMS-CAYCQRFQF7I90CgGg4lkr92o8ArSqOkSYDoEbPjYfL70mDStJusr8SWRY-o+MyxlyBjkrkmzV1kmQiquNjcSCMZKtaGqWjYeq2KahqQFa0ANsm9B00IqjBpWr8xpxibuprQmBpAOaqK-fZHjY3HusNanyJJ0amfGzapraebgU5oGnFsTG7vcWQHuanbcjYUWAHVFGUW7Dw-SgBC-AYbDoMmQHF1BVEoAAOP6-rrIA/view) (click to start)
+[Online Editor](https://evyb.short.gy/rYNo0T) (click to start)
 
 Inspired by the amazing Daniel Shiffman at [The Coding Train.](https://thecodingtrain.com/)
 
@@ -246,9 +246,9 @@ Here is a Vega donut chart with TopN & Others functionality including an algorit
 
 Unit charts can be an engaging and eye catching tool to have in an analyst’s toolbox. Here's two created using Vega and Vega-Lite
 
-[Online Editor 1](https://lnkd.in/eXiFJbmY)
+[Online Editor 1](https://evyb.short.gy/CAQxNL)
 
-[Online Editor 2](https://lnkd.in/e35HC8uK)
+[Online Editor 2](https://evyb.short.gy/MBjm84)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Unit%20Charts/Thumbnail.png)
 
@@ -256,7 +256,7 @@ Unit charts can be an engaging and eye catching tool to have in an analyst’s t
 
 A useful variance chart created using Vega-Lite showing actuals, forecasts (or budgets), absolute variance and percentage variance.
 
-[Online Editor](https://tinyurl.com/bdzhh3de)
+[Online Editor](https://evyb.short.gy/2kHR66)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Variance%20Chart/Thumbnail.jpg)
 
@@ -276,6 +276,6 @@ Waffle charts break a lot of dataviz best practices but sometimes, you just need
 
 As well as the faceted percentage example below, I have also included versions for faceted absolute, stacked absolute and stacked percentage as each have their place.
 
-[Online Editor](https://tinyurl.com/a8mkk6x4)
+[Online Editor](https://evyb.short.gy/yy1lZm)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Waffle%20Charts/Thumbnail.jpg)
