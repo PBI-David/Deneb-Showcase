@@ -80,7 +80,7 @@ A force direct graph which supports pan, zoom, node drag, dynamic labels, networ
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Force%20Directed%20Graph/Thumb.jpg)
 
-## Gantt Chart
+## Gantt Chart (Dynamic)
 
 A Gantt chart implemented in Vega. Supports pan and zoom as well as day, month and year periods. [Instructions](https://github.com/PBI-David/Deneb-Showcase/tree/main/Gantt%20Chart) for use in Power BI.
 
@@ -167,7 +167,7 @@ Inspired by the amazing [Frank's Laboratory](https://www.youtube.com/@Frankslabo
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Particle%20Simulation%20Background/Thumbnail.jpg)
 
-## Population Bar Chart Race
+## Population Bar Chart Race (Animated)
 
 A bar chart race showing world population by country from 1950 to 2023. Created using Vega.
 
@@ -225,7 +225,7 @@ A competition entry using a tennis grand slam dataset made using Deneb, Vega and
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Tennis%20Grand%20Slams/Thumbnail.jpg)
 
-## TopN Donut Chart
+## TopN Donut Chart (Dynamic)
 
 You’ve probably read that pie charts should be avoided at all costs in your reports but is this advice based on any actual evidence? Leland Wilkinson (author of the Grammar of Graphics which serves as the foundation for every modern data viz library) wrote the following:
 
