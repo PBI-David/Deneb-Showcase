@@ -11,7 +11,7 @@ If you'd like help with customising these charts, feel free to reach out to me o
 You can watch a short demo reel by clicking the image below.
 
 
-[<p align="left"><img src="Show%20Reel%20Cover.jpg"  width="500"></p>](https://youtube.com/shorts/QK8kcjbetF8)
+[<img src="Show%20Reel%20Cover.jpg"  width="500">](https://youtube.com/shorts/QK8kcjbetF8)
 
 
 ## Bank Failure Bubble Chart
