@@ -6,6 +6,14 @@ If you'd like help with customising these charts, feel free to reach out to me o
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
+# Demo Reel
+
+You can watch a short demo reel by clicking the image below.
+
+
+[<img src="Show%20Reel%20Cover.jpg"  width="500">](https://youtube.com/shorts/QK8kcjbetF8)
+
+
 ## Bank Failure Bubble Chart
 
 I thought it would be interesting to plot the recent bank failures (as reported and managed by FDIC) against those from 2008.
