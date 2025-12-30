@@ -2,7 +2,7 @@
 
 This is a collection of advanced dataviz examples using [Vega](https://vega.github.io/vega/), [Vega-Lite](https://vega.github.io/vega-lite/), [Deneb](https://deneb-viz.github.io/) and [Power BI](https://powerbi.microsoft.com/en-us/). All the work is original and where this has been inspired by the work of others, I have pointed this out.
 
-If you'd like help with customising these charts, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/davbacci/) for consultancy services.
+If you'd like help with customising these charts, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/davbacci/) for paid consultancy services.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Portfolio.jpg)
 
