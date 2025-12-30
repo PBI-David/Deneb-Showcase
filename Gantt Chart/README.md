@@ -21,7 +21,8 @@ The Gantt chart is built using Vega and Deneb and has now been updated with the 
 - Initial chart view can have collapsed or expanded columns or rows
 
 
-If you have a requirement for more advanced features like task baselines, more levels in the task hierarchy or hourly granularity, please reach out to me on [LinkedIn](https://www.linkedin.com/in/davbacci/) with a message in your connection request.
+If you have a requirement for more advanced features like task baselines, more levels in the task hierarchy or hourly granularity and would like to pay for consultancy services, please reach out to me on  [LinkedIn](https://www.linkedin.com/in/davbacci/) with a message in your connection request.
+
 
 
 # Instructions
@@ -82,6 +83,7 @@ The following options can be easily configured within the specification.
 | daysColumnWidth     | Days column width                                                                                                                                                 |
 | progressColumnWidth | Progress column width                                                                                                                                             |
 | columnPadding       | The padding between the table columns                                                                                                                             |
+
 
 
 
