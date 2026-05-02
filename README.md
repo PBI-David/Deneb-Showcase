@@ -102,7 +102,7 @@ A gauge chart implemented in Vega.
 
 [Online Editor](https://evyb.short.gy/qy0spp)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Gauge%20Chart/Thumbnail.png)
+<img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/Gauge%20Chart/Thumbnail.png" width="500">
 
 ## Infographic Bar Chart
 
