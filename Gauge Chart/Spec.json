@@ -1,0 +1,214 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "autosize": {"type": "pad", "resize": true, "contains": "padding"},
+  "width": 600,
+  "signals": [
+    {"name": "centerX", "update": "width/2"},
+    {"name": "centerY", "update": "height/2"},
+    {"name": "outerRadius", "update": "width*0.45"},
+    {"name": "innerRadius", "update": "outerRadius - (outerRadius * 0.30)"},
+    {"name": "gaugeValue", "value": 2}
+  ],
+  "data": [
+    {
+      "name": "segments",
+      "values": [
+        {"start": -25, "end": -15},
+        {"start": -15, "end": -5},
+        {"start": -5, "end": 5},
+        {"start": 5, "end": 15},
+        {"start": 15, "end": 25}
+      ]
+    },
+    {
+      "name": "dividers",
+      "values": [{"value": -15}, {"value": -5}, {"value": 5}, {"value": 15}]
+    },
+    {
+      "name": "ticks",
+      "values": [
+        {"value": -25},
+        {"value": -15},
+        {"value": -5},
+        {"value": 0},
+        {"value": 5},
+        {"value": 15},
+        {"value": 25}
+      ],
+      "transform": [{"type": "extent", "field": "value", "signal": "extent"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "gaugeScale",
+      "type": "linear",
+      "domain": {"data": "segments", "fields": ["start", "end"]},
+      "zero": false,
+      "range": {"signal": "[-PI*0.75, PI*0.75]"}
+    },
+    {
+      "name": "colourScale",
+      "type": "bin-ordinal",
+      "domain": [-1e10, -15, -5, 0, 5, 15, 1e10],
+      "range": [
+        "#e15759",
+        "#edc949",
+        "#59a14f",
+        "#59a14f",
+        "#edc949",
+        "#e15759"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "arc",
+      "name": "segmentMarks",
+      "description": "main background segments",
+      "from": {"data": "segments"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "centerX"},
+          "y": {"signal": "centerY"},
+          "startAngle": {"field": "start", "scale": "gaugeScale"},
+          "endAngle": {"field": "end", "scale": "gaugeScale"},
+          "outerRadius": {"signal": "outerRadius"},
+          "cornerRadius": {"signal": "10"},
+          "innerRadius": {"signal": "innerRadius"},
+          "fill": {"field": "start", "scale": "colourScale"},
+          "fillOpacity": {"signal": "0.5"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "name": "segmentMarkBorders",
+      "description": "main background segment borders",
+      "from": {"data": "segments"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "centerX"},
+          "y": {"signal": "centerY"},
+          "startAngle": {"field": "start", "scale": "gaugeScale"},
+          "endAngle": {"field": "end", "scale": "gaugeScale"},
+          "outerRadius": {"signal": "outerRadius"},
+          "innerRadius": {"signal": "outerRadius-10"},
+          "fill": {"field": "start", "scale": "colourScale"},
+          "fillOpacity": {"signal": "0.9"}
+        }
+      }
+    },
+    {
+      "type": "arc",
+      "name": "dividerMarks",
+      "description": "divider ticks on the arc",
+      "from": {"data": "dividers"},
+      "encode": {
+        "enter": {
+          "x": {"signal": "centerX"},
+          "y": {"signal": "centerY"},
+          "outerRadius": {"signal": "innerRadius-5"},
+          "innerRadius": {"signal": "outerRadius+5 "},
+          "startAngle": {"scale": "gaugeScale", "field": "value"},
+          "endAngle": {"scale": "gaugeScale", "field": "value"},
+          "stroke": {"signal": "'white'"},
+          "strokeWidth": {"value": 6},
+          "opacity": {"signal": "1"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "ticks"},
+      "description": "ticks labels",
+      "encode": {
+        "enter": {
+          "x": {"signal": "centerX"},
+          "y": {"signal": "centerY"},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "align": {
+            "signal": "datum.value > 0?'left':datum.value < 0?'right':'center'"
+          },
+          "text": {"signal": "datum.value+'%'"},
+          "radius": {"signal": "outerRadius+10"},
+          "theta": {"scale": "gaugeScale", "field": "value"},
+          "fontSize": {"signal": "14"},
+          "fill": {"value": "#666666"},
+          "opacity": {"signal": "0.9"}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "name": "needle",
+      "description": "uses a cubic bezier documented here: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
+      "encode": {
+        "enter": {"x": {"signal": "centerX"}, "y": {"signal": "centerY"}},
+        "update": {
+          "shape": {
+            "signal": "'M12 0 L-12 0 L-2 -' + (innerRadius+30) + ' Q0 -'+(innerRadius+35)+' 2 -'+(innerRadius+30)+' Z '"
+          },
+          "angle": {
+            "signal": "scale('gaugeScale',clamp(gaugeValue,extent[0],extent[1]))*(180/PI)"
+          },
+          "size": {"signal": "4"},
+          "fill": {"value": "#59585e"}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "name": "needleCircle",
+      "encode": {
+        "enter": {"x": {"signal": "centerX"}, "y": {"signal": "centerY"}},
+        "update": {
+          "shape": {"value": "circle"},
+          "size": {"signal": "1100"},
+          "stroke": {"value": "#59585e"},
+          "strokeWidth": {"signal": "10"},
+          "fill": {"value": "white"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "name": "gaugeText",
+      "data": [{}],
+      "description": "Gauge value text",
+      "encode": {
+        "update": {
+          "text": {"signal": "gaugeValue + '%'"},
+          "align": {"value": "center"},
+          "baseline": {"value": "top"},
+          "fontWeight": {"value": "bold"},
+          "fill": {"signal": "scale('colourScale', gaugeValue)"},
+          "x": {"signal": "centerX"},
+          "y": {"signal": "centerY"},
+          "dy": {"value": 40},
+          "fontSize": {"value": 50},
+          "opacity": {"value": 0.85}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "gaugeText"},
+      "description": "KPI text",
+      "encode": {
+        "update": {
+          "text": {"value": "variance"},
+          "align": {"value": "center"},
+          "baseline": {"value": "top"},
+          "fontWeight": {"value": "bold"},
+          "fill": {"value": "#9092a1"},
+          "x": {"field": "x"},
+          "y": {"signal": "datum.bounds.y2"},
+          "fontSize": {"value": 25}
+        }
+      }
+    }
+  ]
+}
