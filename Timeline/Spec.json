@@ -1,0 +1,455 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "description": "Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/",
+  "autosize": {"type": "pad", "resize": true, "contains": "padding"},
+  "padding": {"top": 15, "bottom": 5, "left": 20, "right": 10},
+  "config": {"text": {"font": "Segoe UI"}},
+  "data": [
+    {
+      "name": "dataset",
+      "values": [
+        {
+          "id": 1,
+          "phase": "Initiation",
+          "task": "Requirements gathering",
+          "milestone": null,
+          "start": "03/09/2025",
+          "end": "05/09/2025",
+          "completion": 50,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 99,
+          "phase": "Initiation",
+          "task": "Requirements gathering",
+          "milestone": null,
+          "start": "06/09/2025",
+          "end": "07/09/2025",
+          "completion": 55,
+          "dependencies": "",
+          "assignee": "Dav Bacci",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 2,
+          "phase": "Initiation",
+          "task": "Stakeholder workshop excluding Execs",
+          "milestone": null,
+          "start": "07/09/2025",
+          "end": "09/09/2025",
+          "completion": 75,
+          "dependencies": "",
+          "assignee": "",
+          "status": "High",
+          "hyperlink": ""
+        },
+        {
+          "id": 3,
+          "phase": "Initiation",
+          "task": "Story boarding",
+          "milestone": null,
+          "start": "07/09/2025",
+          "end": "14/09/2025",
+          "completion": 80,
+          "dependencies": "99,2",
+          "assignee": "",
+          "status": "Low",
+          "hyperlink": ""
+        },
+        {
+          "id": 4,
+          "phase": "Initiation",
+          "task": "Initiation complete",
+          "milestone": true,
+          "start": "15/09/2025",
+          "end": "15/09/2025",
+          "completion": 100,
+          "dependencies": "3,3",
+          "assignee": "",
+          "status": "",
+          "hyperlink": ""
+        },
+        {
+          "id": 5,
+          "phase": "Design",
+          "task": "E2E data solution design",
+          "milestone": null,
+          "start": "09/09/2025",
+          "end": "10/09/2025",
+          "completion": 35,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 6,
+          "phase": "Design",
+          "task": "Wireframes",
+          "milestone": null,
+          "start": "14/09/2025",
+          "end": "18/09/2025",
+          "completion": 80,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 7,
+          "phase": "Design",
+          "task": "Prototyping",
+          "milestone": null,
+          "start": "15/09/2025",
+          "end": "24/09/2025",
+          "completion": 40,
+          "dependencies": "6",
+          "assignee": "",
+          "status": "High",
+          "hyperlink": ""
+        },
+        {
+          "id": 8,
+          "phase": "Design",
+          "task": "Design complete",
+          "milestone": true,
+          "start": "24/09/2025",
+          "end": "24/09/2025",
+          "completion": 0,
+          "dependencies": "4",
+          "assignee": "",
+          "status": "",
+          "hyperlink": ""
+        },
+        {
+          "id": 9,
+          "phase": "Implementation",
+          "task": "ETL",
+          "milestone": null,
+          "start": "20/09/2025",
+          "end": "21/09/2025",
+          "completion": 15,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Very High",
+          "hyperlink": ""
+        },
+        {
+          "id": 10,
+          "phase": "Implementation",
+          "task": "Data modelling",
+          "milestone": null,
+          "start": "17/09/2025",
+          "end": "23/09/2025",
+          "completion": 40,
+          "dependencies": "",
+          "assignee": "",
+          "status": "High",
+          "hyperlink": ""
+        },
+        {
+          "id": 11,
+          "phase": "Implementation",
+          "task": "Measures & KPIs",
+          "milestone": null,
+          "start": "17/09/2025",
+          "end": "18/09/2025",
+          "completion": 50,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Very High",
+          "hyperlink": ""
+        },
+        {
+          "id": 12,
+          "phase": "Implementation",
+          "task": "Dataviz",
+          "milestone": null,
+          "start": "22/09/2025",
+          "end": "23/09/2025",
+          "completion": 15,
+          "dependencies": "11",
+          "assignee": "",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 13,
+          "phase": "Implementation",
+          "task": "Performance testing",
+          "milestone": null,
+          "start": "25/09/2025",
+          "end": "30/09/2025",
+          "completion": 20,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Low",
+          "hyperlink": ""
+        },
+        {
+          "id": 14,
+          "phase": "Implementation",
+          "task": "Implementation complete",
+          "milestone": true,
+          "start": "01/10/2025",
+          "end": "01/10/2025",
+          "completion": 0,
+          "dependencies": "13",
+          "assignee": "",
+          "status": "",
+          "hyperlink": ""
+        },
+        {
+          "id": 15,
+          "phase": "Deployment",
+          "task": "User training",
+          "milestone": null,
+          "start": "01/10/2025",
+          "end": "06/10/2025",
+          "completion": 65,
+          "dependencies": "17",
+          "assignee": "",
+          "status": "Medium",
+          "hyperlink": ""
+        },
+        {
+          "id": 16,
+          "phase": "Deployment",
+          "task": "Refresh schedule & alerts",
+          "milestone": null,
+          "start": "29/09/2025",
+          "end": "30/09/2025",
+          "completion": 50,
+          "dependencies": "",
+          "assignee": "",
+          "status": "Low",
+          "hyperlink": ""
+        },
+        {
+          "id": 17,
+          "phase": "Deployment",
+          "task": "Executive presentation",
+          "milestone": null,
+          "start": "30/09/2025",
+          "end": "02/10/2025",
+          "completion": 0,
+          "dependencies": "16",
+          "assignee": "",
+          "status": "Very High",
+          "hyperlink": ""
+        },
+        {
+          "id": 18,
+          "phase": "Deployment",
+          "task": "Deployment complete",
+          "milestone": true,
+          "start": "09/10/2025",
+          "end": "09/10/2025",
+          "completion": 0,
+          "dependencies": "15",
+          "assignee": "",
+          "status": "",
+          "hyperlink": ""
+        }
+      ],
+      "format": {"parse": {"start": "utc:'%d/%m/%Y'", "end": "utc:'%d/%m/%Y'"}}
+    },
+    {
+      "name": "input",
+      "source": "dataset",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "start",
+          "expr": "datetime(utc(year(datum.start),month(datum.start),date(datum.start),hours(datum.start),minutes(datum.start)))"
+        },
+        {
+          "type": "formula",
+          "as": "end",
+          "expr": "datetime(utc(year(datum.end),month(datum.end),date(datum.end),hours(datum.end),minutes(datum.end)))"
+        },
+        {
+          "type": "window",
+          "ops": ["row_number"],
+          "as": ["index"],
+          "sort": {"field": "start", "order": "ascending"}
+        },
+        {
+          "type": "formula",
+          "as": "days",
+          "expr": "round(((datum.end-datum.start)/oneDay)*10)/10"
+        },
+        {"type": "filter", "expr": "datum.days > 1"}
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "colours",
+      "value": {
+        "dark": ["#377eb9", "#4db04a", "#974ea2", "#ff8000"],
+        "light": ["#a5c8e4", "#b5dfb3", "#d3b0d9", "#ffcc99"],
+        "font": ["#2a67ce", "#137333", "#63336a", "#b25900"]
+      }
+    },
+    {"name": "oneDay", "init": "1000*60*60*24"},
+    {"name": "circleArea", "init": "300"},
+    {"name": "circleRadius", "init": "sqrt(circleArea/PI)"},
+    {"name": "horizontalPadding", "init": "10"}
+  ],
+  "scales": [
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {
+        "data": "input",
+        "field": "index",
+        "sort": {"field": "index", "op": "max", "order": "ascending"}
+      },
+      "range": {"step": 80},
+      "padding": 0
+    },
+    {
+      "name": "cDark",
+      "type": "ordinal",
+      "range": {"signal": "colours.dark"},
+      "domain": {"data": "input", "field": "phase"}
+    },
+    {
+      "name": "cFont",
+      "type": "ordinal",
+      "range": {"signal": "colours.font"},
+      "domain": {"data": "input", "field": "phase"}
+    },
+    {
+      "name": "cLight",
+      "type": "ordinal",
+      "range": {"signal": "colours.light"},
+      "domain": {"data": "input", "field": "phase"}
+    }
+  ],
+  "marks": [
+    {
+      "name": "dates",
+      "from": {"data": "input"},
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": {"value": 0},
+          "y": {"scale": "yscale", "field": "index", "band": 0},
+          "text": {"signal": "utcFormat(datum.start,'%d %b %Y')"},
+          "baseline": {"value": "middle"},
+          "align": {"value": "left"},
+          "fontWeight": {"value": "bold"},
+          "fontSize": {"value": 12},
+          "fill": {"value": "#52719d"}
+        }
+      }
+    },
+    {
+      "name": "circles",
+      "from": {"data": "dates"},
+      "type": "symbol",
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "datum.index", "band": 0},
+          "size": {"signal": "circleArea"},
+          "x": {
+            "signal": " datum.bounds.x2 + circleRadius + horizontalPadding"
+          },
+          "fill": {"scale": "cDark", "field": "datum.phase"},
+          "stroke": {"scale": "cLight", "field": "datum.phase"},
+          "strokeWidth": {"value": 3}
+        }
+      }
+    },
+    {
+      "name": "lines",
+      "from": {"data": "dates"},
+      "type": "rule",
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "datum.index", "band": 0.2},
+          "y2": {"scale": "yscale", "field": "datum.index", "band": 0.8},
+          "x": {"signal": " datum.bounds.x2 + circleRadius+horizontalPadding"},
+          "strokeWidth": {"value": 3},
+          "stroke": {"value": "#777"}
+        }
+      }
+    },
+    {
+      "name": "headings",
+      "from": {"data": "dates"},
+      "type": "text",
+      "encode": {
+        "enter": {
+          "y": {"scale": "yscale", "field": "datum.index", "band": 0},
+          "x": {
+            "signal": " datum.bounds.x2 + (circleRadius*2)+horizontalPadding*2"
+          },
+          "text": {"signal": "datum.datum.phase"},
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "fontWeight": {"value": "bold"},
+          "fontSize": {"value": 13},
+          "fill": {"value": "#274e82"}
+        }
+      }
+    },
+    {
+      "name": "tasks",
+      "from": {"data": "headings"},
+      "type": "text",
+      "encode": {
+        "enter": {
+          "y": {"field": "bounds.y2", "offset": 15},
+          "x": {"field": "bounds.x1"},
+          "fill": {"value": "#777"},
+          "text": {"signal": "datum.datum.datum.task"},
+          "fontSize": {"value": 12}
+        },
+        "update": {
+          "limit": {
+            "signal": "width-(datum.datum.bounds.x2-datum.datum.bounds.x1)-(circleRadius*2)-(horizontalPadding*2)"
+          }
+        }
+      }
+    },
+    {
+      "name": "dayLabel",
+      "from": {"data": "tasks"},
+      "type": "text",
+      "zindex": 1,
+      "encode": {
+        "enter": {
+          "y": {"field": "bounds.y2", "offset": 21},
+          "x": {"field": "bounds.x1", "offset": 4},
+          "fill": {"scale": "cFont", "field": "datum.datum.datum.phase"},
+          "text": {
+            "signal": "datum.datum.datum.datum.days + (datum.datum.datum.datum.days>1? ' days':' day')"
+          },
+          "fontSize": {"value": 12}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "dayLabel"},
+      "encode": {
+        "update": {
+          "x": {"field": "bounds.x1", "offset": -6},
+          "x2": {"field": "bounds.x2", "offset": 6},
+          "y": {"field": "bounds.y1", "offset": -4},
+          "y2": {"field": "bounds.y2", "offset": 3},
+          "fillOpacity": {"value": 0.3},
+          "fill": {"scale": "cLight", "field": "datum.datum.datum.datum.phase"},
+          "cornerRadius": {"value": 8}
+        }
+      }
+    }
+  ]
+}
