@@ -161,6 +161,14 @@ A faceted spider chart which was my winning submission to a competition using a 
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Pancake%20Spider%20Chart/Thumbnail.jpg)
 
+## Parallel Coordinates Chart
+
+An interactive parallel coordinates chart built with Deneb, Vega and PowerBI. You can move the axes by grabbing the titles, click and drag axis domains to create brushes which filter the data and drag the brushes to move them. Double clicking resets the brushes. Parallel coordinates are extremely useful for comparing multiple dimensions and identifying relationships between them.
+
+[Online Editor](https://evyb.short.gy/T7TIwh)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parallel%Coordinates%20Chart/Thumbnail.jpg)
+
 ## Parliament Chart
 
 A parliament chart created using Vega.
@@ -197,13 +205,11 @@ An original range chart of presidential ages created in Vega.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/President%20Age%20Range%20Chart/Thumbnail.png)
 
-
 ## Project Timeline
 
 A project timeline created using Deneb, Vega and Power BI.
 
 [Online Link](https://evyb.short.gy/aSjmZd)
-
 
 <img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/Project%20Timeline/Thumbnail.png" width="500">
 
@@ -248,8 +254,6 @@ A competition entry using a tennis grand slam dataset made using Deneb, Vega and
 [Online Link](https://app.powerbi.com/view?r=eyJrIjoiNzEwZGUzMzktMWE0Ni00YTBjLWJiYzYtNmVkYTk5OWY2MzM3IiwidCI6Ijk4ZmNmZGZkLWNjNWYtNDI1ZC1hMTUwLTEzZDM5NWIxYThmMyJ9)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Tennis%20Grand%20Slams/Thumbnail.jpg)
-
-
 
 ## TopN Donut Chart (Dynamic)
 
