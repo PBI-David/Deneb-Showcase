@@ -197,6 +197,16 @@ An original range chart of presidential ages created in Vega.
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/President%20Age%20Range%20Chart/Thumbnail.png)
 
+
+## Project Timeline
+
+A project timeline created using Deneb, Vega and Power BI.
+
+[Online Link](https://evyb.short.gy/aSjmZd)
+
+
+<img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/Project%20Timeline/Thumbnail.png" width="500">
+
 ## S&P Beeswarm Chart (Animated)
 
 An animated beeswarm chart of the S&P performance from 07/07/21 - 06/07/22 made using Vega. The result can be quite hypnotic! Data was sourced from Yahoo Finance and scraped using Power Automate Desktop.
@@ -238,6 +248,8 @@ A competition entry using a tennis grand slam dataset made using Deneb, Vega and
 [Online Link](https://app.powerbi.com/view?r=eyJrIjoiNzEwZGUzMzktMWE0Ni00YTBjLWJiYzYtNmVkYTk5OWY2MzM3IiwidCI6Ijk4ZmNmZGZkLWNjNWYtNDI1ZC1hMTUwLTEzZDM5NWIxYThmMyJ9)
 
 ![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Tennis%20Grand%20Slams/Thumbnail.jpg)
+
+
 
 ## TopN Donut Chart (Dynamic)
 
