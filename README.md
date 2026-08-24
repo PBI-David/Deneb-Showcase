@@ -167,7 +167,8 @@ An interactive parallel coordinates chart built with Deneb, Vega and PowerBI. Yo
 
 [Online Editor](https://evyb.short.gy/T7TIwh)
 
-![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parallel%Coordinates%20Chart/Thumbnail.gif)
+
+![](https://github.com/PBI-David/Deneb-Showcase/blob/main/Parallel%20Coordinates%20Chart/Thumbnail.gif)
 
 ## Parliament Chart
 
