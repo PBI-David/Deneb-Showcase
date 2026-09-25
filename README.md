@@ -212,7 +212,7 @@ A project timeline created using Deneb, Vega and Power BI.
 
 [Online Link](https://evyb.short.gy/aSjmZd)
 
-<img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/Project%20Timeline/Thumbnail.png" width="500">
+<img src="https://github.com/PBI-David/Deneb-Showcase/blob/main/Project%20Timeline/Thumbnail.png" width="400">
 
 ## S&P Beeswarm Chart (Animated)
 
